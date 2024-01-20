@@ -253,7 +253,7 @@
 		{
 			dependencies: ["2BFC2744E4DE4B5A"]
 			id: "373FD04AD6CA9F92"
-			subtitle: "Use an axe to gather some wood"
+			subtitle: "用斧子收集一些木头 Use an axe to gather some wood"
 			tasks: [{
 				id: "794D2D1559FA7CEA"
 				item: {
@@ -263,7 +263,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
 					}
 				}
-				title: "Any tree"
+				title: "任意树 Any tree"
 				type: "item"
 			}]
 			title: "New, Old Tree"
@@ -273,39 +273,39 @@
 		{
 			dependencies: ["373FD04AD6CA9F92"]
 			description: [
-				"You're going to need many, many pieces of wood to make a coal pit."
-				"To begin with, dig a hole 1 block deep (you can dig deeper, if the amount of wood allows)."
+				"你会需要非常非常多的原木来制作煤坑。You're going to need many, many pieces of wood to make a coal pit."
+				"首先你需要挖一个一格深的洞（如果你有足够多的木头也可以挖得更深）。To begin with, dig a hole 1 block deep (you can dig deeper, if the amount of wood allows)."
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_1.png width:170 height:100 align:1}"
 				""
-				"Then, using Shift + RMB, click on any block in the pit, you will have an armful of logs, you can fill it by right-clicking with a log in your hand on an armful, or just open the interface and fill it manually. The amount of wood in an armful determines the amount of coal that is subsequently obtained."
+				"接着Shift右键坑中任意的方块，你将会得到一捆木头。你可以通过手持木头右键点击这捆木头来填充它，或者直接打开界面手动填充。木头的数量决定了最终获得的煤炭数量。Then, using Shift + RMB, click on any block in the pit, you will have an armful of logs, you can fill it by right-clicking with a log in your hand on an armful, or just open the interface and fill it manually. The amount of wood in an armful determines the amount of coal that is subsequently obtained."
 				""
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_2.png width:200 height:100 align:1}"
 				""
-				"Next, cover it all with a non-combustible block, stone or earth, leave one block open and set it on fire with a discarded torch or a primitive igniter."
+				"接下来，用一个不可燃的方块，比如石头或泥土，覆盖所有木头，留下一个方块未盖，并用丢弃的火把或简易打火器将其点燃。Next, cover it all with a non-combustible block, stone or earth, leave one block open and set it on fire with a discarded torch or a primitive igniter."
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_3.png width:190 height:100 align:1}"
 				""
-				"Now your pile of dirt has started to smoke, cover the last block that you ignited again with a non-combustible block and wait until the pile stops smoking, dig it up and get coal."
+				"泥土堆开始冒烟后，用一个不可燃的方块再次覆盖你点燃的最后一个方块。等到泥土堆停止冒烟，挖开它，你就能得到煤炭。Now your pile of dirt has started to smoke, cover the last block that you ignited again with a non-combustible block and wait until the pile stops smoking, dig it up and get coal."
 			]
 			id: "5DB0CA9F9724D301"
-			subtitle: "Build Your First Coal Pit"
+			subtitle: "搭建你的第一个煤坑 Build Your First Coal Pit"
 			tasks: [{
 				count: 16L
 				id: "58361DD51C891C43"
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			title: "Coal pits"
+			title: "煤坑 Coal pits"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["This thing will allow you to make a fire, or set fire to anything, just hover the mouse cursor over any block, then hold and hold the RMB, after maximum tension, release, with a 50% chance of igniting the block you were looking on. How to make a bonfire, in the next quest."]
+			description: ["这个东西能让你生火或者点燃任何东西。只需将鼠标光标悬停在任意方块上，然后按住鼠标右键，达到最大力度后释放，你所注视的方块会有50%的机会被点燃。下一个任务将解释如何制作篝火。 This thing will allow you to make a fire, or set fire to anything, just hover the mouse cursor over any block, then hold and hold the RMB, after maximum tension, release, with a 50% chance of igniting the block you were looking on. How to make a bonfire, in the next quest."]
 			id: "3B3BA51C8CAEFC7F"
-			subtitle: "People in ancient times made fires with this thing"
+			subtitle: "人类祖先就是用这玩意生火的 People in ancient times made fires with this thing"
 			tasks: [{
 				id: "1D1EC6EF1FCBA733"
 				item: {
@@ -317,15 +317,15 @@
 				}
 				type: "item"
 			}]
-			title: "Primitive Lighter"
+			title: "原始打火机 Primitive Lighter"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3B3BA51C8CAEFC7F"]
-			description: ["Throw 3 sticks and 1 log on the block, then hover the mouse cursor over this block and use a primitive lighter, it may not work the first time. After success, a fire will appear in place of the discarded 3 sticks and 1 log, into which you need to throw logs to keep the fire burning. To increase the chance of spawning a campfire, you can add paper, straw, and other flammable items to your dropped items, +10% for each item."]
+			description: ["在方块上扔下3根木棍和1个原木，然后将鼠标光标悬停在这个方块上并使用一种简易打火器。它可能没法一次成功。成功后，原本扔下的3根木棍和1个原木的位置会出现生出火焰，你需要继续扔原木进去以保持火焰燃烧。为了提高篝火生成的几率，你可以在扔下的物品中添加纸、干草等易燃物品，每增加一个物品，成功率提高10%。Throw 3 sticks and 1 log on the block, then hover the mouse cursor over this block and use a primitive lighter, it may not work the first time. After success, a fire will appear in place of the discarded 3 sticks and 1 log, into which you need to throw logs to keep the fire burning. To increase the chance of spawning a campfire, you can add paper, straw, and other flammable items to your dropped items, +10% for each item."]
 			id: "682B58EC2D39F1A1"
-			subtitle: "Campfire, but not ordinary"
+			subtitle: "这可不是一般的营火 Campfire, but not ordinary"
 			tasks: [{
 				icon: "tfc:firepit"
 				id: "4639272D5258BCFC"
@@ -340,16 +340,16 @@
 		}
 		{
 			dependencies: ["682B58EC2D39F1A1"]
-			description: ["You'll be surprised, but torches aren't infinite in TFC. They will burn for about 2 in-game days, after which they will go out. But don't worry, they don't go out in your hands or inventory, so you can carry 1 torch with you and when the others in your house go out, just walk up and right-click on them, you kind of light the torch and it will light up again."]
+			description: ["你可能会感到惊讶，但在TFC中火把不是无限耐久的。它们大约会在燃烧两天后熄灭。不过不用担心，它们不会在你手中或者背包里熄灭，所以你可以随身携带一根火把，当你家里的其他火把熄灭时，只需走过去并右键点击它们。这相当于点燃了火把，它们就会因此再次亮起来。You'll be surprised, but torches aren't infinite in TFC. They will burn for about 2 in-game days, after which they will go out. But don't worry, they don't go out in your hands or inventory, so you can carry 1 torch with you and when the others in your house go out, just walk up and right-click on them, you kind of light the torch and it will light up again."]
 			id: "6D940527BFF1D4C0"
-			subtitle: "Not Windowless Torches"
+			subtitle: "核能火把？不存在的 Not Windowless Torches"
 			tasks: [{
 				count: 2L
 				id: "6697694A11A541B9"
 				item: "tfc:torch"
 				type: "item"
 			}]
-			title: "Multiple Torches"
+			title: "多个火把 Multiple Torches"
 			x: 2.0d
 			y: -3.0d
 		}
@@ -369,7 +369,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:lumber)"
 					}
 				}
-				title: "Any lumber"
+				title: "任意木材 Any lumber"
 				type: "item"
 			}]
 			x: 8.0d
@@ -378,26 +378,26 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			description: [
-				"In TerraFirmaGreg, ore is generated in a more interesting way than anywhere else."
+				"在TerraFirmaGreg中，矿物的生成尤其特别。In TerraFirmaGreg, ore is generated in a more interesting way than anywhere else."
 				""
-				"1. Each ore appears in its own rock. TFC adds a lot of different rocks to the world, meaning you won't find a regular vanilla stone anywhere, so ores are only generated in certain rocks, just like in real life."
+				"1. 每种矿石都出现在它自己的岩石中——TFC增加了许多不同种类的岩石，这意味着你在任何地方都找不到原版的石头。因此，矿石只会在特定的岩石中生成，就像在现实生活中一样。Each ore appears in its own rock. TFC adds a lot of different rocks to the world, meaning you won't find a regular vanilla stone anywhere, so ores are only generated in certain rocks, just like in real life."
 				""
-				"2. There are several types of ore veins, such as: cluster, sphere, pipe and a few rare others that we will not talk about."
+				"2. 矿脉分为几种类型：簇状、球形、管状，还有一些这里我们暂且不讨论的稀有类型。There are several types of ore veins, such as: cluster, sphere, pipe and a few rare others that we will not talk about."
 				""
-				"3. To make life easier for players, ore indicators appear on the surface, under which in most cases the vein with the ore itself is located."
+				"3. 为了方便玩家， 矿物指示物会出现在地表，绝大多数情况下这就是包含该矿物的矿脉所在的位置。To make life easier for players, ore indicators appear on the surface, under which in most cases the vein with the ore itself is located."
 				""
-				"TFG has a small Wiki for this in an Excel spreadsheet. In order to follow the link, complete the task, then pick up the reward and a button will be displayed in the chat, by clicking on which you will be redirected to an Excel table with ore generation."
+				"TFG有一个小型Wiki，它是一张Excel表。为了获得链接，你需要完成任务，然后领取奖励。之后聊天中会显示一个按钮，点击这个按钮，你将被重定向到一个带有矿石生成信息的Excel表格。TFG has a small Wiki for this in an Excel spreadsheet. In order to follow the link, complete the task, then pick up the reward and a button will be displayed in the chat, by clicking on which you will be redirected to an Excel table with ore generation."
 				""
 				"{ \"text\": \"Link to Excel spreadsheet (Click here)\", \"color\":\"#02FF00\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://docs.google.com/spreadsheets/d/1P3Baz4y5vgJ3XrCoNs4l3BXGPiFEPlW7i4taPEWpTB4\" } }"
 			]
 			icon: "gtceu:shale_aluminium_ore"
 			id: "387DEEADF4922AB3"
-			subtitle: "Much more fun than vanilla"
+			subtitle: "比原（版）好玩 Much more fun than vanilla"
 			tasks: [{
 				id: "7E131C48FAB52A11"
 				type: "checkmark"
 			}]
-			title: "Ore Generation in the TFG World"
+			title: "TFG世界中的矿物生成 Ore Generation in the TFG World"
 			x: -3.5d
 			y: -0.5d
 		}
@@ -1049,9 +1049,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Axes: Used to chop wood, and anything else wooden, because you can't break wood with your hand in TFC."]
+			description: ["斧头：用于砍木头和破坏一切木质的东西，因为在TFC里你不能空手伐木。Axes: Used to chop wood, and anything else wooden, because you can't break wood with your hand in TFC."]
 			id: "2BFC2744E4DE4B5A"
-			subtitle: "Don't cut down a tree with your hand, it's wrong!"
+			subtitle: "错误的，你不能徒手撸树！Don't cut down a tree with your hand, it's wrong!"
 			tasks: [{
 				id: "27927A7A1267C056"
 				item: {
