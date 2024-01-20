@@ -1,3 +1,10 @@
+# Disclaimer
+This repo is just for my personal use. Supposedly only i18N related files have been changed.
+
+# OG README:
+
+***
+
 # TerraFirmaGreg - 1.20.x
 
 <div align="center">
