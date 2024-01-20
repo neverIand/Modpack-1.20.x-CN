@@ -32,13 +32,13 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			description: [
-				"При входе в мир, первое, что вы встречаете это полностью измененный мир. Основными предметами на старте являются палки и камушки, которые лежат на земле и появляются в любом биоме, так же они обновляются каждый сезон. Соберите несколько при помощи ПКМ и приступайте к след. шагу."
+				"When you enter the world, the first thing you encounter is a completely changed world. The main items at the start are sticks and pebbles that lie on the ground and appear in any biome, and they are also updated every season. Collect a few with the RMB and proceed to the next step."
 				""
-				"Возьмите в руку 2 и более камня, после нажмите ПКМ, далее у вас откроется меню, в котором вы можете делать оголовия каменных инструментов, все рецепты можно посмотреть в REI или просто нажав на крафт каменного оголовия инструмента. После соедините оголовие с палкой и получите инструмент настоящего аборигена."
+				"Take 2 or more stones in your hand, then press RMB, then you will have a menu in which you can make headbands of stone tools, all recipes can be viewed in REI or just by clicking on the craft of the stone headband of the tool. Then connect the headband with a stick and you get the tool of a real aborigine."
 			]
 			id: "365F6F48E0BB2EFC"
 			size: 2.0d
-			subtitle: "Соберите немного камней и палок для будущего развития"
+			subtitle: "Collect some rocks and sticks for future development"
 			tasks: [
 				{
 					count: 5L
@@ -50,7 +50,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:can_be_lit_on_torch)"
 						}
 					}
-					title: "Любые палки"
+					title: "Any sticks"
 					type: "item"
 				}
 				{
@@ -63,19 +63,19 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:rock_knapping)"
 						}
 					}
-					title: "Любые камушки"
+					title: "Any pebbles"
 					type: "item"
 				}
 			]
-			title: "Палки и камни"
+			title: "Sticks and Stones"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Вместо обычных камушков, в мире вы можете встретить кусочки руды, обычно они указывают на то, что где-то под землей располагается жила с рудой по материалу сходной с кусочком руды найденном на поверхности, но пока у вас нет кирки, поэтому вам стоит собирать такие кусочки, ведь их можно расплавить в металл при помощи формочек и огненной ямы, о которой мы расскажем позже."]
+			description: ["Instead of the usual pebbles, you can find pieces of ore in the world, usually they indicate that somewhere underground there is a vein with ore of a material similar to a piece of ore found on the surface, but you don't have a pickaxe yet, so you should collect such pieces, because they can be melted into metal using molds and a fire pit,  which we'll talk about later."]
 			id: "40A930BEBFCFBF3B"
-			subtitle: "Ваш первый металл уже сейчас, по скидке"
+			subtitle: "Your first metal right now, at a discount"
 			tasks: [
 				{
 					id: "45ADEA53258F0876"
@@ -246,14 +246,14 @@
 					type: "item"
 				}
 			]
-			title: "Камушки с рудой"
+			title: "Pebbles with ore"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2BFC2744E4DE4B5A"]
 			id: "373FD04AD6CA9F92"
-			subtitle: "При помощи топора, соберите немного древесины"
+			subtitle: "Use an axe to gather some wood"
 			tasks: [{
 				id: "794D2D1559FA7CEA"
 				item: {
@@ -263,49 +263,49 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
 					}
 				}
-				title: "Любое дерево"
+				title: "Any tree"
 				type: "item"
 			}]
-			title: "Новое, старое дерево"
+			title: "New, Old Tree"
 			x: 6.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["373FD04AD6CA9F92"]
 			description: [
-				"Для создания угольной ямы вам понадобится много, много дерева."
-				"Для начала выкопайте яму, глубиной в 1 блок (можно и глубже, если позволяет кол-во древесины)."
+				"You're going to need many, many pieces of wood to make a coal pit."
+				"To begin with, dig a hole 1 block deep (you can dig deeper, if the amount of wood allows)."
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_1.png width:170 height:100 align:1}"
 				""
-				"После, при помощи Shift + ПКМ нажмите в любой блок в яме, у вас появится охапка бревен, ее можно наполнять, нажимая ПКМ с бревном в руке по охапке, либо просто открыть интерфейс и наполнить вручную. От кол-ва дерева в охапке зависит количество получаемого впоследствии угля."
+				"Then, using Shift + RMB, click on any block in the pit, you will have an armful of logs, you can fill it by right-clicking with a log in your hand on an armful, or just open the interface and fill it manually. The amount of wood in an armful determines the amount of coal that is subsequently obtained."
 				""
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_2.png width:200 height:100 align:1}"
 				""
-				"Далее, накрываете это все не горючим блоком, камнем или землей, оставляете один блок открытым и поджигаете при помощи выброшенного факела или примитивного зажигателя."
+				"Next, cover it all with a non-combustible block, stone or earth, leave one block open and set it on fire with a discarded torch or a primitive igniter."
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_3.png width:190 height:100 align:1}"
 				""
-				"Теперь ваша куча земли начала дымиться, накройте последний блок, который вы поджигали опять же не горючим блоком и ожидайте, как только куча перестанет дымиться, раскапывайте ее и получайте уголь."
+				"Now your pile of dirt has started to smoke, cover the last block that you ignited again with a non-combustible block and wait until the pile stops smoking, dig it up and get coal."
 			]
 			id: "5DB0CA9F9724D301"
-			subtitle: "Создайте свою первую угольную яму"
+			subtitle: "Build Your First Coal Pit"
 			tasks: [{
 				count: 16L
 				id: "58361DD51C891C43"
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			title: "Угольные ямы"
+			title: "Coal pits"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Эта штука позволит вам развести костер, или поджечь, что либо, просто наведите курсор мыши на любой блок, после зажмите и подержите ПКМ, после максимального натяжения, отпустите, с шансом в 50% подожжется блок на которой вы смотрели. Как сделать костер, в след. квесте."]
+			description: ["This thing will allow you to make a fire, or set fire to anything, just hover the mouse cursor over any block, then hold and hold the RMB, after maximum tension, release, with a 50% chance of igniting the block you were looking on. How to make a bonfire, in the next quest."]
 			id: "3B3BA51C8CAEFC7F"
-			subtitle: "Люди в древности разжигали костры при помощи такой штуки"
+			subtitle: "People in ancient times made fires with this thing"
 			tasks: [{
 				id: "1D1EC6EF1FCBA733"
 				item: {
@@ -317,21 +317,21 @@
 				}
 				type: "item"
 			}]
-			title: "Примитивная зажигалка"
+			title: "Primitive Lighter"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3B3BA51C8CAEFC7F"]
-			description: ["Бросьте на блок 3 палки и 1 бревно, после наведите на этот блок курсор мыши и используйте примитивную зажигалку, с первого раза может не получиться. После успеха, на месте выброшенных 3 палок и 1 бревна появится костер, в который нужно закидывтаь бревна, чтобы костер продолжал гореть. Для увеличения шанса создания костра, вы можете в выброшенные предметы добавить бумагу, солому и другие легковоспламеняемые предметы, за каждый предмет, по +10%."]
+			description: ["Throw 3 sticks and 1 log on the block, then hover the mouse cursor over this block and use a primitive lighter, it may not work the first time. After success, a fire will appear in place of the discarded 3 sticks and 1 log, into which you need to throw logs to keep the fire burning. To increase the chance of spawning a campfire, you can add paper, straw, and other flammable items to your dropped items, +10% for each item."]
 			id: "682B58EC2D39F1A1"
-			subtitle: "Костер, но не обычный"
+			subtitle: "Campfire, but not ordinary"
 			tasks: [{
 				icon: "tfc:firepit"
 				id: "4639272D5258BCFC"
 				observe_type: 0
 				timer: 0L
-				title: "Сделайте костер"
+				title: "Make a Bonfire"
 				to_observe: "tfc:firepit"
 				type: "observation"
 			}]
@@ -340,16 +340,16 @@
 		}
 		{
 			dependencies: ["682B58EC2D39F1A1"]
-			description: ["Вы удивитесь, но факела не бесконечные в TFC. Они будут гореть примерно 2 игровых дня, после потухнут. Но не бескокойтесь, в руках или инвентаре они не тухнут, поэтому вы можете носить с собой 1 факел и когда другие в вашем доме будут тухнуть, просто подойти и нажать ПКМ в них, вы как бы прикурите факел и он загорится снова."]
+			description: ["You'll be surprised, but torches aren't infinite in TFC. They will burn for about 2 in-game days, after which they will go out. But don't worry, they don't go out in your hands or inventory, so you can carry 1 torch with you and when the others in your house go out, just walk up and right-click on them, you kind of light the torch and it will light up again."]
 			id: "6D940527BFF1D4C0"
-			subtitle: "Не бесокнечные факела"
+			subtitle: "Not Windowless Torches"
 			tasks: [{
 				count: 2L
 				id: "6697694A11A541B9"
 				item: "tfc:torch"
 				type: "item"
 			}]
-			title: "Несколько факелов"
+			title: "Multiple Torches"
 			x: 2.0d
 			y: -3.0d
 		}
@@ -369,7 +369,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:lumber)"
 					}
 				}
-				title: "Любые пиломатериалы"
+				title: "Any lumber"
 				type: "item"
 			}]
 			x: 8.0d
@@ -378,26 +378,26 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			description: [
-				"В TerraFirmaGreg руду генерируются интересней чем где либо."
+				"In TerraFirmaGreg, ore is generated in a more interesting way than anywhere else."
 				""
-				"1. Каждая руда появляется в своей породе. TFC добавляет в мир много разных пород, то есть обычный камень из ваниллы вы нигде не встретите, поэтому руды как и в реальной жизни генерируются только в определенных породах."
+				"1. Each ore appears in its own rock. TFC adds a lot of different rocks to the world, meaning you won't find a regular vanilla stone anywhere, so ores are only generated in certain rocks, just like in real life."
 				""
-				"2. Существуют несколько типов рудных жил, такие как: кластер, сфера, труба и несколько редких других, о которых говорить не будем."
+				"2. There are several types of ore veins, such as: cluster, sphere, pipe and a few rare others that we will not talk about."
 				""
-				"3. Для облегчения жизни игрокам, на поверхности появляются рудные индикаторы, под которыми в большинстве случаев располагается сама жила с рудой."
+				"3. To make life easier for players, ore indicators appear on the surface, under which in most cases the vein with the ore itself is located."
 				""
-				"TFG содержит небольшое Wiki для этого в таблице Excel. Для того, чтобы перейти по ссылке, выполните задание, после заберите награду и в чате отобразится кнопка по нажатию на которую вас перебросит на таблицу Excel с генерацией руды."
+				"TFG has a small Wiki for this in an Excel spreadsheet. In order to follow the link, complete the task, then pick up the reward and a button will be displayed in the chat, by clicking on which you will be redirected to an Excel table with ore generation."
 				""
-				"{ \"text\": \"Ссылка на Excel таблицу (Нажми сюда)\", \"color\":\"#02FF00\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://docs.google.com/spreadsheets/d/1P3Baz4y5vgJ3XrCoNs4l3BXGPiFEPlW7i4taPEWpTB4\" } }"
+				"{ \"text\": \"Link to Excel spreadsheet (Click here)\", \"color\":\"#02FF00\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://docs.google.com/spreadsheets/d/1P3Baz4y5vgJ3XrCoNs4l3BXGPiFEPlW7i4taPEWpTB4\" } }"
 			]
 			icon: "gtceu:shale_aluminium_ore"
 			id: "387DEEADF4922AB3"
-			subtitle: "Куда веселей чем в ванилле"
+			subtitle: "Much more fun than vanilla"
 			tasks: [{
 				id: "7E131C48FAB52A11"
 				type: "checkmark"
 			}]
-			title: "Генерация руд в мире TFG"
+			title: "Ore Generation in the TFG World"
 			x: -3.5d
 			y: -0.5d
 		}
@@ -1049,9 +1049,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Топоры: используются для рубки дерева, да в прочем и всего деревянного, ведь рукой в TFC нельзя сломать дерево."]
+			description: ["Axes: Used to chop wood, and anything else wooden, because you can't break wood with your hand in TFC."]
 			id: "2BFC2744E4DE4B5A"
-			subtitle: "Не рубите дерево рукой, это неправильно!"
+			subtitle: "Don't cut down a tree with your hand, it's wrong!"
 			tasks: [{
 				id: "27927A7A1267C056"
 				item: {
@@ -1072,9 +1072,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Мотыги: используются для вскапывания грядок и посадки растений. Интересный факт: в TFC можно вскапывать грядки даже вдалеке от воды, главное при наведении смотрите в подсказу (панель сверху), в ней будет отображаться кол-во насыщения водой грядки. Далее выберите семяна собранные в мире с подходящими климат. условиями (в том числе и влажностью грядки) посадите и ожидайте."]
+			description: ["Hoes: Used for digging up beds and planting plants. An interesting fact: in TFC you can dig up beds even far from water, the main thing when hovering is to look at the tooltip (panel above), it will display the amount of water saturation of the bed. Next, choose seeds harvested in the world with the right climate. conditions (including the humidity of the bed) plant and wait."]
 			id: "318BF1F671BC4620"
-			subtitle: "Для ваших первых грядок"
+			subtitle: "For Your First Beds"
 			tasks: [{
 				id: "59508B56C7C3C891"
 				item: {
@@ -1095,9 +1095,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Копья: кидаются как трезубец, наносят урон, собственно говоря на этом все."]
+			description: ["Spears: Throw like a trident, deal damage, that's about it."]
 			id: "508DA76FA2766B7B"
-			subtitle: "Какой-то неправильный трезубец"
+			subtitle: "Some Wrong Trident"
 			tasks: [{
 				id: "061392B0556D6810"
 				item: {
@@ -1109,14 +1109,14 @@
 				}
 				type: "item"
 			}]
-			title: "Любое каменное копье"
+			title: "Any Stone Spear"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
 			id: "716B407EEED8BE95"
-			subtitle: "Спасибо, что копает"
+			subtitle: "Thank you for digging"
 			tasks: [{
 				id: "10A730E97830976C"
 				item: {
@@ -1137,10 +1137,10 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Молот: преимущественно используется только ради создания каменной наковальни и первых медных двойных слитков, но об этом будет информация дальше по квестам."]
+			description: ["Hammer: Primarily used for the purpose of crafting the Stone Anvil and the first Copper Double Ingots, but more on that later in the quests."]
 			hide_dependency_lines: true
 			id: "120E5C0E43EC756B"
-			subtitle: "Сделайте лучше медный!"
+			subtitle: "Make Better Copper!"
 			tasks: [{
 				id: "4BD017E2BEB690C4"
 				item: {
@@ -1170,7 +1170,7 @@
 				id: "3321FE657126AD2E"
 				observe_type: 1
 				timer: 0L
-				title: "Сделайте грядку"
+				title: "Make a Garden Bed"
 				to_observe: "tfc:farmland"
 				type: "observation"
 			}]
@@ -1180,7 +1180,7 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			dependency_requirement: "one_completed"
-			description: ["Найдите и соберите любые семяна!"]
+			description: ["Find and collect any seeds!"]
 			id: "5C396041880D32FF"
 			tasks: [{
 				id: "24625450C85F8A04"
@@ -1191,7 +1191,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:seeds)"
 					}
 				}
-				title: "Любые семяна"
+				title: "Any Seeds"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1213,7 +1213,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:foods/cooked_meats)"
 					}
 				}
-				title: "Любое жаренное мясо"
+				title: "Any Grilled Meat"
 				type: "item"
 			}]
 			x: 3.5d
@@ -1232,7 +1232,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:foods/raw_meats)"
 					}
 				}
-				title: "Любое сырое мясо"
+				title: "Any Raw Meat"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1241,7 +1241,7 @@
 		{
 			dependencies: ["06C7B7138EDE4B38"]
 			id: "45D907EF7902A200"
-			subtitle: "Понадобится для создания укрытия или обжарной ямы"
+			subtitle: "Needed to create a shelter or roast pit"
 			tasks: [{
 				id: "77860121847D8117"
 				item: "tfc:straw"
@@ -1252,9 +1252,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Ножи: очень важный инструмент в TFC, позволяет срезать траву и получать сено, из него можно сделать огненную яму и обжаривать металлы и глинянные формы, но об этом дальше по гайду."]
+			description: ["Knives: A very important tool in TFC, it allows you to cut grass and make hay, you can make a fire pit from it and fry metals and clay molds, but more on that in the guide."]
 			id: "06C7B7138EDE4B38"
-			subtitle: "Ваш лучший друг"
+			subtitle: "Your Best Friend"
 			tasks: [{
 				id: "45C890F7C082CA9E"
 				item: {
@@ -1275,15 +1275,15 @@
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
-			description: ["Совет: не пейте соленую воду."]
+			description: ["Tip: Don't drink salt water."]
 			id: "63E6C5684E12828C"
-			subtitle: "Вам нужно пить воду, чтобы не умереть!"
+			subtitle: "You Need to Drink Water Not to Die!"
 			tasks: [{
 				icon: "minecraft:water_bucket"
 				id: "193361529488FE5C"
 				observe_type: 0
 				timer: 0L
-				title: "Найдите свежую воду"
+				title: "Find Fresh Water"
 				to_observe: "minecraft:water"
 				type: "observation"
 			}]
@@ -1324,7 +1324,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:bronze_anvils)"
 					}
 				}
-				title: "Наковальня из любой бронзы"
+				title: "Anvil of any bronze"
 				type: "item"
 			}]
 			x: 18.5d
@@ -1397,10 +1397,10 @@
 			dependencies: ["36A9E5CD45A79288"]
 			icon: "tfc:wild_crop/barley"
 			id: "4CF472C9778068D6"
-			subtitle: "Соберите свой первый урожай и радуйтесь"
+			subtitle: "Harvest Your First Harvest and Rejoice"
 			tasks: [{
 				id: "7226C69847993160"
-				title: "Нажми сюда"
+				title: "Click Here"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -1433,16 +1433,16 @@
 				"45D907EF7902A200"
 				"373FD04AD6CA9F92"
 			]
-			description: ["Для начала выкопайте 1 блок в земле, или любой другой поверхности, дальше при помощи клавиши V установите в яму вещи, которые вы хотите обжарить. Если мы говорим о формах, их помещается 4 штуки. Дальше возьмите в руку Сено и нажмите ПКМ в яму, сено начнет заполнять яму, вам нужно использовать 8 сена, дальше таким же образом добавьте 8 бревен, далее вы можете спокойно поджечь это дело при помощи примитивного огнива или факела (просто бросьте факел сверху вашей ямы и оно начнет разгораться). Потом вы должны ожидать окончания обжига и после достать свои готовые предметы. Таким же образом происходит расплавка металла в емкостях. То есть кладете кусочки меди в сосуд и в эту самую яму, после вышеописанного процесса вы получите расплавленную медь, которую сможете отлить в слитки, оголовья и так далее."]
+			description: ["To begin with, dig 1 block in the ground, or any other surface, then use the V key to place the things you want to fry in the hole. If we are talking about molds, there are 4 of them. Next, take the Hay in your hand and right-click into the hole, the hay will begin to fill the hole, you need to use 8 hay, then add 8 logs in the same way, then you can calmly set this thing on fire with a primitive flint or torch (just throw a torch from the top of your hole and it will start to burn). Then you have to wait for the firing to finish and then take out your finished items. In the same way, metal is melted in tanks. That is, you put pieces of copper in a vessel and in this very pit, after the above process you will get molten copper, which you can cast into ingots, headbands, and so on."]
 			id: "69D20168E26BBF59"
 			size: 2.0d
-			subtitle: "Реализм"
+			subtitle: "Realism"
 			tasks: [{
 				icon: "tfc:firepit"
 				id: "4104866DD66BFB2E"
 				observe_type: 0
 				timer: 0L
-				title: "Создайте обжарочную яму"
+				title: "Create a Roasting Pit"
 				to_observe: "tfc:pit_kiln"
 				type: "observation"
 			}]
@@ -1640,7 +1640,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:rock/raw)"
 					}
 				}
-				title: "Любой сырой камень"
+				title: "Any Raw Stone"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1659,7 +1659,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Медная или бронзовая кирка"
+				title: "Brass or Bronze Pickaxe"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1678,7 +1678,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:rock/smooth)"
 					}
 				}
-				title: "Любой полированный камень"
+				title: "Any Polished Stone"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1721,7 +1721,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Медная или бронзовая стамеска"
+				title: "Copper or Bronze Chisel"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1938,7 +1938,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Медная или бронзовая пила"
+				title: "Copper or Bronze Saw"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1957,7 +1957,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Медная или бронзовая кирка шахтера"
+				title: "The Miner's Copper or Bronze Pickaxe"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1976,7 +1976,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Медный или бронзовый топор"
+				title: "Copper or Bronze Axe"
 				type: "item"
 			}]
 			x: 12.0d
@@ -1994,7 +1994,7 @@
 				id: "028DBFDDC00B9949"
 				observe_type: 1
 				timer: 0L
-				title: "Сделайте каменную наковальню"
+				title: "Make a Stone Anvil"
 				to_observe: "#tfc:rock_anvils"
 				type: "observation"
 			}]
@@ -2017,7 +2017,7 @@
 							ticks: 0L
 						}
 					}
-					id: "minecraft:copper_ingot"
+					id: "tfc:metal/ingot/copper"
 				}
 				type: "item"
 			}]
@@ -2055,7 +2055,6 @@
 				"2DEEDED2F21E60B9"
 				"515141734CA1A002"
 			]
-			dependency_requirement: "one_completed"
 			id: "1FFE279F43B0BA45"
 			shape: "gear"
 			tasks: [{
@@ -2067,7 +2066,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:bronze_ingot)item(gtceu:black_bronze_ingot)item(gtceu:bismuth_bronze_ingot))"
 					}
 				}
-				title: "Любой бронзовый слиток"
+				title: "Any Bronze Ingot"
 				type: "item"
 			}]
 			x: 18.5d
@@ -2218,7 +2217,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:bismuth_bronze_double_ingot)item(gtceu:bronze_double_ingot)item(gtceu:black_bronze_double_ingot))"
 					}
 				}
-				title: "Двойные слитки из любой бронзы"
+				title: "Double ingots in any bronze"
 				type: "item"
 			}]
 			x: 18.5d
@@ -2257,7 +2256,7 @@
 				id: "gtceu:bronze_dust"
 			}
 			id: "2DEEDED2F21E60B9"
-			subtitle: "Строгий середнячок"
+			subtitle: "Strict middle-of-the-roader"
 			tasks: [
 				{
 					id: "024533C5E4B89787"
@@ -2287,7 +2286,7 @@
 					type: "item"
 				}
 			]
-			title: "Ресурсы для обычной бронзы"
+			title: "Resources for Regular Bronze"
 			x: 18.5d
 			y: 14.0d
 		}
@@ -2492,7 +2491,7 @@
 				id: "gtceu:bismuth_bronze_dust"
 			}
 			id: "515141734CA1A002"
-			subtitle: "Дешевая и блестящяя"
+			subtitle: "Cheap and shiny"
 			tasks: [
 				{
 					id: "7EBB6EC50EE8CFA1"
@@ -2537,7 +2536,7 @@
 					type: "item"
 				}
 			]
-			title: "Ресурсы для висмутной бронзы"
+			title: "Resources for Bismuth Bronze"
 			x: 18.5d
 			y: 15.0d
 		}
@@ -2555,7 +2554,7 @@
 				id: "gtceu:black_bronze_dust"
 			}
 			id: "69B4B677A27121CF"
-			subtitle: "Дорогая и черная"
+			subtitle: "Dear and Black"
 			tasks: [
 				{
 					id: "1294B28A98775920"
@@ -2597,7 +2596,7 @@
 					type: "item"
 				}
 			]
-			title: "Ресурсы для черной бронзы"
+			title: "Resources for Black Bronze"
 			x: 18.5d
 			y: 13.0d
 		}
@@ -2890,7 +2889,7 @@
 				id: "33278CA851060438"
 				observe_type: 1
 				timer: 0L
-				title: "Найдите дерево: Капок"
+				title: "Find the Tree: Kapok"
 				to_observe: "tfc:kapok_logs"
 				type: "observation"
 			}]
@@ -3126,7 +3125,7 @@
 							ticks: 0L
 						}
 					}
-					id: "gtceu:double_wrought_iron_plate"
+					id: "gtceu:wrought_iron_double_plate"
 				}
 				type: "item"
 			}]
@@ -3306,18 +3305,23 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "gtceu:nickel_dust"
-			}
+			icon: "gtceu:nickel_bucket"
 			id: "27AC71D2454EF0FC"
 			tasks: [
+				{
+					id: "3B84D2AA2805CC72"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "gtceu:raw_nickel"
+					}
+					type: "item"
+				}
 				{
 					id: "4433C1C9D816AD13"
 					item: {
@@ -3330,18 +3334,6 @@
 						}
 						id: "gtceu:black_bronze_ingot"
 					}
-					type: "item"
-				}
-				{
-					id: "305EFF0F0ECD2E16"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(gtceu:rich_raw_nickel)item(gtceu:raw_nickel)item(gtceu:poor_raw_nickel)item(gtceu:rich_raw_garnierite)item(gtceu:raw_garnierite)item(gtceu:poor_raw_garnierite))"
-						}
-					}
-					title: "Any Nickel Ore"
 					type: "item"
 				}
 			]
@@ -3699,7 +3691,7 @@
 					type: "item"
 				}
 			]
-			title: "Материалы для розового золота"
+			title: "Rose Gold Materials"
 			x: 30.0d
 			y: 13.0d
 		}
@@ -3746,7 +3738,7 @@
 					type: "item"
 				}
 			]
-			title: "Материалы для латуни"
+			title: "Materials for brass"
 			x: 31.0d
 			y: 13.0d
 		}
@@ -3793,7 +3785,7 @@
 					type: "item"
 				}
 			]
-			title: "Материалы для серебра стерлинга"
+			title: "Sterling Silver Materials"
 			x: 30.5d
 			y: 19.5d
 		}
@@ -3856,7 +3848,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:support_beams)"
 					}
 				}
-				title: "Любые опоры"
+				title: "Any supports"
 				type: "item"
 			}]
 			x: 14.0d
@@ -3874,7 +3866,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:looms)"
 					}
 				}
-				title: "Любой ткацкий станок"
+				title: "Any loom"
 				type: "item"
 			}]
 			x: 10.5d
@@ -3900,7 +3892,7 @@
 				id: "6EF9C75A9ADB0F75"
 				observe_type: 0
 				timer: 0L
-				title: "Найдите папирус"
+				title: "Find the Papyrus"
 				to_observe: "tfc:crop/papyrus"
 				type: "observation"
 			}]
@@ -4045,7 +4037,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:prepared_hides)"
 					}
 				}
-				title: "Любая приготовленная шкура"
+				title: "Any Cooked Hide"
 				type: "item"
 			}]
 			x: 12.0d
@@ -4066,7 +4058,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:scraped_hides)"
 					}
 				}
-				title: "Любая обскобленная шкура"
+				title: "Any scraped hide"
 				type: "item"
 			}]
 			x: 9.0d
@@ -4243,7 +4235,7 @@
 				id: "0D975C4556FBC981"
 				observe_type: 0
 				timer: 0L
-				title: "Найдите дикий джут"
+				title: "Find the Wild Jute"
 				to_observe: "tfc:wild_crop/jute"
 				type: "observation"
 			}]
@@ -4693,7 +4685,6 @@
 			tasks: [{
 				id: "79E2F0E9233F4A86"
 				item: "sophisticatedbackpacks:backpack"
-				match_nbt: false
 				type: "item"
 			}]
 			x: 14.0d
