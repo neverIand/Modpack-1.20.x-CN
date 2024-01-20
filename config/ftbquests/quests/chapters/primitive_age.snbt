@@ -32,13 +32,13 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			description: [
-				"进入这个世界后，你发现你所熟知的一切都变了。游戏初期最主要的物品是地上的树枝和石子，它们可以在任意生物群系被找到，并且每个季节都会刷新。使用鼠标右键收集它们并进入下一步。(When you enter the world, the first thing you encounter is a completely changed world. The main items at the start are sticks and pebbles that lie on the ground and appear in any biome, and they are also updated every season. Collect a few with the RMB and proceed to the next step.)"
+				"进入这个世界后，你发现你所熟知的一切都变了。游戏初期最主要的物品是地上的木枝和石子，它们可以在任意生物群系被找到，并且每个季节都会刷新。使用鼠标右键收集它们并进入下一步。(When you enter the world, the first thing you encounter is a completely changed world. The main items at the start are sticks and pebbles that lie on the ground and appear in any biome, and they are also updated every season. Collect a few with the RMB and proceed to the next step.)"
 				""
-				"Take 2 or more stones in your hand, then press RMB, then you will have a menu in which you can make headbands of stone tools, all recipes can be viewed in REI or just by clicking on the craft of the stone headband of the tool. Then connect the headband with a stick and you get the tool of a real aborigine."
+				"手持两个或以上的石子后右键可以看到一个菜单，在这个菜单中你可以制作石制工具的主要部分。所有的配方都可以在REI中查看，你也可以在工具配方中单击查看石头主要部件的制作方法。然后将这个主要部件与一根木枝连接起来，你就得到了一个真正的土著人的工具。(Take 2 or more stones in your hand, then press RMB, then you will have a menu in which you can make headbands of stone tools, all recipes can be viewed in REI or just by clicking on the craft of the stone headband of the tool. Then connect the headband with a stick and you get the tool of a real aborigine.)"
 			]
 			id: "365F6F48E0BB2EFC"
 			size: 2.0d
-			subtitle: "Collect some rocks and sticks for future development"
+			subtitle: "收集一些石子和木枝为今后做准备 (Collect some rocks and sticks for future development)"
 			tasks: [
 				{
 					count: 5L
@@ -50,7 +50,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:can_be_lit_on_torch)"
 						}
 					}
-					title: "Any sticks"
+					title: "任意木枝 (Any sticks)"
 					type: "item"
 				}
 				{
@@ -63,19 +63,19 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:rock_knapping)"
 						}
 					}
-					title: "Any pebbles"
+					title: " 任意石子 (Any pebbles)"
 					type: "item"
 				}
 			]
-			title: "Sticks and Stones"
+			title: "木枝和石子 Sticks and Stones"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Instead of the usual pebbles, you can find pieces of ore in the world, usually they indicate that somewhere underground there is a vein with ore of a material similar to a piece of ore found on the surface, but you don't have a pickaxe yet, so you should collect such pieces, because they can be melted into metal using molds and a fire pit,  which we'll talk about later."]
+			description: ["除了普通的石子外，你还能在野外找到矿物碎片。这些碎片通常表明，在地下某处有一脉与地表上找到的矿石碎片相似材质的矿石。但是你目前还没有镐子，所以你应该收集这些碎片，因为它们可以使用模具和火坑熔炼成金属，这一点我们稍后再谈。Instead of the usual pebbles, you can find pieces of ore in the world, usually they indicate that somewhere underground there is a vein with ore of a material similar to a piece of ore found on the surface, but you don't have a pickaxe yet, so you should collect such pieces, because they can be melted into metal using molds and a fire pit,  which we'll talk about later."]
 			id: "40A930BEBFCFBF3B"
-			subtitle: "Your first metal right now, at a discount"
+			subtitle: "年轻人的第一块金属（青春版）Your first metal right now, at a discount"
 			tasks: [
 				{
 					id: "45ADEA53258F0876"
@@ -246,7 +246,7 @@
 					type: "item"
 				}
 			]
-			title: "Pebbles with ore"
+			title: "含矿的石子 Pebbles with ore"
 			x: 2.0d
 			y: 0.0d
 		}
