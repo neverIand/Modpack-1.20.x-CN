@@ -2318,7 +2318,7 @@
 				"{@pagebreak}"
 				"水与&6高温&r不太相容，在以下条件下可能会发生&c蒸汽爆炸&r（发射！）：Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r (Launch!) may occur under the following conditions:"
 				""
-				"- 锅炉&4过热&r。其温度由GUI中的&c红色条r&r表示。The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
+				"- 锅炉&4过热&r。其温度由GUI中的&c红色条&r表示。The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
 				"...并且and..."
 				"- 锅炉没有&b水&r。这由GUI中&b蓝色条&r的减少/缺失来表示。The Boiler does not have any &bwater&r. This is signified by the absence of a &bblue bar&r in the GUI."
 				"...以及AND..."
