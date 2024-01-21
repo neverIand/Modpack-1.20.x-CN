@@ -2217,7 +2217,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:bismuth_bronze_double_ingot)item(gtceu:bronze_double_ingot)item(gtceu:black_bronze_double_ingot))"
 					}
 				}
-				title: "Double ingots in any bronze"
+				title: "任意青铜的 Double Ingot；Double ingots in any bronze"
 				type: "item"
 			}]
 			x: 18.5d
@@ -2236,7 +2236,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:poor_raw_chalcopyrite)item(gtceu:raw_chalcopyrite)item(gtceu:rich_raw_chalcopyrite)item(tfc:ore/small_tetrahedrite)item(gtceu:poor_raw_tetrahedrite)item(gtceu:raw_tetrahedrite)item(gtceu:rich_raw_tetrahedrite)item(tfc:ore/small_malachite)item(gtceu:poor_raw_malachite)item(gtceu:raw_malachite)item(gtceu:rich_raw_malachite)item(tfc:ore/small_native_copper)item(gtceu:poor_raw_copper)item(minecraft:raw_copper)item(gtceu:rich_raw_copper))"
 					}
 				}
-				title: "Any Copper Ore"
+				title: "任意铜矿 Any Copper Ore"
 				type: "item"
 			}]
 			x: 16.5d
@@ -2256,7 +2256,7 @@
 				id: "gtceu:bronze_dust"
 			}
 			id: "2DEEDED2F21E60B9"
-			subtitle: "Strict middle-of-the-roader"
+			subtitle: "坚定的中间派 Strict middle-of-the-roader"
 			tasks: [
 				{
 					id: "024533C5E4B89787"
@@ -2265,12 +2265,12 @@
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							display: {
-								Name: "{\"text\":\"any tin ore\"}"
+								Name: "{\"text\":\"任意锡矿 any tin ore\"}"
 							}
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_cassiterite)item(gtceu:raw_tin)item(gtceu:raw_cassiterite)item(gtceu:raw_cassiterite_sand)item(gtceu:poor_raw_tin)item(gtceu:poor_raw_cassiterite)item(gtceu:poor_raw_cassiterite_sand)item(gtceu:rich_raw_tin)item(gtceu:rich_raw_cassiterite)item(gtceu:rich_raw_cassiterite_sand))"
 						}
 					}
-					title: "Any Tin Ore"
+					title: "任意锡矿 Any Tin Ore"
 					type: "item"
 				}
 				{
@@ -2282,11 +2282,11 @@
 							"ftbfiltersystem:filter": "or(item(gtceu:poor_raw_chalcopyrite)item(gtceu:raw_chalcopyrite)item(gtceu:rich_raw_chalcopyrite)item(tfc:ore/small_tetrahedrite)item(gtceu:poor_raw_tetrahedrite)item(gtceu:raw_tetrahedrite)item(gtceu:rich_raw_tetrahedrite)item(tfc:ore/small_malachite)item(gtceu:poor_raw_malachite)item(gtceu:raw_malachite)item(gtceu:rich_raw_malachite)item(tfc:ore/small_native_copper)item(gtceu:poor_raw_copper)item(minecraft:raw_copper)item(gtceu:rich_raw_copper))"
 						}
 					}
-					title: "Any Copper Ore"
+					title: "任意铜矿 Any Copper Ore"
 					type: "item"
 				}
 			]
-			title: "Resources for Regular Bronze"
+			title: "常规青铜资源 Resources for Regular Bronze"
 			x: 18.5d
 			y: 14.0d
 		}
@@ -2303,7 +2303,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:rich_raw_hematite)item(gtceu:raw_hematite)item(tfc:ore/small_hematite)item(gtceu:poor_raw_hematite)item(gtceu:rich_raw_yellow_limonite)item(tfc:ore/small_limonite)item(gtceu:poor_raw_yellow_limonite)item(gtceu:raw_yellow_limonite)item(tfc:ore/small_magnetite)item(gtceu:poor_raw_magnetite)item(gtceu:raw_magnetite)item(gtceu:rich_raw_magnetite)item(gtceu:poor_raw_iron)item(minecraft:raw_iron)item(gtceu:rich_raw_iron)item(gtceu:poor_raw_goethite)item(gtceu:raw_goethite)item(gtceu:rich_raw_goethite)item(gtceu:poor_raw_pyrite)item(gtceu:raw_pyrite)item(gtceu:rich_raw_pyrite))"
 					}
 				}
-				title: "Any Iron Ore"
+				title: "任意铁矿 Any Iron Ore"
 				type: "item"
 			}]
 			x: 22.5d
@@ -2339,13 +2339,13 @@
 			id: "5C7B69F45F076A79"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Putting the Steam in Steam Age"
+			subtitle: "在蒸汽时代整点Steam；Putting the Steam in Steam Age"
 			tasks: [{
 				id: "2D2CDB71DF062E33"
 				item: "gtceu:hp_steam_solid_boiler"
 				type: "item"
 			}]
-			title: "Pressure Cookin'"
+			title: "有压力才有动力 Pressure Cookin'"
 			x: 24.5d
 			y: 24.0d
 		}
@@ -2444,7 +2444,7 @@
 					type: "item"
 				}
 			]
-			title: "Primitive Water Pump"
+			title: "原始的水泵 Primitive Water Pump"
 			x: 32.5d
 			y: 11.0d
 		}
