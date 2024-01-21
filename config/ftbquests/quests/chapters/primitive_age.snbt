@@ -1137,7 +1137,7 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["（锻造）锤：主要是用来合成石砧和铜 Double Ingot 用的（注：截至翻译时原文就这样），之后的任务会有进一步解释。Hammer: Primarily used for the purpose of crafting the Stone Anvil and the first Copper Double Ingots, but more on that later in the quests."]
+			description: ["（锻造）锤：主要是用来合成石砧和铜 Double Ingot 用的（注：截至翻译时物品译文就没翻译），之后的任务会有进一步解释。Hammer: Primarily used for the purpose of crafting the Stone Anvil and the first Copper Double Ingots, but more on that later in the quests."]
 			hide_dependency_lines: true
 			id: "120E5C0E43EC756B"
 			subtitle: "炼更好的铜！Make Better Copper!"
@@ -3717,7 +3717,7 @@
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							display: {
-								Name: "{\"text\":\"any sphalerite ore\"}"
+								Name: "{\"text\":\"任意闪锌矿 any sphalerite ore\"}"
 							}
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_sphalerite)item(gtceu:raw_sphalerite)item(gtceu:poor_raw_sphalerite)item(gtceu:rich_raw_sphalerite))"
 						}
@@ -3764,7 +3764,7 @@
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							display: {
-								Name: "{\"text\":\"any silver ore\"}"
+								Name: "{\"text\":\"任意银矿 any silver ore\"}"
 							}
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_native_silver)item(gtceu:poor_raw_silver)item(gtceu:rich_raw_silver)item(gtceu:raw_silver))"
 						}
