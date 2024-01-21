@@ -1072,9 +1072,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Hoes: Used for digging up beds and planting plants. An interesting fact: in TFC you can dig up beds even far from water, the main thing when hovering is to look at the tooltip (panel above), it will display the amount of water saturation of the bed. Next, choose seeds harvested in the world with the right climate. conditions (including the humidity of the bed) plant and wait."]
+			description: ["锄：用于挖掘田地和种植植物。有趣的事实：在TFC中，你甚至可以远离水源挖掘田地，重要的是在光标悬停在方块上时查看工具提示（上方的面板），它会显示田地的水分饱和度。接下来，选择适合当前气候条件（包括田地的湿度）作物的种子，种植并等待。Hoes: Used for digging up beds and planting plants. An interesting fact: in TFC you can dig up beds even far from water, the main thing when hovering is to look at the tooltip (panel above), it will display the amount of water saturation of the bed. Next, choose seeds harvested in the world with the right climate. conditions (including the humidity of the bed) plant and wait."]
 			id: "318BF1F671BC4620"
-			subtitle: "For Your First Beds"
+			subtitle: "年轻人的第一块田 For Your First Beds"
 			tasks: [{
 				id: "59508B56C7C3C891"
 				item: {
@@ -1095,9 +1095,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Spears: Throw like a trident, deal damage, that's about it."]
+			description: ["矛（注：实际上叫标枪）：像三叉戟一样丢出去并造成伤害，就这么简单。Spears: Throw like a trident, deal damage, that's about it."]
 			id: "508DA76FA2766B7B"
-			subtitle: "Some Wrong Trident"
+			subtitle: "你这三叉戟怎么就一个叉啊 Some Wrong Trident"
 			tasks: [{
 				id: "061392B0556D6810"
 				item: {
@@ -1109,14 +1109,14 @@
 				}
 				type: "item"
 			}]
-			title: "Any Stone Spear"
+			title: "任意石矛 Any Stone Spear"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
 			id: "716B407EEED8BE95"
-			subtitle: "Thank you for digging"
+			subtitle: "空泥奇挖 Thank you for digging"
 			tasks: [{
 				id: "10A730E97830976C"
 				item: {
@@ -1137,10 +1137,10 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Hammer: Primarily used for the purpose of crafting the Stone Anvil and the first Copper Double Ingots, but more on that later in the quests."]
+			description: ["（锻造）锤：主要是用来合成石砧和铜 Double Ingot 用的（注：截至翻译时原文就这样），之后的任务会有进一步解释。Hammer: Primarily used for the purpose of crafting the Stone Anvil and the first Copper Double Ingots, but more on that later in the quests."]
 			hide_dependency_lines: true
 			id: "120E5C0E43EC756B"
-			subtitle: "Make Better Copper!"
+			subtitle: "炼更好的铜！Make Better Copper!"
 			tasks: [{
 				id: "4BD017E2BEB690C4"
 				item: {
@@ -1170,7 +1170,7 @@
 				id: "3321FE657126AD2E"
 				observe_type: 1
 				timer: 0L
-				title: "Make a Garden Bed"
+				title: "开垦田地 Make a Garden Bed"
 				to_observe: "tfc:farmland"
 				type: "observation"
 			}]
@@ -1180,7 +1180,7 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			dependency_requirement: "one_completed"
-			description: ["Find and collect any seeds!"]
+			description: ["寻找并收集任意种子！Find and collect any seeds!"]
 			id: "5C396041880D32FF"
 			tasks: [{
 				id: "24625450C85F8A04"
@@ -1191,7 +1191,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:seeds)"
 					}
 				}
-				title: "Any Seeds"
+				title: "任意种子 Any Seeds"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1213,7 +1213,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:foods/cooked_meats)"
 					}
 				}
-				title: "Any Grilled Meat"
+				title: "任意烤熟的肉 Any Grilled Meat"
 				type: "item"
 			}]
 			x: 3.5d
@@ -1232,7 +1232,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:foods/raw_meats)"
 					}
 				}
-				title: "Any Raw Meat"
+				title: "任意生肉 Any Raw Meat"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1241,7 +1241,7 @@
 		{
 			dependencies: ["06C7B7138EDE4B38"]
 			id: "45D907EF7902A200"
-			subtitle: "Needed to create a shelter or roast pit"
+			subtitle: "需要制作一个避难所或烤火坑 Needed to create a shelter or roast pit"
 			tasks: [{
 				id: "77860121847D8117"
 				item: "tfc:straw"
@@ -1252,9 +1252,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["Knives: A very important tool in TFC, it allows you to cut grass and make hay, you can make a fire pit from it and fry metals and clay molds, but more on that in the guide."]
+			description: ["刀：在TFC中是一个非常重要的工具，它允许你割草并制作干草捆，你还可以用它来制作火坑，烤制金属和烧制陶土模具，但更多内容会在指南中说明。Knives: A very important tool in TFC, it allows you to cut grass and make hay, you can make a fire pit from it and fry metals and clay molds, but more on that in the guide."]
 			id: "06C7B7138EDE4B38"
-			subtitle: "Your Best Friend"
+			subtitle: "你最好的伙伴 Your Best Friend"
 			tasks: [{
 				id: "45C890F7C082CA9E"
 				item: {
@@ -1275,15 +1275,15 @@
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
-			description: ["Tip: Don't drink salt water."]
+			description: ["提示：别喝盐水 Tip: Don't drink salt water."]
 			id: "63E6C5684E12828C"
-			subtitle: "You Need to Drink Water Not to Die!"
+			subtitle: "你要喝水来保持不死 You Need to Drink Water Not to Die!"
 			tasks: [{
 				icon: "minecraft:water_bucket"
 				id: "193361529488FE5C"
 				observe_type: 0
 				timer: 0L
-				title: "Find Fresh Water"
+				title: "寻找新鲜的水 Find Fresh Water"
 				to_observe: "minecraft:water"
 				type: "observation"
 			}]
@@ -1324,7 +1324,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:bronze_anvils)"
 					}
 				}
-				title: "Anvil of any bronze"
+				title: "任意青铜砧 Anvil of any bronze"
 				type: "item"
 			}]
 			x: 18.5d
@@ -1397,10 +1397,10 @@
 			dependencies: ["36A9E5CD45A79288"]
 			icon: "tfc:wild_crop/barley"
 			id: "4CF472C9778068D6"
-			subtitle: "Harvest Your First Harvest and Rejoice"
+			subtitle: "收获你的第一批农作物，并为此欢欣鼓舞。Harvest Your First Harvest and Rejoice"
 			tasks: [{
 				id: "7226C69847993160"
-				title: "Click Here"
+				title: "点这里 Click Here"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -1433,16 +1433,16 @@
 				"45D907EF7902A200"
 				"373FD04AD6CA9F92"
 			]
-			description: ["To begin with, dig 1 block in the ground, or any other surface, then use the V key to place the things you want to fry in the hole. If we are talking about molds, there are 4 of them. Next, take the Hay in your hand and right-click into the hole, the hay will begin to fill the hole, you need to use 8 hay, then add 8 logs in the same way, then you can calmly set this thing on fire with a primitive flint or torch (just throw a torch from the top of your hole and it will start to burn). Then you have to wait for the firing to finish and then take out your finished items. In the same way, metal is melted in tanks. That is, you put pieces of copper in a vessel and in this very pit, after the above process you will get molten copper, which you can cast into ingots, headbands, and so on."]
+			description: ["首先，在地面或任何其他表面挖一个一格高的洞，然后使用V键把你想要烤的东西放进洞里。如果是模具，那么可以放4个。接下来，手持干草捆，右键点击洞内，干草将开始填充这个洞，你需要使用8个干草捆，然后以相同的方式添加8根原木，然后你可以用原始的打火石或火把点燃这个东西（只需从洞顶扔下一个火把，它就会开始燃烧）。接着你必须等待烧制完成，然后取出你的成品。以同样的方式，金属也会在容器中熔化。也就是说，你把铜片放在一个容器中，再把容器放这个坑里，经过上述过程后你会得到熔化的铜，你可以将其铸造成锭、工具的头等。To begin with, dig 1 block in the ground, or any other surface, then use the V key to place the things you want to fry in the hole. If we are talking about molds, there are 4 of them. Next, take the Hay in your hand and right-click into the hole, the hay will begin to fill the hole, you need to use 8 hay, then add 8 logs in the same way, then you can calmly set this thing on fire with a primitive flint or torch (just throw a torch from the top of your hole and it will start to burn). Then you have to wait for the firing to finish and then take out your finished items. In the same way, metal is melted in tanks. That is, you put pieces of copper in a vessel and in this very pit, after the above process you will get molten copper, which you can cast into ingots, headbands, and so on."]
 			id: "69D20168E26BBF59"
 			size: 2.0d
-			subtitle: "Realism"
+			subtitle: "太真实了 Realism"
 			tasks: [{
 				icon: "tfc:firepit"
 				id: "4104866DD66BFB2E"
 				observe_type: 0
 				timer: 0L
-				title: "Create a Roasting Pit"
+				title: "做一个烤火坑 Create a Roasting Pit"
 				to_observe: "tfc:pit_kiln"
 				type: "observation"
 			}]
@@ -1640,7 +1640,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:rock/raw)"
 					}
 				}
-				title: "Any Raw Stone"
+				title: "任意天然岩石 Any Raw Stone"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1659,7 +1659,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Brass or Bronze Pickaxe"
+				title: "黄铜或青铜稿 Brass or Bronze Pickaxe"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1678,7 +1678,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:rock/smooth)"
 					}
 				}
-				title: "Any Polished Stone"
+				title: "任意平滑岩石 Any Polished Stone"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1721,7 +1721,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Copper or Bronze Chisel"
+				title: "铜或青铜凿 Copper or Bronze Chisel"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1741,7 +1741,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:poor_raw_graphite)item(gtceu:raw_graphite)item(gtceu:rich_raw_graphite))"
 					}
 				}
-				title: "Any Graphite Ore"
+				title: "任意石墨矿石 Any Graphite Ore"
 				type: "item"
 			}]
 			x: 12.0d
@@ -1862,7 +1862,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:barrels)"
 					}
 				}
-				title: "Any #tfc:barrels"
+				title: "任意木大桶 Any #tfc:barrels"
 				type: "item"
 			}]
 			x: 16.5d
@@ -1938,7 +1938,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Copper or Bronze Saw"
+				title: "铜或青铜锯 Copper or Bronze Saw"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1957,7 +1957,7 @@
 					}
 				}
 				match_nbt: false
-				title: "The Miner's Copper or Bronze Pickaxe"
+				title: "铜或青铜勘矿镐 The Miner's Copper or Bronze Pickaxe"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1976,7 +1976,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Copper or Bronze Axe"
+				title: "铜或青铜斧（注：物品tag写的是锻造锤）Copper or Bronze Axe"
 				type: "item"
 			}]
 			x: 12.0d
@@ -1994,7 +1994,7 @@
 				id: "028DBFDDC00B9949"
 				observe_type: 1
 				timer: 0L
-				title: "Make a Stone Anvil"
+				title: "制作一个石砧 Make a Stone Anvil"
 				to_observe: "#tfc:rock_anvils"
 				type: "observation"
 			}]
@@ -2066,7 +2066,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:bronze_ingot)item(gtceu:black_bronze_ingot)item(gtceu:bismuth_bronze_ingot))"
 					}
 				}
-				title: "Any Bronze Ingot"
+				title: "任意青铜锭 Any Bronze Ingot"
 				type: "item"
 			}]
 			x: 18.5d
