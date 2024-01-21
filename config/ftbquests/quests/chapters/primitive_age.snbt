@@ -2312,34 +2312,34 @@
 		{
 			dependencies: ["445E060EF3300A49"]
 			description: [
-				"The &dSolid Boiler&r is the only available Boiler for now, as the &aGlass&r needed for the others is not available just yet. You can get by with only one, but we would recommend making at least two."
+				"&d高压蒸汽固体燃料锅炉&r是目前唯一可用的锅炉，因为其他锅炉需要的&a玻璃&r你现在还无法获得。这个锅炉只做一个是够用的，但我们推荐你至少整两个。The &dSolid Boiler&r is the only available Boiler for now, as the &aGlass&r needed for the others is not available just yet. You can get by with only one, but we would recommend making at least two."
 				""
-				"Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this warning in mind when setting your Boiler up."
+				"注意：锅炉是会爆炸的！这甚至是&eGT老手&r也会犯的错误，所以设置锅炉的时候一定要记好这点。Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this warning in mind when setting your Boiler up."
 				"{@pagebreak}"
-				"Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r (Launch!) may occur under the following conditions:"
+				"水与&6高温&r不太相容，在以下条件下可能会发生&c蒸汽爆炸&r（发射！）：Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r (Launch!) may occur under the following conditions:"
 				""
-				"- The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
-				"...and..."
-				"- The Boiler does not have any &bwater&r. This is signified by the absence of a &bblue bar&r in the GUI."
-				"...AND..."
-				"- The Boiler receives water whilst &6both&r conditions are &2true&r."
+				"- 锅炉&4过热&r。其温度由GUI中的&c红色条r&r表示。The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
+				"...并且and..."
+				"- 锅炉没有&b水&r。这由GUI中&b蓝色条&r的减少/缺失来表示。The Boiler does not have any &bwater&r. This is signified by the absence of a &bblue bar&r in the GUI."
+				"...以及AND..."
+				"- 在&6两个&r条件&2同时&r成立时，锅炉接收到水。The Boiler receives water whilst &6both&r conditions are &2true&r."
 				"{@pagebreak}"
-				"You can avert catastrophe by filling the boiler with water before heating it up, and making sure the water supply is constant. The drain is slow - &b1 mB&r of Water boils into &7160 mB&r of Steam - so you shouldn't have to worry about running out."
+				"在加热之前用水填满锅炉，并确保水源供应持续，可以避免灾难。消耗速度很慢 - &b1 mB&r的水蒸发成&7160 mB&r的蒸汽 - 因此你不必担心水会用完。You can avert catastrophe by filling the boiler with water before heating it up, and making sure the water supply is constant. The drain is slow - &b1 mB&r of Water boils into &7160 mB&r of Steam - so you shouldn't have to worry about running out."
 				""
-				"The Boiler can auto eject steam on all its faces except the bottom. For automated Water input, use the bottom face."
+				"锅炉可以在除了底面以外的任意面输出蒸汽。你需要使用底面来实现水源的自动化输入。The Boiler can auto eject steam on all its faces except the bottom. For automated Water input, use the bottom face."
 				""
-				"&3Note:&r In this modpack, explosions are configured to &cnot&r damage any block or entity, but you'll &dstill lose&r your machine."
+				"&3注意Note:&r 在该整合包中，爆炸&c不会&r破坏任何方块或实体，但你的机器&d还是会&r因此坏掉。In this modpack, explosions are configured to &cnot&r damage any block or entity, but you'll &dstill lose&r your machine."
 				""
-				"You may recall that regular Steam machines had a duration penalty, and were twice as slow. Not great."
+				"你可能还记得，普通的蒸汽机器有使用持续时间的惩罚，并且速度慢了两倍，这事坏的。You may recall that regular Steam machines had a duration penalty, and were twice as slow. Not great."
 				""
-				"&5High Pressure&r Steam machines no longer bear a &bduration penalty &rfor recipes, making them objective upgrades."
+				"&5高压蒸汽机器&r没有这些不利，这让他们成为了实质上的升级。&5High Pressure&r Steam machines no longer bear a &bduration penalty &rfor recipes, making them objective upgrades."
 				""
-				"Make &eone&r of the proposed HP machines to complete this quest."
+				"制作&e一个&r建议的高压机器来完成这个任务。Make &eone&r of the proposed HP machines to complete this quest."
 			]
 			id: "5C7B69F45F076A79"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "在蒸汽时代整点Steam；Putting the Steam in Steam Age"
+			subtitle: "在Steam时代整点蒸汽；Putting the Steam in Steam Age"
 			tasks: [{
 				id: "2D2CDB71DF062E33"
 				item: "gtceu:hp_steam_solid_boiler"
@@ -2405,21 +2405,21 @@
 		{
 			dependencies: ["41DBE0B47E760DC4"]
 			description: [
-				"The &bPrimitive Water Pump&r is an easy way to automatically generate water for your boilers. It doesn't physically pump water from the world, instead generating it &einternally&r. Therefore, you don't need access to a &3body of water&r to make use of it. However, the humidity of the biome does apply a negligible bonus to its water production."
+				"&b原始水泵&r是一种简单的自动为你的锅炉生成水的方式。它不是从世界中物理抽水，而是&e内部&r生成水。因此，你不需要接近&3水体&r就可以使用它。然而，生物群系的湿度确实对其水产量提供了微不足道的奖励。The &bPrimitive Water Pump&r is an easy way to automatically generate water for your boilers. It doesn't physically pump water from the world, instead generating it &einternally&r. Therefore, you don't need access to a &3body of water&r to make use of it. However, the humidity of the biome does apply a negligible bonus to its water production."
 				""
-				"It's a multiblock, so &5consult JEI&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself)."
+				"它是一个多方块结构，所以&5查阅JEI&r以了解其结构。如果你用空手潜行右键点击“&a&o控制器&r”方块（在这个例子中，控制器方块就是&b原始水泵&r本身），多方块结构可以在世界中预览。It's a multiblock, so &5consult JEI&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself)."
 				""
-				"&6Small tip for you:&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
+				"&6小提示Small tip for you:&r 现在不需要担心你基地的生物群系，因为你的锅炉运行所需要的水量非常少。no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
 				"{@pagebreak}"
-				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes. When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
+				"&c输出舱&r是水将被生成的地方。你可以使其朝上或朝下来向你的管道中自动输水。当你达到&7LV（低压）&r或&bMV（中压）&r等级时，你可以使用任一等级的输出舱来进一步提高泵的输出。The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes. When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
 				""
-				"&2Reminder:&r Use a Wrench to rotate GregTech blocks (sneak right-click)."
+				"&2提醒Reminder:&r 使用扳手来旋转格雷科技的方块（潜行右键）。Use a Wrench to rotate GregTech blocks (sneak right-click)."
 				""
-				"&l&3Lore:&r&o This Multiblock was ported from GT IMPACT, a classic 1.7.10 GregTech modpack."
+				"&l&3你知道吗Lore:&r&o 这个多方块结构是从一个叫GT IMPACT的经典1.7.10格雷科技整合包移植过来的。This Multiblock was ported from GT IMPACT, a classic 1.7.10 GregTech modpack."
 			]
 			id: "1D623D93EEDD3C67"
 			size: 2.0d
-			subtitle: "There's no such thing as \"free\" water"
+			subtitle: "免费的水？想得美。There's no such thing as \"free\" water"
 			tasks: [
 				{
 					id: "24CCB2BF08C5400A"
@@ -2471,7 +2471,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:dyes)"
 					}
 				}
-				title: "Any #tfc:dyes"
+				title: "任意TFC染料 Any #tfc:dyes"
 				type: "item"
 			}]
 			x: 14.0d
@@ -2491,7 +2491,7 @@
 				id: "gtceu:bismuth_bronze_dust"
 			}
 			id: "515141734CA1A002"
-			subtitle: "Cheap and shiny"
+			subtitle: "便宜又闪亮 Cheap and shiny"
 			tasks: [
 				{
 					id: "7EBB6EC50EE8CFA1"
@@ -2500,12 +2500,12 @@
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							display: {
-								Name: "{\"text\":\"any bismuth ore\"}"
+								Name: "{\"text\":\"任意铋矿 any bismuth ore\"}"
 							}
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_bismuthinite)item(gtceu:raw_bismuth)item(gtceu:poor_raw_bismuth)item(gtceu:rich_raw_bismuth))"
 						}
 					}
-					title: "Any Bismuth Ore"
+					title: "任意铋矿 Any Bismuth Ore"
 					type: "item"
 				}
 				{
