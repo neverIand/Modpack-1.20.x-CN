@@ -2515,12 +2515,12 @@
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							display: {
-								Name: "{\"text\":\"any sphalerite ore\"}"
+								Name: "{\"text\":\"任意闪锌矿 any sphalerite ore\"}"
 							}
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_sphalerite)item(gtceu:raw_sphalerite)item(gtceu:poor_raw_sphalerite)item(gtceu:rich_raw_sphalerite))"
 						}
 					}
-					title: "Any Sphalerite Ore"
+					title: "任意闪锌矿 Any Sphalerite Ore"
 					type: "item"
 				}
 				{
@@ -2532,11 +2532,11 @@
 							"ftbfiltersystem:filter": "or(item(gtceu:poor_raw_chalcopyrite)item(gtceu:raw_chalcopyrite)item(gtceu:rich_raw_chalcopyrite)item(tfc:ore/small_tetrahedrite)item(gtceu:poor_raw_tetrahedrite)item(gtceu:raw_tetrahedrite)item(gtceu:rich_raw_tetrahedrite)item(tfc:ore/small_malachite)item(gtceu:poor_raw_malachite)item(gtceu:raw_malachite)item(gtceu:rich_raw_malachite)item(tfc:ore/small_native_copper)item(gtceu:poor_raw_copper)item(minecraft:raw_copper)item(gtceu:rich_raw_copper))"
 						}
 					}
-					title: "Any Copper Ore"
+					title: "任意铜矿 Any Copper Ore"
 					type: "item"
 				}
 			]
-			title: "Resources for Bismuth Bronze"
+			title: "铋青铜所需资源 Resources for Bismuth Bronze"
 			x: 18.5d
 			y: 15.0d
 		}
@@ -2554,7 +2554,7 @@
 				id: "gtceu:black_bronze_dust"
 			}
 			id: "69B4B677A27121CF"
-			subtitle: "Dear and Black"
+			subtitle: "黝黑而亲切 Dear and Black"
 			tasks: [
 				{
 					id: "1294B28A98775920"
@@ -2563,12 +2563,12 @@
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							display: {
-								Name: "{\"text\":\"any silver ore\"}"
+								Name: "{\"text\":\"任意银矿 any silver ore\"}"
 							}
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_native_silver)item(gtceu:poor_raw_silver)item(gtceu:rich_raw_silver)item(gtceu:raw_silver))"
 						}
 					}
-					title: "Any Silver Ore"
+					title: "任意银矿 Any Silver Ore"
 					type: "item"
 				}
 				{
@@ -2580,7 +2580,7 @@
 							"ftbfiltersystem:filter": "or(item(gtceu:poor_raw_chalcopyrite)item(gtceu:raw_chalcopyrite)item(gtceu:rich_raw_chalcopyrite)item(tfc:ore/small_tetrahedrite)item(gtceu:poor_raw_tetrahedrite)item(gtceu:raw_tetrahedrite)item(gtceu:rich_raw_tetrahedrite)item(tfc:ore/small_malachite)item(gtceu:poor_raw_malachite)item(gtceu:raw_malachite)item(gtceu:rich_raw_malachite)item(tfc:ore/small_native_copper)item(gtceu:poor_raw_copper)item(minecraft:raw_copper)item(gtceu:rich_raw_copper))"
 						}
 					}
-					title: "Any Copper Ore"
+					title: "任意铜矿 Any Copper Ore"
 					type: "item"
 				}
 				{
@@ -2592,11 +2592,11 @@
 							"ftbfiltersystem:filter": "or(item(minecraft:raw_gold)item(gtceu:rich_raw_gold)item(gtceu:poor_raw_gold)item(tfc:ore/small_native_gold))"
 						}
 					}
-					title: "Any Gold Ore"
+					title: "任意金矿 Any Gold Ore"
 					type: "item"
 				}
 			]
-			title: "Resources for Black Bronze"
+			title: "黑青铜所需资源 Resources for Black Bronze"
 			x: 18.5d
 			y: 13.0d
 		}
@@ -2847,7 +2847,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:glass)"
 					}
 				}
-				title: "Any #forge:glass"
+				title: "任意玻璃 Any #forge:glass"
 				type: "item"
 			}]
 			x: -13.0d
@@ -2889,7 +2889,7 @@
 				id: "33278CA851060438"
 				observe_type: 1
 				timer: 0L
-				title: "Find the Tree: Kapok"
+				title: "寻找树种：木棉 Find the Tree: Kapok"
 				to_observe: "tfc:kapok_logs"
 				type: "observation"
 			}]
@@ -2943,7 +2943,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:glass_panes)"
 					}
 				}
-				title: "Any #forge:glass_panes"
+				title: "任意玻璃板 Any #forge:glass_panes"
 				type: "item"
 			}]
 			x: -11.5d
@@ -2962,7 +2962,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:ore_deposits)"
 					}
 				}
-				title: "Any #tfc:ore_deposits"
+				title: "任意矿物沉积物 Any #tfc:ore_deposits"
 				type: "item"
 			}]
 			x: -11.0d
@@ -2991,7 +2991,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:glass_bottles)"
 					}
 				}
-				title: "Any #tfc:glass_bottles"
+				title: "任意TFC玻璃瓶 Any #tfc:glass_bottles"
 				type: "item"
 			}]
 			x: -14.5d
@@ -3064,7 +3064,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:lamps)"
 					}
 				}
-				title: "Any #tfc:lamps"
+				title: "任意TFC灯 Any #tfc:lamps"
 				type: "item"
 			}]
 			x: -11.5d
@@ -3106,7 +3106,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:poor_raw_sulfur)item(gtceu:raw_sulfur)item(gtceu:rich_raw_sulfur))"
 					}
 				}
-				title: "Any Sulfur Ore"
+				title: "任意硫矿 Any Sulfur Ore"
 				type: "item"
 			}]
 			x: -6.0d
@@ -3145,7 +3145,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:double_sheets/any_bronze)"
 					}
 				}
-				title: "Any #forge:double_sheets/any_bronze"
+				title: "任意双层青铜板 Any #forge:double_sheets/any_bronze"
 				type: "item"
 			}]
 			x: 20.5d
@@ -3675,7 +3675,7 @@
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_native_gold)item(gtceu:poor_raw_gold)item(minecraft:raw_gold)item(gtceu:rich_raw_gold))"
 						}
 					}
-					title: "Any Gold Ore"
+					title: "任意金矿 Any Gold Ore"
 					type: "item"
 				}
 				{
@@ -3687,11 +3687,11 @@
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_tetrahedrite)item(tfc:ore/small_malachite)item(gtceu:poor_raw_malachite)item(gtceu:raw_malachite)item(gtceu:rich_raw_malachite)item(gtceu:rich_raw_tetrahedrite)item(gtceu:raw_tetrahedrite)item(gtceu:poor_raw_tetrahedrite)item(gtceu:poor_raw_chalcopyrite)item(gtceu:raw_chalcopyrite)item(gtceu:rich_raw_chalcopyrite)item(gtceu:rich_raw_copper)item(minecraft:raw_copper)item(gtceu:poor_raw_copper)item(tfc:ore/small_native_copper))"
 						}
 					}
-					title: "Any Copper Ore"
+					title: "任意铜矿 Any Copper Ore"
 					type: "item"
 				}
 			]
-			title: "Rose Gold Materials"
+			title: "玫瑰金所需材料 Rose Gold Materials"
 			x: 30.0d
 			y: 13.0d
 		}
@@ -3722,7 +3722,7 @@
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_sphalerite)item(gtceu:raw_sphalerite)item(gtceu:poor_raw_sphalerite)item(gtceu:rich_raw_sphalerite))"
 						}
 					}
-					title: "Any Sphalerite Ore"
+					title: "任意闪锌矿 Any Sphalerite Ore"
 					type: "item"
 				}
 				{
@@ -3734,11 +3734,11 @@
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_tetrahedrite)item(tfc:ore/small_malachite)item(gtceu:poor_raw_malachite)item(gtceu:raw_malachite)item(gtceu:rich_raw_malachite)item(gtceu:rich_raw_tetrahedrite)item(gtceu:raw_tetrahedrite)item(gtceu:poor_raw_tetrahedrite)item(gtceu:poor_raw_chalcopyrite)item(gtceu:raw_chalcopyrite)item(gtceu:rich_raw_chalcopyrite)item(gtceu:rich_raw_copper)item(minecraft:raw_copper)item(gtceu:poor_raw_copper)item(tfc:ore/small_native_copper))"
 						}
 					}
-					title: "Any Copper Ore"
+					title: "任意铜矿 Any Copper Ore"
 					type: "item"
 				}
 			]
-			title: "Materials for brass"
+			title: "黄铜所需材料 Materials for brass"
 			x: 31.0d
 			y: 13.0d
 		}
@@ -3769,7 +3769,7 @@
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_native_silver)item(gtceu:poor_raw_silver)item(gtceu:rich_raw_silver)item(gtceu:raw_silver))"
 						}
 					}
-					title: "Any Silver Ore"
+					title: "任意银矿 Any Silver Ore"
 					type: "item"
 				}
 				{
@@ -3781,11 +3781,11 @@
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_tetrahedrite)item(tfc:ore/small_malachite)item(gtceu:poor_raw_malachite)item(gtceu:raw_malachite)item(gtceu:rich_raw_malachite)item(gtceu:rich_raw_tetrahedrite)item(gtceu:raw_tetrahedrite)item(gtceu:poor_raw_tetrahedrite)item(gtceu:poor_raw_chalcopyrite)item(gtceu:raw_chalcopyrite)item(gtceu:rich_raw_chalcopyrite)item(gtceu:rich_raw_copper)item(minecraft:raw_copper)item(gtceu:poor_raw_copper)item(tfc:ore/small_native_copper))"
 						}
 					}
-					title: "Any Copper Ore"
+					title: "任意铜矿Any Copper Ore"
 					type: "item"
 				}
 			]
-			title: "Sterling Silver Materials"
+			title: "纯银材料 Sterling Silver Materials"
 			x: 30.5d
 			y: 19.5d
 		}
@@ -3829,7 +3829,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Any #tfc:tuyeres"
+				title: "任意TFC鼓风口 Any #tfc:tuyeres"
 				type: "item"
 			}]
 			x: 22.5d
@@ -3848,7 +3848,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:support_beams)"
 					}
 				}
-				title: "Any supports"
+				title: "任意支撑梁 Any supports"
 				type: "item"
 			}]
 			x: 14.0d
@@ -3866,7 +3866,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:looms)"
 					}
 				}
-				title: "Any loom"
+				title: "任意织机 Any loom"
 				type: "item"
 			}]
 			x: 10.5d
@@ -3892,7 +3892,7 @@
 				id: "6EF9C75A9ADB0F75"
 				observe_type: 0
 				timer: 0L
-				title: "Find the Papyrus"
+				title: "找到纸莎（suo1）草 Find the Papyrus"
 				to_observe: "tfc:crop/papyrus"
 				type: "observation"
 			}]
@@ -4037,7 +4037,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:prepared_hides)"
 					}
 				}
-				title: "Any Cooked Hide"
+				title: "任意预制皮革 Any Cooked Hide"
 				type: "item"
 			}]
 			x: 12.0d
@@ -4058,7 +4058,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:scraped_hides)"
 					}
 				}
-				title: "Any scraped hide"
+				title: "任意刮制皮革 Any scraped hide"
 				type: "item"
 			}]
 			x: 9.0d
@@ -4079,7 +4079,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:soaked_hides)"
 					}
 				}
-				title: "Any #tfc:soaked_hides"
+				title: "任意浸泡皮革 Any #tfc:soaked_hides"
 				type: "item"
 			}]
 			x: 9.0d
@@ -4102,7 +4102,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:raw_hides)"
 					}
 				}
-				title: "Any #tfc:raw_hides"
+				title: "任意兽皮 Any #tfc:raw_hides"
 				type: "item"
 			}]
 			x: 6.5d
@@ -4121,7 +4121,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:sheepskin_hides)"
 					}
 				}
-				title: "Any #tfc:sheepskin_hides"
+				title: "任意羊皮 Any #tfc:sheepskin_hides"
 				type: "item"
 			}]
 			x: 6.5d
@@ -4235,7 +4235,7 @@
 				id: "0D975C4556FBC981"
 				observe_type: 0
 				timer: 0L
-				title: "Find the Wild Jute"
+				title: "找到野生黄麻 Find the Wild Jute"
 				to_observe: "tfc:wild_crop/jute"
 				type: "observation"
 			}]
@@ -4526,7 +4526,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
 					}
 				}
-				title: "Any #minecraft:beds"
+				title: "任意床 Any #minecraft:beds"
 				type: "item"
 			}]
 			x: 12.0d
@@ -4725,5 +4725,5 @@
 			y: -5.0d
 		}
 	]
-	title: "Primitive Age"
+	title: "原始时代 Primitive Age"
 }
