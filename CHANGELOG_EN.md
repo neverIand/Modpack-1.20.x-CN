@@ -1,7 +1,56 @@
 # Changelog
 
+## [0.6.8] - 24.01.2024
+### Changes
+- The version of Firma Civilization was rolled back due to a server crash
+### Deleted mods
+- alekiEHM
+
+## [0.6.7] - 24.01.2024
+### Changes
+- The toolheads have been removed from the materials, and since they should not exist, we clean up after Greg again.
+- Added and optimized a lot of mods/configs for optimization.
+- Added QOL mods.
+- F11 is now working correctly.
+- Fixes to work with the latest greg.
+- Fixed latex bucket quest.
+- Fixed strings quest.
+- After the update, you may have chests in REI with a vanilla texture, but from TFC, this is normal, the mod bug has already sent the information to the developer.
+### New Mods
+- AlekiEHM
+- Async-locator
+- AttributeFix
+- Flickerfix
+- Gregicality Rocketry
+- ImmediatelyFast
+- Ksyxis
+- Modelfix
+- Nerb
+- Netherportalfix
+- PacketFixer
+- Radium
+- Rrls
+- Saturn
+### Deleted mods
+- Сanary
+- Сhisels-and-bits
+- Сonnectivity
+- LocalizedChat
+### Update mods
+- AmbientSounds -> 5.3.7
+- Embeddiumplus -> 1.2.3
+- FirmaCivilization -> 0.2.1
+- Firmalife -> 2.0.7
+- Ftb-library -> 2001.1.5
+- Ftb-quests -> 2001.3.2
+- GTCEU -> 1.1.1.a
+- Moonlight -> 2.9.3
+- PlayerRevive -> 2.0.23
+- TerraFirmaGreg-Core -> 0.4.3
+- TFCAstikorCarts -> 1.1.7.3
+
 ## [0.6.6] - 21.01.2024
-### Изменения
+### Changes
 - Fixed a lot of recipes with unknown tags.
 - Fixed a bug when it was impossible to melt ingots of tin and red alloys.
 - Fixed tags of some GTCEu blocks.

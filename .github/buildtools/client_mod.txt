@@ -12,6 +12,7 @@ drippyloadingscreen_*
 embeddium-*
 embeddiumplus-*
 entityculling-*
+gpumemleakfix-*
 fancymenu_*
 farsight-*
 firstperson-*
@@ -22,6 +23,7 @@ no-report-button-*
 notenoughanimations-*
 oculus-*
 rubidium-extra-*
+Rrls-*
 betterfoliage-*
 ChunkAnimator-*
 Searchables-*
