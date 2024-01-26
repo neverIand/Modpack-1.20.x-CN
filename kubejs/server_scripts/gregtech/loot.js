@@ -3,17 +3,17 @@
 const registerGTCEULoots = (event) => {
     
     global.TFC_STONE_TYPES.forEach(stoneType => {
-        GTRegistries.MATERIALS.forEach(material => {
+        GTCEuAPI.materialManager.getRegisteredMaterials().forEach(material => {
             if (material.hasProperty(PropertyKey.ORE)) {
                 
                 let stoneTypeMaterial = GTMaterials.get(stoneType)
                 let stoneTypeDust = null
 
-                if (!stoneTypeMaterial != null) stoneTypeDust = ChemicalHelper.get(TagPrefix.dust, stoneTypeMaterial, 1)
+                if (stoneTypeMaterial != null) stoneTypeDust = ChemicalHelper.get(TagPrefix.dust, stoneTypeMaterial, 1)
 
                 let richRawOre = ChemicalHelper.get(TFGTagPrefix.richRawOre, material, 1)
                 let normalRawOre = ChemicalHelper.get(TagPrefix.rawOre, material, 1)
-                let poorRawOre = ChemicalHelper.get(TFGTagPrefix.poorRawOre, material, 1).withChance(0.2)
+                let poorRawOre = ChemicalHelper.get(TFGTagPrefix.poorRawOre, material, 1)
 
                 let blockName = `gtceu:${stoneType}_${material.getName()}_ore`
 

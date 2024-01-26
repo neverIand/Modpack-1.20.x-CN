@@ -5,10 +5,13 @@ const registerGTCEUItemTags = (event) => {
     // Удаление тегов у отключенных предметов
     global.GTCEU_DISABLED_ITEMS.forEach(item => {
         event.removeAllTagsFrom(item)
+        event.add('c:hidden_from_recipe_viewers', item)
     })
 
-    //#region Пыли стоунтайпов в один тэг
+    // Добавление тега EMI для скрытия всех руд
+    event.add('c:hidden_from_recipe_viewers', '#forge:ores')
 
+    //#region Пыли стоунтайпов в один тэг
     event.add('tfg:stone_dusts', 'gtceu:gabbro_dust')
     event.add('tfg:stone_dusts', 'gtceu:shale_dust')
     event.add('tfg:stone_dusts', 'gtceu:claystone_dust')
@@ -33,7 +36,12 @@ const registerGTCEUItemTags = (event) => {
     event.add('tfg:stone_dusts', 'gtceu:stone_dust')
 
     //#endregion
-    
-    event.add('forge:storage_blocks/treated_wood', 'gtceu:treated_wood_planks')
+}
 
+const registerGTCEUBlockTags = (event) => {
+    
+    // Удаление тегов у отключенных предметов
+    global.GTCEU_DISABLED_ITEMS.forEach(item => {
+        event.removeAllTagsFrom(item)
+    })
 }

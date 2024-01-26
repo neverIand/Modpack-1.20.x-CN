@@ -1,12 +1,6 @@
 // priority: 0
 
 const registerTFCItemTags = (event) => {
-    
-    // Удаление тегов у отключенных предметов
-    global.TFC_DISABLED_ITEMS.forEach(item => {
-        event.removeAllTagsFrom(item)
-    })
-
     // Теги для соответствия инструментов TFC и GT
     event.add('tfc:swords', '#minecraft:swords')
     event.add('tfc:pickaxes', '#minecraft:pickaxes')
@@ -167,6 +161,15 @@ const registerTFCItemTags = (event) => {
             event.add(`tfg:rock_walls`, `tfc:rock/${slabType}/${stoneTypeName}_wall`)
         })
     })
+
+    // Удаление тегов у отключенных предметов
+    global.TFC_DISABLED_ITEMS.forEach(item => {
+        event.removeAllTagsFrom(item)
+        event.add('c:hidden_from_recipe_viewers', item)
+    })
+
+    // Удаление тегов у руд
+    event.removeAllTagsFrom("/tfc:ore/[^*]+/[^*]+/")
 }
 
 const registerTFCBlockTags = (event) => {
@@ -213,6 +216,14 @@ const registerTFCBlockTags = (event) => {
 
     event.add('tfc:glass_basin_blocks', 'tfc:white_kaolin_clay')
     event.add('tfc:glass_pouring_table', 'tfc:white_kaolin_clay')
+
+    // Удаление тегов у отключенных предметов
+    global.TFC_DISABLED_ITEMS.forEach(item => {
+        event.removeAllTagsFrom(item)
+    })
+
+    // Удаление тегов у руд
+    event.removeAllTagsFrom("/tfc:ore/[^*]+/[^*]+/")
 }
 
 const registerTFCFluidTags = (event) => {
@@ -300,6 +311,36 @@ const registerTFCFluidTags = (event) => {
     event.add('tfc:usable_in_wooden_bucket', 'gtceu:creosote')
     event.add('tfc:usable_in_red_steel_bucket', 'gtceu:creosote')
     event.add('tfc:usable_in_blue_steel_bucket', 'gtceu:creosote')
+
+    // Добавляем тег для скрытия в EMI
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/bismuth')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/bismuth_bronze')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/bronze')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/black_bronze')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/brass')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/copper')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/gold')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/nickel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/rose_gold')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/silver')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/tin')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/zinc')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/sterling_silver')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/wrought_iron')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/black_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/red_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/blue_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/cast_iron')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/pig_iron')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/high_carbon_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/high_carbon_black_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/high_carbon_red_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/high_carbon_blue_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/weak_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/weak_red_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/weak_blue_steel')
+    event.add('c:hidden_from_recipe_viewers', 'tfc:metal/unknown')
 }
 
 const registerTFCPlacedFeatures = (event) => {
