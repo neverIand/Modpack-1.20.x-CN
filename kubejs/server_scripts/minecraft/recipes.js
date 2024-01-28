@@ -2108,23 +2108,6 @@ const registerMinecraftRecipes = (event) => {
 
     //#endregion
 
-    //#region Выход: Нитки
-
-    event.recipes.tfc.barrel_sealed(6000)
-        .inputs('tfc:wool_yarn', Fluid.of('tfc:tannin', 250))    
-        .outputItem('minecraft:string')
-        .id('tfg:barrel/sealed/string')
-        
-
-    event.recipes.gtceu.mixer('vanilla_string_from_wool_yarn')             
-        .inputFluids(Fluid.of('tfc:tannin', 200))    
-        .itemInputs('tfc:wool_yarn')
-        .itemOutputs('minecraft:string')
-        .duration(800)
-        .EUt(2)
-
-    //#endregion
-
     //#region Выход: Факел
 
     //#region В Верстаке
@@ -2431,67 +2414,32 @@ const registerMinecraftRecipes = (event) => {
 
     //#endregion
 
-    //#region Выход: Бетон
-
-    global.MINECRAFT_DYE_NAMES.forEach(dye => {
-        
-        event.recipes.gtceu.chemical_bath(`${dye}_powder_to_${dye}_concrete`)             
-            .itemInputs(`minecraft:${dye}_concrete_powder`)
-            .inputFluids(Fluid.of('minecraft:water', 144))
-            .itemOutputs(`minecraft:${dye}_concrete`)
-            .duration(100)
-            .EUt(4)
-
-        if (dye != "white")
-            event.recipes.gtceu.chemical_bath(`${dye}_concrete`)             
-                .itemInputs(`minecraft:white_concrete`)
-                .inputFluids(Fluid.of(`gtceu:${dye}_dye`, 72))
-                .itemOutputs(`minecraft:${dye}_concrete`)
-                .duration(300)
-                .EUt(4)
-    })
-
-    //#endregion
-
     //#region Выход: Шерсть
 
+    event.recipes.gtceu.assembler('wool_from_string')             
+        .itemInputs('4x #forge:string')
+        .circuit(4)
+        .itemOutputs('minecraft:white_wool')
+        .duration(100)
+        .EUt(4)
+
+    
     global.MINECRAFT_DYE_NAMES.forEach(dye => {
-        
         event.remove({ id: `minecraft:dye_${dye}_wool` })
-
-        if (dye != 'white')
-        {
-            event.shapeless(`minecraft:${dye}_wool`, [
-                'minecraft:white_wool',
-                `#forge:dyes/${dye}`
-            ]).id(`tfg:create/shapeless/${dye}_wool`)
-
-            event.recipes.gtceu.chemical_bath(`${dye}_wool`)             
-                .itemInputs(`minecraft:white_wool`)
-                .inputFluids(Fluid.of(`gtceu:${dye}_dye`, 72))
-                .itemOutputs(`minecraft:${dye}_wool`)
-                .duration(300)
-                .EUt(4)
-        }
-            
     })
 
     //#endregion
 
     //#region Выход: Ковры
 
+    
     global.MINECRAFT_DYE_NAMES.forEach(dye => {
         
         event.remove({ id: `minecraft:dye_${dye}_carpet` })
 
         if (dye != 'white')
         {
-            event.shapeless(`minecraft:${dye}_carpet`, [
-                'minecraft:white_carpet',
-                `#forge:dyes/${dye}`
-            ]).id(`tfg:create/shapeless/${dye}_carpet`)
-
-            event.recipes.gtceu.chemical_bath(`${dye}_carpet`)             
+            event.recipes.gtceu.chemical_bath(`tfg:${dye}_carpet`)             
                 .itemInputs(`minecraft:white_carpet`)
                 .inputFluids(Fluid.of(`gtceu:${dye}_dye`, 72))
                 .itemOutputs(`minecraft:${dye}_carpet`)
@@ -2528,6 +2476,16 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Арбалет
 
     event.remove({ id: 'minecraft:crossbow' })
+
+    //#endregion
+
+    //#region Выход: Лук
+
+    event.recipes.gtceu.assembler('bow')             
+        .itemInputs('3x #forge:string', '3x #forge:rods/wooden')
+        .itemOutputs('minecraft:bow')
+        .duration(100)
+        .EUt(4)
 
     //#endregion
 
@@ -2594,6 +2552,16 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Веревка
 
     event.remove({ id: 'minecraft:lead' })
+    event.remove({ id: 'gtceu:assembler/lead' })
+
+    event.shaped('minecraft:lead', [
+        ' AA', 
+        ' BA',
+        'A   '  
+    ], {
+        A: '#forge:string',
+        B: '#forge:rings/wrought_iron'
+    })
 
     //#endregion
 
