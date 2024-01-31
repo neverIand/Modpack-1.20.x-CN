@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.7.0]
+## [0.6.9] - 31.01.2024
 ### Changes
 - The option to disable coordinates and some information has been re-enabled because firmaCiv has finally introduced items for tracking latitude and longitude, which is intended for determining one's own location. You can still view your coordinates through the mini-map, but this functionality will be disabled in the future when Antique Atlas and Game Stages are added.
 - BetterF3 has been slightly configured.
@@ -19,15 +19,21 @@
 - Players are now displayed on the map as dots. 
 - Fixed oil output from tfc dirt -> biomass recipe (what??)
 - GTCEu bolts now can be used in FirmaCiv boats (Fix for new FirmaCiv ver).
-# Wip for now (required for update)
 - Hided for now nether items.
+- Added recipe for Elytra.
 - Colorizing of Create valves (in TFC barrels).
 - Colorizing of Create seats (in TFC barrels).
-- Added assembler recipes for a lot of TFC recipes.
-- Added assembler recipes for a lot of FirmaCiv items.
-- Vanilla glass bottles has been replaced with TFC bottles.
-- Recipes for plates, sticks, and others through Create mechanisms have been redistributed once again (an attempt to fix a crash).
-- The primitive pump from GTCEu has been removed, so at the beginning of the game, you will have to pump water using a pump from Create.
+- Heat recipes for many of FirmaCiv items.
+- Added assembler recipes for many of FirmaCiv recipes.
+- Added assembler recipes for many of TFC recipes.
+- Removed recipes for vanilla candles (use tfc candles pls)
+- Added assembler recipes for TFC brick items.
+- Hide EMI repairing recipes, because it's cursed..
+- Candle colorization recipes in gtceu assembler.
+- MoreRed cable colorization via gtceu chemical bath.
+- Try to fix crash - create pressing.
+- Removed *NewYear* logo from drp.
+- Removed fix for xaero-map, because tfc grass colors has been fixed in xaero.
 
 ## [0.6.8] - 24.01.2024
 ### Changes

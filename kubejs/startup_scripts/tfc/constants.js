@@ -653,7 +653,9 @@ global.TFC_DISABLED_ITEMS = [
     "tfc:trip_hammer",
     'tfc:steel_pipe',
     'tfc:steel_pump',
-    'tfc:crankshaft'
+    'tfc:crankshaft',
+    'tfc:hand_wheel_base', 
+    'tfc:hand_wheel',
 ];
 
 /**
@@ -918,7 +920,8 @@ global.TFC_QUERN_POWDER_RECIPE_COMPONENTS = [
     { input: '#forge:dusts/saltpeter', output: '4x tfc:powder/saltpeter', name: 'saltpeter_powder' },
     { input: '#forge:dusts/salt', output: '4x tfc:powder/salt', name: 'salt_powder' },
     { input: '#forge:dusts/graphite', output: '4x tfc:powder/graphite', name: 'graphite_powder' },
-    { input: '#forge:dusts/borax', output: '4x tfc:powder/flux', name: 'flux_powder' }
+    { input: '#forge:dusts/borax', output: '4x tfc:powder/flux', name: 'flux_powder' },
+    { input: '#forge:dusts/soda_ash', output: '4x tfc:powder/soda_ash', name: 'soda_ash' },
 ];
 
 global.TFC_QUERN_GRAIN_RECIPE_COMPONENTS = [

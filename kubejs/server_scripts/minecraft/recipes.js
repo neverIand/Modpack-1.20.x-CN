@@ -2430,8 +2430,17 @@ const registerMinecraftRecipes = (event) => {
 
     //#endregion
 
-    //#region Выход: Ковры
+    //#region Выход: Свечи
 
+    event.remove({ id: `minecraft:candle` })
+
+    global.MINECRAFT_DYE_NAMES.forEach(dye => {
+        event.remove({ id: `minecraft:${dye}_candle` })
+    })
+
+    //#endregion
+
+    //#region Выход: Ковры
     
     global.MINECRAFT_DYE_NAMES.forEach(dye => {
         
@@ -2551,17 +2560,16 @@ const registerMinecraftRecipes = (event) => {
 
     //#region Выход: Веревка
 
-    event.remove({ id: 'minecraft:lead' })
     event.remove({ id: 'gtceu:assembler/lead' })
 
     event.shaped('minecraft:lead', [
         ' AA', 
         ' BA',
-        'A   '  
+        'A  '  
     ], {
         A: '#forge:string',
         B: '#forge:rings/wrought_iron'
-    })
+    }).id('minecraft:lead')
 
     //#endregion
 
@@ -2584,6 +2592,24 @@ const registerMinecraftRecipes = (event) => {
 
     event.remove({ id: 'minecraft:stripped_warped_stem_via_vanilla_stripping' })
     event.remove({ id: 'minecraft:stripped_warped_hyphae_via_vanilla_stripping' })
+
+    //#endregion
+
+    //#region Выход: Якорь возрождения
+
+    event.remove({ id: 'minecraft:respawn_anchor' })
+
+    //#endregion
+
+    //#region Выход: Элитра
+
+    // Ну и херь я придумал
+    event.recipes.gtceu.assembler('tfg:elytra')             
+        .itemInputs('6x #forge:plates/polyvinyl_butyral', '2x #forge:rings/titanium', '2x #forge:rods/titanium', '4x #forge:single_cables/aluminium')
+        .circuit(32)
+        .itemOutputs(Item.of('minecraft:elytra', "{Damage:0,display:{Name:'{\"text\":\"Божественные крылья\",\"italic\":true}'}}"))
+        .duration(1600)
+        .EUt(666)
 
     //#endregion
 
