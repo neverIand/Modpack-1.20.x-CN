@@ -111,7 +111,7 @@
 				""
 				"另外，机器中的&b内部液体容器&r会与含有流体的物品互动。这对于手工合成来说很棒 - 因为这意味着你可以在制作中使用流体桶（drum），而不是多个桶（bucket）。要&5清空&r桶中的流体，将其单独放置在任何合成界面中。Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
 				""
-				"&o&7小声bb Pssst:&r &oA 使用螺丝刀右键点击可以让桶将其内容排放到下方放置的另一个容器中。如果你想让你的液体锅炉燃料持续更长时间，这是一个很好的方法。right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
+				"&o&7小声bb Pssst:&r &o 使用螺丝刀右键点击可以让桶将其内容排放到下方放置的另一个容器中。如果你想让你的液体锅炉燃料持续更长时间，这是一个很好的方法。 right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
 				"{@pagebreak}"
 				"&l&3你知道吗 Lore:&r&o 这些桶实际上是从格雷科技6移植过来的。These drums are actually ported from GregTech 6."
 			]
@@ -739,25 +739,25 @@
 		{
 			dependencies: ["48AED37B4E20A99A"]
 			description: [
-				"&3Item Pipes&r are a simple yet effective way to move items around &dinstantly&r, but with throughput limitations."
+				"&3物品管道&r是一种&d立即&r输送物品的简单有效的方式，但有吞吐量限制。&3Item Pipes&r are a simple yet effective way to move items around &dinstantly&r, but with throughput limitations."
 				""
-				"Higher tier pipes provide ridiculously large throughput - a rare sight in modded Minecraft!"
+				"更高级别的管道提供吞吐量大的离谱——在魔改的Minecraft中很少见！Higher tier pipes provide ridiculously large throughput - a rare sight in modded Minecraft!"
 				""
-				"Item Pipes &9do not pull&r, but they will push any item inserted into them to other connected inventories, prioritizing &9the closest inventory&r first."
+				"物品管道&9不会自动拉取&r物品，但它们会将插入其中的任何物品推送到其他连接的储物方块，优先考虑&9最近的库存&r。Item Pipes &9do not pull&r, but they will push any item inserted into them to other connected inventories, prioritizing &9the closest inventory&r first."
 				"{@pagebreak}"
-				"The priority mechanics are &osomewhat complicated&r, so skip ahead if you aren't interested:"
+				"优先级的机制&o有些复杂&r，不感兴趣的话可以跳过：The priority mechanics are &osomewhat complicated&r, so skip ahead if you aren't interested:"
 				""
-				"A &eDestination&r will have a &dRouting Value&r calculated, which is the sum of all \"Routing Values\" of the individual Pipes to that Destination. Whichever Destination has the &clowest &dRouting Value&r will be the one selected for Insertion."
+				"一个&e目的地&r将有一个&d路由值&r被计算出来，它是通往该目的地的所有单个管道的路由值的总和。对于最&c低&d路由值&r的目的地，物品将被输入。A &eDestination&r will have a &dRouting Value&r calculated, which is the sum of all \"Routing Values\" of the individual Pipes to that Destination. Whichever Destination has the &clowest &dRouting Value&r will be the one selected for Insertion."
 				""
-				"&3Restrictive Pipes&r typically have the lowest Priority for insertion due to their higher Routing Value."
+				"&3加固物品管道&r通常由于它们更高的路由值而具有最低的插入优先级。&3Restrictive Pipes&r typically have the lowest Priority for insertion due to their higher Routing Value."
 				"{@pagebreak}"
-				"Right now, you can use them in combination with &6Hoppers&r, but you will also be able to use them with Conveyor Modules, Output Buses, and machine Auto-Outputs all in the LV age."
+				"现在，你可以将它们与&6漏斗&r结合使用，但在低压时代，你也将能够将它们与传送带模块、输出总线和机器自动输出一起使用。Right now, you can use them in combination with &6Hoppers&r, but you will also be able to use them with Conveyor Modules, Output Buses, and machine Auto-Outputs all in the LV age."
 				""
-				"&9Note:&r GT6-style Pipes are &denabled&r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your &5Wrench&r on the grid."
+				"&9注意 Note:&r  GT6风格的管道已被启用。这意味着放置管道只会将它们连接到它们被放置的方块上。要打开更多连接，使用你的扳手点击管道。 GT6-style Pipes are &denabled&r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your &5Wrench&r on the grid."
 				""
-				"Get &eany&r of the suggested Item Pipes to complete this quest."
+				"获取下列&e任意&r物品管道来完成这个任务。Get &eany&r of the suggested Item Pipes to complete this quest."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Oooooh, YEAH! Item Pipes were in GregTech 5, and for whatever reason they weren't kept for GTCE, so you had to use other mods to transport items. Who does that!? Jokes aside, we hope you enjoy Item Pipes being back in GregTech!"
+				"&l&3你知道吗 Lore:&r&o 好耶！物品管道在格雷科技5中就存在了，但不知何故它们没有保留在GTCE中，所以你必须使用其他模组来运输物品。这谁干的！？玩笑归玩笑，我们希望你喜欢物品管道回归到格雷科技中！ Oooooh, YEAH! Item Pipes were in GregTech 5, and for whatever reason they weren't kept for GTCE, so you had to use other mods to transport items. Who does that!? Jokes aside, we hope you enjoy Item Pipes being back in GregTech!"
 			]
 			icon: "gtceu:tin_small_item_pipe"
 			id: "539CF1B85725786D"
@@ -826,6 +826,6 @@
 			y: 1.5d
 		}
 	]
-	subtitle: ["Harness the power of Steam and learn the basics"]
-	title: "Steam Age"
+	subtitle: ["掌握基础并驾驭蒸汽的力量 Harness the power of Steam and learn the basics"]
+	title: "蒸汽时代 Steam Age"
 }
