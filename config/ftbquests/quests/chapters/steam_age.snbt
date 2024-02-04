@@ -276,7 +276,7 @@
 				"{@pagebreak}"
 				"&a友情提醒 Reminder:&r 1秒 = 20游戏刻... 假设服务器没有延迟的话。 1 second = 20 ticks... assuming the server isn't lagging."
 				""
-				"&d注意 Note:&r GT6风格的管道已被。这意味着放置管道只会将它们连接到它们被放置的方块上。要打开更多连接，使用你的扳手点击管道。GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe."
+				"&d注意 Note:&r GT6风格的管道已被启用。这意味着放置管道只会将它们连接到它们被放置的方块上。要打开更多连接，使用你的扳手点击管道。GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe."
 				""
 				"你还可以使用扳手shift右键点击来禁用一个方向的输入。这可以帮助对抗晃荡（液体朝着不希望的方向流动）。You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing (liquids travelling in an undesired direction)."
 			]
@@ -476,7 +476,7 @@
 			description: [
 				"&dPotin流体管道&r对于其材料等级和成本来说，具有&a非常高的流量&r。你可能想考虑制作一些这种管道来改善液体物流。&dPotin Fluid Pipes&r have a &avery high throughput&r for the material tier and cost. You may want to look into making some of these to aid with fluid logistics."
 				""
-				""要获得&dPotin&r，你应该先制作它的&e粉末&r形式。To get &dPotin&r, you should start by crafting its &eDust&r form."
+				"要获得&dPotin&r，你应该先制作它的&e粉末&r形式。To get &dPotin&r, you should start by crafting its &eDust&r form."
 				""
 				"这个任务需要小型或普通管道。获取任何一种尺寸即可完成它。This quest calls for either the small or normal pipe. Get either size to complete it."
 				"{@pagebreak}"
@@ -597,7 +597,7 @@
 		{
 			dependencies: ["1C50A758A1DE25CB"]
 			description: [
-				"格雷科技的矿石加工长话短说就是&a将一种矿通过转变为两种粉来把这种矿变成锭。&r，就和其他的科技模组一样。In its simplest form, Ore Processing in GregTech boils down to &aconverting one Ore into two Ingots through two Dusts&r, like several other tech mods. "
+				"格雷科技的矿石加工长话短说就是&a将一种矿通过转变为两种粉来把这种矿变成锭&r，就和其他的科技模组一样。In its simplest form, Ore Processing in GregTech boils down to &aconverting one Ore into two Ingots through two Dusts&r, like several other tech mods. "
 				""
 				"难点在于可选和必需步骤的数量。The added spice is the amount of steps, either optional or required."
 				""
@@ -668,20 +668,20 @@
 		{
 			dependencies: ["011EC2CE0111C9A0"]
 			description: [
-				"&o...or little brother. Don't let him know!&r"
+				"&o...也可能是小弟，别让他知道了！...or little brother. Don't let him know!&r"
 				""
-				"The &3Steam Oven&r is a great multiblock option if you need &6effortlessly smelt large quantities of items.&r No more lines of furnaces that you have to manually empty and refuel!"
+				"如果你需要&6轻松地熔炼大量物品&r，&3蒸汽熔炼炉&r是一个很好的多方块选项。你再也不需要手动清空和补充炉子的燃料了！The &3Steam Oven&r is a great multiblock option if you need &6effortlessly smelt large quantities of items.&r No more lines of furnaces that you have to manually empty and refuel!"
 				""
-				"It effectively behaves as a parallel furnace, smelting up to 8 items at a time for a low cost of Steam."
+				"它实际上的作用就像一个并行的熔炉，一次可以熔炼多达8个物品，而且蒸汽的消耗很低。It effectively behaves as a parallel furnace, smelting up to 8 items at a time for a low cost of Steam."
 				"{@pagebreak}"
 				""
-				"&l&3Lore:&r&o This Multiblock - despite being very similar to its brother, the Steam Grinder - isn't ported from a GregTech version or addon. Its actual progenitor is the Steam Oven from Railcraft, which dates back to 1.4.7!"
+				"&l&3你知道吗 Lore:&r&o 这个多方块结构尽管与它的兄弟蒸汽研磨机非常相似，但它并不是从格雷科技的某个版本或附加包中移植过来的。它的真正起源是Railcraft中的蒸汽烤箱，可以追溯到1.4.7版本！This Multiblock - despite being very similar to its brother, the Steam Grinder - isn't ported from a GregTech version or addon. Its actual progenitor is the Steam Oven from Railcraft, which dates back to 1.4.7!"
 			]
 			icon: "gtceu:steam_oven"
 			id: "6C25D11A26306168"
 			shape: "square"
 			size: 1.0d
-			subtitle: "The Steam Grinder's big brother"
+			subtitle: "蒸汽研磨机他哥 The Steam Grinder's big brother"
 			tasks: [
 				{
 					id: "0EA421E6E53FA6A8"
@@ -716,23 +716,23 @@
 					type: "item"
 				}
 			]
-			title: "Steam Oven"
+			title: "蒸汽熔炼炉 Steam Oven"
 			x: -8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
-			description: ["The Steam Compressor unlocks some tantalising new recipes that will help you to progress towards Steel."]
+			description: ["蒸汽压缩机解锁了一些诱人的新配方，这将帮助你朝着钢铁的方向发展。The Steam Compressor unlocks some tantalising new recipes that will help you to progress towards Steel."]
 			id: "07415D6305C3B1D2"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "The Steam Compressor compresses..."
+			subtitle: "蒸汽压缩机压缩的是... The Steam Compressor compresses..."
 			tasks: [{
 				id: "21C99D59F1BE48A3"
 				item: "gtceu:hp_steam_compressor"
 				type: "item"
 			}]
-			title: "Steam Compressor"
+			title: "高压蒸汽压缩机 Steam Compressor"
 			x: -0.5d
 			y: -1.5d
 		}
@@ -785,10 +785,10 @@
 						]
 					}
 				}
-				title: "Earlygame Item Pipes"
+				title: "游戏前期的物品管道 Earlygame Item Pipes"
 				type: "item"
 			}]
-			title: "Item Pipes"
+			title: "物品管道 Item Pipes"
 			x: 2.5d
 			y: 3.0d
 		}
