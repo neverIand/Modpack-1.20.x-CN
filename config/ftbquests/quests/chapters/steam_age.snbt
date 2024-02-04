@@ -559,17 +559,17 @@
 				"1C50A758A1DE25CB"
 			]
 			description: [
-				"Macerate Wood into Wood Pulp, then compress it into Wood Plates. Combine it with Resin to make an empty board."
+				"将木头研磨成木浆（Wood Pulp），然后压缩成木板（Wood Plank）。将其与树脂结合，制作成一个空板。Macerate Wood into Wood Pulp, then compress it into Wood Plates. Combine it with Resin to make an empty board."
 				""
-				"Stick in some expensive Copper Wires (these'll get cheaper in &7LV&r) and you've got the base for your first &aCircuit&r."
+				"插入一些昂贵的铜导线（这些在&7低压阶段&r时会变得更便宜），你就得到了第一个&a电路&r的基板。Stick in some expensive Copper Wires (these'll get cheaper in &7LV&r) and you've got the base for your first &aCircuit&r."
 				""
-				"Almost there!"
+				"就要成了！Almost there!"
 			]
 			icon: "gtceu:resin_printed_circuit_board"
 			id: "4ED5A9AEF7B928BA"
 			shape: "square"
 			size: 1.0d
-			subtitle: "The circuit-er part of circuits..."
+			subtitle: "电路\" 路\"的部分 The circuit-er part of circuits..."
 			tasks: [
 				{
 					id: "3704C06203B7485A"
@@ -581,7 +581,7 @@
 						}
 					}
 					optional_task: true
-					title: "Wood Plates"
+					title: "木板 Wood Plates"
 					type: "item"
 				}
 				{
@@ -590,49 +590,49 @@
 					type: "item"
 				}
 			]
-			title: "Electronics #2: Circuit Boards"
+			title: "电子元件#2：电路板 Electronics #2: Circuit Boards"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
 			description: [
-				"In its simplest form, Ore Processing in GregTech boils down to &aconverting one Ore into two Ingots through two Dusts&r, like several other tech mods. "
+				"格雷科技的矿石加工长话短说就是&a将一种矿通过转变为两种粉来把这种矿变成锭。&r，就和其他的科技模组一样。In its simplest form, Ore Processing in GregTech boils down to &aconverting one Ore into two Ingots through two Dusts&r, like several other tech mods. "
 				""
-				"The added spice is the amount of steps, either optional or required."
+				"难点在于可选和必需步骤的数量。The added spice is the amount of steps, either optional or required."
 				""
-				"Ore Processing will be explained further once you get into &7LV&r."
+				"一旦你进入&7低压&r阶段，矿石加工将会有更进一步的解释。Ore Processing will be explained further once you get into &7LV&r."
 				""
-				"&6This quest unlocks a new tutorial on rudimentary Ore Processing in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6这个任务在&l提示与技巧&r&6标签下解锁了一个关于基础矿石加工的新教程——查看它以了解更多信息！&r&6This quest unlocks a new tutorial on rudimentary Ore Processing in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: "gtceu:crushed_gold_ore"
 			id: "7813F183681E0342"
 			shape: "circle"
 			size: 1.0d
-			subtitle: "...and how do I get rid of it?"
+			subtitle: "...接下来我要怎么摆脱这玩意？...and how do I get rid of it?"
 			tasks: [{
 				id: "1C4CFA0AD3125A6D"
-				title: "Oh god, what have I gotten myself into!?"
+				title: "妈耶，我这是招谁惹谁了！？Oh god, what have I gotten myself into!?"
 				type: "checkmark"
 			}]
-			title: "What is this Mess?!"
+			title: "这都啥玩意啊 What is this Mess?!"
 			x: -0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
 			description: [
-				"&o...or perhaps it was the opposite?&r"
+				"&o或者...也许刚好相反？&o...or perhaps it was the opposite?&r"
 				""
-				"The &3Steam Grinder&r can pulverize &6large batches of items quickly&r and effortlessly&r, sort of like a parallel Macerator."
+				"&3蒸汽碾磨机&r可以快速且轻松地碾碎&6大批量的物品&r，有点像并行的研磨机。The &3Steam Grinder&r can pulverize &6large batches of items quickly&r and effortlessly&r, sort of like a parallel Macerator."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze."
+				"&l&3你知道吗 Lore: :&r&o 这个多方块结构最初来自GT++。它需要用Tumbaga来制作，这是一种金和青铜的混合合金。&r&o This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze."
 			]
 			icon: "gtceu:steam_grinder"
 			id: "7FF95F1216D104B2"
 			shape: "square"
 			size: 1.0d
-			subtitle: "The Steam Oven's elder brother"
+			subtitle: "蒸汽锅炉他哥 The Steam Oven's elder brother"
 			tasks: [
 				{
 					id: "478F7F5E6B4FC488"
@@ -661,7 +661,7 @@
 					type: "item"
 				}
 			]
-			title: "Steam Grinder"
+			title: "蒸汽碾磨机 Steam Grinder"
 			x: 1.0d
 			y: 3.0d
 		}
