@@ -18,40 +18,40 @@
 		{
 			dependencies: ["253860AD4DF4224C"]
 			description: [
-				"Mine some &dSulfur&r from the Nether."
+				"从地狱挖一些&d硫磺&r。Mine some &dSulfur&r from the Nether."
 				""
-				"If Lava is \"too hot to handle\", we've included a &6direct crafting recipe&r for &aPotions of Fire Resistance&r."
+				"如果岩浆太烫手，我们也提供了一个用于&a抗火药水&r的&6直接合成配方&r。If Lava is \"too hot to handle\", we've included a &6direct crafting recipe&r for &aPotions of Fire Resistance&r."
 				""
-				"&l&3Lore:&r&o With the existence of &6Small Sulfur Ores&f scattered in GregTech 5 ore veins, you could mine enough Sulfur in the Overworld to skip having to visit the Nether. Sounds broken, but it was still as much of a grind as Nether travel!"
+				"&l&3你知道吗：&r&o 随着&6小型硫磺矿&r在GregTech 5矿脉中散布的存在，你可以在主世界挖掘足够的硫磺，从而跳过去地狱的必要。听起来很破坏平衡，但这仍然和去地狱一样肝！&l&3Lore:&r&o With the existence of &6Small Sulfur Ores&f scattered in GregTech 5 ore veins, you could mine enough Sulfur in the Overworld to skip having to visit the Nether. Sounds broken, but it was still as much of a grind as Nether travel!"
 			]
 			id: "236C886D50A99785"
 			shape: "square"
 			size: 1.0d
-			subtitle: "A little bit of exploring never hurt anyone"
+			subtitle: "小小探险无伤大雅 A little bit of exploring never hurt anyone"
 			tasks: [{
 				count: 16L
 				id: "36D03210534D3226"
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			title: "S is for Sulfur"
+			title: "S代表硫磺 S is for Sulfur"
 			x: 5.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["77EA56D16A9B3BFC"]
 			description: [
-				"Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2JEI is your friend&r if recipes are getting overwhelming."
+				"好消息 - 随着你在整合包中的进一步发展，我们将开始减少你需要为任务提交的物品数量。如果配方变得让人被水淹没不知所措，记住&2JEI是你的好朋友&r。Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2JEI is your friend&r if recipes are getting overwhelming."
 				""
-				"Getting back on topic, set yourself up for &7LV&r by crafting six &aLV Electric Motors&r! This may seem like a lot, but that's the bare minimum required to get to the good stuff in &7LV&r."
+				"回到正题，通过制作六个&aLV电动马达&r来为&7低压时代&r做准备！这看起来可能有点多，但这是之后获取&7低压&r级别中的好东西所需的最低要求。Getting back on topic, set yourself up for &7LV&r by crafting six &aLV Electric Motors&r! This may seem like a lot, but that's the bare minimum required to get to the good stuff in &7LV&r."
 				""
-				"&6Once you complete this Quest and the Electronic Circuit Quest, you are ready to move on to the LV Age.&r"
+				"&6一旦你完成了这个任务和电路的任务，你就已经做好前往低压时代的准备了。&r &6Once you complete this Quest and the Electronic Circuit Quest, you are ready to move on to the LV Age.&r"
 			]
 			icon: "gtceu:lv_electric_motor"
 			id: "5A8F0124E07D5025"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Low Voltage beckons..."
+			subtitle: "低压时代的问候... Low Voltage beckons..."
 			tasks: [{
 				count: 6L
 				icon: "gtceu:lv_electric_motor"
@@ -59,88 +59,88 @@
 				item: "gtceu:lv_electric_motor"
 				type: "item"
 			}]
-			title: "The First of Many Motors"
+			title: "（后面非常多电机中的）第一个电机 The First of Many Motors"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2658E7679CD42ACD"]
 			description: [
-				"Obtaining paper is both more difficult and less efficient than in vanilla. Thanks, Greg."
+				"获得纸既比原版难也比原版简单。谢谢你，格雷科技。Obtaining paper is both more difficult and less efficient than in vanilla. Thanks, Greg."
 				""
-				"You'll need to grind &aSugar Canes&r into &aPaper Dust&r, and then smush the dust with a mallet and water."
+				"你需要将&a甘蔗&r磨成&a纸粉&r，然后用软锤和水将粉末压制成型。You'll need to grind &aSugar Canes&r into &aPaper Dust&r, and then smush the dust with a mallet and water."
 				"{@pagebreak}"
-				"&9Note 1:&r Don't worry, we're not cruel enough to have the recipe consume the bucket."
+				"&9注意1 Note 1:&r 别担心，我们还没变态到要让这个配方消耗桶的地步。Don't worry, we're not cruel enough to have the recipe consume the bucket."
 				"{@pagebreak}"
-				"&9Note 2:&r Make a manual Sugar Cane farm. You could also automate one with Observers and Pistons. Shoutout to any &aNomifactory&r veterans."
+				"&9注意2 Note 2:&r 造一个手动的甘蔗农场。你也可以使用侦测器和活塞来自动化农场。向所有的&aNomifactory&r老手致敬。 Make a manual Sugar Cane farm. You could also automate one with Observers and Pistons. Shoutout to any &aNomifactory&r veterans."
 				"{@pagebreak}"
-				"&9Note 3:&r As a reminder, Bone Meal can be used on Sugar Canes."
+				"&9注意3 Note 3:&r 提醒一下，甘蔗可以用骨粉催熟。 As a reminder, Bone Meal can be used on Sugar Canes."
 				"{@pagebreak}"
-				"&9Note 4:&r When you reach &7LV&r, you'll be able to make Paper from Wood."
+				"&9注意4 Note 4:&r 当你进入&7低压时代&r后，你就能用木头造纸了。When you reach &7LV&r, you'll be able to make Paper from Wood."
 				"{@pagebreak}"
-				"&9Note 5:&r The Crafting Station makes this microcrafting absolutely &2trivial&r - use it!"
+				"&9注意5 Note 5:&r 这种小型合成对于合成台（？）是&2小菜一碟&r——记得善加利用！ The Crafting Station makes this microcrafting absolutely &2trivial&r - use it!"
 				"{@pagebreak}"
-				"&9Note 6:&r Paper will be used as a poor wrapping material for the upcoming resistors."
+				"&9注意6 Note 6:&r 在之后的电阻中纸会被用作一种比较拉的包装材料。Paper will be used as a poor wrapping material for the upcoming resistors."
 				"{@pagebreak}"
-				"&9Note 7:&r It is truly a pleasure to share this moment with you, our fellow Greg enjoyer."
+				"&9注意7 Note 7:&r 与你这位同样喜爱Greg的朋友分享这一刻真是泰裤啦。It is truly a pleasure to share this moment with you, our fellow Greg enjoyer."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GTCEu 1.12.2, Paper Dust was instead named Chad, prompting this quest to be full of memes."
+				"&l&3你知道吗 Lore:&r&o 在GTCEu 1.12.2中，纸粉被命名为Chad，这导致这个任务充满了梗。In GTCEu 1.12.2, Paper Dust was instead named Chad, prompting this quest to be full of memes."
 			]
 			id: "76B70EF552B35779"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "#realism"
+			subtitle: "#太真实了 #realism"
 			tasks: [{
 				count: 4L
 				id: "5DCE370285F5B2C6"
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			title: "Greg has struck again"
+			title: "格雷科技重拳出击（又一次）Greg has struck again"
 			x: 11.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5C7B69F45F076A79"]
 			description: [
-				"&6GregTech&r can quickly get &4overwhelming&r with the plethora of fluids it introduces, so you may be looking for a way to store them. "
+				"&6格雷科技&r引入了大量的流体，这可能很快让人感到&4不知所措&r，所以你可能正在寻找一种存储它们的方法。&6GregTech&r can quickly get &4overwhelming&r with the plethora of fluids it introduces, so you may be looking for a way to store them. "
 				""
-				"Introducing... &aDrums&r! They have large internal buffers, and any &aDrum&r can be broken and picked up and will &dkeep the fluid&r inside."
+				"隆重向您介绍...  &a鼓形容器（桶）&r！它们有大容量的内部缓冲容量，且任何&a桶&r都可以被破坏并拾起，并且会&d保留里面的流体&r。（译注：除非特别说明，否则下文中的桶都指的是drum-我也不知道为啥他们是这么翻译的） Introducing... &aDrums&r! They have large internal buffers, and any &aDrum&r can be broken and picked up and will &dkeep the fluid&r inside."
 				"{@pagebreak}"
-				"&l&4[ NOT YET IMPLEMENTED ]"
+				"&l&4[ 未实现 NOT YET IMPLEMENTED ]"
 				""
-				"Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
+				"另外，机器中的&b内部液体容器&r会与含有流体的物品互动。这对于手工合成来说很棒 - 因为这意味着你可以在制作中使用流体桶（drum），而不是多个桶（bucket）。要&5清空&r桶中的流体，将其单独放置在任何合成界面中。Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
 				""
-				"&o&7Pssst:&r &oA right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
+				"&o&7小声bb Pssst:&r &oA 使用螺丝刀右键点击可以让桶将其内容排放到下方放置的另一个容器中。如果你想让你的液体锅炉燃料持续更长时间，这是一个很好的方法。right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o These drums are actually ported from GregTech 6."
+				"&l&3你知道吗 Lore:&r&o 这些桶实际上是从格雷科技6移植过来的。These drums are actually ported from GregTech 6."
 			]
 			id: "2B74E56C9E138F18"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Just kidding, tanks for fluids"
+			subtitle: "开玩笑的，我指的是液体容器 Just kidding, tanks for fluids"
 			tasks: [{
 				id: "5876092FAA1763E0"
 				item: "gtceu:bronze_drum"
 				type: "item"
 			}]
-			title: "Armoured Tanks"
+			title: "装甲坦克 Armoured Tanks"
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5C7B69F45F076A79"]
 			description: [
-				"Make the listed molds for future alloy smelting. Be sure to make &aMolds&r - don't make &cExtruder Shapes&r, as they're used in a different machine."
+				"制作列出的模具，用于未来的合金熔炼。确保制作&a模具&r - 不要制作&c模头&r，因为它们用于不同的机器。Make the listed molds for future alloy smelting. Be sure to make &aMolds&r - don't make &cExtruder Shapes&r, as they're used in a different machine."
 				""
-				"The reward for this quest will alleviate &da lot of pain&r when it comes to crafting &bGears&r."
+				"这个任务的奖励能在之后你合成&b齿轮&r的时候&d大幅减轻&r你的痛苦。The reward for this quest will alleviate &da lot of pain&r when it comes to crafting &bGears&r."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:ball_casting_mold"
 			id: "22997534983F6812"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Reduce the amount of malding by molding"
+			subtitle: "通过制模减少发怒 Reduce the amount of malding by molding"
 			tasks: [
 				{
 					id: "33DCDFE73740AF97"
@@ -158,7 +158,7 @@
 					type: "item"
 				}
 			]
-			title: "Malding"
+			title: "*愤怒* Malding"
 			x: 4.0d
 			y: -3.0d
 		}
