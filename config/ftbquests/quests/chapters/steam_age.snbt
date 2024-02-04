@@ -343,23 +343,23 @@
 		{
 			dependencies: ["249374557D095913"]
 			description: [
-				"Crafting Vacuum Tubes might make you question your existence. Sorry about that."
+				"制作真空管可能会让你质疑自己存在的合理性。对此我们感到抱歉。Crafting Vacuum Tubes might make you question your existence. Sorry about that."
 				""
-				"This is mostly due to the fact that Wires and Rods are (sadly) very expensive right now, but they'll get cheaper in &7LV&r."
+				"这主要是因为导线和杆现在非常昂贵（遗憾），但它们在&7低压&r阶段会变得更便宜。This is mostly due to the fact that Wires and Rods are (sadly) very expensive right now, but they'll get cheaper in &7LV&r."
 				""
-				"Vacuum Tubes are also technically your first Ultra Low Voltage (&8ULV&r) Circuit! Congratulations! You won't find very much use for these by themselves, though."
+				"真空管从技术上来说也是你的第一个超低电压（&8ULV&r）电路！恭喜你！不过，你不会发现它们本身有太多用处。Vacuum Tubes are also technically your first Ultra Low Voltage (&8ULV&r) Circuit! Congratulations! You won't find very much use for these by themselves, though."
 			]
 			id: "3CF550B81716B8B9"
 			shape: "square"
 			size: 1.0d
-			subtitle: "The harder component for circuits"
+			subtitle: "电路中更棘手的元件 The harder component for circuits"
 			tasks: [{
 				count: 2L
 				id: "099C373568DF4500"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			title: "Electronics #3: Vacuum Tubes"
+			title: "电子元件#3：真空管 Electronics #3: Vacuum Tubes"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -369,29 +369,29 @@
 				"48AED37B4E20A99A"
 			]
 			description: [
-				"Use Mortars or a Macerator (your choice) to microcraft your way to Glass Dust, which you can then turn into a &aGlass Block&r."
+				"使用研钵或研磨机（任君选择）来微加工制成玻璃粉，然后可以将其转化为&a玻璃块&r。Use Mortars or a Macerator (your choice) to microcraft your way to Glass Dust, which you can then turn into a &aGlass Block&r."
 				""
-				"If you are lost, a more detailed guide for this process is on the next page, but &dwe urge you to nose around JEI&r and figure out the recipe on your own. Being able to navigate JEI and parse recipes is an &6essential skill&r for completing this pack."
+				"如果你对这个过程感到迷茫，下一页有更详细的指南，但&d我们鼓励你在JEI中四处寻找&r并自己弄清楚配方。能够熟练使用JEI和解析配方是完成这个整合包的&6基本技能&r。If you are lost, a more detailed guide for this process is on the next page, but &dwe urge you to nose around JEI&r and figure out the recipe on your own. Being able to navigate JEI and parse recipes is an &6essential skill&r for completing this pack."
 				""
-				"Glass will be easier later on. You've probably already noticed that juicy &3Arc Furnace&r recipe - don't worry, we'll get there soon."
+				"以后制作玻璃会更容易。你可能已经注意到了那个诱人的&3电弧炉&r配方——别担心，我们很快就会到达那里。Glass will be easier later on. You've probably already noticed that juicy &3Arc Furnace&r recipe - don't worry, we'll get there soon."
 				""
-				"Glass tubes will be required for your first Electronic Circuit."
+				"玻璃管将用于你的第一个电子电路。Glass tubes will be required for your first Electronic Circuit."
 				"{@pagebreak}"
-				"Lost? Worry not!"
+				"感到迷茫吗？无需担心！Lost? Worry not!"
 				""
-				"First, use a &3method of pulverisation&r to turn Sand into &9Quartz Sand Dust&r."
+				"首先，使用&3粉碎方法&r将沙子转化为&9石英沙粉&r。First, use a &3method of pulverisation&r to turn Sand into &9Quartz Sand Dust&r."
 				""
-				"Next, crush down some Flint into &9Flint Dust&r, and split this dust into tiny piles in a crafting grid."
+				"接着，将燧石粉碎成&9燧石粉&r，并在合成界面中将这些粉末分成小堆。Next, crush down some Flint into &9Flint Dust&r, and split this dust into tiny piles in a crafting grid."
 				""
-				"Combine the two into &9Glass Dust&r, which can be molded into Glass in an Alloy Smelter with a &9Block Mold&r."
+				"将这两种粉末组合成&9玻璃粉&r，然后在合金炉中使用&9模具（块）&r将其模制成玻璃。Combine the two into &9Glass Dust&r, which can be molded into Glass in an Alloy Smelter with a &9Block Mold&r."
 				""
-				"Finally, Glass!"
+				"终于，玻璃做好了！Finally, Glass!"
 			]
 			icon: "minecraft:glass"
 			id: "249374557D095913"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Must be satisfying, right?"
+			subtitle: "这酸爽，不敢相信 Must be satisfying, right?"
 			tasks: [
 				{
 					id: "4B958F6E2AA74763"
@@ -404,29 +404,29 @@
 					type: "item"
 				}
 			]
-			title: "Glass, at last!"
+			title: "终于，玻璃！Glass, at last!"
 			x: 2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
 			description: [
-				"&4Red Alloy&r is an alloy of Copper and Redstone, prized in the GregTech universe for its conductivity."
+				"&4红色合金&r是铜和红石的合金，在格雷科技宇宙中因其导电性而受到重视。&4Red Alloy&r is an alloy of Copper and Redstone, prized in the GregTech universe for its conductivity."
 				""
-				"You will need some for &9Electronic Circuits&r."
+				"你将需要一些用于&9电子电路&r。You will need some for &9Electronic Circuits&r."
 				""
-				"&l&3Lore:&r&o This material originally comes from RedPower - what a throwback!"
+				"&l&3你知道吗 Lore:&r&o 这种材料最初来自RedPower模组——真是怀旧！ This material originally comes from RedPower - what a throwback!"
 			]
 			id: "54AF8696674766B4"
 			shape: "square"
 			size: 1.0d
-			subtitle: "A completely fictional alloy"
+			subtitle: "完全虚构的合金 A completely fictional alloy"
 			tasks: [{
 				id: "4D3C4CF6577957A1"
 				item: "gtceu:red_alloy_ingot"
 				type: "item"
 			}]
-			title: "Red Alloy"
+			title: "红色合金 Red Alloy"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -439,21 +439,21 @@
 				"77EA56D16A9B3BFC"
 			]
 			description: [
-				"We made it to &7LV&r! Give yourself a pat on the back!"
+				"我们终于到达了&7低压时代&r！给自己一个赞！We made it to &7LV&r! Give yourself a pat on the back!"
 				""
-				"Just kidding (lol), you actually need three Circuits to get started anywhere relevant in &7LV&r. Thankfully for you, someone left this spare circuit laying around."
+				"开个玩笑（英雄联盟），你实际上需要三个电路才能在&7低压&r级别的任何相关领域开始发展。幸运的是，有人留下了这个备用电路。Just kidding (lol), you actually need three Circuits to get started anywhere relevant in &7LV&r. Thankfully for you, someone left this spare circuit laying around."
 				""
-				"We also want you to make an &aLV Machine Hull&r for this quest. You'll need one if you're to make any &7LV&r machine. We're feeling generous enough that this quest will grant you a second Hull, free of charge!"
+				"我们还希望你在这个任务中制作一个&aLV机器外壳&r。如果你要制作任何&7低压&r级别的机器，你会需要它的。我们非常慷慨，这个任务将免费赠送给你第二个外壳！We also want you to make an &aLV Machine Hull&r for this quest. You'll need one if you're to make any &7LV&r machine. We're feeling generous enough that this quest will grant you a second Hull, free of charge!"
 				""
-				"Circuits are an integral part of progression in GregTech, so keep climbing."
+				"电路是格雷科技进展中不可或缺的部分，所以继续攀登吧。Circuits are an integral part of progression in GregTech, so keep climbing."
 				""
-				"&6Once you complete this Quest and the LV Motor Quest, you are ready to move on to the LV Age.&r"
+				"&6一旦你完成了这个任务和LV电动马达任务，你就准备好进入低压时代了。&r &6Once you complete this Quest and the LV Motor Quest, you are ready to move on to the LV Age.&r"
 			]
 			icon: "gtceu:basic_electronic_circuit"
 			id: "4B979482EF026BFF"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Your first &aElectronic Circuit&r!"
+			subtitle: "你的第一个&a电路&r！Your first &aElectronic Circuit&r!"
 			tasks: [
 				{
 					count: 2L
@@ -467,28 +467,28 @@
 					type: "item"
 				}
 			]
-			title: "Electronics #4: The Circuit"
+			title: "电子元件#4：电路 Electronics #4: The Circuit"
 			x: 9.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1FFD2242B94A7378"]
 			description: [
-				"&dPotin Fluid Pipes&r have a &avery high throughput&r for the material tier and cost. You may want to look into making some of these to aid with fluid logistics."
+				"&dPotin流体管道&r对于其材料等级和成本来说，具有&a非常高的流量&r。你可能想考虑制作一些这种管道来改善液体物流。&dPotin Fluid Pipes&r have a &avery high throughput&r for the material tier and cost. You may want to look into making some of these to aid with fluid logistics."
 				""
-				"To get &dPotin&r, you should start by crafting its &eDust&r form."
+				""要获得&dPotin&r，你应该先制作它的&e粉末&r形式。To get &dPotin&r, you should start by crafting its &eDust&r form."
 				""
-				"This quest calls for either the small or normal pipe. Get either size to complete it."
+				"这个任务需要小型或普通管道。获取任何一种尺寸即可完成它。This quest calls for either the small or normal pipe. Get either size to complete it."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o &dPotin Fluid Pipes&r were originally created in &9GT++&r, and were a huge power spike for players in a little pack called &4GT:NH&r. We wanted to spread some of that joy."
+				"&l&3你知道吗 Lore:&r&o &dPotin流体管道&r最初在&9GT++&r中创建，它们为一个名为&4GT:NH&r的小整合包中的玩家带来了巨大的能量飙升。我们想要传播一些那样的快乐。 &dPotin Fluid Pipes&r were originally created in &9GT++&r, and were a huge power spike for players in a little pack called &4GT:NH&r. We wanted to spread some of that joy."
 				""
-				"In the real world, &dPotin&r is an alloy used in coins, not pipes. GTCEu just gets more unrealistic by the day..."
+				"在现实世界中，&dPotin&r是用于硬币的合金，而不是管道。GTCEu一天比一天更不现实了... In the real world, &dPotin&r is an alloy used in coins, not pipes. GTCEu just gets more unrealistic by the day..."
 			]
 			icon: "gtceu:potin_normal_fluid_pipe"
 			id: "3C70B0717E9377A4"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "...I'm going into battle, and I need only your finest Potin."
+			subtitle: "...我要上战场了，而我要只你们最好的Potin。...I'm going into battle, and I need only your finest Potin."
 			tasks: [{
 				id: "1D53AAFD7F6F8B2B"
 				item: {
@@ -498,58 +498,58 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:potin_tiny_fluid_pipe)item(gtceu:potin_small_fluid_pipe)item(gtceu:potin_normal_fluid_pipe)item(gtceu:potin_large_fluid_pipe)item(gtceu:potin_huge_fluid_pipe)item(gtceu:potin_huge_fluid_pipe)item(gtceu:potin_quadruple_fluid_pipe)item(gtceu:potin_nonuple_fluid_pipe))"
 					}
 				}
-				title: "Any Potin Pipe"
+				title: "任意Potin管道 Any Potin Pipe"
 				type: "item"
 			}]
-			title: "Potin Seller..."
+			title: "推销Potin的，，，Potin Seller..."
 			x: -2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"With the creation of this machine, many recipes that once required you to use a hammer can instead be made here!"
+				"有了这台机器，许多曾经需要你使用锤子的配方现在可以在这里制作！With the creation of this machine, many recipes that once required you to use a hammer can instead be made here!"
 				""
-				"It can process &bCobblestone into Gravel&r, and &dGravel into Sand&r - and it's zippy at that to boot."
+				"它可以将&b圆石处理成沙砾&r，以及将&d沙砾处理成沙子&r——而且速度非常快。It can process &bCobblestone into Gravel&r, and &dGravel into Sand&r - and it's zippy at that to boot."
 				""
-				"Last but not least, it makes &aPlates&r at a better ratio: &6three Ingots for two Plates&r. A worthwhile investment!"
+				"不仅如此，它以更好的比例制作&a板材&r：&6三个锭换两个板&r。这是一项值得投资的事业！Last but not least, it makes &aPlates&r at a better ratio: &6three Ingots for two Plates&r. A worthwhile investment!"
 				""
-				"You know what? &aBonus&r! We'll give you the &8Anvil&r back if you craft the Forge Hammer. This is a gentle reminder that you can repair GregTech tools in an Anvil."
+				"嘿！您猜怎么着？&a额外奖励&r！如果你制作了锻造锤，我们会返还&8铁砧&r。这是一个友情提醒，你可以在铁砧上修理格雷科技的工具。You know what? &aBonus&r! We'll give you the &8Anvil&r back if you craft the Forge Hammer. This is a gentle reminder that you can repair GregTech tools in an Anvil."
 			]
 			id: "1931FC6DEAC29646"
 			shape: "square"
 			size: 1.0d
-			subtitle: "The Forge Hammer hammers..."
+			subtitle: "锻造锤锤的是... The Forge Hammer hammers..."
 			tasks: [{
 				id: "4F4074D7CE5A61A0"
 				item: "gtceu:hp_steam_forge_hammer"
 				type: "item"
 			}]
-			title: "Steam Forge Hammer"
+			title: "高压蒸汽锻造锤 Steam Forge Hammer"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"The &bMacerator&r frees you from the painful process of &egrinding stuff into dust&r with a &3Mortar&r, but at the steep cost of time. Processing a single piece of Iron Ore in this machine will take &ctwenty seconds&r - twice the time it takes to smelt an ingot in a furnace!"
+				"&b研磨机&r会把你从使用&3研钵&r手动&e磨粉&r的痛苦过程中解放，但代价是时间。在这台机器中处理单个铁矿石将花费&c二十秒&r——是熔炉熔炼一个锭所需时间的两倍！The &bMacerator&r frees you from the painful process of &egrinding stuff into dust&r with a &3Mortar&r, but at the steep cost of time. Processing a single piece of Iron Ore in this machine will take &ctwenty seconds&r - twice the time it takes to smelt an ingot in a furnace!"
 				""
-				"The Macerator also marks the advent of &eOre Processing&r, but that's a scary topic that we'll dip our toes into in the next quest."
+				"研磨机还标志着&e矿石加工&r的到来，但这是一个我们将在下一个任务中浅尝辄止的可怕话题。The Macerator also marks the advent of &eOre Processing&r, but that's a scary topic that we'll dip our toes into in the next quest."
 				"{@pagebreak}"
-				"The macerator will output only the first item shown in recipes from JEI. The other slots are locked until you make a &6HV&r Macerator. How unfortunate..."
+				"研磨机只会输出JEI配方中显示的第一项物品。其他槽位在你制作&6HV（高压）&r级别研磨机之前是锁定的。多么不幸... The macerator will output only the first item shown in recipes from JEI. The other slots are locked until you make a &6HV&r Macerator. How unfortunate..."
 				""
-				"Our (&oimportant!&r) advice: it's actually better to keep directly smelting for now! The efficiency loss is made up with faster mining. Use the Macerator to make things like &aClay Dust&r instead!"
+				"我们的（&o重要！&r）建议：实际上现在直接熔炼更好！效率损失可以通过更快的采矿来弥补。使用粉碎机制作像&a粘土粉&r这样的东西吧！Our (&oimportant!&r) advice: it's actually better to keep directly smelting for now! The efficiency loss is made up with faster mining. Use the Macerator to make things like &aClay Dust&r instead!"
 			]
 			id: "1C50A758A1DE25CB"
 			shape: "square"
 			size: 1.0d
-			subtitle: "The Macerator macerates..."
+			subtitle: "研磨机研磨的是... The Macerator macerates..."
 			tasks: [{
 				id: "6DFD6AC8CF31305C"
 				item: "gtceu:hp_steam_macerator"
 				type: "item"
 			}]
-			title: "Steam Macerator"
+			title: "高压蒸汽研磨机 Steam Macerator"
 			x: -0.5d
 			y: 1.5d
 		}
