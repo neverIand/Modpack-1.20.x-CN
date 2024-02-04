@@ -373,6 +373,12 @@ global.MINECRAFT_DISABLED_ITEMS = [
     "minecraft:mangrove_sign",
     "minecraft:mangrove_hanging_sign",
 
+    // Бамбук
+    'minecraft:bamboo_sign',
+    'minecraft:bamboo_hanging_sign',
+    'minecraft:bamboo_raft',
+    'minecraft:bamboo_chest_raft',
+
     // Шалкеры
     'minecraft:shulker_box', 
     'minecraft:white_shulker_box', 
@@ -550,8 +556,6 @@ global.MINECRAFT_DISABLED_ITEMS = [
     'minecraft:gravel',
     'minecraft:moss_block',
     'minecraft:moss_carpet',
-    'minecraft:bamboo_raft',
-    'minecraft:bamboo_chest_raft',
     'minecraft:large_fern', 
     'minecraft:tall_grass', 
     'minecraft:sculk_vein', 
@@ -732,11 +736,9 @@ global.MINECRAFT_DISABLED_ITEMS = [
     'minecraft:raw_copper_block',
     'minecraft:compass',
     'minecraft:iron_bars',
-];
 
-global.MINECRAFT_HIDED_ITEMS = [
-    '/spawn_egg/',
-    
+    // Кримзон незер дерево
+    // TODO: Разблокировать после добавления ада
     'minecraft:crimson_stem', 
     'minecraft:crimson_hyphae', 
     'minecraft:stripped_crimson_stem', 
@@ -751,6 +753,8 @@ global.MINECRAFT_HIDED_ITEMS = [
     'minecraft:crimson_pressure_plate', 
     'minecraft:crimson_button',
 
+    // Варпед незер дерево
+    // TODO: Разблокировать после добавления ада
     'minecraft:warped_stem', 
     'minecraft:warped_hyphae', 
     'minecraft:stripped_warped_stem', 
@@ -765,6 +769,8 @@ global.MINECRAFT_HIDED_ITEMS = [
     'minecraft:warped_pressure_plate', 
     'minecraft:warped_button',
 
+    // Куча незер блоков
+    // TODO: Разблокировать после добавления ада
     'minecraft:polished_blackstone_bricks', 
     'minecraft:cracked_polished_blackstone_bricks', 
     'minecraft:polished_blackstone_brick_stairs', 
@@ -798,19 +804,8 @@ global.MINECRAFT_HIDED_ITEMS = [
     'minecraft:polished_blackstone_pressure_plate', 
     'minecraft:polished_blackstone_button',
 
-    'minecraft:exposed_copper', 
-    'minecraft:exposed_cut_copper', 
-    'minecraft:exposed_cut_copper_stairs', 
-    'minecraft:exposed_cut_copper_slab', 
-    'minecraft:weathered_copper', 
-    'minecraft:weathered_cut_copper', 
-    'minecraft:weathered_cut_copper_stairs', 
-    'minecraft:weathered_cut_copper_slab', 
-    'minecraft:oxidized_copper', 
-    'minecraft:oxidized_cut_copper', 
-    'minecraft:oxidized_cut_copper_stairs', 
-    'minecraft:oxidized_cut_copper_slab',
-
+    // И еще куча незер блоков
+    // TODO: Разблокировать после добавления ада
     'minecraft:crying_obsidian', 
     'minecraft:crimson_nylium', 
     'minecraft:warped_nylium', 
@@ -837,6 +832,25 @@ global.MINECRAFT_HIDED_ITEMS = [
     'minecraft:respawn_anchor',
 ];
 
+global.MINECRAFT_HIDED_ITEMS = [
+    '/spawn_egg/',
+    
+    'minecraft:honeycomb', // TODO: Пока что скрыто, не пойму нахера нужно в ТФК и как его получить
+
+    'minecraft:exposed_copper', 
+    'minecraft:exposed_cut_copper', 
+    'minecraft:exposed_cut_copper_stairs', 
+    'minecraft:exposed_cut_copper_slab', 
+    'minecraft:weathered_copper', 
+    'minecraft:weathered_cut_copper', 
+    'minecraft:weathered_cut_copper_stairs', 
+    'minecraft:weathered_cut_copper_slab', 
+    'minecraft:oxidized_copper', 
+    'minecraft:oxidized_cut_copper', 
+    'minecraft:oxidized_cut_copper_stairs', 
+    'minecraft:oxidized_cut_copper_slab',
+];
+
 global.VANILLA_WOOD_TYPES = [
     "oak",
     "spruce",
@@ -846,7 +860,8 @@ global.VANILLA_WOOD_TYPES = [
     "cherry",
     "dark_oak",
     "mangrove",
-    "bamboo",
+    "crimson", // TODO: Разблокировать когда появится АД
+    "warped" // TODO: Разблокировать когда появится АД
 ];
 
 global.VANILLA_STONE_TYPES = [

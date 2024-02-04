@@ -32,6 +32,12 @@
         },
         {
             "id": "/emi:/crafting/repairing/[^*]+/"
+        },
+        {
+            "id": "/emi:/grindstone/repairing/minecraft/[^*]+/"
+        },
+        {
+            "id": "/emi:/crafting/shulker_box_dying/minecraft/[^*]+/"
         }
     ]
 }

@@ -70,6 +70,7 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Булыжник плита
 
     event.remove({ id: 'minecraft:cobblestone_slab' })
+    event.remove({ id: 'gtceu:shaped/cobblestone_slab_saw' })
     event.remove({ id: 'minecraft:cobblestone_slab_from_cobblestone_stonecutting' })
 
     //#endregion
@@ -99,6 +100,7 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Каменные кирпичи плита
 
     event.remove({ id: 'minecraft:stone_brick_slab' })
+    event.remove({ id: 'gtceu:shaped/stone_brick_slab_saw' })
     event.remove({ id: 'minecraft:stone_brick_slab_from_stone_stonecutting' })
     event.remove({ id: 'minecraft:stone_brick_slab_from_stone_bricks_stonecutting' })
 
@@ -611,12 +613,9 @@ const registerMinecraftRecipes = (event) => {
 
     event.remove({ id: 'minecraft:coal_from_smelting_coal_ore' })
     event.remove({ id: 'minecraft:coal_from_smelting_deepslate_coal_ore' })
+    
     event.remove({ id: 'minecraft:coal_from_blasting_coal_ore' })
     event.remove({ id: 'minecraft:coal_from_blasting_deepslate_coal_ore' })
-    event.remove({ id: 'ad_astra:recipes/coal_from_smelting_venus_coal_ore' })
-    event.remove({ id: 'ad_astra:recipes/coal_from_blasting_venus_coal_ore' })
-    event.remove({ id: 'ad_astra:recipes/coal_from_smelting_glacio_coal_ore' })
-    event.remove({ id: 'ad_astra:recipes/coal_from_blasting_glacio_coal_ore' })
 
     //#endregion
 
@@ -624,10 +623,9 @@ const registerMinecraftRecipes = (event) => {
 
     event.remove({ id: 'minecraft:copper_ingot_from_smelting_copper_ore' })
     event.remove({ id: 'minecraft:copper_ingot_from_smelting_deepslate_copper_ore' })
-    event.remove({ id: 'ad_astra:recipes/copper_ingot_from_smelting_glacio_copper_ore' })
+    
     event.remove({ id: 'minecraft:copper_ingot_from_blasting_copper_ore' })
     event.remove({ id: 'minecraft:copper_ingot_from_blasting_deepslate_copper_ore' })
-    event.remove({ id: 'ad_astra:recipes/copper_ingot_from_blasting_glacio_copper_ore' })
 
     //#endregion
 
@@ -635,16 +633,9 @@ const registerMinecraftRecipes = (event) => {
 
     event.remove({ id: 'minecraft:iron_ingot_from_smelting_iron_ore' })
     event.remove({ id: 'minecraft:iron_ingot_from_smelting_deepslate_iron_ore' })
+    
     event.remove({ id: 'minecraft:iron_ingot_from_blasting_iron_ore' })
     event.remove({ id: 'minecraft:iron_ingot_from_blasting_deepslate_iron_ore' })
-    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_smelting_moon_iron_ore' })
-    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_blasting_moon_iron_ore' })
-    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_smelting_mercury_iron_ore' })
-    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_blasting_mercury_iron_ore' })
-    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_smelting_mars_iron_ore' })
-    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_blasting_mars_iron_ore' })
-    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_smelting_glacio_iron_ore' })
-    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_blasting_glacio_iron_ore' })
 
     //#endregion
 
@@ -652,10 +643,9 @@ const registerMinecraftRecipes = (event) => {
 
     event.remove({ id: 'minecraft:lapis_lazuli_from_smelting_lapis_ore' })
     event.remove({ id: 'minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore' })
-    event.remove({ id: 'ad_astra:recipes/lapis_lazuli_from_smelting_glacio_lapis_ore' })
+    
     event.remove({ id: 'minecraft:lapis_lazuli_from_blasting_lapis_ore' })
     event.remove({ id: 'minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore' })
-    event.remove({ id: 'ad_astra:recipes/lapis_lazuli_from_blasting_glacio_lapis_ore' })
 
     //#endregion
 
@@ -664,17 +654,17 @@ const registerMinecraftRecipes = (event) => {
     event.remove({ id: 'minecraft:gold_ingot_from_smelting_gold_ore' })
     event.remove({ id: 'minecraft:gold_ingot_from_smelting_deepslate_gold_ore' })
     event.remove({ id: 'minecraft:gold_ingot_from_smelting_nether_gold_ore' })
-    event.remove({ id: 'ad_astra:recipes/gold_ingot_from_smelting_venus_gold_ore' })
+    
     event.remove({ id: 'minecraft:gold_ingot_from_blasting_gold_ore' })
     event.remove({ id: 'minecraft:gold_ingot_from_blasting_deepslate_gold_ore' })
     event.remove({ id: 'minecraft:gold_ingot_from_blasting_nether_gold_ore' })
-    event.remove({ id: 'ad_astra:recipes/gold_ingot_from_blasting_venus_gold_ore' })
 
     //#endregion
 
     //#region Выход: Золотой самородок
 
     event.remove({ id: 'minecraft:gold_nugget_from_smelting' })
+    
     event.remove({ id: 'minecraft:gold_nugget_from_blasting' })
 
     //#endregion
@@ -683,6 +673,7 @@ const registerMinecraftRecipes = (event) => {
 
     event.remove({ id: 'minecraft:redstone_from_smelting_redstone_ore' })
     event.remove({ id: 'minecraft:redstone_from_smelting_deepslate_redstone_ore' })
+    
     event.remove({ id: 'minecraft:redstone_from_blasting_redstone_ore' })
     event.remove({ id: 'minecraft:redstone_from_blasting_deepslate_redstone_ore' })
 
@@ -692,6 +683,7 @@ const registerMinecraftRecipes = (event) => {
 
     event.remove({ id: 'minecraft:emerald_from_smelting_emerald_ore' })
     event.remove({ id: 'minecraft:emerald_from_smelting_deepslate_emerald_ore' })
+    
     event.remove({ id: 'minecraft:emerald_from_blasting_emerald_ore' })
     event.remove({ id: 'minecraft:emerald_from_blasting_deepslate_emerald_ore' })
 
@@ -701,12 +693,9 @@ const registerMinecraftRecipes = (event) => {
 
     event.remove({ id: 'minecraft:diamond_from_smelting_diamond_ore' })
     event.remove({ id: 'minecraft:diamond_from_smelting_deepslate_diamond_ore' })
-    event.remove({ id: 'ad_astra:recipes/diamond_from_smelting_venus_diamond_ore' })
-    event.remove({ id: 'ad_astra:recipes/diamond_from_smelting_mars_diamond_ore' })
+
     event.remove({ id: 'minecraft:diamond_from_blasting_diamond_ore' })
     event.remove({ id: 'minecraft:diamond_from_blasting_deepslate_diamond_ore' })
-    event.remove({ id: 'ad_astra:recipes/diamond_from_blasting_venus_diamond_ore' })
-    event.remove({ id: 'ad_astra:recipes/diamond_from_blasting_mars_diamond_ore' })
 
     //#endregion
 
@@ -786,6 +775,7 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Гладкий песчанник ступень
 
     event.remove({ id: 'minecraft:smooth_sandstone_stairs' })
+    event.remove({ id: 'gtceu:shaped/smooth_sandstone_slab_saw' })
     event.remove({ id: 'minecraft:smooth_sandstone_stairs_from_smooth_sandstone_stonecutting' })
 
     //#endregion
@@ -864,6 +854,7 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Красный гладкий песчанник плита
 
     event.remove({ id: 'minecraft:smooth_red_sandstone_slab' })
+    event.remove({ id: 'gtceu:shaped/red_sandstone_slab_saw' })
     event.remove({ id: 'minecraft:smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting' })
 
     //#endregion
@@ -898,7 +889,7 @@ const registerMinecraftRecipes = (event) => {
 
     //#region Выход: Земля
 
-    event.remove({ id: 'ae2:entropy/cool/grass_block_dirt' })
+    event.remove({ id: 'ae2:entropy/cool/grass_block_dirt' }) // TODO: Сделать с тфк землей
 
     event.recipes.gtceu.macerator('dirt_from_bio_chaff')             
         .itemInputs('gtceu:bio_chaff')
@@ -945,8 +936,14 @@ const registerMinecraftRecipes = (event) => {
         event.remove({ id: `gtceu:assembler/${wood}_fence_gate` })
         event.remove({ id: `minecraft:${wood}_sign` })
         event.remove({ id: `minecraft:${wood}_hanging_sign` })
+        event.remove({ id: `gtceu:assembler/${wood}_sign` })
     });
 
+    event.remove({ id: 'minecraft:stripped_warped_hyphae' })
+    event.remove({ id: 'minecraft:warped_hyphae' })
+    event.remove({ id: 'minecraft:stripped_crimson_hyphae' })
+    event.remove({ id: 'minecraft:crimson_hyphae' })
+    
     //#endregion
 
     //#region Выход: Камнерез
@@ -1042,9 +1039,56 @@ const registerMinecraftRecipes = (event) => {
 
     //#endregion
 
-    //#region Выход: Плот с сундуком
+    //#region Выход: Бамбуковые доски
+
+    event.shapeless('2x minecraft:bamboo_planks', [
+        '#minecraft:bamboo_blocks',
+        '#tfc:saws'
+    ]).id('minecraft:bamboo_planks')
+
+    //#endregion
+
+    //#region Выход: Плот с сундуком из бамбука
 
     event.remove({ id: 'minecraft:bamboo_chest_raft' })
+
+    //#endregion
+
+    //#region Выход: Таблички из бамбука
+
+    event.remove({ id: 'minecraft:bamboo_sign' })
+    event.remove({ id: 'minecraft:bamboo_hanging_sign' })
+
+    //#endregion
+
+    //#region Бамбуковая кнопка
+
+    event.shaped('minecraft:bamboo_pressure_plate', [
+        'ABA',
+        'CDC',
+        'AEA'  
+    ], {
+        A: '#forge:screws/wood',
+        B: '#tfc:hammers',
+        C: '#tfg:bamboo_slabs',
+        D: '#forge:springs',
+        E: '#forge:tools/screwdrivers'
+    }).id(`minecraft:bamboo_pressure_plate`)
+
+    event.recipes.gtceu.assembler(`tfg:minecraft/bamboo_pressure_plate`)             
+        .itemInputs('#forge:springs', '#tfg:bamboo_slabs')
+        .circuit(0)
+        .itemOutputs('2x minecraft:bamboo_pressure_plate')
+        .duration(50)
+        .EUt(2)
+
+    //#endregion
+
+    //#region Бамбуковая нажимная плита
+
+    event.remove({ id: `minecraft:bamboo_button` })
+
+    generateCutterRecipe(event, 'minecraft:bamboo_pressure_plate', null, '6x minecraft:bamboo_button', 50, 2, `bamboo_button`)
 
     //#endregion
 
@@ -1543,6 +1587,7 @@ const registerMinecraftRecipes = (event) => {
     //#endregion
 
     //#region Выход: Золотая нажимная плита
+    
     event.shaped('2x minecraft:light_weighted_pressure_plate', [
         'ABA',
         'CDC',
@@ -1624,6 +1669,14 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Блок меда
 
     event.remove({ id: 'minecraft:honey_block' })
+
+    //#endregion
+
+    //#region Выход: Сухая губка
+
+    event.recipes.tfc.heating('minecraft:wet_sponge', 790)
+        .resultItem('minecraft:sponge')
+        .id('tfg:minecraft/heating/sponge')
 
     //#endregion
 
@@ -2445,8 +2498,12 @@ const registerMinecraftRecipes = (event) => {
         
         event.remove({ id: `minecraft:dye_${dye}_carpet` })
 
-        if (dye != 'white')
-        {
+        event.shapeless(`2x minecraft:${dye}_carpet`, [
+            '#tfc:saws',
+            `minecraft:${dye}_wool`
+        ]).id(`minecraft:${dye}_carpet`)
+
+        if (dye != 'white') {
             event.recipes.gtceu.chemical_bath(`tfg:${dye}_carpet`)             
                 .itemInputs(`minecraft:white_carpet`)
                 .inputFluids(Fluid.of(`gtceu:${dye}_dye`, 72))
@@ -2603,10 +2660,10 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Элитра
 
     // Ну и херь я придумал
-    event.recipes.gtceu.assembler('tfg:elytra')             
+    event.recipes.gtceu.assembler('tfg:minecraft/elytra')             
         .itemInputs('6x #forge:plates/polyvinyl_butyral', '2x #forge:rings/titanium', '2x #forge:rods/titanium', '4x #forge:single_cables/aluminium')
         .circuit(32)
-        .itemOutputs(Item.of('minecraft:elytra', "{Damage:0,display:{Name:'{\"text\":\"Божественные крылья\",\"italic\":true}'}}"))
+        .itemOutputs(Item.of('minecraft:elytra', "{Damage:0,display:{Name:'{\"text\":\"Wings of Gods\",\"italic\":true}'}}"))
         .duration(1600)
         .EUt(666)
 

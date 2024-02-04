@@ -2086,6 +2086,8 @@ const registerTFCRecipes = (event) => {
     //#region Песок
 
     // Песок душ -> Желтый песок
+    // TODO: Включить после добавления ада
+    /*
     event.recipes.gtceu.centrifuge('soul_sand_separation')             
         .itemInputs('minecraft:soul_sand')
         .chancedOutput('tfc:sand/yellow', 9000, 130)
@@ -2093,7 +2095,7 @@ const registerTFCRecipes = (event) => {
         .chancedOutput('gtceu:tiny_coal_dust', 2000, 340)
         .outputFluids(Fluid.of('gtceu:oil', 80))
         .duration(200)
-        .EUt(80)
+        .EUt(80)*/
 
     // Нефтеносный -> Желтый песок
     event.recipes.gtceu.centrifuge('oilsands_ore_separation')             
@@ -2818,6 +2820,36 @@ const registerTFCRecipes = (event) => {
 
     //#endregion
 
+    //#region Молды в ассемблере
+
+    for (let i = 0; i < global.TFC_CLAY_TO_UNFIRED_MOLD_RECIPE_COMPONENTS.length; i++) {
+        
+        let element = global.TFC_CLAY_TO_UNFIRED_MOLD_RECIPE_COMPONENTS[i];
+
+        event.recipes.gtceu.macerator(`tfg:tfc/${element.name}`)             
+            .itemInputs(element.input)
+            .circuit(i)
+            .itemOutputs(element.output)
+            .duration(450)
+            .EUt(2)
+    }
+
+
+    //#endregion
+
+    //#region Стеклянные смеси в бутылки в ассемблере
+
+    global.TFC_BATCH_TO_BOTTLE_ASSEMBLING_RECIPE_COMPONENTS.forEach(element => {
+        event.recipes.gtceu.alloy_smelter(`tfg:tfc/${element.name}`)             
+            .itemInputs(element.input)
+            .notConsumable('gtceu:bottle_casting_mold')
+            .itemOutputs(element.output)
+            .duration(100)
+            .EUt(2)
+    })
+
+    //#endregion
+
     // Другое
     event.remove({ id: `tfc:crafting/trip_hammer` })
     event.remove({ id: `tfc:anvil/steel_pump` })
@@ -2842,9 +2874,41 @@ const registerTFCRecipes = (event) => {
         B: 'tfc:pumpkin'
     })
 
+    // Lime
+    event.smelting('tfc:powder/lime', 'tfc:powder/flux')
+        .id('tfg:smelting/lime')
+
+    // Kaolinite Clay
+    event.smelting('tfc:kaolin_clay', 'tfc:powder/kaolinite')
+        .id('tfg:smelting/kaolinite_clay')
+
     // Fire Brick
     event.smelting('tfc:ceramic/fire_brick', 'gtceu:compressed_fireclay')
         .id('tfg:smelting/fireclay_brick')
+
+    // Lamp Glass
+    event.recipes.gtceu.alloy_smelter(`tfg:tfc/lamp_glass`)             
+        .itemInputs('#tfc:glass_batches')
+        .notConsumable('tfg:unfinished_lamps')
+        .itemOutputs('tfc:lamp_glass')
+        .duration(100)
+        .EUt(2)
+
+    // Glass lens
+    event.recipes.gtceu.alloy_smelter(`tfg:tfc/glass_lens`)             
+        .itemInputs('tfc:silica_glass_batch')
+        .notConsumable('#forge:lenses')
+        .itemOutputs('tfc:lens')
+        .duration(100)
+        .EUt(2)
+
+    // Empty Jar
+    event.recipes.gtceu.assembler(`tfg:tfc/glass_jar`)             
+        .itemInputs('#tfc:glass_batches_tier_2')
+        .circuit(2)
+        .itemOutputs('tfc:empty_jar')
+        .duration(100)
+        .EUt(2)
 
     // Wool Yarn
     event.recipes.gtceu.macerator('macerate_wool')             
@@ -2922,7 +2986,7 @@ const registerTFCRecipes = (event) => {
         .EUt(4)
 
     // Jute Fiber
-    generateMixerRecipe(event, 'tfc:jute', Fluid.of('minecraft:water', 200), 'tfc:jute_fiber', [], 100, 4, 16, 'tfg:tfc/jute_fiber')
+    generateMixerRecipe(event, 'tfc:jute', Fluid.of('minecraft:water', 200), 'tfc:jute_fiber', null, [], 100, 4, 16, 'tfg:tfc/jute_fiber')
 
     // Soda Ash
     event.smelting('3x tfc:powder/soda_ash', 'tfc:food/dried_seaweed').id('tfg:smelting/dried_seaweed_to_soda')
