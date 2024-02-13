@@ -565,6 +565,12 @@ const registerGTCEURecipes = (event) => {
 
     //#endregion
 
+    //#region Выход: Пыль кованного железа
+
+    event.remove({ id: 'gtceu:arc_furnace/arc_iron_door' })
+
+    //#endregion
+
     //#region Выход: Железная пыль
 
     event.remove({ id: 'gtceu:macerator/macerate_iron_trapdoor' })
@@ -592,6 +598,19 @@ const registerGTCEURecipes = (event) => {
     //#region Выход: Крошечная пыль золы
 
     event.remove({ id: 'gtceu:arc_furnace/arc_bookshelf' })
+
+    //#endregion
+
+    //#region Выход: Пыль незерака
+
+    event.remove({ id: 'gtceu:macerator/macerate_nether_brick_stairs' })
+    event.remove({ id: 'gtceu:macerator/macerate_nether_brick_slab' })
+
+    //#endregion
+
+    //#region Выход: Пыль базальта
+
+    event.remove({ id: 'gtceu:macerator/macerate_basalt' })
 
     //#endregion
 
@@ -897,45 +916,60 @@ const registerGTCEURecipes = (event) => {
 
     //#endregion
 
-    //#region Выход: Деревянное оголовья инструментов (что?)
-
-    event.remove({id: 'gtceu:shaped/screwdriver_tip_wood'})
-    event.remove({id: 'gtceu:shaped/wrench_head_wood'})
-    event.remove({id: 'gtceu:shaped/drill_head_wood'})
-    event.remove({id: 'gtceu:shaped/chainsaw_head_wood'})
-
-    //#endregion
-
-    //#region Выход: Каменные оголовья инструментов (что?)
-
-    event.remove({id: 'gtceu:shaped/screwdriver_tip_stone'})
-    event.remove({id: 'gtceu:shaped/wrench_head_stone'})
-    event.remove({id: 'gtceu:shaped/drill_head_stone'})
-    event.remove({id: 'gtceu:shaped/chainsaw_head_stone'})
-    event.remove({id: 'gtceu:shaped/buzzsaw_head_stone'})
-
-    //#endregion
-
     //#region Выход: Слиток камня
 
     event.remove({id: 'gtceu:alloy_smelter/alloy_smelt_stone_to_ingot'})
 
     //#endregion
 
-    //#region Выход: Бронзовые машины
-
-    event.remove({ id: 'gtceu:shaped/steam_boiler_coal_bronze' })
-    event.remove({ id: 'gtceu:shaped/steam_boiler_lava_bronze' })
-    event.remove({ id: 'gtceu:shaped/steam_extractor_bronze' })
-    event.remove({ id: 'gtceu:shaped/steam_macerator_bronze' })
-    event.remove({ id: 'gtceu:shaped/steam_compressor_bronze' })
-    event.remove({ id: 'gtceu:shaped/steam_hammer_bronze' })
-    event.remove({ id: 'gtceu:shaped/steam_furnace_bronze' })
-    event.remove({ id: 'gtceu:shaped/steam_alloy_smelter_bronze' })
-    event.remove({ id: 'gtceu:shaped/steam_rock_breaker_bronze' })
-    event.remove({ id: 'gtceu:shaped/steam_miner' })
-    event.remove({ id: 'gtceu:shaped/bronze_bricks_hull' })
+    //#region Выход: Бронзовые машины (Плюс их декрафты)
+    
     event.remove({ id: 'gtceu:shaped/bronze_hull' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_bronze_machine_casing' })
+    event.remove({ id: 'gtceu:macerator/macerate_bronze_machine_casing' })
+
+    event.remove({ id: 'gtceu:shaped/steam_extractor_bronze' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_lp_steam_extractor' })
+    event.remove({ id: 'gtceu:macerator/macerate_lp_steam_extractor' })
+
+    event.remove({ id: 'gtceu:shaped/steam_macerator_bronze' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_lp_steam_macerator' })
+    event.remove({ id: 'gtceu:macerator/macerate_lp_steam_macerator' })
+
+    event.remove({ id: 'gtceu:shaped/steam_compressor_bronze' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_lp_steam_compressor' })
+    event.remove({ id: 'gtceu:macerator/macerate_lp_steam_compressor' })
+
+    event.remove({ id: 'gtceu:shaped/steam_hammer_bronze' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_lp_steam_forge_hammer' })
+    event.remove({ id: 'gtceu:macerator/macerate_lp_steam_forge_hammer' })
+
+    event.remove({ id: 'gtceu:shaped/steam_furnace_bronze' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_lp_steam_furnace' })
+    event.remove({ id: 'gtceu:macerator/macerate_lp_steam_furnace' })
+
+    event.remove({ id: 'gtceu:shaped/steam_alloy_smelter_bronze' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_lp_steam_alloy_smelter' })
+    event.remove({ id: 'gtceu:macerator/macerate_lp_steam_alloy_smelter' })
+
+    event.remove({ id: 'gtceu:shaped/steam_rock_breaker_bronze' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_lp_steam_rock_crusher' })
+    event.remove({ id: 'gtceu:macerator/macerate_lp_steam_rock_crusher' })
+
+    event.remove({ id: 'gtceu:shaped/steam_miner' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_steam_miner' })
+    event.remove({ id: 'gtceu:macerator/macerate_steam_miner' })
+
+    // Low Pressure Steam Solid Boiler
+    event.shaped('gtceu:lp_steam_solid_boiler', [
+        'AAA',
+        'ABA',
+        'ACA'
+    ], {
+        A: '#forge:plates/bronze',
+        B: '#forge:tools/wrenches',
+        C: 'gtceu:bronze_brick_casing'
+    }).id('gtceu:shaped/steam_boiler_coal_bronze')
 
     //#endregion
 
@@ -1045,27 +1079,35 @@ const registerGTCEURecipes = (event) => {
 
     //#endregion
 
+    //#region Стеклодувка
+
+    // Glass Tube
+    event.recipes.tfc.glassworking('gtceu:glass_tube', '#tfc:glass_batches_tier_3', ['blow', 'stretch', 'stretch'])
+        .id('tfg:gtceu/glassworking/glass_tube')
+
+    //#endregion
+
     // Удаление рецептов связанных с Primitive Blast Furnace
-    event.remove({id: 'gtceu:arc_furnace/arc_primitive_blast_furnace'})
-    event.remove({id: 'gtceu:macerator/macerate_primitive_blast_furnace'})
+    event.remove({ id: 'gtceu:arc_furnace/arc_primitive_blast_furnace' })
+    event.remove({ id: 'gtceu:macerator/macerate_primitive_blast_furnace' })
 
     // Удаление рецептов связанных с Barrel
-    event.remove({id: 'gtceu:shaped/wooden_barrel'})
-    event.remove({id: 'gtceu:assembler/wood_barrel'})
-    event.remove({id: 'gtceu:arc_furnace/arc_wood_drum'})
-    event.remove({id: 'gtceu:macerator/macerate_wood_drum'})
-
+    event.remove({ id: 'gtceu:shaped/wooden_barrel' })
+    event.remove({ id: 'gtceu:assembler/wood_barrel' })
+    event.remove({ id: 'gtceu:arc_furnace/arc_wood_drum' })
+    event.remove({ id: 'gtceu:macerator/macerate_wood_drum' })
+ 
     // Удаление рецептов связанных с FireBricks
-    event.remove({id: 'gtceu:shaped/casing_primitive_bricks'})
-    event.remove({id: 'gtceu:macerator/macerate_firebricks'})
-    event.remove({id: 'gtceu:extractor/extract_primitive_bricks'})
+    event.remove({id: 'gtceu:shaped/casing_primitive_bricks' })
+    event.remove({id: 'gtceu:macerator/macerate_firebricks' })
+    event.remove({id: 'gtceu:extractor/extract_primitive_bricks' })
 
     // Удаление рецептов связанных с FireBrick
-    event.remove({id: 'gtceu:smelting/fireclay_brick'})
-    event.remove({id: 'gtceu:macerator/macerate_firebrick'})
+    event.remove({ id: 'gtceu:smelting/fireclay_brick' })
+    event.remove({ id: 'gtceu:macerator/macerate_firebrick' })
 
-    // Удалить после фикса GTCEu
-    event.remove({id: 'gtceu:extractor/extract_raw_rubber_dust'})
+    // TODO: Удалить после фикса GTCEu
+    event.remove({ id: 'gtceu:extractor/extract_raw_rubber_dust' })
 
     // Пыль звезды незера 
     // TODO: удалить после имплементации ада
@@ -1180,6 +1222,9 @@ const registerGTCEURecipes = (event) => {
 
     // Исправление рецепта пыли серебра стерлинга
     generateMixerRecipe(event, ['#forge:dusts/copper', '4x #forge:dusts/silver'], [], '5x gtceu:sterling_silver_dust', 1, [], 500, 24, 64, 'sterling_silver')
+
+    // Исправление рецепта пыли розовой бронзы
+    generateMixerRecipe(event, ['#forge:dusts/copper', '4x #forge:dusts/gold'], [], '5x gtceu:rose_gold_dust', 3, [], 500, 24, 64, 'rose_gold')
 
     //#region LV Casing
 

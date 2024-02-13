@@ -1,5 +1,80 @@
 # Changelog
 
+## [0.6.14] - 12.02.2024
+### Changes
+- Fixed wrong amount smelting recipe output (for example: from redstone).
+- Fixed Rose Gold recipe EUt mismatch.
+- Fixed Iron Door recipe decomp.
+- The dynamic lighting function was temporarily removed from Embeddiumplus for rework, the mod had to be updated because the developer archived other versions.
+### Updated mods
+- Chisels-and-bits -> 1.4.147
+- Createaddition -> 1.2.3
+- FastWorkbench -> 8.0.4
+- GTCEU -> 1.1.3.b
+- JEI -> 15.3.0.4
+- Moonlight -> 2.9.12
+- TerraFirmaGreg-Core -> 0.4.9
+- Embeddiumplus -> 1.2.4
+
+## [0.6.13] - 11.02.2024
+### Updated mods
+- Embeddiumplus -> 1.2.3
+### Deleted mods
+- Create Picky Wheels
+
+## [0.6.12] - 11.02.2024
+### Changes
+- Primitive and Steel Age quests have been improved throughout.
+- Removed glass block from Create.
+- Fixed names of recipes for the sophisticated backpack mod.
+- Recipes for painting toolboxes from Create have been removed from display.
+- Added translation for the main quests of the primitive era.
+- Fixed the game freezing when opening the quest menu, this was a bug in the FTB-Quests mod.
+- Removed many recipes for nether blocks and items, will be returned when hell is added.
+- Fixed the recipe for sandstone walls in the carver.
+- Added stone output in the form of dust to stone cutting recipes in GTCEu Cutter.
+- Added recipes for obtaining oxidized copper blocks, steps from them, and so on.
+- Removed recipes for sand half-blocks, stairs and walls in the workbench.
+- Fixed display of chunk boundaries.
+- BetterF3 is configured once again.
+- Fixed a bug when ore dug up with a hammer for drilling did not drop rich and poor chunks.
+- Fixed a bug when the miner did not mine rich and poor chunks of ore.
+- Fixed the quest for the red and blue anvil.
+- Bronze steam boilers have been returned.
+- Hidden the category in EMI, reflecting processing in the stone cutter, since there is already the same one from Create.
+- Fixed a bug when, when you first logged into the official server, Minecraft was stuck on endless loading.
+- Slightly increased the spawn frequency of oil sands.
+- Added TFC glass blower recipe for glass pipe from GTCEu.
+- Fixed the lamp recipe from TFC.
+- Changed quests in connection with unlocking bronze boilers. Now you can switch to the steam era from bronze (though you won’t be able to make cars from bronze, hee hee).
+- Fixed recipes for some vanilla items.
+- Added more recipes for FirmaLife items via GTCEu machines.
+- Decreased EUt required for ae2 quartz glass.
+- Hided backpack colorizing recipes because its wont work.
+### Updated mods
+- Architectury -> 9.1.13
+- CreativeCore -> 2.11.24
+- Curios -> 5.7.0
+- Embeddiumplus -> 1.2.4
+- Emi -> 1.1.1
+- Exposure -> 1.3.1
+- Firmalife -> 2.0.8
+- FTB-Quests -> 2001.3.3
+- GTCEU -> 1.1.3
+- Kubejs -> 2001.6.4-build.133
+- Lootjs -> 2.11.0
+- Moonlight -> 2.9.10
+- Notenoughanimations -> 1.7.1
+- PacketFixer -> 1.2.4
+- Placebo -> 8.6.1
+- PlayerRevive -> 2.0.24
+- Saturn -> 0.1.3
+- TerraFirmaCraft -> 3.1.8
+- TerraFirmaGreg-Core -> 0.4.7
+- Textrues_embeddium_options -> 0.1.5
+### New Mods
+- Create Picky Wheels
+
 ## [0.6.11] - 05.02.2024
 ### Changes
 - Fixed smelting recipe of rich raw ores.

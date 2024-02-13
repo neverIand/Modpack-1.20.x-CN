@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{quests.primitive.start.description}"]
+			description: ["{quests.76EF4D00586A8B74.d1}"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -20,25 +20,21 @@
 			id: "76EF4D00586A8B74"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{quests.primitive.start.subtitle}"
+			subtitle: "{quests.76EF4D00586A8B74.st}"
 			tasks: [{
 				id: "7CFEDEBD7D6FD796"
 				type: "checkmark"
 			}]
-			title: "{quests.primitive.start.title}"
+			title: "{quests.76EF4D00586A8B74.t}"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
-			description: [
-				"进入这个世界后，你发现你所熟知的一切都变了。游戏初期最主要的物品是地上的木枝和石子，它们可以在任意生物群系被找到，并且每个季节都会刷新。使用鼠标右键收集它们并进入下一步。(When you enter the world, the first thing you encounter is a completely changed world. The main items at the start are sticks and pebbles that lie on the ground and appear in any biome, and they are also updated every season. Collect a few with the RMB and proceed to the next step.)"
-				""
-				"手持两个或以上的石子后右键可以看到一个菜单，在这个菜单中你可以制作石制工具的主要部分。所有的配方都可以在REI中查看，你也可以在工具配方中单击查看石头主要部件的制作方法。然后将这个主要部件与一根木枝连接起来，你就得到了一个真正的土著人的工具。(Take 2 or more stones in your hand, then press RMB, then you will have a menu in which you can make headbands of stone tools, all recipes can be viewed in REI or just by clicking on the craft of the stone headband of the tool. Then connect the headband with a stick and you get the tool of a real aborigine.)"
-			]
+			description: ["{quests.365F6F48E0BB2EFC.d1}"]
 			id: "365F6F48E0BB2EFC"
 			size: 2.0d
-			subtitle: "收集一些石子和木枝为今后做准备 (Collect some rocks and sticks for future development)"
+			subtitle: "{quests.365F6F48E0BB2EFC.st}"
 			tasks: [
 				{
 					count: 5L
@@ -50,7 +46,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:can_be_lit_on_torch)"
 						}
 					}
-					title: "任意木枝 (Any sticks)"
+					title: "{quests.365F6F48E0BB2EFC.t1}"
 					type: "item"
 				}
 				{
@@ -63,16 +59,16 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:rock_knapping)"
 						}
 					}
-					title: " 任意石子 (Any pebbles)"
+					title: "{quests.365F6F48E0BB2EFC.t2}"
 					type: "item"
 				}
 			]
-			title: "木枝和石子 Sticks and Stones"
+			title: "{quests.365F6F48E0BB2EFC.t}"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["365F6F48E0BB2EFC"]
+			dependencies: ["76EF4D00586A8B74"]
 			description: ["除了普通的石子外，你还能在野外找到矿物碎片。这些碎片通常表明，在地下某处有一脉与地表上找到的矿石碎片相似材质的矿石。但是你目前还没有镐子，所以你应该收集这些碎片，因为它们可以使用模具和火坑熔炼成金属，这一点我们稍后再谈。Instead of the usual pebbles, you can find pieces of ore in the world, usually they indicate that somewhere underground there is a vein with ore of a material similar to a piece of ore found on the surface, but you don't have a pickaxe yet, so you should collect such pieces, because they can be melted into metal using molds and a fire pit,  which we'll talk about later."]
 			id: "40A930BEBFCFBF3B"
 			subtitle: "年轻人的第一块金属（青春版）Your first metal right now, at a discount"
@@ -247,13 +243,13 @@
 				}
 			]
 			title: "含矿的石子 Pebbles with ore"
-			x: 2.0d
-			y: 0.0d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2BFC2744E4DE4B5A"]
 			id: "373FD04AD6CA9F92"
-			subtitle: "用斧子收集一些木头 Use an axe to gather some wood"
+			subtitle: "{quests.373FD04AD6CA9F92.st}"
 			tasks: [{
 				id: "794D2D1559FA7CEA"
 				item: {
@@ -263,49 +259,49 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
 					}
 				}
-				title: "任意树 Any tree"
+				title: "{quests.373FD04AD6CA9F92.t1}"
 				type: "item"
 			}]
-			title: "New, Old Tree"
+			title: "{quests.373FD04AD6CA9F92.t}"
 			x: 6.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["373FD04AD6CA9F92"]
 			description: [
-				"你会需要非常非常多的原木来制作煤坑。You're going to need many, many pieces of wood to make a coal pit."
-				"首先你需要挖一个一格深的洞（如果你有足够多的木头也可以挖得更深）。To begin with, dig a hole 1 block deep (you can dig deeper, if the amount of wood allows)."
+				"Для создания угольной ямы вам понадобится много, много дерева."
+				"Для начала выкопайте яму, глубиной в 1 блок (можно и глубже, если позволяет кол-во древесины)."
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_1.png width:170 height:100 align:1}"
 				""
-				"接着Shift右键坑中任意的方块，你将会得到一捆木头。你可以通过手持木头右键点击这捆木头来填充它，或者直接打开界面手动填充。木头的数量决定了最终获得的煤炭数量。Then, using Shift + RMB, click on any block in the pit, you will have an armful of logs, you can fill it by right-clicking with a log in your hand on an armful, or just open the interface and fill it manually. The amount of wood in an armful determines the amount of coal that is subsequently obtained."
+				"После, при помощи Shift + ПКМ нажмите в любой блок в яме, у вас появится охапка бревен, ее можно наполнять, нажимая ПКМ с бревном в руке по охапке, либо просто открыть интерфейс и наполнить вручную. От кол-ва дерева в охапке зависит количество получаемого впоследствии угля."
 				""
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_2.png width:200 height:100 align:1}"
 				""
-				"接下来，用一个不可燃的方块，比如石头或泥土，覆盖所有木头，留下一个方块未盖，并用丢弃的火把或简易打火器将其点燃。Next, cover it all with a non-combustible block, stone or earth, leave one block open and set it on fire with a discarded torch or a primitive igniter."
+				"{quests.5DB0CA9F9724D301.d3}"
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_3.png width:190 height:100 align:1}"
 				""
-				"泥土堆开始冒烟后，用一个不可燃的方块再次覆盖你点燃的最后一个方块。等到泥土堆停止冒烟，挖开它，你就能得到煤炭。Now your pile of dirt has started to smoke, cover the last block that you ignited again with a non-combustible block and wait until the pile stops smoking, dig it up and get coal."
+				"{quests.5DB0CA9F9724D301.d4}"
 			]
 			id: "5DB0CA9F9724D301"
-			subtitle: "搭建你的第一个煤坑 Build Your First Coal Pit"
+			subtitle: "{quests.5DB0CA9F9724D301.st}"
 			tasks: [{
 				count: 16L
 				id: "58361DD51C891C43"
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			title: "煤坑 Coal pits"
+			title: "Угольные ямы"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["这个东西能让你生火或者点燃任何东西。只需将鼠标光标悬停在任意方块上，然后按住鼠标右键，达到最大力度后释放，你所注视的方块会有50%的机会被点燃。下一个任务将解释如何制作篝火。 This thing will allow you to make a fire, or set fire to anything, just hover the mouse cursor over any block, then hold and hold the RMB, after maximum tension, release, with a 50% chance of igniting the block you were looking on. How to make a bonfire, in the next quest."]
+			description: ["{quests.3B3BA51C8CAEFC7F.d1}"]
 			id: "3B3BA51C8CAEFC7F"
-			subtitle: "人类祖先就是用这玩意生火的 People in ancient times made fires with this thing"
+			subtitle: "{quests.3B3BA51C8CAEFC7F.st}"
 			tasks: [{
 				id: "1D1EC6EF1FCBA733"
 				item: {
@@ -317,21 +313,21 @@
 				}
 				type: "item"
 			}]
-			title: "原始打火机 Primitive Lighter"
+			title: "Примитивная зажигалка"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3B3BA51C8CAEFC7F"]
-			description: ["在方块上扔下3根木棍和1个原木，然后将鼠标光标悬停在这个方块上并使用一种简易打火器。它可能没法一次成功。成功后，原本扔下的3根木棍和1个原木的位置会出现生出火焰，你需要继续扔原木进去以保持火焰燃烧。为了提高篝火生成的几率，你可以在扔下的物品中添加纸、干草等易燃物品，每增加一个物品，成功率提高10%。Throw 3 sticks and 1 log on the block, then hover the mouse cursor over this block and use a primitive lighter, it may not work the first time. After success, a fire will appear in place of the discarded 3 sticks and 1 log, into which you need to throw logs to keep the fire burning. To increase the chance of spawning a campfire, you can add paper, straw, and other flammable items to your dropped items, +10% for each item."]
+			description: ["Бросьте на блок 3 палки и 1 бревно, после наведите на этот блок курсор мыши и используйте примитивную зажигалку, с первого раза может не получиться. После успеха, на месте выброшенных 3 палок и 1 бревна появится костер, в который нужно закидывтаь бревна, чтобы костер продолжал гореть. Для увеличения шанса создания костра, вы можете в выброшенные предметы добавить бумагу, солому и другие легковоспламеняемые предметы, за каждый предмет, по +10%."]
 			id: "682B58EC2D39F1A1"
-			subtitle: "这可不是一般的营火 Campfire, but not ordinary"
+			subtitle: "Костер, но не обычный"
 			tasks: [{
 				icon: "tfc:firepit"
 				id: "4639272D5258BCFC"
 				observe_type: 0
 				timer: 0L
-				title: "Make a Bonfire"
+				title: "{quests.682B58EC2D39F1A1.t1}"
 				to_observe: "tfc:firepit"
 				type: "observation"
 			}]
@@ -340,16 +336,16 @@
 		}
 		{
 			dependencies: ["682B58EC2D39F1A1"]
-			description: ["你可能会感到惊讶，但在TFC中火把不是无限耐久的。它们大约会在燃烧两天后熄灭。不过不用担心，它们不会在你手中或者背包里熄灭，所以你可以随身携带一根火把，当你家里的其他火把熄灭时，只需走过去并右键点击它们。这相当于点燃了火把，它们就会因此再次亮起来。You'll be surprised, but torches aren't infinite in TFC. They will burn for about 2 in-game days, after which they will go out. But don't worry, they don't go out in your hands or inventory, so you can carry 1 torch with you and when the others in your house go out, just walk up and right-click on them, you kind of light the torch and it will light up again."]
+			description: ["{quests.6D940527BFF1D4C0.d1}"]
 			id: "6D940527BFF1D4C0"
-			subtitle: "核能火把？不存在的 Not Windowless Torches"
+			subtitle: "{quests.6D940527BFF1D4C0.st}"
 			tasks: [{
 				count: 2L
 				id: "6697694A11A541B9"
 				item: "tfc:torch"
 				type: "item"
 			}]
-			title: "多个火把 Multiple Torches"
+			title: "{quests.6D940527BFF1D4C0.t}"
 			x: 2.0d
 			y: -3.0d
 		}
@@ -378,28 +374,28 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			description: [
-				"在TerraFirmaGreg中，矿物的生成尤其特别。In TerraFirmaGreg, ore is generated in a more interesting way than anywhere else."
+				"В TerraFirmaGreg руду генерируются интересней чем где либо."
 				""
-				"1. 每种矿石都出现在它自己的岩石中——TFC增加了许多不同种类的岩石，这意味着你在任何地方都找不到原版的石头。因此，矿石只会在特定的岩石中生成，就像在现实生活中一样。Each ore appears in its own rock. TFC adds a lot of different rocks to the world, meaning you won't find a regular vanilla stone anywhere, so ores are only generated in certain rocks, just like in real life."
+				"1. Каждая руда появляется в своей породе. TFC добавляет в мир много разных пород, то есть обычный камень из ваниллы вы нигде не встретите, поэтому руды как и в реальной жизни генерируются только в определенных породах."
 				""
-				"2. 矿脉分为几种类型：簇状、球形、管状，还有一些这里我们暂且不讨论的稀有类型。There are several types of ore veins, such as: cluster, sphere, pipe and a few rare others that we will not talk about."
+				"2. Существуют несколько типов рудных жил, такие как: кластер, сфера, труба и несколько редких других, о которых говорить не будем."
 				""
-				"3. 为了方便玩家， 矿物指示物会出现在地表，绝大多数情况下这就是包含该矿物的矿脉所在的位置。To make life easier for players, ore indicators appear on the surface, under which in most cases the vein with the ore itself is located."
+				"3. Для облегчения жизни игрокам, на поверхности появляются рудные индикаторы, под которыми в большинстве случаев располагается сама жила с рудой."
 				""
-				"TFG有一个小型Wiki，它是一张Excel表。为了获得链接，你需要完成任务，然后领取奖励。之后聊天中会显示一个按钮，点击这个按钮，你将被重定向到一个带有矿石生成信息的Excel表格。TFG has a small Wiki for this in an Excel spreadsheet. In order to follow the link, complete the task, then pick up the reward and a button will be displayed in the chat, by clicking on which you will be redirected to an Excel table with ore generation."
+				"TFG содержит небольшое Wiki для этого в таблице Excel. Для того, чтобы перейти по ссылке, выполните задание, после заберите награду и в чате отобразится кнопка по нажатию на которую вас перебросит на таблицу Excel с генерацией руды."
 				""
-				"{ \"text\": \"Link to Excel spreadsheet (Click here)\", \"color\":\"#02FF00\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://docs.google.com/spreadsheets/d/1P3Baz4y5vgJ3XrCoNs4l3BXGPiFEPlW7i4taPEWpTB4\" } }"
+				"{ \"text\": \"Ссылка на Excel таблицу (Нажми сюда)\", \"color\":\"#02FF00\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://docs.google.com/spreadsheets/d/1P3Baz4y5vgJ3XrCoNs4l3BXGPiFEPlW7i4taPEWpTB4\" } }"
 			]
 			icon: "gtceu:shale_aluminium_ore"
 			id: "387DEEADF4922AB3"
-			subtitle: "比原（版）好玩 Much more fun than vanilla"
+			subtitle: "Куда веселей чем в ванилле"
 			tasks: [{
 				id: "7E131C48FAB52A11"
 				type: "checkmark"
 			}]
-			title: "TFG世界中的矿物生成 Ore Generation in the TFG World"
-			x: -3.5d
-			y: -0.5d
+			title: "{quests.387DEEADF4922AB3.t}"
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
@@ -467,7 +463,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["70D40085219B1CC2"]
@@ -487,7 +483,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["70D40085219B1CC2"]
@@ -506,8 +502,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 11.0d
+			x: 16.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -984,8 +980,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 9.0d
+			x: 0.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["297996E158D0A289"]
@@ -1049,9 +1045,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["斧头：用于砍木头和破坏一切木质的东西，因为在TFC里你不能空手伐木。Axes: Used to chop wood, and anything else wooden, because you can't break wood with your hand in TFC."]
+			description: ["{quests.2BFC2744E4DE4B5A.d1}"]
 			id: "2BFC2744E4DE4B5A"
-			subtitle: "错误的，你不能徒手撸树！Don't cut down a tree with your hand, it's wrong!"
+			subtitle: "{quests.2BFC2744E4DE4B5A.st}"
 			tasks: [{
 				id: "27927A7A1267C056"
 				item: {
@@ -1072,9 +1068,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["锄：用于挖掘田地和种植植物。有趣的事实：在TFC中，你甚至可以远离水源挖掘田地，重要的是在光标悬停在方块上时查看工具提示（上方的面板），它会显示田地的水分饱和度。接下来，选择适合当前气候条件（包括田地的湿度）作物的种子，种植并等待。Hoes: Used for digging up beds and planting plants. An interesting fact: in TFC you can dig up beds even far from water, the main thing when hovering is to look at the tooltip (panel above), it will display the amount of water saturation of the bed. Next, choose seeds harvested in the world with the right climate. conditions (including the humidity of the bed) plant and wait."]
+			description: ["{quests.318BF1F671BC4620.d1}"]
 			id: "318BF1F671BC4620"
-			subtitle: "年轻人的第一块田 For Your First Beds"
+			subtitle: "{quests.318BF1F671BC4620.st}"
 			tasks: [{
 				id: "59508B56C7C3C891"
 				item: {
@@ -1095,9 +1091,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["矛（注：实际上叫标枪）：像三叉戟一样丢出去并造成伤害，就这么简单。Spears: Throw like a trident, deal damage, that's about it."]
+			description: ["{quests.508DA76FA2766B7B.d1}"]
 			id: "508DA76FA2766B7B"
-			subtitle: "你这三叉戟怎么就一个叉啊 Some Wrong Trident"
+			subtitle: "{quests.508DA76FA2766B7B.st}"
 			tasks: [{
 				id: "061392B0556D6810"
 				item: {
@@ -1107,16 +1103,17 @@
 						"ftbfiltersystem:filter": "or(item(tfc:stone/javelin/igneous_extrusive)item(tfc:stone/javelin/igneous_intrusive)item(tfc:stone/javelin/metamorphic)item(tfc:stone/javelin/sedimentary))"
 					}
 				}
+				title: "{quests.508DA76FA2766B7B.t1}"
 				type: "item"
 			}]
-			title: "任意石矛 Any Stone Spear"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
+			description: ["{quests.716B407EEED8BE95.d1}"]
 			id: "716B407EEED8BE95"
-			subtitle: "空泥奇挖 Thank you for digging"
+			subtitle: "{quests.716B407EEED8BE95.st}"
 			tasks: [{
 				id: "10A730E97830976C"
 				item: {
@@ -1164,13 +1161,15 @@
 				"318BF1F671BC4620"
 				"5C396041880D32FF"
 			]
+			description: ["{quests.36A9E5CD45A79288.d1}"]
 			id: "36A9E5CD45A79288"
+			subtitle: "{quests.36A9E5CD45A79288.st}"
 			tasks: [{
 				icon: "tfc:farmland/silt"
 				id: "3321FE657126AD2E"
 				observe_type: 1
 				timer: 0L
-				title: "开垦田地 Make a Garden Bed"
+				title: "{quests.36A9E5CD45A79288.t1}"
 				to_observe: "tfc:farmland"
 				type: "observation"
 			}]
@@ -1180,8 +1179,9 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			dependency_requirement: "one_completed"
-			description: ["寻找并收集任意种子！Find and collect any seeds!"]
+			description: ["{quests.5C396041880D32FF.d1}"]
 			id: "5C396041880D32FF"
+			subtitle: "{quests.5C396041880D32FF.st}"
 			tasks: [{
 				id: "24625450C85F8A04"
 				item: {
@@ -1191,7 +1191,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:seeds)"
 					}
 				}
-				title: "任意种子 Any Seeds"
+				title: "{quests.5C396041880D32FF.t1}"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1202,8 +1202,10 @@
 				"682B58EC2D39F1A1"
 				"7196BB6BDBAE7B51"
 			]
+			description: ["{quests.557D3A67A36DF9D8.d1}"]
 			id: "557D3A67A36DF9D8"
 			size: 2.0d
+			subtitle: "{quests.557D3A67A36DF9D8.st}"
 			tasks: [{
 				id: "542CC6E7CC064CB7"
 				item: {
@@ -1213,7 +1215,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:foods/cooked_meats)"
 					}
 				}
-				title: "任意烤熟的肉 Any Grilled Meat"
+				title: "{quests.557D3A67A36DF9D8.t1}"
 				type: "item"
 			}]
 			x: 3.5d
@@ -1222,7 +1224,9 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			dependency_requirement: "one_completed"
+			description: ["{quests.7196BB6BDBAE7B51.d1}"]
 			id: "7196BB6BDBAE7B51"
+			subtitle: "{quests.7196BB6BDBAE7B51.st}"
 			tasks: [{
 				id: "094E96DABE2F5DD7"
 				item: {
@@ -1232,7 +1236,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:foods/raw_meats)"
 					}
 				}
-				title: "任意生肉 Any Raw Meat"
+				title: "{quests.7196BB6BDBAE7B51.t1}"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1240,9 +1244,11 @@
 		}
 		{
 			dependencies: ["06C7B7138EDE4B38"]
+			description: ["{quests.45D907EF7902A200.d1}"]
 			id: "45D907EF7902A200"
-			subtitle: "需要制作一个避难所或烤火坑 Needed to create a shelter or roast pit"
+			subtitle: "{quests.45D907EF7902A200.st}"
 			tasks: [{
+				count: 16L
 				id: "77860121847D8117"
 				item: "tfc:straw"
 				type: "item"
@@ -1252,9 +1258,9 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["刀：在TFC中是一个非常重要的工具，它允许你割草并制作干草捆，你还可以用它来制作火坑，烤制金属和烧制陶土模具，但更多内容会在指南中说明。Knives: A very important tool in TFC, it allows you to cut grass and make hay, you can make a fire pit from it and fry metals and clay molds, but more on that in the guide."]
+			description: ["{quests.06C7B7138EDE4B38.d1}"]
 			id: "06C7B7138EDE4B38"
-			subtitle: "你最好的伙伴 Your Best Friend"
+			subtitle: "{quests.06C7B7138EDE4B38.st}"
 			tasks: [{
 				id: "45C890F7C082CA9E"
 				item: {
@@ -1275,20 +1281,20 @@
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
-			description: ["提示：别喝盐水 Tip: Don't drink salt water."]
+			description: ["{quests.63E6C5684E12828C.d1}"]
 			id: "63E6C5684E12828C"
-			subtitle: "你要喝水来保持不死 You Need to Drink Water Not to Die!"
+			subtitle: "{quests.63E6C5684E12828C.st}"
 			tasks: [{
 				icon: "minecraft:water_bucket"
 				id: "193361529488FE5C"
 				observe_type: 0
 				timer: 0L
-				title: "寻找新鲜的水 Find Fresh Water"
+				title: "{quests.63E6C5684E12828C.t1}"
 				to_observe: "minecraft:water"
 				type: "observation"
 			}]
 			x: -3.5d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5EBFCE37D727DFD0"]
@@ -1324,7 +1330,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:bronze_anvils)"
 					}
 				}
-				title: "任意青铜砧 Anvil of any bronze"
+				title: "Any anvil from any bronze"
 				type: "item"
 			}]
 			x: 18.5d
@@ -1395,21 +1401,25 @@
 		}
 		{
 			dependencies: ["36A9E5CD45A79288"]
+			description: ["{quests.4CF472C9778068D6.d1}"]
 			icon: "tfc:wild_crop/barley"
 			id: "4CF472C9778068D6"
-			subtitle: "收获你的第一批农作物，并为此欢欣鼓舞。Harvest Your First Harvest and Rejoice"
+			subtitle: "{quests.4CF472C9778068D6.st}"
 			tasks: [{
 				id: "7226C69847993160"
-				title: "点这里 Click Here"
+				title: "{quests.4CF472C9778068D6.t1}"
 				type: "checkmark"
 			}]
+			title: "{quests.4CF472C9778068D6.t}"
 			x: 2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["45D907EF7902A200"]
 			id: "30AE1FF285B64716"
+			subtitle: "{quests.30AE1FF285B64716.st}"
 			tasks: [{
+				count: 16L
 				id: "71AD45BFB355905E"
 				item: "tfc:thatch"
 				type: "item"
@@ -1419,8 +1429,11 @@
 		}
 		{
 			dependencies: ["45D907EF7902A200"]
+			description: ["{quests.0ED8BE436A0ECDDB.d1}"]
 			id: "0ED8BE436A0ECDDB"
+			subtitle: "{quests.0ED8BE436A0ECDDB.st}"
 			tasks: [{
+				count: 16L
 				id: "485D243786542A96"
 				item: "minecraft:hay_block"
 				type: "item"
@@ -1433,16 +1446,16 @@
 				"45D907EF7902A200"
 				"373FD04AD6CA9F92"
 			]
-			description: ["首先，在地面或任何其他表面挖一个一格高的洞，然后使用V键把你想要烤的东西放进洞里。如果是模具，那么可以放4个。接下来，手持干草捆，右键点击洞内，干草将开始填充这个洞，你需要使用8个干草捆，然后以相同的方式添加8根原木，然后你可以用原始的打火石或火把点燃这个东西（只需从洞顶扔下一个火把，它就会开始燃烧）。接着你必须等待烧制完成，然后取出你的成品。以同样的方式，金属也会在容器中熔化。也就是说，你把铜片放在一个容器中，再把容器放这个坑里，经过上述过程后你会得到熔化的铜，你可以将其铸造成锭、工具的头等。To begin with, dig 1 block in the ground, or any other surface, then use the V key to place the things you want to fry in the hole. If we are talking about molds, there are 4 of them. Next, take the Hay in your hand and right-click into the hole, the hay will begin to fill the hole, you need to use 8 hay, then add 8 logs in the same way, then you can calmly set this thing on fire with a primitive flint or torch (just throw a torch from the top of your hole and it will start to burn). Then you have to wait for the firing to finish and then take out your finished items. In the same way, metal is melted in tanks. That is, you put pieces of copper in a vessel and in this very pit, after the above process you will get molten copper, which you can cast into ingots, headbands, and so on."]
+			description: ["{quests.69D20168E26BBF59.d1}"]
 			id: "69D20168E26BBF59"
 			size: 2.0d
-			subtitle: "太真实了 Realism"
+			subtitle: "{quests.69D20168E26BBF59.st}"
 			tasks: [{
 				icon: "tfc:firepit"
 				id: "4104866DD66BFB2E"
 				observe_type: 0
 				timer: 0L
-				title: "做一个烤火坑 Create a Roasting Pit"
+				title: "{quests.69D20168E26BBF59.t1}"
 				to_observe: "tfc:pit_kiln"
 				type: "observation"
 			}]
@@ -1659,7 +1672,7 @@
 					}
 				}
 				match_nbt: false
-				title: "黄铜或青铜稿 Brass or Bronze Pickaxe"
+				title: "Copper or bronze pickaxe"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1721,7 +1734,7 @@
 					}
 				}
 				match_nbt: false
-				title: "铜或青铜凿 Copper or Bronze Chisel"
+				title: "Copper or bronze chisel"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1733,15 +1746,8 @@
 			id: "3029097F88B8AABF"
 			size: 1.5d
 			tasks: [{
-				id: "4DF45DB51EF758E4"
-				item: {
-					Count: 1b
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(gtceu:poor_raw_graphite)item(gtceu:raw_graphite)item(gtceu:rich_raw_graphite))"
-					}
-				}
-				title: "任意石墨矿石 Any Graphite Ore"
+				id: "37D21B5266C73385"
+				item: "gtceu:crushed_graphite_ore"
 				type: "item"
 			}]
 			x: 12.0d
@@ -1755,8 +1761,8 @@
 				item: "tfc:crucible"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 11.0d
+			x: 18.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["57A961BF9EE3F0A4"]
@@ -1777,7 +1783,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6E07D20BECE4AB91"]
@@ -1788,7 +1794,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1853,6 +1859,7 @@
 		{
 			dependencies: ["4F5C883CC5282151"]
 			id: "6E24ECF6CEE950D1"
+			size: 2.0d
 			tasks: [{
 				id: "0CC93715D33E6211"
 				item: {
@@ -1866,7 +1873,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: -1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["06C7B7138EDE4B38"]
@@ -1938,7 +1945,7 @@
 					}
 				}
 				match_nbt: false
-				title: "铜或青铜锯 Copper or Bronze Saw"
+				title: "Copper or bronze saw"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1957,7 +1964,7 @@
 					}
 				}
 				match_nbt: false
-				title: "铜或青铜勘矿镐 The Miner's Copper or Bronze Pickaxe"
+				title: "Copper or bronze propick"
 				type: "item"
 			}]
 			x: 8.0d
@@ -2310,46 +2317,6 @@
 			y: 18.5d
 		}
 		{
-			dependencies: ["445E060EF3300A49"]
-			description: [
-				"&d高压蒸汽固体燃料锅炉&r是目前唯一可用的锅炉，因为其他锅炉需要的&a玻璃&r你现在还无法获得。这个锅炉只做一个是够用的，但我们推荐你至少整两个。The &dSolid Boiler&r is the only available Boiler for now, as the &aGlass&r needed for the others is not available just yet. You can get by with only one, but we would recommend making at least two."
-				""
-				"注意：锅炉是会爆炸的！这甚至是&eGT老手&r也会犯的错误，所以设置锅炉的时候一定要记好这点。Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this warning in mind when setting your Boiler up."
-				"{@pagebreak}"
-				"水与&6高温&r不太相容，在以下条件下可能会发生&c蒸汽爆炸&r（发射！）：Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r (Launch!) may occur under the following conditions:"
-				""
-				"- 锅炉&4过热&r。其温度由GUI中的&c红色条&r表示。The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
-				"...并且and..."
-				"- 锅炉没有&b水&r。这由GUI中&b蓝色条&r的减少/缺失来表示。The Boiler does not have any &bwater&r. This is signified by the absence of a &bblue bar&r in the GUI."
-				"...以及AND..."
-				"- 在&6两个&r条件&2同时&r成立时，锅炉接收到水。The Boiler receives water whilst &6both&r conditions are &2true&r."
-				"{@pagebreak}"
-				"在加热之前用水填满锅炉，并确保水源供应持续，可以避免灾难。消耗速度很慢 - &b1 mB&r的水蒸发成&7160 mB&r的蒸汽 - 因此你不必担心水会用完。You can avert catastrophe by filling the boiler with water before heating it up, and making sure the water supply is constant. The drain is slow - &b1 mB&r of Water boils into &7160 mB&r of Steam - so you shouldn't have to worry about running out."
-				""
-				"锅炉可以在除了底面以外的任意面输出蒸汽。你需要使用底面来实现水源的自动化输入。The Boiler can auto eject steam on all its faces except the bottom. For automated Water input, use the bottom face."
-				""
-				"&3注意Note:&r 在该整合包中，爆炸&c不会&r破坏任何方块或实体，但你的机器&d还是会&r因此坏掉。In this modpack, explosions are configured to &cnot&r damage any block or entity, but you'll &dstill lose&r your machine."
-				""
-				"你可能还记得，普通的蒸汽机器有使用持续时间的惩罚，并且速度慢了两倍，这事坏的。You may recall that regular Steam machines had a duration penalty, and were twice as slow. Not great."
-				""
-				"&5高压蒸汽机器&r没有这些不利，这让他们成为了实质上的升级。&5High Pressure&r Steam machines no longer bear a &bduration penalty &rfor recipes, making them objective upgrades."
-				""
-				"制作&e一个&r建议的高压机器来完成这个任务。Make &eone&r of the proposed HP machines to complete this quest."
-			]
-			id: "5C7B69F45F076A79"
-			shape: "gear"
-			size: 3.0d
-			subtitle: "在Steam时代整点蒸汽；Putting the Steam in Steam Age"
-			tasks: [{
-				id: "2D2CDB71DF062E33"
-				item: "gtceu:hp_steam_solid_boiler"
-				type: "item"
-			}]
-			title: "有压力才有动力 Pressure Cookin'"
-			x: 24.5d
-			y: 24.0d
-		}
-		{
 			dependencies: ["6564CC704664FE81"]
 			id: "0006D60580FCA6B7"
 			tasks: [{
@@ -2457,7 +2424,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: 18.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["15E8DFB91603906B"]
@@ -2832,12 +2799,14 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -13.0d
-			y: 10.0d
+			x: -6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2765DB2E20A745F8"]
+			description: ["{quests.478D0DF94D7495EF.d1}"]
 			id: "478D0DF94D7495EF"
+			subtitle: "{quests.478D0DF94D7495EF.st}"
 			tasks: [{
 				id: "19D772A3B1F41323"
 				item: {
@@ -2847,11 +2816,11 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:glass)"
 					}
 				}
-				title: "任意玻璃 Any #forge:glass"
+				title: "{quests.478D0DF94D7495EF.t1}"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 8.5d
+			x: -4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4BB76F3E38A2AFFB"]
@@ -2861,8 +2830,8 @@
 				item: "tfc:ceramic/pot"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 7.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -2872,18 +2841,20 @@
 			]
 			id: "6E13B0241CB1D536"
 			size: 2.0d
+			subtitle: "Did you think we would force you to use treetaps...?"
 			tasks: [{
 				id: "44C1C7857D5E60D7"
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.0d
+			x: 5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			hide_dependency_lines: true
 			id: "3CE7C64290BADE9F"
+			size: 1.5d
 			tasks: [{
 				icon: "tfc:wood/log/kapok"
 				id: "33278CA851060438"
@@ -2893,8 +2864,8 @@
 				to_observe: "tfc:kapok_logs"
 				type: "observation"
 			}]
-			x: -11.0d
-			y: 5.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3CE7C64290BADE9F"]
@@ -2913,8 +2884,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: 5.5d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -2937,8 +2908,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -8.0d
-			y: 5.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2765DB2E20A745F8"]
@@ -2955,8 +2926,8 @@
 				title: "任意玻璃板 Any #forge:glass_panes"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 8.5d
+			x: -4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["645D1F1C55674079"]
@@ -2985,8 +2956,8 @@
 				item: "tfc:lens"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 8.5d
+			x: -6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2765DB2E20A745F8"]
@@ -3003,8 +2974,8 @@
 				title: "任意TFC玻璃瓶 Any #tfc:glass_bottles"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 11.5d
+			x: -7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2765DB2E20A745F8"]
@@ -3014,8 +2985,8 @@
 				item: "tfc:empty_jar"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 11.5d
+			x: -7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2765DB2E20A745F8"]
@@ -3025,8 +2996,8 @@
 				item: "tfc:lamp_glass"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 11.5d
+			x: -7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2765DB2E20A745F8"]
@@ -3036,8 +3007,8 @@
 				item: "firmalife:reinforced_glass"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 10.0d
+			x: -4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["370D5A954DCBFD34"]
@@ -3047,8 +3018,8 @@
 				item: "minecraft:compass"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 7.0d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["370D5A954DCBFD34"]
@@ -3058,8 +3029,8 @@
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 7.0d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["17C487CFAE48B01B"]
@@ -3076,11 +3047,14 @@
 				title: "任意TFC灯 Any #tfc:lamps"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 13.0d
+			x: -9.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["3CE7C64290BADE9F"]
+			dependencies: [
+				"3CE7C64290BADE9F"
+				"4B8BAB2494C82C36"
+			]
 			id: "463F14478757D8E8"
 			tasks: [{
 				id: "5930A278D214573B"
@@ -3088,38 +3062,34 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -9.5d
-			y: 4.5d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["253860AD4DF4224C"]
+			dependencies: [
+				"253860AD4DF4224C"
+				"15E8DFB91603906B"
+			]
 			id: "37034449C5583151"
 			tasks: [{
 				id: "65C9755F4CB3A287"
 				item: "tfc:powder/sulfur"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.0d
+			x: 10.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0EB682B44D83D12A"]
 			hide_dependency_lines: true
 			id: "253860AD4DF4224C"
 			tasks: [{
-				id: "52D61470CEF41419"
-				item: {
-					Count: 1b
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(gtceu:poor_raw_sulfur)item(gtceu:raw_sulfur)item(gtceu:rich_raw_sulfur))"
-					}
-				}
-				title: "任意硫矿 Any Sulfur Ore"
+				id: "6E70D453F693036D"
+				item: "gtceu:crushed_sulfur_ore"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.5d
+			x: 10.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["095104BA3C842978"]
@@ -3158,7 +3128,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: 20.0d
+			y: 18.5d
 		}
 		{
 			dependencies: [
@@ -3432,49 +3402,30 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["1FCCE634F644AE61"]
+			dependencies: [
+				"1FCCE634F644AE61"
+				"6069CE93C1D1197C"
+			]
+			dependency_requirement: "one_completed"
 			id: "1D19FFD228A4951F"
 			size: 2.0d
 			tasks: [{
-				id: "0CAAD19630D9CA1C"
+				id: "0CA421EA60D850F6"
 				item: {
 					Count: 1b
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:metal/anvil/blue_steel)item(tfc:metal/anvil/red_steel))"
 					}
-					id: "tfc:metal/anvil/red_steel"
 				}
+				title: "Any Anvil of 6 Tier"
 				type: "item"
 			}]
 			x: 37.0d
-			y: 14.5d
+			y: 16.0d
 		}
 		{
-			dependencies: ["6069CE93C1D1197C"]
-			id: "65E7CD701194EA05"
-			size: 2.0d
-			tasks: [{
-				id: "5614177FB215A9BA"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:metal/anvil/blue_steel"
-				}
-				type: "item"
-			}]
-			x: 37.0d
-			y: 18.0d
-		}
-		{
-			dependencies: ["65E7CD701194EA05"]
+			dependencies: ["1D19FFD228A4951F"]
 			id: "32EFAF9DD97AC387"
 			tasks: [{
 				id: "52FC94E909B16B77"
@@ -3860,7 +3811,7 @@
 				title: "任意支撑梁 Any supports"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: 12.5d
 		}
 		{
@@ -3878,7 +3829,7 @@
 				title: "任意织机 Any loom"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.0d
 			y: 3.0d
 		}
 		{
@@ -3889,7 +3840,7 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 21.5d
 			y: 3.0d
 		}
 		{
@@ -3905,8 +3856,8 @@
 				to_observe: "tfc:crop/papyrus"
 				type: "observation"
 			}]
-			x: 14.0d
-			y: 6.5d
+			x: 27.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0D47455ABB97C81D"]
@@ -3916,7 +3867,7 @@
 				item: "tfc:papyrus_strip"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 24.0d
 			y: 1.0d
 		}
 		{
@@ -3930,7 +3881,7 @@
 				item: "tfc:soaked_papyrus_strip"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.5d
 			y: 1.0d
 		}
 		{
@@ -3944,22 +3895,25 @@
 				item: "tfc:unrefined_paper"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.5d
 			y: 3.0d
 		}
 		{
 			dependencies: [
 				"42FD437930CA74C7"
 				"2658E7679CD42ACD"
+				"593CC9165759B714"
 			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "5346CD3039C4B55A"
 			tasks: [{
 				id: "3634DBCEBC5306F4"
 				item: "minecraft:map"
 				type: "item"
 			}]
-			x: 19.0d
-			y: -2.0d
+			x: 21.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2658E7679CD42ACD"]
@@ -3969,26 +3923,30 @@
 				item: "minecraft:name_tag"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 24.0d
 			y: 3.0d
 		}
 		{
 			dependencies: [
 				"2658E7679CD42ACD"
 				"42FD437930CA74C7"
+				"593CC9165759B714"
 			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "20F878A238471ED7"
 			tasks: [{
 				id: "33347A566327E820"
 				item: "minecraft:book"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -3.0d
+			x: 22.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["45D907EF7902A200"]
 			id: "27DA5AAB102611A2"
+			subtitle: "{quests.27DA5AAB102611A2.st}"
 			tasks: [{
 				id: "5F944342D5C4195B"
 				item: {
@@ -4014,8 +3972,8 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -3.0d
+			x: 13.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -4028,8 +3986,8 @@
 				item: "firmalife:pineapple_leather"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.5d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -4049,8 +4007,8 @@
 				title: "任意预制皮革 Any Cooked Hide"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -4070,8 +4028,8 @@
 				title: "任意刮制皮革 Any scraped hide"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -4091,8 +4049,8 @@
 				title: "任意浸泡皮革 Any #tfc:soaked_hides"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.5d
+			x: 5.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -4114,8 +4072,8 @@
 				title: "任意兽皮 Any #tfc:raw_hides"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 3.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
@@ -4133,8 +4091,8 @@
 				title: "任意羊皮 Any #tfc:sheepskin_hides"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -4147,8 +4105,8 @@
 				item: "tfc:silk_cloth"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -6.5d
+			x: 14.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -4161,8 +4119,8 @@
 				item: "tfc:burlap_cloth"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -8.0d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -4176,19 +4134,20 @@
 				item: "tfc:wool_cloth"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.0d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["665BC6BB76CE0EA3"]
 			id: "35F316301C475302"
 			tasks: [{
+				count: 8L
 				id: "3B8D2051DC0792E5"
 				item: "minecraft:white_wool"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.0d
+			x: 11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -4202,7 +4161,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0546B04FC0F85C8C"]
@@ -4235,8 +4194,8 @@
 				item: "tfc:wool_yarn"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
@@ -4251,8 +4210,8 @@
 				to_observe: "tfc:wild_crop/jute"
 				type: "observation"
 			}]
-			x: 16.5d
-			y: -10.0d
+			x: 19.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -4266,12 +4225,16 @@
 				item: "tfc:jute_fiber"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -8.0d
+			x: 15.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["4E37B4C1A68FFE59"]
+			dependencies: [
+				"4E37B4C1A68FFE59"
+				"095104BA3C842978"
+			]
 			id: "6A4FB96DB86D6CAB"
+			size: 1.5d
 			tasks: [{
 				id: "1500208D4CBDD15A"
 				item: {
@@ -4289,8 +4252,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -8.0d
+			x: 19.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4E37B4C1A68FFE59"]
@@ -4341,8 +4304,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -9.5d
+			x: 15.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4E37B4C1A68FFE59"]
@@ -4393,8 +4356,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: -9.5d
+			x: 15.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -4407,8 +4370,8 @@
 				item: "firmalife:pineapple_yarn"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -6.5d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -4422,8 +4385,8 @@
 				item: "firmalife:pineapple_fiber"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -6.5d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
@@ -4443,8 +4406,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.0d
+			x: 6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
@@ -4455,8 +4418,8 @@
 				item: "firmalife:drying_mat"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -8.0d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["314212B496B2D3C3"]
@@ -4507,8 +4470,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -6.5d
+			x: 18.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["665BC6BB76CE0EA3"]
@@ -4525,8 +4488,8 @@
 				title: "任意床 Any #minecraft:beds"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -5.5d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -4582,11 +4545,15 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: -5.0d
+			x: 9.75d
+			y: -4.5d
 		}
 		{
-			dependencies: ["42FD437930CA74C7"]
+			dependencies: [
+				"42FD437930CA74C7"
+				"593CC9165759B714"
+			]
+			dependency_requirement: "one_completed"
 			id: "3D889F02ABAFEB85"
 			tasks: [
 				{
@@ -4645,13 +4612,14 @@
 					type: "item"
 				}
 			]
-			x: 15.5d
-			y: -5.0d
+			x: 11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
-				"42FD437930CA74C7"
 				"6BC4DB9BEE8E6640"
+				"42FD437930CA74C7"
+				"593CC9165759B714"
 			]
 			dependency_requirement: "one_completed"
 			id: "4A957A44753A5B84"
@@ -4666,23 +4634,20 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: -4.0d
+			x: 11.0d
+			y: -3.5d
 		}
 		{
-			dependencies: [
-				"42FD437930CA74C7"
-				"6BC4DB9BEE8E6640"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["1E1A13F6B8D24207"]
 			id: "4E39A32FAA011FF5"
+			size: 2.0d
 			tasks: [{
 				id: "79E2F0E9233F4A86"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -3.0d
+			x: 27.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["25E35E929922B872"]
@@ -4708,7 +4673,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["42FD437930CA74C7"]
+			dependencies: [
+				"42FD437930CA74C7"
+				"593CC9165759B714"
+			]
+			dependency_requirement: "one_completed"
 			id: "51A6F6EC85D7CDF7"
 			size: 2.0d
 			tasks: [{
@@ -4716,8 +4685,8 @@
 				item: "tfc:bellows"
 				type: "item"
 			}]
-			x: 19.0d
-			y: -5.0d
+			x: 13.302380952381057d
+			y: -2.280952380952357d
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
@@ -4729,8 +4698,40 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -9.5d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"314212B496B2D3C3"
+				"665BC6BB76CE0EA3"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "706F66F81DDEAA2D"
+			tasks: [{
+				id: "59433C4042267637"
+				item: "minecraft:painting"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"42FD437930CA74C7"
+				"593CC9165759B714"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "61C41D648B6BD1B1"
+			tasks: [{
+				id: "154A263744D9BD15"
+				item: "minecraft:item_frame"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -0.5d
 		}
 	]
 	title: "原始时代 Primitive Age"

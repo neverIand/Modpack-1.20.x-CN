@@ -1001,6 +1001,455 @@ const registerMinecraftRecipes = (event) => {
 
     //#endregion
 
+    //#region Выход: Незер кирпич
+
+    event.remove({ id: 'minecraft:nether_bricks' })
+    event.remove({ id: 'gtceu:compressor/nether_bricks' })
+
+    //#endregion
+
+    //#region Выход: Потрескавшийся незер кирпич
+
+    event.remove({ id: 'minecraft:cracked_nether_bricks' })
+
+    //#endregion
+
+    //#region Выход: Незер ступень
+
+    event.remove({ id: 'minecraft:nether_brick_stairs' })
+    event.remove({ id: 'minecraft:nether_brick_stairs_from_nether_bricks_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Незер полублок
+
+    event.remove({ id: 'gtceu:shaped/nether_brick_slab_saw' })
+    event.remove({ id: 'minecraft:nether_brick_slab_from_nether_bricks_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Незер стена
+
+    event.remove({ id: 'minecraft:nether_brick_wall' })
+    event.remove({ id: 'minecraft:nether_brick_wall_from_nether_bricks_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Незер забор
+
+    event.remove({ id: 'minecraft:nether_brick_fence' })
+    event.remove({ id: 'gtceu:assembler/nether_brick_fence' })
+
+    //#endregion
+
+    //#region Выход: Резной незер кирпич
+
+    event.remove({ id: 'minecraft:chiseled_nether_bricks' })
+    event.remove({ id: 'minecraft:chiseled_nether_bricks_from_nether_bricks_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Красный незер кирпич
+
+    event.remove({ id: 'minecraft:red_nether_bricks' })
+    event.remove({ id: 'gtceu:alloy_smelter/red_nether_bricks' })
+
+    //#endregion
+    
+    //#region Выход: Ступень из красного незер кирпича
+
+    event.remove({ id: 'minecraft:red_nether_brick_stairs' })
+    event.remove({ id: 'minecraft:red_nether_brick_stairs_from_red_nether_bricks_stonecutting' })
+
+    //#endregion
+    
+    //#region Выход: Полублок из красного незер кирпича
+
+    event.remove({ id: 'minecraft:red_nether_brick_slab' })
+    event.remove({ id: 'minecraft:red_nether_brick_slab_from_red_nether_bricks_stonecutting' })
+
+    //#endregion
+    
+    //#region Выход: Стена из красного незер кирпича
+
+    event.remove({ id: 'minecraft:red_nether_brick_wall' })
+    event.remove({ id: 'minecraft:red_nether_brick_wall_from_red_nether_bricks_stonecutting' })
+
+    //#endregion
+    
+    //#region Выход: Базальт
+
+    event.remove({ id: 'gtceu:rock_breaker/basalt' })
+
+    //#endregion
+    
+    //#region Выход: Гладкий базальт
+
+    event.remove({ id: 'minecraft:smooth_basalt' })
+
+    //#endregion
+    
+    //#region Выход: Полированный базальт
+
+    event.remove({ id: 'minecraft:polished_basalt' })
+    event.remove({ id: 'minecraft:polished_basalt_from_basalt_stonecutting' })
+
+    //#endregion
+    
+    //#region Выход: Черный камень
+
+    event.remove({ id: 'gtceu:rock_breaker/blackstone' })
+
+    //#endregion
+    
+    //#region Выход: Ступень из черного камня
+
+    event.remove({ id: 'minecraft:blackstone_stairs' })
+    event.remove({ id: 'minecraft:blackstone_stairs_from_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Полублок из черного камня
+
+    event.remove({ id: 'minecraft:blackstone_slab' })
+    event.remove({ id: 'minecraft:blackstone_slab_from_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Стена из черного камня
+
+    event.remove({ id: 'minecraft:blackstone_wall' })
+    event.remove({ id: 'minecraft:blackstone_wall_from_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Резной гладкий черный камень
+
+    event.remove({ id: 'minecraft:chiseled_polished_blackstone' })
+    event.remove({ id: 'minecraft:chiseled_polished_blackstone_from_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:chiseled_polished_blackstone_from_polished_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Гладкий черный камень
+
+    event.remove({ id: 'minecraft:polished_blackstone' })
+    event.remove({ id: 'minecraft:polished_blackstone_from_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Ступени из гладкого черного камня
+
+    event.remove({ id: 'minecraft:polished_blackstone_stairs' })
+    event.remove({ id: 'minecraft:polished_blackstone_stairs_from_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_stairs_from_polished_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Полублоки из гладкого черного камня
+
+    event.remove({ id: 'minecraft:polished_blackstone_slab' })
+    event.remove({ id: 'minecraft:polished_blackstone_slab_from_polished_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_slab_from_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Стена из гладкого черного камня
+
+    event.remove({ id: 'minecraft:polished_blackstone_wall' })
+    event.remove({ id: 'minecraft:polished_blackstone_wall_from_polished_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_wall_from_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Кирпичи из черного камня
+
+    event.remove({ id: 'minecraft:polished_blackstone_bricks' })
+    event.remove({ id: 'minecraft:polished_blackstone_bricks_from_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_bricks_from_polished_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Потрескавшиеся кирпичи из черного камня
+
+    event.remove({ id: 'minecraft:cracked_polished_blackstone_bricks' })
+
+    //#endregion
+
+    //#region Выход: Ступени из кирпичей из черного камня
+
+    event.remove({ id: 'minecraft:polished_blackstone_brick_stairs' })
+    event.remove({ id: 'minecraft:polished_blackstone_brick_stairs_from_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Полублоки из кирпичей из черного камня
+
+    event.remove({ id: 'minecraft:polished_blackstone_brick_slab' })
+    event.remove({ id: 'minecraft:polished_blackstone_brick_slab_from_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_brick_slab_from_polished_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Стена из кирпичей из черного камня
+
+    event.remove({ id: 'minecraft:polished_blackstone_brick_wall' })
+    event.remove({ id: 'minecraft:polished_blackstone_brick_wall_from_polished_blackstone_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting' })
+    event.remove({ id: 'minecraft:polished_blackstone_brick_wall_from_blackstone_stonecutting' })
+
+    //#endregion
+
+    //#region Выход: Нажимная плита из черного камня
+
+    event.remove({ id: 'minecraft:polished_blackstone_pressure_plate' })
+
+    //#endregion
+
+    //#region Выход: Кнопка из черного камня
+
+    event.remove({ id: 'minecraft:polished_blackstone_button' })
+
+    //#endregion
+
+    //#region Выход: Медные блоки
+
+    //#region Удаление
+
+    //#region Обычные
+
+    event.remove({ id: 'minecraft:cut_copper' })
+    event.remove({ id: 'minecraft:cut_copper_from_copper_block_stonecutting' })
+    
+    event.remove({ id: 'minecraft:cut_copper_stairs' })
+    event.remove({ id: 'minecraft:cut_copper_stairs_from_copper_block_stonecutting' })
+    event.remove({ id: 'minecraft:cut_copper_stairs_from_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:cut_copper_slab' })
+    event.remove({ id: 'minecraft:cut_copper_slab_from_copper_block_stonecutting' })
+    event.remove({ id: 'minecraft:cut_copper_slab_from_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:exposed_cut_copper' })
+    event.remove({ id: 'minecraft:exposed_cut_copper_from_exposed_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:exposed_cut_copper_stairs' })
+    event.remove({ id: 'minecraft:exposed_cut_copper_stairs_from_exposed_copper_stonecutting' })
+    event.remove({ id: 'minecraft:exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:exposed_cut_copper_slab' })
+    event.remove({ id: 'minecraft:exposed_cut_copper_slab_from_exposed_copper_stonecutting' })
+    event.remove({ id: 'minecraft:exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:weathered_cut_copper' })
+    event.remove({ id: 'minecraft:weathered_cut_copper_from_weathered_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:weathered_cut_copper_stairs' })
+    event.remove({ id: 'minecraft:weathered_cut_copper_stairs_from_weathered_copper_stonecutting' })
+    event.remove({ id: 'minecraft:weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:weathered_cut_copper_slab' })
+    event.remove({ id: 'minecraft:weathered_cut_copper_slab_from_weathered_copper_stonecutting' })
+    event.remove({ id: 'minecraft:weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:oxidized_cut_copper' })
+    event.remove({ id: 'minecraft:oxidized_cut_copper_from_oxidized_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:oxidized_cut_copper_stairs' })
+    event.remove({ id: 'minecraft:oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting' })
+    event.remove({ id: 'minecraft:oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:oxidized_cut_copper_slab' })
+    event.remove({ id: 'minecraft:oxidized_cut_copper_slab_from_oxidized_copper_stonecutting' })
+    event.remove({ id: 'minecraft:oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting' })
+
+    //#endregion
+
+    //#region В меде
+
+    event.remove({ id: 'minecraft:waxed_copper_block_from_honeycomb' })
+
+    event.remove({ id: 'minecraft:waxed_cut_copper_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_cut_copper' })
+    event.remove({ id: 'minecraft:waxed_cut_copper_from_waxed_copper_block_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_cut_copper_stairs_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_cut_copper_stairs' })
+    event.remove({ id: 'minecraft:waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting' })
+    event.remove({ id: 'minecraft:waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_cut_copper_slab_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_cut_copper_slab' })
+    event.remove({ id: 'minecraft:waxed_cut_copper_slab_from_waxed_copper_block_stonecutting' })
+    event.remove({ id: 'minecraft:waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_exposed_copper_from_honeycomb' })
+    
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper' })
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_stairs' })
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting' })
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_slab_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_slab' })
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting' })
+    event.remove({ id: 'minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_weathered_copper_from_honeycomb' })
+    
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper' })
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_stairs' })
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting' })
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_slab_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_slab' })
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting' })
+    event.remove({ id: 'minecraft:waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_oxidized_copper_from_honeycomb' })
+    
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper' })
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_stairs' })
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting' })
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting' })
+    
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb' })
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_slab' })
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting' })
+    event.remove({ id: 'minecraft:waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting' })
+
+    //#endregion
+    
+    //#endregion
+
+    //#region Добавление
+
+    for (let i = 0; i < global.MINECRAFT_COPPER_BLOCKS_RECIPE_COMPONENTS.length; i++) {
+        let element = global.MINECRAFT_COPPER_BLOCKS_RECIPE_COMPONENTS[i];
+
+        // Создание ржавчины
+        if (i < global.MINECRAFT_COPPER_BLOCKS_RECIPE_COMPONENTS.length / 2 - 1) {
+            
+            let element2 = global.MINECRAFT_COPPER_BLOCKS_RECIPE_COMPONENTS[i + 1]
+            
+            event.recipes.gtceu.chemical_reactor(`tfg:minecraft/oxidizing_block_${element.name}`)             
+                .itemInputs(element.block)
+                .inputFluids(Fluid.of('minecraft:water', 150))
+                .circuit(1)
+                .itemOutputs(element2.block)
+                .duration(1000)
+                .EUt(4)
+
+            event.recipes.gtceu.chemical_reactor(`tfg:minecraft/oxidizing_cutted_${element.name}`)             
+                .itemInputs(element.cutted)
+                .inputFluids(Fluid.of('minecraft:water', 150))
+                .circuit(1)
+                .itemOutputs(element2.cutted)
+                .duration(1000)
+                .EUt(4)
+
+            event.recipes.gtceu.chemical_reactor(`tfg:minecraft/oxidizing_stairs_${element.name}`)             
+                .itemInputs(element.stairs)
+                .inputFluids(Fluid.of('minecraft:water', 150))
+                .circuit(1)
+                .itemOutputs(element2.stairs)
+                .duration(1000)
+                .EUt(4)
+
+            event.recipes.gtceu.chemical_reactor(`tfg:minecraft/oxidizing_slabs_${element.name}`)             
+                .itemInputs(element.slabs)
+                .inputFluids(Fluid.of('minecraft:water', 150))
+                .circuit(1)
+                .itemOutputs(element2.slabs)
+                .duration(1000)
+                .EUt(4)
+        } else if (i > global.MINECRAFT_COPPER_BLOCKS_RECIPE_COMPONENTS.length / 2 - 1) {
+            let element2 = global.MINECRAFT_COPPER_BLOCKS_RECIPE_COMPONENTS[i - global.MINECRAFT_COPPER_BLOCKS_RECIPE_COMPONENTS.length / 2]
+
+            event.recipes.gtceu.assembler(`tfg:minecraft/waxing_block_${element.name}`)             
+                .itemInputs(element2.block, 'firmalife:beeswax')
+                .circuit(1)
+                .itemOutputs(element.block)
+                .duration(50)
+                .EUt(4)
+
+            event.recipes.gtceu.assembler(`tfg:minecraft/waxing_cutted_${element.name}`)             
+                .itemInputs(element2.cutted, 'firmalife:beeswax')
+                .circuit(1)
+                .itemOutputs(element.cutted)
+                .duration(50)
+                .EUt(4)
+
+            event.recipes.gtceu.assembler(`tfg:minecraft/waxing_stairs_${element.name}`)             
+                .itemInputs(element2.stairs, 'firmalife:beeswax')
+                .circuit(1)
+                .itemOutputs(element.stairs)
+                .duration(50)
+                .EUt(4)
+
+            event.recipes.gtceu.assembler(`tfg:minecraft/waxing_slabs_${element.name}`)             
+                .itemInputs(element2.slabs, 'firmalife:beeswax')
+                .circuit(1)
+                .itemOutputs(element.slabs)
+                .duration(50)
+                .EUt(4)
+
+        }
+
+        // Обрезанный блок
+
+        event.stonecutting(element.cutted, element.block)
+            .id(`tfg:stonecutting/cutted_${element.name}`)
+
+        generateCutterRecipe(event, element.block, 4, element.cutted, 100, 8, `cutted_${element.name}`)
+
+        // Not working, because JS is shit!
+        // event.recipes.tfc.chisel(element.cutted,  element.block, 'smooth')
+        //     .id(`tfg:chisel/cutted_${element.name}`)
+        
+        // Ступени
+
+        event.stonecutting(element.stairs, element.cutted)
+            .id(`tfg:stonecutting/stairs_${element.name}`)
+
+        generateCutterRecipe(event, element.cutted, 0, [element.stairs, 'gtceu:small_copper_dust'], 100, 8, `stairs_${element.name}`)
+
+        // Not working, because JS is shit!
+        // event.recipes.tfc.chisel(element.stair,  element.cutted, 'stair')
+        //     .id(`tfg:chisel/stair_${element.name}`)
+
+        // Полублоки
+
+        event.stonecutting(element.slabs, element.cutted)
+            .id(`tfg:stonecutting/slabs_${element.name}`)
+
+        generateCutterRecipe(event, element.cutted, 1, [element.slabs, '2x gtceu:small_copper_dust'], 100, 8, `slabs_${element.name}`)
+
+        // Not working, because JS is shit!
+        // event.recipes.tfc.chisel(element.slab,  element.cutted, 'slab')
+        //     .id(`tfg:chisel/slab_${element.name}`)
+
+    }
+
+    //#endregion
+
+    //#endregion
+
     //#region Выход: Кремний
 
     event.shapeless('minecraft:flint', [
@@ -1702,6 +2151,7 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Фиолетовый блок плита
 
     event.remove({ id: 'minecraft:purpur_slab' })
+    event.remove({ id: 'gtceu:shaped/purpur_slab_saw' })
     event.remove({ id: 'minecraft:purpur_slab_from_purpur_block_stonecutting' })
 
     //#endregion
@@ -2526,6 +2976,7 @@ const registerMinecraftRecipes = (event) => {
 
     global.MINECRAFT_DYE_NAMES.forEach(dye => {
         event.remove({ id: `minecraft:${dye}_bed` })
+        event.remove({ id: `minecraft:dye_${dye}_bed` })
 
         if (dye != "white")
             event.recipes.gtceu.chemical_bath(`${dye}_bed`)             
@@ -2557,6 +3008,46 @@ const registerMinecraftRecipes = (event) => {
     //#region Выход: Наблюдатель
 
     event.remove({ id: 'minecraft:observer' })
+
+    event.recipes.gtceu.assembler('observer_certus_quartz')             
+        .itemInputs('6x #forge:cobblestone', '2x minecraft:redstone', '#forge:plates/certus_quartz')
+        .itemOutputs('minecraft:observer')
+        .duration(100)
+        .EUt(30)
+
+    event.recipes.gtceu.assembler('observer_nether_quartz')             
+        .itemInputs('6x #forge:cobblestone', '2x minecraft:redstone', '#forge:plates/nether_quartz')
+        .itemOutputs('minecraft:observer')
+        .duration(100)
+        .EUt(30)
+
+    event.recipes.gtceu.assembler('observer_quartzite')             
+        .itemInputs('6x #forge:cobblestone', '2x minecraft:redstone', '#forge:plates/quartzite')
+        .itemOutputs('minecraft:observer')
+        .duration(100)
+        .EUt(30)
+
+    //#endregion
+
+    //#region Выход: Раздатчик
+
+    event.recipes.gtceu.assembler('dispenser')             
+        .itemInputs('7x #forge:cobblestone', 'minecraft:redstone', 'minecraft:bow')
+        .circuit(1)
+        .itemOutputs('minecraft:dispenser')
+        .duration(100)
+        .EUt(30)
+
+    //#endregion
+
+    //#region Выход: Выбрасыватель
+
+    event.recipes.gtceu.assembler('dropper')             
+        .itemInputs('7x #forge:cobblestone', '2x minecraft:redstone')
+        .circuit(2)
+        .itemOutputs('minecraft:dropper')
+        .duration(100)
+        .EUt(30)
 
     //#endregion
 
@@ -2639,6 +3130,13 @@ const registerMinecraftRecipes = (event) => {
 
     event.remove({ id: 'minecraft:brick' })
 
+    //#endregion
+
+    //#region Выъод: Незер кирпич
+
+    event.remove({ id: 'gtceu:extractor/nether_bricks_extraction' })
+    event.remove({ id: 'gtceu:alloy_smelter/form_nether_brick' })
+    
     //#endregion
 
     //#region Выход: Незер бревна

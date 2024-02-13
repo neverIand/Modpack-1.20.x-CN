@@ -7,6 +7,9 @@
             "category": "minecraft:brewing"
         },
         {
+            "category": "minecraft:stonecutting"
+        },
+        {
             "category": "emi:anvil_repairing"
         },
         {
@@ -38,6 +41,15 @@
         },
         {
             "id": "/emi:/crafting/shulker_box_dying/minecraft/[^*]+/"
+        },
+        {
+            "id": "/create:create.toolbox.color.block.create.[^*]+/"
+        },
+        {
+            "id": "/sophisticatedbackpacks:single_color_[^*]+/"
+        },
+        {
+            "id": "sophisticatedbackpacks:multiple_colors"
         }
     ]
 }

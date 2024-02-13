@@ -97,6 +97,40 @@ const registerFirmaLifeRecipes = (event) => {
         .duration(50)
         .EUt(7)
 
+    // Pineapple Fiber
+    event.recipes.gtceu.assembler(`tfg:firmalife/pineapple_fiber`)             
+        .itemInputs('firmalife:food/pineapple')
+        .circuit(1)
+        .itemOutputs('firmalife:pineapple_fiber')
+        .duration(50)
+        .EUt(7)
+
+    // Pineapple Yarn
+    event.recipes.gtceu.assembler(`tfg:firmalife/pineapple_yarn`)             
+        .itemInputs('firmalife:pineapple_fiber')
+        .circuit(1)
+        .itemOutputs('8x firmalife:pineapple_yarn')
+        .duration(50)
+        .EUt(7)
+
+    // Pineapple Leather
+    event.recipes.gtceu.assembler(`tfg:firmalife/pineapple_leather`)             
+        .itemInputs('16x firmalife:pineapple_yarn')
+        .circuit(1)
+        .itemOutputs('firmalife:pineapple_leather')
+        .duration(50)
+        .EUt(7)
+
+    // TODO: Не работает потому что грегтех
+    // Доставание меда из сот
+    /*
+    event.recipes.gtceu.assembler(`tfg:firmalife/beehive_honey_decomposition`)             
+        .itemInputs('firmalife:beehive_frame')
+        .circuit(1)
+        .itemOutputs('firmalife:beehive_frame', 'firmalife:beeswax')
+        .duration(10)
+        .EUt(2)*/
+
     //#region Рецепты теплиц
 
     //#region Медная
