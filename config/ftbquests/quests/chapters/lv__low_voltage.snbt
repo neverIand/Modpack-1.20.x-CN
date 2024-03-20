@@ -1686,13 +1686,13 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&oThis quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o这个任务完全是可选的，不过你可能会对它感兴趣。我们出于完整性的考虑将其放在这里。This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
 				""
-				"The &3Fisher&r catches fish from Water. It requires a 5x5 area of Water directly below to operate. It uses the same loot table as normal Fishing, so it can catch things like &dEnchanted Books&r. Each operation consumes 1 String and EU equivalent to its tier (32 for &7LV&r, etc.) That's about it."
+				"&3捕鱼器&r从水中捕捉鱼。它需要直接下方有一个5x5的水域才能运作。它使用与正常钓鱼相同的战利品表，因此它可以捕捉到像&d附魔书&r这样的东西。每次操作消耗1根线和相当于其等级的EU（对于&7LV&r等级是32等）。以上。The &3Fisher&r catches fish from Water. It requires a 5x5 area of Water directly below to operate. It uses the same loot table as normal Fishing, so it can catch things like &dEnchanted Books&r. Each operation consumes 1 String and EU equivalent to its tier (32 for &7LV&r, etc.) That's about it."
 				""
-				"&eFish Oil&r can be extracted from Fish, which can be used for &6Bio Diesel&r."
+				"可以从鱼中提取&d鱼油&r，可用于&6生物柴油&r。&eFish Oil&r can be extracted from Fish, which can be used for &6Bio Diesel&r."
 				""
-				"Get &eany&r tier Fisher to complete this quest. (They only go up to &5EV&r. If you forsee needing enough Fish to justify an &1IV&r or higher Fisher, make a feature request on our GitHub or Discord.)"
+				"获取&e任何&r等级的捕鱼器来完成这个任务。（它们只能升级到&5EV&r。如果你预见到需要足够多的鱼来证明一个&1IV&r或更高级别的捕鱼器是合理的，请在我们的GitHub或Discord上提出功能请求。）Get &eany&r tier Fisher to complete this quest. (They only go up to &5EV&r. If you forsee needing enough Fish to justify an &1IV&r or higher Fisher, make a feature request on our GitHub or Discord.)"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_fisher"
@@ -1721,11 +1721,11 @@
 					type: "item"
 				}
 			]
-			title: "Fishing 50"
+			title: "钩直饵咸 Fishing 50"
 			x: 6.75d
 			y: 0.0d
 		}
 	]
-	subtitle: ["Tame electricity and make your first machines"]
-	title: "&7LV&r - Low Voltage"
+	subtitle: ["驯服电力并做出你的第一批机器 Tame electricity and make your first machines"]
+	title: "&7低压&r时代 &7LV&r - Low Voltage"
 }
