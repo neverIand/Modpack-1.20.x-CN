@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:bronze_brick_casing"
 	id: "3B89FB8839204148"
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "1C86D83D29134EBE"
@@ -16,7 +16,7 @@
 		{
 			id: "09E0E263CC81CD99"
 			linked_quest: "2658E7679CD42ACD"
-			x: 9.5d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
@@ -50,6 +50,12 @@
 			size: 3.0d
 			x: -7.5d
 			y: 0.0d
+		}
+		{
+			id: "3E93FFAACC24EEA5"
+			linked_quest: "7B74DB051202E97E"
+			x: 11.5d
+			y: -1.0d
 		}
 	]
 	quests: [
@@ -91,7 +97,6 @@
 			size: 2.0d
 			subtitle: "低压时代的问候... Low Voltage beckons..."
 			tasks: [{
-				count: 6L
 				icon: "gtceu:lv_electric_motor"
 				id: "6F01622979E6F332"
 				item: "gtceu:lv_electric_motor"
@@ -196,7 +201,7 @@
 					type: "item"
 				}
 			]
-			title: "*愤怒* Malding"
+			title: "*愤怒* Molding"
 			x: 2.5d
 			y: -3.0d
 		}
@@ -276,8 +281,8 @@
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			title: "电子元件#1：电阻 Electronics #1: Resistors"
-			x: 9.5d
+			title: "Electronics #1: Resistors"
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -371,7 +376,6 @@
 			size: 1.0d
 			subtitle: "电路中更棘手的元件 The harder component for circuits"
 			tasks: [{
-				count: 2L
 				id: "099C373568DF4500"
 				item: "gtceu:vacuum_tube"
 				type: "item"
@@ -409,6 +413,7 @@
 				"4ED5A9AEF7B928BA"
 				"54AF8696674766B4"
 				"77EA56D16A9B3BFC"
+				"7B74DB051202E97E"
 			]
 			description: [
 				"我们终于到达了&7低压时代&r！给自己一个赞！We made it to &7LV&r! Give yourself a pat on the back!"
@@ -732,25 +737,15 @@
 				id: "158F4EEDC214A3BA"
 				item: {
 					Count: 1b
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:tin_small_item_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:nickel_small_item_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:cobalt_small_item_pipe"
-							}
-						]
+						display: {
+							Name: "{\"text\":\"Any item pipe\"}"
+						}
+						"ftbfiltersystem:filter": "or(item_tag(forge:small_item_pipes)item_tag(forge:normal_item_pipes)item_tag(forge:large_item_pipes)item_tag(forge:huge_item_pipes))"
 					}
 				}
-				title: "游戏前期的物品管道 Earlygame Item Pipes"
+				title: "Any Item Pipes"
 				type: "item"
 			}]
 			title: "物品管道 Item Pipes"
@@ -836,5 +831,5 @@
 		}
 	]
 	subtitle: ["掌握基础并驾驭蒸汽的力量 Harness the power of Steam and learn the basics"]
-	title: "蒸汽时代 Steam Age"
+	title: "ULV - 蒸汽时代 Steam Age"
 }

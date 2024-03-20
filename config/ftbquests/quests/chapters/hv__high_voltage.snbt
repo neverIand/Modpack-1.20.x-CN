@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:hv_electric_motor"
 	id: "237BDB19A9495869"
-	order_index: 4
+	order_index: 6
 	quest_links: [
 		{
 			id: "2583D0B64E51FAC8"
@@ -302,17 +302,9 @@
 			size: 0.66d
 			tasks: [
 				{
-					count: 20L
 					id: "73A16ED7BA7D64E8"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:lenses"
-						}
-					}
+					item: "gtceu:cyan_glass_lens"
 					optional_task: true
-					title: "Any #forge:lenses"
 					type: "item"
 				}
 				{
@@ -391,15 +383,13 @@
 					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "gtceu:sodium_potassium"
-					id: "2DF33EF0321AB809"
-					optional_task: true
-					type: "fluid"
-				}
-				{
 					id: "22E204ADB8257706"
 					item: "gtceu:hv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0799251A5E99839C"
+					item: "gtceu:sodium_potassium_bucket"
 					type: "item"
 				}
 			]
@@ -670,18 +660,7 @@
 				"16E3465CF94E2BDD"
 				"4024C831C77101CA"
 			]
-			description: [
-				"Regardless of whether you're playing on Peaceful or not, you will have to defeat the &4Ender Dragon&r to return to the Overworld safely."
-				""
-				"Prepare yourself with a bow, a few arrows, a blade, and some beds (speedrunner strats!)."
-				""
-				"This quest will print the &alocation of the nearest Stronghold&r in chat."
-				"{@pagebreak}"
-				"&9The End&r has even more new veins and materials to harvest, such as &ePlatinum&r and &7Naquadah&r! Similar to Nether ores, End ores are &6worth two Overworld ores&r."
-				""
-				"&aEyes of Ender&r are additionally used in crafting certain components, or for creating &5Quantum Eyes&r."
-			]
-			icon: "minecraft:end_portal_frame"
+			icon: "minecraft:ender_eye"
 			id: "41D32C5178760F47"
 			size: 0.75d
 			tasks: [{
@@ -690,7 +669,6 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			title: "The End"
 			x: 7.875d
 			y: -1.875d
 		}
@@ -838,22 +816,18 @@
 			subtitle: "A.K.A - Teflon"
 			tasks: [
 				{
-					amount: 1000L
-					fluid: "gtceu:hydrofluoric_acid"
-					id: "39D0D1DEEFAD2830"
-					optional_task: true
-					type: "fluid"
-				}
-				{
-					amount: 1000L
-					fluid: "gtceu:chloroform"
-					id: "28B5614D97C82AB8"
-					optional_task: true
-					type: "fluid"
-				}
-				{
 					id: "62C0D8E62DC90BD5"
 					item: "gtceu:polytetrafluoroethylene_plate"
+					type: "item"
+				}
+				{
+					id: "54D65A0A939DAD54"
+					item: "gtceu:hydrofluoric_acid_bucket"
+					type: "item"
+				}
+				{
+					id: "3E6E6F21B34F86B4"
+					item: "gtceu:chloroform_bucket"
 					type: "item"
 				}
 			]
@@ -868,24 +842,13 @@
 				""
 				"The catch here is that it takes &dDistilled Water&r, and consumes a bit of &dSulfur&r with every step."
 			]
-			icon: {
-				Count: 1b
-				id: "gtceu:fluid_cell"
-				tag: {
-					Fluid: {
-						Amount: 8000
-						FluidName: "gtceu:nitrobenzene"
-					}
-				}
-			}
 			id: "56E7A3A0CC690C8A"
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
-				amount: 40000L
-				fluid: "gtceu:nitrobenzene"
-				id: "0BC043068EE4C69A"
-				type: "fluid"
+				id: "33CF24B0A19D2F25"
+				item: "gtceu:nitrobenzene_bucket"
+				type: "item"
 			}]
 			title: "Benzene Nitro"
 			x: 9.0d
@@ -967,13 +930,6 @@
 			size: 0.75d
 			tasks: [
 				{
-					amount: 1000L
-					fluid: "gtceu:toluene"
-					id: "1B1BAB5824FA20A9"
-					optional_task: true
-					type: "fluid"
-				}
-				{
 					id: "1CB85F57BA45252D"
 					item: "gtceu:gelled_toluene"
 					type: "item"
@@ -981,6 +937,11 @@
 				{
 					id: "04BF6A36E965C348"
 					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "6DC25EED8E91BEC2"
+					item: "gtceu:toluene_bucket"
 					type: "item"
 				}
 			]
@@ -1026,7 +987,7 @@
 			tasks: [
 				{
 					id: "3DC62CA60F006A06"
-					item: "gtceu:ender_pearl_dust"
+					item: "ae2:ender_dust"
 					optional_task: true
 					type: "item"
 				}
@@ -1121,10 +1082,9 @@
 			size: 0.75d
 			subtitle: "This won't eat your skin"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:nitric_acid"
-				id: "30DA5B5D735254AD"
-				type: "fluid"
+				id: "5F8F684990622DE1"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
 			}]
 			title: "Nitric Acid"
 			x: 6.75d
@@ -1137,25 +1097,14 @@
 				""
 				"The catch comes in the complexity of making &dTNM&r. In order to concoct it, you must react &aNitric Acid&r with either &dEthenone&r or &aMethyl Acetate&r, both of which have quite an involved process themselves!"
 			]
-			icon: {
-				Count: 1b
-				id: "gtceu:fluid_cell"
-				tag: {
-					Fluid: {
-						Amount: 8000
-						FluidName: "gtceu:cetane_boosted_diesel"
-					}
-				}
-			}
 			id: "04F6E968CEEC3D49"
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "This is to go further beyond"
 			tasks: [{
-				amount: 50000L
-				fluid: "gtceu:cetane_boosted_diesel"
-				id: "150FF5579CA17796"
-				type: "fluid"
+				id: "51D904AA29256F8D"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
 			}]
 			title: "Cetane-boosted Diesel"
 			x: 7.875d
@@ -1276,6 +1225,56 @@
 			title: "Ammonia"
 			x: 6.75d
 			y: -0.75d
+		}
+		{
+			dependencies: ["16A6AE5C770DB83A"]
+			id: "1D88369409736DC7"
+			size: 0.75d
+			tasks: [{
+				id: "722AEA3607BBAC94"
+				item: "gtceu:hv_polarizer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FA0ACB7F161F378"]
+			id: "2F5778EDE6426D7E"
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "1BCFD5295BE92C4E"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.625d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F5778EDE6426D7E"]
+			id: "2045D32219AA0DCC"
+			shape: "circle"
+			size: 0.9d
+			tasks: [{
+				id: "3785469E7628386A"
+				item: {
+					Count: 1b
+					id: "hangglider:reinforced_hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.625d
+			y: -8.0d
 		}
 	]
 	subtitle: ["Scale up your power and begin advanced chemistry"]

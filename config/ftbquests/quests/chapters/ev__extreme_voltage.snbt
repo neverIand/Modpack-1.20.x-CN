@@ -6,7 +6,7 @@
 	group: ""
 	icon: "gtceu:ev_electric_motor"
 	id: "7FB9F636D95820A3"
-	order_index: 5
+	order_index: 8
 	quest_links: [
 		{
 			id: "2E99A771FCA40E15"
@@ -493,29 +493,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["30A6EDDF25A5E5F8"]
-			description: [
-				"Even without channels, P2P Tunnels are still extremely important automation tools!"
-				""
-				"&9Note:&r There are many fantastic resources online to explain how P2P Tunnels work. The short description is that they allow transfer of things from 1 input to endless output. You can link them using a Memory Card."
-				""
-				"This Quest acts as a tutorial on how to use the P2P Tunnels to your own benefit."
-			]
-			icon: "ae2:me_p2p_tunnel"
-			id: "39E7997F3080250A"
-			shape: "square"
-			size: 0.75d
-			subtitle: "Fear not, channels are gone"
-			tasks: [{
-				id: "578F4D24289C544E"
-				item: "ae2:me_p2p_tunnel"
-				type: "item"
-			}]
-			title: "P2P Tunnels"
-			x: 7.875d
-			y: 3.375d
-		}
-		{
 			dependencies: ["069FD86133D7D582"]
 			description: [
 				"If you want a big boost to your processing abilities, look no further than these powerful Multiblocks!"
@@ -589,22 +566,12 @@
 				id: "4BCA4F8ED0041BF6"
 				item: {
 					Count: 1b
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:hv_diode"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_diode"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_diode"
-							}
-						]
+						display: {
+							Name: "{\"text\":\"Any diode\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(gtceu:lv_diode)item(gtceu:mv_diode)item(gtceu:hv_diode)item(gtceu:ev_diode)item(gtceu:iv_diode))"
 					}
 				}
 				title: "Any of these diodes"
@@ -1102,28 +1069,19 @@
 				{
 					count: 3L
 					id: "1BE01DA0E8A143FB"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:dusts/uraninite"
-						}
-					}
+					item: "gtceu:uraninite_dust"
 					optional_task: true
 					title: "Uraninite Dust"
 					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "gtceu:uranium_hexafluoride"
-					id: "59D6B7142C0174BA"
-					optional_task: true
-					title: "Uranium Hexafluoride"
-					type: "fluid"
-				}
-				{
 					id: "39E343FCB7B1646D"
 					item: "gtceu:uranium_dust"
+					type: "item"
+				}
+				{
+					id: "71CC4448F43C777A"
+					item: "gtceu:uranium_hexafluoride_bucket"
 					type: "item"
 				}
 			]
@@ -1307,35 +1265,21 @@
 			subtitle: "An alternate rubber"
 			tasks: [
 				{
-					amount: 1296L
-					fluid: "gtceu:silicone_rubber"
-					id: "3C29253DA5DAF778"
-					optional_task: true
-					type: "fluid"
-				}
-				{
 					id: "3E2FBCED1C782E7C"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:ingots/silicone_rubber"
-						}
-					}
+					item: "gtceu:silicone_rubber_ingot"
 					optional_task: true
 					title: "Silicone Rubber Ingot"
 					type: "item"
 				}
 				{
 					id: "3CF87D26761354C4"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:plates/silicone_rubber"
-						}
-					}
+					item: "gtceu:silicone_rubber_plate"
 					title: "Silicone Rubber Plate"
+					type: "item"
+				}
+				{
+					id: "58EA93A671979FEC"
+					item: "gtceu:silicone_rubber_bucket"
 					type: "item"
 				}
 			]
@@ -1584,53 +1528,39 @@
 			size: 0.66d
 			tasks: [
 				{
-					amount: 16000L
-					fluid: "gtceu:phenol"
-					id: "09C91BF9591202CC"
-					title: "Phenol"
-					type: "fluid"
+					id: "5EB2EB8D1629FC7F"
+					item: "gtceu:phenol_bucket"
+					type: "item"
 				}
 				{
-					amount: 64000L
-					fluid: "gtceu:benzene"
-					id: "2272D1322991506C"
-					title: "Benzene"
-					type: "fluid"
+					id: "1766C7D27D58CA7F"
+					item: "gtceu:benzene_bucket"
+					type: "item"
 				}
 				{
-					amount: 16000L
-					fluid: "gtceu:toluene"
-					id: "6B0F17B12A7E541A"
-					title: "Toluene"
-					type: "fluid"
+					id: "392237D560CAE74C"
+					item: "gtceu:toluene_bucket"
+					type: "item"
 				}
 				{
-					amount: 32000L
-					fluid: "gtceu:dimethylbenzene"
-					id: "0D90630744975DF9"
-					title: "Dimethylbenzene"
-					type: "fluid"
+					id: "2A7B747BB348181D"
+					item: "gtceu:dimethylbenzene_bucket"
+					type: "item"
 				}
 				{
-					amount: 16000L
-					fluid: "gtceu:acetic_acid"
-					id: "40A54366F789C104"
-					title: "Acetic Acid"
-					type: "fluid"
+					id: "158FF6EC9FF43862"
+					item: "gtceu:acetic_acid_bucket"
+					type: "item"
 				}
 				{
-					amount: 32000L
-					fluid: "gtceu:methanol"
-					id: "7064FF6DA67EFC0B"
-					title: "Methanol"
-					type: "fluid"
+					id: "4C5B5521CD219138"
+					item: "gtceu:methanol_bucket"
+					type: "item"
 				}
 				{
-					amount: 8000L
-					fluid: "gtceu:acetone"
-					id: "209CCB68CBB8E9CD"
-					title: "Acetone"
-					type: "fluid"
+					id: "39DFBE5FAB075669"
+					item: "gtceu:acetone_bucket"
+					type: "item"
 				}
 			]
 			title: "True Distillation: Organic"
@@ -1660,40 +1590,6 @@
 			y: 10.125d
 		}
 		{
-			dependencies: ["39E7997F3080250A"]
-			description: [
-				"To turn a P2P Tunnel into an &aItem P2P Tunnel&r, right-click it in the world with a &dvanilla Chest&r."
-				""
-				"Item P2P Tunnels are useful in a more abstract way so let's start with an example."
-				"{@pagebreak}"
-				"&eExample:&r Making a &9HV Machine Hull&r in the &3Assembler&r also requires an &3Extractor&r for the Fluid. That is two machines, hence two inventories."
-				""
-				"You could passively fill the Assembler with Polyethylene, &lor&r you can also include it in your &dPattern&r, in the form of 2 Bars (Ingots)."
-				""
-				"You may think the next step is just to dump the items in a Buffer and route the items with Pipes - however, this system will eventually &4jam&r due to the incompability with AE2 Interface blocking mode! Oh no!"
-				"{@pagebreak}"
-				"This can be fixed by placing the input of the &aItem P2P&r on your &3ME Interface&r, placing one output on the &3Extractor&r, and another output on the &3Assembler&r."
-				""
-				"Then, use Filter covers where the outputs are connected. &dItem Tag Filters&r are better, since you can configure them to &9ingot&r. Have them on &ewhitelist&r for the &3Extractor&r, and on &eblacklist&r for the &3Assembler&r (no Assembler recipe ever requires Ingots - that's an intentional design decision in GregTech)."
-				""
-				"Don't forget &dBlocking Mode&r on your Interface."
-				""
-				"Look - another reason why it's good to store polymers (Polyethylene, PTFE, PBI) as Bars!"
-			]
-			icon: "ae2:me_p2p_tunnel"
-			id: "7EF57E379F736FBB"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "A primer on items and P2P"
-			tasks: [{
-				id: "3CF9C3527F11EDA1"
-				type: "checkmark"
-			}]
-			title: "Item P2P Tunnels"
-			x: 7.875d
-			y: 4.5d
-		}
-		{
 			dependencies: ["3B2D2C47BEBCFFA7"]
 			description: [
 				"The &aAlloy Blast Smelter&r is the only main &2GCYM&r machine available in &5EV&r. You can use it to produce any alloy that you'd normally use the Mixer for. "
@@ -1717,44 +1613,6 @@
 			}]
 			x: 7.875d
 			y: 6.75d
-		}
-		{
-			dependencies: ["3B2D2C47BEBCFFA7"]
-			description: [
-				"You probably have some old machines lying around, right?"
-				""
-				"You most likely know by now that Arc Furnaces can recycle machines, but by &5EV&r, they upgrade to &a9 slots&r!"
-				""
-				"&eNote&r: This quest accepts either an &5EV&r or &9IV&r Arc Furnace. You don't have to make both."
-			]
-			icon: "gtceu:iv_arc_furnace"
-			id: "6FEF59B8F571359D"
-			shape: "rsquare"
-			size: 0.66d
-			tasks: [{
-				id: "35CAC76B502E12FF"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:ev_arc_furnace"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_arc_furnace"
-							}
-						]
-					}
-				}
-				title: "Arc Furnace"
-				type: "item"
-			}]
-			title: "Getting Rid of Those Old Machines"
-			x: 7.875d
-			y: 5.625d
 		}
 	]
 	subtitle: ["Improve your infrastructure and parallelise your setups"]

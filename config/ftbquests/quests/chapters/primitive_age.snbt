@@ -69,9 +69,9 @@
 		}
 		{
 			dependencies: ["76EF4D00586A8B74"]
-			description: ["除了普通的石子外，你还能在野外找到矿物碎片。这些碎片通常表明，在地下某处有一脉与地表上找到的矿石碎片相似材质的矿石。但是你目前还没有镐子，所以你应该收集这些碎片，因为它们可以使用模具和火坑熔炼成金属，这一点我们稍后再谈。Instead of the usual pebbles, you can find pieces of ore in the world, usually they indicate that somewhere underground there is a vein with ore of a material similar to a piece of ore found on the surface, but you don't have a pickaxe yet, so you should collect such pieces, because they can be melted into metal using molds and a fire pit,  which we'll talk about later."]
+			description: ["除了普通的石子外，你还能在野外找到矿物碎片。这些碎片通常表明了在地下某处有一脉与地表上找到的矿石碎片相似材质的矿石。但是你目前还没有镐子，所以你应该收集这些碎片，因为它们可以使用模具和火坑熔炼成金属，这一点我们稍后再谈。Instead of ordinary pebbles, you can find pieces of ore in the world, they usually indicate that somewhere underground there is a vein with ore similar in material to a piece of ore found on the surface, but so far you do not have a pickaxe, so you should collect such pieces, because they can be melted into metal using molds and a fire pit, which we will talk about later."]
 			id: "40A930BEBFCFBF3B"
-			subtitle: "年轻人的第一块金属（青春版）Your first metal right now, at a discount"
+			subtitle: "年轻人的第一块金属（青春版）Your first metal is already available, at a discount"
 			tasks: [
 				{
 					id: "45ADEA53258F0876"
@@ -1134,7 +1134,7 @@
 		}
 		{
 			dependencies: ["365F6F48E0BB2EFC"]
-			description: ["（锻造）锤：主要是用来合成石砧和铜 Double Ingot 用的（注：截至翻译时物品译文就没翻译），之后的任务会有进一步解释。Hammer: Primarily used for the purpose of crafting the Stone Anvil and the first Copper Double Ingots, but more on that later in the quests."]
+			description: ["Hammer: mainly used only to create a stone anvil and the first copper double ingots, but there will be information about this later in the quests."]
 			hide_dependency_lines: true
 			id: "120E5C0E43EC756B"
 			subtitle: "炼更好的铜！Make Better Copper!"
@@ -1642,6 +1642,7 @@
 		}
 		{
 			dependencies: ["0EB682B44D83D12A"]
+			description: [""]
 			id: "2286E2D7A9178E13"
 			tasks: [{
 				count: 6L
@@ -1691,7 +1692,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:rock/smooth)"
 					}
 				}
-				title: "任意平滑岩石 Any Polished Stone"
+				title: "任意平滑岩石 Any Smooth Stone"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1869,7 +1870,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:barrels)"
 					}
 				}
-				title: "任意木大桶 Any #tfc:barrels"
+				title: "任意木大桶 Any Barrels"
 				type: "item"
 			}]
 			x: 16.5d
@@ -1983,7 +1984,7 @@
 					}
 				}
 				match_nbt: false
-				title: "铜或青铜斧（注：物品tag写的是锻造锤）Copper or Bronze Axe"
+				title: "铜或青铜斧（注：物品tag写的是锻造锤）A copper or bronze axe"
 				type: "item"
 			}]
 			x: 12.0d
@@ -1995,13 +1996,18 @@
 				"3830E24B66F59E76"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"To make a stone anvil, you have to click on the top of the stone with a hammer"
+				""
+				"(you need to use igneous Intrusive stone)"
+			]
 			id: "169485270E86A50C"
 			tasks: [{
 				icon: "tfc:rock/raw/andesite"
 				id: "028DBFDDC00B9949"
 				observe_type: 1
 				timer: 0L
-				title: "制作一个石砧 Make a Stone Anvil"
+				title: "制作石砧 Make Rock Anvil"
 				to_observe: "#tfc:rock_anvils"
 				type: "observation"
 			}]
@@ -2036,6 +2042,7 @@
 				"7A266A3E0A632D42"
 				"169485270E86A50C"
 			]
+			description: ["To make welding craft on an anvil, you need to take a hammer in your leading hand and press shift+rmb on the anvil"]
 			id: "5EBFCE37D727DFD0"
 			tasks: [{
 				count: 7L
@@ -2073,7 +2080,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:bronze_ingot)item(gtceu:black_bronze_ingot)item(gtceu:bismuth_bronze_ingot))"
 					}
 				}
-				title: "任意青铜锭 Any Bronze Ingot"
+				title: "任意青铜锭 Any bronze ingot"
 				type: "item"
 			}]
 			x: 18.5d
@@ -2224,7 +2231,7 @@
 						"ftbfiltersystem:filter": "or(item(gtceu:bismuth_bronze_double_ingot)item(gtceu:bronze_double_ingot)item(gtceu:black_bronze_double_ingot))"
 					}
 				}
-				title: "任意青铜的 Double Ingot；Double ingots in any bronze"
+				title: "任意青铜双锭 Double ingots of any Bronze"
 				type: "item"
 			}]
 			x: 18.5d
@@ -2263,7 +2270,6 @@
 				id: "gtceu:bronze_dust"
 			}
 			id: "2DEEDED2F21E60B9"
-			subtitle: "坚定的中间派 Strict middle-of-the-roader"
 			tasks: [
 				{
 					id: "024533C5E4B89787"
@@ -2293,7 +2299,7 @@
 					type: "item"
 				}
 			]
-			title: "常规青铜资源 Resources for Regular Bronze"
+			title: "青铜材料 Resources for ordinary bronze"
 			x: 18.5d
 			y: 14.0d
 		}
@@ -2424,7 +2430,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: 14.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["15E8DFB91603906B"]
@@ -2438,7 +2444,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:dyes)"
 					}
 				}
-				title: "任意TFC染料 Any #tfc:dyes"
+				title: "任意TFC染料 Any Dyes"
 				type: "item"
 			}]
 			x: 14.0d
@@ -2503,7 +2509,7 @@
 					type: "item"
 				}
 			]
-			title: "铋青铜所需资源 Resources for Bismuth Bronze"
+			title: "铋青铜材料 Resources for Bismuth bronze"
 			x: 18.5d
 			y: 15.0d
 		}
@@ -2521,7 +2527,7 @@
 				id: "gtceu:black_bronze_dust"
 			}
 			id: "69B4B677A27121CF"
-			subtitle: "黝黑而亲切 Dear and Black"
+			subtitle: "又贵又黑 Expensive and black"
 			tasks: [
 				{
 					id: "1294B28A98775920"
@@ -2563,7 +2569,7 @@
 					type: "item"
 				}
 			]
-			title: "黑青铜所需资源 Resources for Black Bronze"
+			title: "黑青铜材料 Resources for Black Bronze"
 			x: 18.5d
 			y: 13.0d
 		}
@@ -2860,7 +2866,7 @@
 				id: "33278CA851060438"
 				observe_type: 1
 				timer: 0L
-				title: "寻找树种：木棉 Find the Tree: Kapok"
+				title: "寻找树种：木棉 Find the tree: Kapok"
 				to_observe: "tfc:kapok_logs"
 				type: "observation"
 			}]
@@ -2923,7 +2929,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:glass_panes)"
 					}
 				}
-				title: "任意玻璃板 Any #forge:glass_panes"
+				title: "任意玻璃板 Any Glass Panes"
 				type: "item"
 			}]
 			x: -4.0d
@@ -2942,7 +2948,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:ore_deposits)"
 					}
 				}
-				title: "任意矿物沉积物 Any #tfc:ore_deposits"
+				title: "任意矿物沉积物 Any Ore Deposits"
 				type: "item"
 			}]
 			x: -11.0d
@@ -2971,7 +2977,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:glass_bottles)"
 					}
 				}
-				title: "任意TFC玻璃瓶 Any #tfc:glass_bottles"
+				title: "任意玻璃瓶 Any Glass Bottles"
 				type: "item"
 			}]
 			x: -7.5d
@@ -3044,7 +3050,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:lamps)"
 					}
 				}
-				title: "任意TFC灯 Any #tfc:lamps"
+				title: "任意灯 Any Lamps"
 				type: "item"
 			}]
 			x: -9.0d
@@ -3124,11 +3130,11 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:double_sheets/any_bronze)"
 					}
 				}
-				title: "任意双层青铜板 Any #forge:double_sheets/any_bronze"
+				title: "任意双层青铜板 Any Bronze Double Plates"
 				type: "item"
 			}]
 			x: 20.5d
-			y: 18.5d
+			y: 20.0d
 		}
 		{
 			dependencies: [
@@ -3313,6 +3319,21 @@
 						}
 						id: "gtceu:black_bronze_ingot"
 					}
+					type: "item"
+				}
+				{
+					id: "305EFF0F0ECD2E16"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Any Nickel Ore\"}"
+							}
+							"ftbfiltersystem:filter": "or(item(gtceu:raw_nickel)item(gtceu:raw_garnierite)item(gtceu:raw_pentlandite)item(gtceu:rich_raw_nickel)item(gtceu:rich_raw_garnierite)item(gtceu:rich_raw_pentlandite)item(gtceu:poor_raw_nickel)item(gtceu:poor_raw_garnierite)item(gtceu:poor_raw_pentlandite))"
+						}
+					}
+					title: "Any Nickel Ore"
 					type: "item"
 				}
 			]
@@ -3651,7 +3672,7 @@
 					type: "item"
 				}
 			]
-			title: "玫瑰金所需材料 Rose Gold Materials"
+			title: "玫瑰金所需材料 Materials for Rose Gold"
 			x: 30.0d
 			y: 13.0d
 		}
@@ -3698,7 +3719,7 @@
 					type: "item"
 				}
 			]
-			title: "黄铜所需材料 Materials for brass"
+			title: "黄铜所需材料 Materials for Brass"
 			x: 31.0d
 			y: 13.0d
 		}
@@ -3745,7 +3766,7 @@
 					type: "item"
 				}
 			]
-			title: "纯银材料 Sterling Silver Materials"
+			title: "纯银所需材料 Materials for Sterling Silver"
 			x: 30.5d
 			y: 19.5d
 		}
@@ -3789,7 +3810,7 @@
 					}
 				}
 				match_nbt: false
-				title: "任意TFC鼓风口 Any #tfc:tuyeres"
+				title: "任意TFC鼓风口 Any Tuyeres"
 				type: "item"
 			}]
 			x: 22.5d
@@ -3808,7 +3829,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:support_beams)"
 					}
 				}
-				title: "任意支撑梁 Any supports"
+				title: "任意支撑梁 Any Support"
 				type: "item"
 			}]
 			x: 13.0d
@@ -3826,7 +3847,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:looms)"
 					}
 				}
-				title: "任意织机 Any loom"
+				title: "任意织机 Any Loom"
 				type: "item"
 			}]
 			x: 13.0d
@@ -3848,13 +3869,9 @@
 			hide_dependency_lines: true
 			id: "0D47455ABB97C81D"
 			tasks: [{
-				icon: "tfc:wild_crop/papyrus"
-				id: "6EF9C75A9ADB0F75"
-				observe_type: 0
-				timer: 0L
-				title: "找到纸莎（suo1）草 Find the Papyrus"
-				to_observe: "tfc:crop/papyrus"
-				type: "observation"
+				id: "3A90FF5E36D0ACF8"
+				item: "tfc:papyrus"
+				type: "item"
 			}]
 			x: 27.0d
 			y: 1.0d
@@ -4004,7 +4021,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:prepared_hides)"
 					}
 				}
-				title: "任意预制皮革 Any Cooked Hide"
+				title: "任意预制皮革 Any Prepared Hide"
 				type: "item"
 			}]
 			x: 6.5d
@@ -4025,7 +4042,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:scraped_hides)"
 					}
 				}
-				title: "任意刮制皮革 Any scraped hide"
+				title: "任意刮制皮革 Any Scraped Hide"
 				type: "item"
 			}]
 			x: 5.0d
@@ -4046,7 +4063,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:soaked_hides)"
 					}
 				}
-				title: "任意浸泡皮革 Any #tfc:soaked_hides"
+				title: "任意浸泡皮革 Any Soaked Hides"
 				type: "item"
 			}]
 			x: 5.0d
@@ -4069,7 +4086,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:raw_hides)"
 					}
 				}
-				title: "任意兽皮 Any #tfc:raw_hides"
+				title: "任意兽皮 Any Raw Hides"
 				type: "item"
 			}]
 			x: 3.5d
@@ -4088,7 +4105,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tfc:sheepskin_hides)"
 					}
 				}
-				title: "任意羊皮 Any #tfc:sheepskin_hides"
+				title: "任意羊皮 Any Sheepskin Hides"
 				type: "item"
 			}]
 			x: 8.0d
@@ -4202,13 +4219,9 @@
 			hide_dependency_lines: true
 			id: "56E985CAC2E08785"
 			tasks: [{
-				icon: "tfc:wild_crop/jute"
-				id: "0D975C4556FBC981"
-				observe_type: 0
-				timer: 0L
-				title: "找到野生黄麻 Find the Wild Jute"
-				to_observe: "tfc:wild_crop/jute"
-				type: "observation"
+				id: "32068C359E9916DD"
+				item: "tfc:jute"
+				type: "item"
 			}]
 			x: 19.5d
 			y: -4.0d
@@ -4485,7 +4498,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
 					}
 				}
-				title: "任意床 Any #minecraft:beds"
+				title: "任意床 Any Beds"
 				type: "item"
 			}]
 			x: 10.0d
@@ -4732,6 +4745,435 @@
 			}]
 			x: 22.0d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4F5C883CC5282151"
+				"06F1724135B11DDF"
+			]
+			hide_dependency_lines: true
+			id: "3D3508CB85E24741"
+			tasks: [{
+				id: "1305D6C4E52B055B"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Any Wheel\"}"
+						}
+						"ftbfiltersystem:filter": "or(item_tag(tfcastikorcarts:cart_wheel))"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3D3508CB85E24741"]
+			id: "219306E39AD47499"
+			tasks: [{
+				id: "74EB9E449D473FC9"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Any Supply Cart\"}"
+						}
+						"ftbfiltersystem:filter": "or(item_tag(tfcastikorcarts:supply_cart))"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3D3508CB85E24741"]
+			id: "146B900F623869B5"
+			tasks: [{
+				id: "54A97AF79AA8E551"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Any Plow\"}"
+						}
+						"ftbfiltersystem:filter": "or(item_tag(tfcastikorcarts:plow))"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3D3508CB85E24741"]
+			id: "671C2E5239C4E644"
+			tasks: [{
+				id: "575BC984BA6ED21C"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Any Animal Cart\"}"
+						}
+						"ftbfiltersystem:filter": "or(item_tag(tfcastikorcarts:animal_cart))"
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["70D40085219B1CC2"]
+			id: "1A28C8439C0DEC68"
+			tasks: [{
+				id: "586CBB50F542C2EE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfcchannelcasting:unfired_channel"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["70D40085219B1CC2"]
+			id: "5773060592E254AF"
+			tasks: [{
+				id: "53663E2AA8284479"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfcchannelcasting:unfired_mold_table"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A28C8439C0DEC68"]
+			id: "2E3834B5FA53CC37"
+			tasks: [{
+				id: "487D2E3A7B940B10"
+				item: "tfcchannelcasting:channel"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5773060592E254AF"]
+			id: "4BCDA03CE74059FA"
+			tasks: [{
+				id: "4A483474864ADD17"
+				item: "tfcchannelcasting:mold_table"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["297996E158D0A289"]
+			id: "30CC45D36D640C8F"
+			tasks: [{
+				id: "0A1674892B490462"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfcchannelcasting:unfired_heart_mold"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["30CC45D36D640C8F"]
+			id: "4BC384B85E698C86"
+			tasks: [{
+				id: "5DE11577CF333011"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfcchannelcasting:heart_mold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["2765DB2E20A745F8"]
+			id: "04D4E196824D53C4"
+			tasks: [{
+				id: "0121A0A3EFBF3A46"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["76EF4D00586A8B74"]
+			description: ["{quests.6D43C29AC049341D.d1}"]
+			icon: "minecraft:cake"
+			id: "6D43C29AC049341D"
+			subtitle: "{quests.6D43C29AC049341D.st}"
+			tasks: [{
+				id: "124CFC2DE7647588"
+				title: "{quests.6D43C29AC049341D.t1}"
+				type: "checkmark"
+			}]
+			title: "{quests.6D43C29AC049341D.t}"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76EF4D00586A8B74"]
+			description: ["{quests.0B42D4AE2AC67F93.d1}"]
+			icon: "createaddition:chocolate_cake"
+			id: "0B42D4AE2AC67F93"
+			subtitle: "{quests.0B42D4AE2AC67F93.st}"
+			tasks: [{
+				id: "5EB438DED5A994C4"
+				title: "{quests.0B42D4AE2AC67F93.t1}"
+				type: "checkmark"
+			}]
+			title: "{quests.0B42D4AE2AC67F93.t}"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76EF4D00586A8B74"]
+			description: ["{quests.2672C65095539E23.d1}"]
+			icon: {
+				Count: 1b
+				id: "gtceu:aluminium_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 4607
+						ToolSpeed: 10.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "2672C65095539E23"
+			subtitle: "{quests.2672C65095539E23.st}"
+			tasks: [{
+				id: "5CD6F659836A78C8"
+				title: "{quests.2672C65095539E23.t1}"
+				type: "checkmark"
+			}]
+			title: "{quests.2672C65095539E23.t}"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76EF4D00586A8B74"]
+			description: ["{quests.3D7B0F3134C30364.d1}"]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "tfc:field_guide"
+				}
+			}
+			id: "3D7B0F3134C30364"
+			tasks: [{
+				id: "6EB0915B34A4054C"
+				title: "{quests.3D7B0F3134C30364.t1}"
+				type: "checkmark"
+			}]
+			title: "{quests.3D7B0F3134C30364.t}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "16F09B1402BDD6AD"
+			tasks: [
+				{
+					id: "684551EA31A129D3"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "15191ED470DFC144"
+					item: "firmalife:beeswax"
+					type: "item"
+				}
+			]
+			title: "Copper Waxing [WIP]"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "0C1314591528B194"
+			tasks: [{
+				id: "2708890F286F7653"
+				title: "Cellar [WIP]"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "13C1E19024011698"
+			tasks: [{
+				id: "4694D073712B6BE1"
+				title: "Bees [WIP]"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "260CCACEAE35BFDC"
+			tasks: [{
+				id: "06F24C35A067A09B"
+				title: "Greenhouse [WIP]"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32895F66C7A66088"]
+			description: [
+				"The &dSolid Boiler&r is the only available Boiler for now, as the &aGlass&r needed for the others is not available just yet. You can get by with only one, but we would recommend making at least two."
+				""
+				"Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this warning in mind when setting your Boiler up."
+				"{@pagebreak}"
+				"Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r (Launch!) may occur under the following conditions:"
+				""
+				"- The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
+				"...and..."
+				"- The Boiler does not have any &bwater&r. This is signified by the absence of a &bblue bar&r in the GUI."
+				"...AND..."
+				"- The Boiler receives water whilst &6both&r conditions are &2true&r."
+				"{@pagebreak}"
+				"You can avert catastrophe by filling the boiler with water before heating it up, and making sure the water supply is constant. The drain is slow - &b1 mB&r of Water boils into &7160 mB&r of Steam - so you shouldn't have to worry about running out."
+				""
+				"The Boiler can auto eject steam on all its faces except the bottom. For automated Water input, use the bottom face."
+				""
+				"&3Note:&r In this modpack, explosions are configured to &cnot&r damage any block or entity, but you'll &dstill lose&r your machine."
+				""
+				"You may recall that regular Steam machines had a duration penalty, and were twice as slow. Not great."
+				""
+				"&5High Pressure&r Steam machines no longer bear a &bduration penalty &rfor recipes, making them objective upgrades."
+				""
+				"Make &eone&r of the proposed HP machines to complete this quest."
+			]
+			id: "3FB3EE093DDC6B56"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Putting the Steam in Steam Age"
+			tasks: [{
+				id: "4DCB027DEC293E72"
+				item: "gtceu:bronze_brick_casing"
+				type: "item"
+			}]
+			title: "Pressure Cookin'"
+			x: 18.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5A3E944192851481"]
+			id: "32895F66C7A66088"
+			tasks: [{
+				count: 5L
+				id: "4D3A57BC6B9D5DF4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "gtceu:bronze_plate"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["2E3F6613C490E9AD"]
+			icon: "create:large_cogwheel"
+			id: "222A4146EF7750E9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "37B470362F0F1467"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "The beginning of Create"
+			x: 20.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6E24ECF6CEE950D1"]
+			id: "517EFADD8F22717F"
+			tasks: [{
+				id: "223513705634C41C"
+				item: "tfc:glue"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["095104BA3C842978"]
+			id: "4718D375758B9219"
+			tasks: [{
+				id: "37312BCB967DE348"
+				item: {
+					Count: 1b
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 11.0d
 		}
 	]
 	title: "原始时代 Primitive Age"

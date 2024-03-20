@@ -2847,7 +2847,7 @@ const registerTFCRecipes = (event) => {
         
         let element = global.TFC_CLAY_TO_UNFIRED_MOLD_RECIPE_COMPONENTS[i];
 
-        event.recipes.gtceu.macerator(`tfg:tfc/${element.name}`)             
+        event.recipes.gtceu.assembler(`tfg:tfc/${element.name}`)             
             .itemInputs(element.input)
             .circuit(i)
             .itemOutputs(element.output)
@@ -2871,10 +2871,21 @@ const registerTFCRecipes = (event) => {
 
     //#endregion
 
+    //#region Оливки
+
+    event.recipes.gtceu.macerator(`tfg:tfc/olive_paste`)             
+            .itemInputs('tfc:food/olive')
+            .itemOutputs('2x tfc:olive_paste')
+            .duration(60)
+            .EUt(2)
+
+    event.recipes.createMilling('2x tfc:olive_paste', 'tfc:food/olive')
+        .id(`tfg:milling/tfc/olive_paste`)
+
+    //#endregion
+
     //#region Рецепты бочки в миксере
-
-
-
+    // А где?
     //#endregion
 
     // Другое
@@ -2882,6 +2893,8 @@ const registerTFCRecipes = (event) => {
     event.remove({ id: `tfc:anvil/steel_pump` })
     event.remove({ id: `tfc:crafting/steel_pump` })
     event.remove({ id: `tfc:crafting/crankshaft` })
+
+    
 
     // Доменная печь
     event.shaped('tfc:blast_furnace', [
@@ -3059,14 +3072,78 @@ const registerTFCRecipes = (event) => {
 
     //#endregion
 
+    //#region Алебастр
+
+    event.recipes.tfc.damage_inputs_shapeless_crafting(event.recipes.minecraft.crafting_shapeless('4x tfc:alabaster_brick', ['#forge:raw_materials/gypsum', '#tfc:chisels']))
+        .id('tfc:crafting/alabaster_brick/raw_gypsum')
+        
+    event.recipes.tfc.damage_inputs_shapeless_crafting(event.recipes.minecraft.crafting_shapeless('2x tfc:alabaster_brick', ['#forge:poor_raw_materials/gypsum', '#tfc:chisels']))
+        .id('tfc:crafting/alabaster_brick/poor_raw_gypsum')
+
+    event.recipes.tfc.damage_inputs_shapeless_crafting(event.recipes.minecraft.crafting_shapeless('6x tfc:alabaster_brick', ['#forge:rich_raw_materials/gypsum', '#tfc:chisels']))
+        .id('tfc:crafting/alabaster_brick/rich_raw_gypsum')
+
+    // Alabaster Brick
+    event.recipes.gtceu.assembler('tfc:alabaster/bricks')             
+        .itemInputs('5x tfc:alabaster_brick')
+        .inputFluids(Fluid.of('gtceu:concrete', 72))
+        .itemOutputs('4x tfc:alabaster/bricks')
+        .duration(50)
+        .EUt(2)
+
+    event.recipes.gtceu.chemical_bath('tfc:alabaster/bricks')             
+        .itemInputs('#tfc:colored_bricks_alabaster')
+        .inputFluids(Fluid.of('gtceu:chlorine', 72))
+        .itemOutputs('tfc:alabaster/bricks')
+        .duration(400)
+        .EUt(2)
+    
+    for (let i = 0; i < 16; i++) {
+        event.recipes.gtceu.chemical_bath(`tfg:tfc/alabaster/bricks/${global.MINECRAFT_DYE_NAMES[i]}`)             
+            .itemInputs('tfc:alabaster/bricks')
+            .inputFluids(Fluid.of(`gtceu:${global.MINECRAFT_DYE_NAMES[i]}_dye`, 72))
+            .itemOutputs(`tfc:alabaster/bricks/${global.MINECRAFT_DYE_NAMES[i]}`)
+            .duration(20)
+            .EUt(7)
+    }
+    
+    // Raw Alabaster
+    event.recipes.gtceu.chemical_bath('tfc:alabaster/raw/poor_raw_gypsum')             
+        .itemInputs('gtceu:poor_raw_gypsum')
+        .inputFluids(Fluid.of('tfc:limewater', 50))
+        .itemOutputs('tfc:alabaster/raw')
+        .duration(400)
+        .EUt(2)
+
+    event.recipes.gtceu.chemical_bath('tfc:alabaster/raw/raw_gypsum')             
+        .itemInputs('gtceu:raw_gypsum')
+        .inputFluids(Fluid.of('tfc:limewater', 100))
+        .itemOutputs('2x tfc:alabaster/raw')
+        .duration(400)
+        .EUt(2) 
+    
+    event.recipes.gtceu.chemical_bath('tfc:alabaster/raw/rich_raw_gypsum')             
+        .itemInputs('gtceu:rich_raw_gypsum')
+        .inputFluids(Fluid.of('tfc:limewater', 150))
+        .itemOutputs('3x tfc:alabaster/raw')
+        .duration(400)
+        .EUt(2)
+
+    event.recipes.gtceu.chemical_bath('tfc:alabaster/raw')             
+        .itemInputs('#tfc:colored_bricks_alabaster')
+        .inputFluids(Fluid.of('gtceu:chlorine', 72))
+        .itemOutputs('tfc:alabaster/raw')
+        .duration(400)
+        .EUt(2)
+    
+    for (let i = 0; i < 16; i++) {
+    event.recipes.gtceu.chemical_bath(`tfg:tfc/alabaster/raw/${global.MINECRAFT_DYE_NAMES[i]}`)             
+        .itemInputs('tfc:alabaster/raw')
+        .inputFluids(Fluid.of(`gtceu:${global.MINECRAFT_DYE_NAMES[i]}_dye`, 72))
+        .itemOutputs(`tfc:alabaster/raw/${global.MINECRAFT_DYE_NAMES[i]}`)
+        .duration(20)
+        .EUt(7)
+    }
+    
+    //#endregion
 }
-
-/*
-
-event.recipes.gtceu.assembler('')             
-        .itemInputs('')
-        .itemOutputs('')
-        .duration(100)
-        .EUt(4)
-
-*/
