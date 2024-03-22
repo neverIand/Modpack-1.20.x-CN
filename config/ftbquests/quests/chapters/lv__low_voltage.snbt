@@ -150,23 +150,23 @@
 		{
 			dependencies: ["6431381FBE07D6EF"]
 			description: [
-				"This questline serves as a quick guide to &9GregTech Amperage&r. As for &dVoltage&r mechanics, we'll go over those once you reach &bMV&r."
+				"这个任务线作为&9格雷科技安培数&r的快速指南。至于&d电压&r机制，我们会在你达到&b中压&r时再讲解。This questline serves as a quick guide to &9GregTech Amperage&r. As for &dVoltage&r mechanics, we'll go over those once you reach &bMV&r."
 				""
-				"&6&lTL;DR:&r For safety, match the Amperage limit of your Cables with the max amount of Amps provided by your Energy Producers."
+				"&6&l简而言之:&r 为了安全，将你的电缆的安培限制与你的产能方块提供的最大安培数匹配。&6&lTL;DR:&r For safety, match the Amperage limit of your Cables with the max amount of Amps provided by your Energy Producers."
 				""
-				"&6This quest unlocks a new tutorial on Amperage in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6这个任务在&l提示与技巧&r&6标签中解锁了一个关于安培数的新教程 - 查看它以了解更多信息！&r &6This quest unlocks a new tutorial on Amperage in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			id: "7B0FF43022F6C2EC"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Amps and You: a how-to"
+			subtitle: "安培和你：上手指南 Amps and You: a how-to"
 			tasks: [{
 				count: 4L
 				id: "1C81FD3C54CC2274"
 				item: "gtceu:tin_quadruple_cable"
 				type: "item"
 			}]
-			title: "But what are Amps?"
+			title: "安培是啥？But what are Amps?"
 			x: 6.75d
 			y: 1.125d
 		}
@@ -176,20 +176,20 @@
 				"45B71324028F6E68"
 			]
 			description: [
-				"Well... can you show us an &bMV&r Circuit as well?"
+				"那么...你能给我们整一个&bMV&r电路吗？Well... can you show us an &bMV&r Circuit as well?"
 				""
-				"&aAluminium&r is the main ingredient for &bMV&r machinery. Check aaaall the way to the other side for the &2Sapphire Quest&r if you haven't acquired any &aAluminium Dust&r yet."
+				"&a铝&r是&bMV&r机器的主要材料。如果你还没有获得任何&a铝粉&r，那么请检查一下任务线另一边的&2蓝宝石任务&r。&aAluminium&r is the main ingredient for &bMV&r machinery. Check aaaall the way to the other side for the &2Sapphire Quest&r if you haven't acquired any &aAluminium Dust&r yet."
 				""
-				"Once you setup an &3MV Electrolyzer&r, you can get &aAluminium&r through many other ores. All of this quest's rewards bear &aAluminium&r, so keep an eye out for them when mining."
+				"一旦你设置了一个&3MV电解机&r，你可以通过许多其他矿石获得&a铝&r。这个任务的所有奖励都带有&a铝&r，所以在挖矿时要留意它们。Once you setup an &3MV Electrolyzer&r, you can get &aAluminium&r through many other ores. All of this quest's rewards bear &aAluminium&r, so keep an eye out for them when mining."
 				""
-				"The process of smelting Aluminium can be cut down by about a third with &9Nitrogen&r, which is obtained by centrifuging &9Air&r from a &3Gas Collector&r."
+				"使用&9氮气&r可以将熔炼铝的过程缩短大约三分之一，氮气是通过从&3集气室&r中离心&9空气&r获得的。The process of smelting Aluminium can be cut down by about a third with &9Nitrogen&r, which is obtained by centrifuging &9Air&r from a &3Gas Collector&r."
 				""
-				"&6You will still need MV Circuits in order to make MV machines!&r"
+				"&6你仍然需要MV电路来制造MV机器！&r"&6You will still need MV Circuits in order to make MV machines!&r"
 			]
 			id: "7567E885B7166603"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "We're basically in MV now, right?"
+			subtitle: "我们现在是不是基本进中压了？We're basically in MV now, right?"
 			tasks: [{
 				id: "161B5813936E5E42"
 				item: "gtceu:aluminium_ingot"
@@ -201,17 +201,17 @@
 		{
 			dependencies: ["4B979482EF026BFF"]
 			description: [
-				"Make some Battery Alloy, used for Battery Hulls."
+				"整点电池外壳用的电池合金。Make some Battery Alloy, used for Battery Hulls."
 				""
-				"Antimony is found in the &cNether&r, so don't forget to check its Ore Tab."
+				"锑可以在&c地狱&r中找到，所以别忘了检查它的矿物信息。Antimony is found in the &cNether&r, so don't forget to check its Ore Tab."
 				""
-				"&9Note:&r This quest does &lnot&r contain functional Batteries - head downwards for that."
+				"&9注意Note:&r 这个任务&l不&r包含可用的电池——你得再往下找。This quest does &lnot&r contain functional Batteries - head downwards for that."
 			]
 			icon: "gtceu:battery_alloy_ingot"
 			id: "6D9D54FAB21EC086"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Batteries are great!"
+			subtitle: "电池太棒啦！Batteries are great!"
 			tasks: [
 				{
 					id: "7B4585B39907E2EA"
@@ -228,33 +228,33 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ingots/battery_alloy)"
 						}
 					}
-					title: "Any #forge:ingots/battery_alloy"
+					title: "任意电池合金 Any #forge:ingots/battery_alloy"
 					type: "item"
 				}
 			]
-			title: "Battery Preparations!"
+			title: "电池前置！Battery Preparations!"
 			x: 4.875d
 			y: 2.31d
 		}
 		{
 			dependencies: ["1C767009F505A813"]
 			description: [
-				"In theory, Crates are flat upgrades to Chests. A single block space that stores more items - what more could you ask for?"
+				"理论上，板条箱是对箱子的直接升级。一个可以存储更多的物品的方块——你还能要求什么呢？In theory, Crates are flat upgrades to Chests. A single block space that stores more items - what more could you ask for?"
 				""
-				"Unfortunately, there's a small downside - Crates do not support item movement shortcuts well. We plan on fixing this in the long-term."
+				"不幸的是，有一个小缺点 - 板条箱对移动物品的快捷键支持不太好。我们计划之后解决这个问题（已经在做了）。Unfortunately, there's a small downside - Crates do not support item movement shortcuts well. We plan on fixing this in the long-term."
 				""
-				"Where they shine however is the fact that they &6accept Covers&r, making them perfect candidates for buffers in automation."
+				"然而，它们的亮点在于它们&6接受覆盖板&r，这使得它们成为自动化中物品缓冲的完美候选者。Where they shine however is the fact that they &6accept Covers&r, making them perfect candidates for buffers in automation."
 			]
 			id: "7CCC1BDDE0C67F16"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Earlygame buffering"
+			subtitle: "前期缓存 Earlygame buffering"
 			tasks: [{
 				id: "6FE87ED832BF40D1"
 				item: "gtceu:steel_crate"
 				type: "item"
 			}]
-			title: "GregTech Storage"
+			title: "格雷科技的存储 GregTech Storage"
 			x: 0.0d
 			y: 2.25d
 		}
@@ -266,21 +266,21 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Covers are placed by right-clicking with Cover in hand on a face of a machine, and removed with a &5Crowbar&r (or by mining the machine, but that's way slower)."
+				"手持覆盖板并右键机器来放置覆盖板。你可以用&5撬棍&r移除它（或者直接破坏机器，但这样做要慢得多）。Covers are placed by right-clicking with Cover in hand on a face of a machine, and removed with a &5Crowbar&r (or by mining the machine, but that's way slower)."
 				""
-				"Pretty much any GregTech Tile-Entity will accept Covers, even if they wouldn't provide any functionality."
+				"几乎所有的GregTech实体都会接受覆盖板，即使它们不提供任何功能。Pretty much any GregTech Tile-Entity will accept Covers, even if they wouldn't provide any functionality."
 				""
-				"Opening a Cover is done by sneak-right-clicking it with an &5empty hand&r. You can also right-click with a &5Screwdriver&r, or sneak-right-click on another face using the grid."
+				"打开一个覆盖板是通过用&5空手&r潜行右键完成的。你也可以用&5螺丝刀&r右键，或者使用网格（译注：原文grid，不确定指的是什么）在另一个面潜行右键。Opening a Cover is done by sneak-right-clicking it with an &5empty hand&r. You can also right-click with a &5Screwdriver&r, or sneak-right-click on another face using the grid."
 				"{@pagebreak}"
-				"For Covers that transfer Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:"
+				"对于传输物品/流体的覆盖板，有一个按钮来启用/禁用通过覆盖板其他物品形式的传输：For Covers that transfer Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:"
 				""
-				"&9- &rDisabled: only the cover will be allowed to transfer on this machine side."
+				"&9- &r 禁用 Disabled: 只允许覆盖板在机器的该侧面传输。only the cover will be allowed to transfer on this machine side."
 				""
-				"&9-&r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter"
+				"&9-&r 允许过滤（仅在有过滤时相关！） Allow Filtered (only relevant with a filter!): 其他传输只有在符合过滤条件时才会被启用 other transfer will be enabled only if it matches the filter"
 				""
-				"&9-&r Allow Unfiltered: any other transfer is allowed on this machine side."
+				"&9-&r 允许非过滤 Allow Unfiltered: 机器该侧面允许任何其他传输。 any other transfer is allowed on this machine side."
 				""
-				"Placing a cover of a lower voltage tier on a machine is &9safe&r."
+				"在机器上放置一个较低电压等级的覆盖板是&9安全&r的。Placing a cover of a lower voltage tier on a machine is &9safe&r."
 			]
 			icon: "gtceu:crafting_table_cover"
 			id: "1C767009F505A813"
@@ -289,39 +289,39 @@
 			subtitle: "Extra utility without taking up blockspace!"
 			tasks: [{
 				id: "7C7A8A26D3FF0E96"
-				title: "I'm an expert on Covers now, don't you worry."
+				title: "你放心，我现在是覆盖板带手子了。I'm an expert on Covers now, don't you worry."
 				type: "checkmark"
 			}]
-			title: "Cover Behaviour"
+			title: "覆盖板 Cover Behaviour"
 			x: 0.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"All machines typically have one &7Front Face&r, and one &9Output Face&r."
+				"所有机器通常有一个&7正面&r和一个&9输出面&r。All machines typically have one &7Front Face&r, and one &9Output Face&r."
 				""
-				"The &7Front Face&r should be obvious.\\nThe &9Output Face&r is the face with a dot or hole on it. By default, this is at the back of the machine as you place it."
+				"&7正面&r应该很好认。\n&9输出面&r是带有点或洞的面。默认情况下，当你放置机器时，这是机器的背面。The &7Front Face&r should be obvious.\\nThe &9Output Face&r is the face with a dot or hole on it. By default, this is at the back of the machine as you place it."
 				""
-				"Machines can &aauto-output&r through their output face. To enable auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with &dFilters&r and &dCovers&r, which are explained in the quest to the upper left of this one."
+				"机器可以通过它们的输出面&自动输出&r。要启用自动输出，请在GUI中点击相应的按钮。流体和物品自动输出可以单独开关。&d过滤卡&r和&d覆盖板&r可以实现对自动输出的进一步控制，这些在本任务左上方的任务中有解释。Machines can &aauto-output&r through their output face. To enable auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with &dFilters&r and &dCovers&r, which are explained in the quest to the upper left of this one."
 				"{@pagebreak}"
-				"Right-clicking a machine with a &5Wrench&r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side &ccannot&r also be the output side! "
+				"使用&5扳手&r右键机器可以改变输出面，shift右键改变机器的正面。但要记住，正面&不能&r同时是输出面！Right-clicking a machine with a &5Wrench&r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side &ccannot&r also be the output side! "
 				""
-				"By default, items and fluids cannot be inserted through the output side, but this can be toggled with a &5Screwdriver&r. Either right-click the output face directly, or shift-right-click on the grid corresponding to the side of the output."
+				"默认情况下，物品和流体不能通过输出面进入，但这可以用&5螺丝刀&r切换。直接右键输出面，或者shift右键点击对应于输出面的网格。By default, items and fluids cannot be inserted through the output side, but this can be toggled with a &5Screwdriver&r. Either right-click the output face directly, or shift-right-click on the grid corresponding to the side of the output."
 				""
-				"There are unique machines that do not process recipes, such as the &3Pump&r, &3Miner&r, &3Fisher&r, &3Item Collector&r, etc. These machines will output on their &7Front Face&r (which is still marked as a dot)."
+				"有一些独特的机器不处理配方，如&3泵&r、&3采矿机&r、&3捕鱼机&r、&3物品收集器&r等。这些机器会在它们的&7正面&r输出（仍然标记为一个点）。There are unique machines that do not process recipes, such as the &3Pump&r, &3Miner&r, &3Fisher&r, &3Item Collector&r, etc. These machines will output on their &7Front Face&r (which is still marked as a dot)."
 			]
 			icon: "minecraft:hopper"
 			id: "64E1E87B8AF72968"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Let's learn."
+			subtitle: "好好看，好好学 Let's learn."
 			tasks: [{
 				id: "6A4DFF7493955B8D"
-				title: "Hmm, how interesting!"
+				title: "原来是这样，有意思！Hmm, how interesting!"
 				type: "checkmark"
 			}]
-			title: "Machine Auto-Output Behaviour"
+			title: "机器的自动输出 Machine Auto-Output Behaviour"
 			x: 1.125d
 			y: 2.25d
 		}
