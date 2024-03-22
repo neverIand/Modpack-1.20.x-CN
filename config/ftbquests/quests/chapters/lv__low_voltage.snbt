@@ -18,17 +18,17 @@
 		{
 			dependencies: ["2F7617C0C4B330DE"]
 			description: [
-				"The &aFluid Regulator&r is sort of the equivalent to a &9Robot Arm&r for Fluids."
+				"&a流体校准器&r在某种程度上等同于给液体使用的&9机械臂&r。The &aFluid Regulator&r is sort of the equivalent to a &9Robot Arm&r for Fluids."
 				""
-				"It can transfer fluids, but has two useful modes:"
+				"它可以传输液体，且有两种有用的模式：It can transfer fluids, but has two useful modes:"
 				""
-				"&9-&r &dSupply Exact&r will transfer the amount of specified Fluid per tick if available. No more, no less."
-				"&9-&r &dKeep Exact&r will make sure the exact amount of Fluid in the attached machine is being kept."
+				"&9-&r &d精确供给&r如果可用，将每刻传输指定数量的液体。不多也不少。 &dSupply Exact&r will transfer the amount of specified Fluid per tick if available. No more, no less."
+				"&9-&r &d精确维持&r将准确维持所连接机器中的液体含量。&dKeep Exact&r will make sure the exact amount of Fluid in the attached machine is being kept."
 			]
 			id: "47D4545452F05E37"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A cover!"
+			subtitle: "一种覆盖板！ A cover!"
 			tasks: [{
 				id: "5E8D784C83A4F672"
 				item: "gtceu:lv_fluid_regulator"
@@ -40,18 +40,18 @@
 		{
 			dependencies: ["38993B4697B0E16C"]
 			description: [
-				"When placed on a machine, Robot Arms are a more configurable version of a Conveyor Module. They allow you to transfer items in specific batches, at specific rates, or keep a certain amount of items stocked."
+				"当放置在机器上时，机械臂可以看作自定义程度更高的传送带。它们允许你以特定的批次、特定的速率转移物品，或保持一定数量的物品存量。When placed on a machine, Robot Arms are a more configurable version of a Conveyor Module. They allow you to transfer items in specific batches, at specific rates, or keep a certain amount of items stocked."
 				""
-				"Practical uses for the Robot Arm will be explained in future Quests as a tutorial."
+				"机械臂的实际用途将在之后的任务中作为教程解释。Practical uses for the Robot Arm will be explained in future Quests as a tutorial."
 				""
-				"&9Note:&r The functionalities provided by the Robot Arm work &lonly&r if it is &lrequired&r to perform the operation."
+				"&9注意Note:&r 机械臂提供的功能&l只有&r在&l需要&r执行操作时才会工作。The functionalities provided by the Robot Arm work &lonly&r if it is &lrequired&r to perform the operation."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5 had blocks such as the Buffer, Filter and Type Filter to allow fine control over items. In GTCE it's all been replaced by the almighty Robot Arm and various Filter Covers. Much more compact!"
+				"&l&3你知道吗 Lore:&r&o GregTech 5有诸如缓冲器、过滤器和类型过滤器等方块，以允许对物品进行细致控制。在GTCE中，所有这些都被万能的机械臂和各种过滤卡所取代，更加紧凑！GregTech 5 had blocks such as the Buffer, Filter and Type Filter to allow fine control over items. In GTCE it's all been replaced by the almighty Robot Arm and various Filter Covers. Much more compact!"
 			]
 			id: "3DE7A2B91CFF48F6"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "You're going to hate making these"
+			subtitle: "你会喜欢上做这个的 You're going to hate making these"
 			tasks: [{
 				id: "7D7A9CBE1E368E53"
 				item: "gtceu:lv_robot_arm"
@@ -63,16 +63,16 @@
 		{
 			dependencies: ["5A8F0124E07D5025"]
 			description: [
-				"Less common as a component, but used in a number of critical machines."
+				"作为合成材料不太常见，但在许多关键机器中使用。Less common as a component, but used in a number of critical machines."
 				""
-				"When placed on a machine, conveyor modules will transfer items. You can configure them to import or export."
+				"当放置在机器上时，传送带会传输物品。你可以配置它们进行导入或导出。When placed on a machine, conveyor modules will transfer items. You can configure them to import or export."
 				""
-				"They can also accept various &9Item Filters&r."
+				"它们还可以接受各种&9物品过滤卡&r。They can also accept various &9Item Filters&r."
 			]
 			id: "288CE4AA4C5AA8BF"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A crafting component, but also a cover!"
+			subtitle: "是合成材料，也是覆盖板！A crafting component, but also a cover!"
 			tasks: [{
 				id: "064169E7E2772387"
 				item: "gtceu:lv_conveyor_module"
@@ -84,14 +84,14 @@
 		{
 			dependencies: ["5A8F0124E07D5025"]
 			description: [
-				"When placed on a machine, pumps will transfer fluid. You can configure them to import or export."
+				"当放置在机械上时，泵可以传输流体。你可以配置它们进行输入或输出。When placed on a machine, pumps will transfer fluid. You can configure them to import or export."
 				""
-				"It can accept a &9Fluid Filter&r."
+				"它可以接收&9流体过滤卡&r。It can accept a &9Fluid Filter&r."
 			]
 			id: "2F7617C0C4B330DE"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A crafting component, but also a cover!"
+			subtitle: "是合成材料，也是覆盖板！A crafting component, but also a cover!"
 			tasks: [{
 				id: "7A37B370D2D40E6A"
 				item: "gtceu:lv_electric_pump"
@@ -103,14 +103,14 @@
 		{
 			dependencies: ["5A8F0124E07D5025"]
 			description: [
-				"A specialized motor needed to make certain machines."
+				"一个专用的电动马达，用于制造某些机器。A specialized motor needed to make certain machines."
 				""
-				"One of the more intricate crafting components, as it's made using a motor."
+				"一种更加复杂的合成材料，因为它是用电动马达制作的。One of the more intricate crafting components, as it's made using a motor."
 			]
 			id: "38993B4697B0E16C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A crafting component - did you expect anything fancier?"
+			subtitle: "一种合成材料——你还指望啥？A crafting component - did you expect anything fancier?"
 			tasks: [{
 				id: "70FEF63FB9A58B02"
 				item: "gtceu:lv_electric_piston"
@@ -125,25 +125,25 @@
 				"5A8F0124E07D5025"
 			]
 			description: [
-				"The &3Steam Turbine&r is the only Generator you can realistically use in &7LV&r. &2Later, you'll unlock more interesting Power options&r, such as natural gases or petrols."
+				"&3蒸汽轮机&r是你在&7LV&r阶段唯一可以实际使用的发电机。&2之后，你将解锁更多有趣的供电选项&r，比如天然气或汽油。The &3Steam Turbine&r is the only Generator you can realistically use in &7LV&r. &2Later, you'll unlock more interesting Power options&r, such as natural gases or petrols."
 				""
-				"When provided Steam, the turbine will output EU at a ratio of &d2 Steam = 1 EU&r."
+				"当提供蒸汽时，涡轮将以&d 2 单位蒸汽 = 1 EU&r的比例输出电力。When provided Steam, the turbine will output EU at a ratio of &d2 Steam = 1 EU&r."
 				""
-				"&6This quest unlocks two new tutorials on Electricity and Cables in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
+				"&6这个任务在&l提示与技巧&r&6标签中解锁了两个新的关于电力和电缆的教程 - 查看它们以了解更多信息！&r &6This quest unlocks two new tutorials on Electricity and Cables in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
 				"{@pagebreak}"
-				"If you're using a single &3Steam Turbine&r, you only need &a1x Tin Cables&r. On the other hand, if you upgrade to &32 Steam Turbines&r, you should use &a2x Tin Cables&r - else they may end up &cburning&r."
+				"如果你使用单个&3蒸汽轮机&r，你只需要&a1个锡电缆&r。另一方面，如果你升级到&32蒸汽轮机&r，你应该使用&a2个锡电缆&r - 否则它们可能会&c爆燃&r。If you're using a single &3Steam Turbine&r, you only need &a1x Tin Cables&r. On the other hand, if you upgrade to &32 Steam Turbines&r, you should use &a2x Tin Cables&r - else they may end up &cburning&r."
 				""
-				"This is because of the &9Amperage&r mechanic... but that will be explained later so you can enjoy playing. Don't worry!"
+				"这是因为&9安培数&r机制... 但那将在稍后解释，别急！This is because of the &9Amperage&r mechanic... but that will be explained later so you can enjoy playing. Don't worry!"
 			]
 			id: "6E186F9C57155BFA"
 			size: 0.75d
-			subtitle: "You must construct more turbines"
+			subtitle: "你必须做更多蒸汽轮机 You must construct more turbines"
 			tasks: [{
 				id: "155BC745245BCBAF"
 				item: "gtceu:lv_steam_turbine"
 				type: "item"
 			}]
-			title: "Electricity Generation"
+			title: "发电 Electricity Generation"
 			x: 3.375d
 			y: 0.0d
 		}
