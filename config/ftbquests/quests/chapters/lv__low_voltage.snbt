@@ -442,15 +442,15 @@
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]
 			description: [
-				"&6Superconductors&r are special Wires available for each Voltage tier. They don't come with a Cable counterpart, but that isn't necessary, as they have absolutely &6zero cable loss&r."
+				"每个电压等级都有可供使用的&6超导体&r。它们没有相应的线缆版本，但这并不重要，因为它们完全&6没有线损&r。&6Superconductors&r are special Wires available for each Voltage tier. They don't come with a Cable counterpart, but that isn't necessary, as they have absolutely &6zero cable loss&r."
 				""
-				"They also won't damage you when you touch them. This makes them the best choice for wiring, if not a little expensive in comparison to the other wires."
+				"你和它们进行物理接触时也不会受到伤害。这使得它们成为接线的最佳选择，尽管与其他电线相比成本略高。They also won't damage you when you touch them. This makes them the best choice for wiring, if not a little expensive in comparison to the other wires."
 				""
-				"If you weren't already enamoured, the 1x variant also covers 2 Amps. Isn't that nice?"
+				"如果你还没体会到它们的优点的话，1x的版本可以承受2安培。还不错吧？If you weren't already enamoured, the 1x variant also covers 2 Amps. Isn't that nice?"
 				""
-				"Now is a good time to replace your crappy &aTin Cables&r. Recycle them in the &3Packager&r to recover both the Tin and Rubber used to craft them."
+				"现在是替换你那糟糕的&a锡线缆&r的好时机。在&3打包机（？）&r中回收它们，以回收用于制作它们的锡和橡胶。Now is a good time to replace your crappy &aTin Cables&r. Recycle them in the &3Packager&r to recover both the Tin and Rubber used to craft them."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o No version of GregTech has had actual Superconductors for &7LV&f up until Gregicality and GTCEu, though some modpacks had lossless cables."
+				"&l&3你知道吗 Lore:&r&o 在Gregicality和GTCEu之前，没有任何版本的格雷科技具有&7LV&f级的超导体，尽管一些模组包中有无损电缆。 No version of GregTech has had actual Superconductors for &7LV&f up until Gregicality and GTCEu, though some modpacks had lossless cables."
 			]
 			id: "46AD7A6F3B6775F5"
 			shape: "rsquare"
@@ -460,18 +460,18 @@
 				item: "gtceu:manganese_phosphide_single_wire"
 				type: "item"
 			}]
-			title: "LV Superconductor"
+			title: "LV超导体 LV Superconductor"
 			x: 7.875d
 			y: 2.25d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The &3Thermal Centrifuge&r is the most energy hungry out of the Ore Processing machines. It takes &aCrushed Ore&r or &aPurified Ore&r to give a different &6Byproduct&r from the &3Ore Washer&r, but at the same rate."
+				"&3热离心机&r是矿石加工机器中最耗能的。它使用&a粉碎矿石&r或&a纯净矿石&r来产生与&3洗矿厂&r不同的&6副产品&r，但产量相同。The &3Thermal Centrifuge&r is the most energy hungry out of the Ore Processing machines. It takes &aCrushed Ore&r or &aPurified Ore&r to give a different &6Byproduct&r from the &3Ore Washer&r, but at the same rate."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The GT5 Thermal Centrifuge required 48 EU/t to run. Yes, this may be above 32 EU/t, but GT5 had &dspecial mechanics&f where certain machines such as this one could accept more than 1 Amp."
+				"&l&3你知道吗 Lore:&r&o GT5的热力离心机需要48 EU/t才能运行。是的，这超过了32 EU/t，但GT5有&d特殊机制&f，某些机器如此一来可以接受超过1安培的电流。The GT5 Thermal Centrifuge required 48 EU/t to run. Yes, this may be above 32 EU/t, but GT5 had &dspecial mechanics&f where certain machines such as this one could accept more than 1 Amp."
 				""
-				"&oIn GTCE, the Thermal Centrifuge was changed to only work at &bMV&f with 60EU/t recipes. Let's be completely honest with you... what a &4complete waste of time&f! Never worth it. Thankfully, we've buffed the machine to be much more relevant."
+				"&o在GTCE中，热力离心机被改为只在&bMV&f级别以60 EU/t的配方工作。讲真，这真是&4完全浪费时间&f！血亏。幸运的是，我们已经增强了这台机器，使其更加重要。&oIn GTCE, the Thermal Centrifuge was changed to only work at &bMV&f with 60EU/t recipes. Let's be completely honest with you... what a &4complete waste of time&f! Never worth it. Thankfully, we've buffed the machine to be much more relevant."
 			]
 			id: "772F7CD63D31966A"
 			size: 0.75d
@@ -480,20 +480,20 @@
 				item: "gtceu:lv_thermal_centrifuge"
 				type: "item"
 			}]
-			title: "Basic Thermal Centrifuge"
+			title: "基础热力离心机 Basic Thermal Centrifuge"
 			x: -0.375d
 			y: 3.375d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The Sifter sifts &dGem type&r &aPurified Ores&r to find &aExquisite&r and &aFlawless&r Gems, which can be cut into normal Gems. It also finds &aPurified Dusts&r of that gem. Overall, this gives a &6higher yield&r than other means."
+				"筛选机筛选 &d宝石&r &a纯净矿石&r 以寻找 &a精致的&r 和 &a无瑕的&r 宝石，这些宝石可以切割成普通宝石。它还可以产出该宝石的 &a纯净宝石粉&r。总的来说，这比其他方法提供了&6更高的产量&r。The Sifter sifts &dGem type&r &aPurified Ores&r to find &aExquisite&r and &aFlawless&r Gems, which can be cut into normal Gems. It also finds &aPurified Dusts&r of that gem. Overall, this gives a &6higher yield&r than other means."
 				""
-				"A small amount of &dFlawless Emerald&r will be required in &bMV&r, and running ores in &3Sifting Machine&r is how you obtain them."
+				"在 &bMV&r 中需要少量的 &d无瑕的绿宝石&r，通过在 &3筛选机&r 中处理矿石来获取它们。A small amount of &dFlawless Emerald&r will be required in &bMV&r, and running ores in &3Sifting Machine&r is how you obtain them."
 				""
-				"Each higher tier of &3Sifter&r increases the chance of all Gem types to be found, at the cost of more energy. "
+				"每高一级的 &3筛选机&r 都会增加发现所有类型宝石的概率，但代价是消耗更多能量。Each higher tier of &3Sifter&r increases the chance of all Gem types to be found, at the cost of more energy. "
 				""
-				"&9Note:&r If you crushed Gem Ores (such as Diamond), it is critical you use this machine to recover the actual gems in non dust form. However, this is a rather slow process, so you may want to smelt this type of ore directly into the Gem."
+				"&9注意 Note:&r 如果你粉碎了宝石矿石（如钻石），使用这台机器复原非粉尘形式的宝石是至关重要的。然而，这是一个相当缓慢的过程，所以你可能想直接将这种矿石熔炼成宝石。If you crushed Gem Ores (such as Diamond), it is critical you use this machine to recover the actual gems in non dust form. However, this is a rather slow process, so you may want to smelt this type of ore directly into the Gem."
 			]
 			id: "7A64425597F58015"
 			size: 0.75d
