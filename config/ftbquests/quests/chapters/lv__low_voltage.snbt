@@ -710,11 +710,11 @@
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The Autoclave is typically the last step of Gem Processing. It is used turn a select few &aGem Dusts&r back into regular Gems."
+				"高压釜通常是宝石加工的最后一步。它用于将少数 &a宝石粉&r 转换回普通宝石。The Autoclave is typically the last step of Gem Processing. It is used turn a select few &aGem Dusts&r back into regular Gems."
 				""
-				"It's veeeery slow - thus, it is generally not advised to crush gem ores at all, as the recovery process is too expensive."
+				"它巨慢——因此，一般完全不建议粉碎宝石矿石，因为复原过程太昂贵。It's veeeery slow - thus, it is generally not advised to crush gem ores at all, as the recovery process is too expensive."
 				""
-				"&9Note:&r In this modpack, the Autoclave is required to make &5Fluix Crystals&r if you're to progress in Applied Energistics. Sorry."
+				"&9注意 Note:&r 在这个整合包中，如果你想攀应用能源，需要使用高压釜制作 &5Fluix 水晶&r。不好意思。In this modpack, the Autoclave is required to make &5Fluix Crystals&r if you're to progress in Applied Energistics. Sorry."
 			]
 			id: "22A1A629AF754066"
 			size: 0.75d
@@ -723,13 +723,13 @@
 				item: "gtceu:lv_autoclave"
 				type: "item"
 			}]
-			title: "Basic Autoclave"
+			title: "基础高压釜 Basic Autoclave"
 			x: -1.125d
 			y: 4.125d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
-			description: ["A rarely used machine. It uses magnetism to separate some Magnetic ores and gain additional &6Byproducts&r you would not obtain otherwise."]
+			description: ["一种很少使用的机器。它利用磁力分离一些磁性矿石，并获得一些你通常无法获得的额外 &6副产物&r。A rarely used machine. It uses magnetism to separate some Magnetic ores and gain additional &6Byproducts&r you would not obtain otherwise."]
 			id: "24B4D9608718EE27"
 			size: 0.75d
 			tasks: [{
@@ -737,30 +737,30 @@
 				item: "gtceu:lv_electromagnetic_separator"
 				type: "item"
 			}]
-			title: "Basic Electromagnetic Separator"
+			title: "基础电磁选矿机 Basic Electromagnetic Separator"
 			x: 0.375d
 			y: 3.375d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"This quest is a light look over the &dfull scale of regular Ore Processing&r. Why \"regular\"? Some ores require special treatment, but that's a topic for much later. Oh no, we're already getting carried away!"
+				"这个任务是对 &d常规矿石加工全过程&r 的简要概括。为什么是“常规”？因为一些矿石需要特殊处理，但那是后话了。哦不，我们已经开始偏题了！This quest is a light look over the &dfull scale of regular Ore Processing&r. Why \"regular\"? Some ores require special treatment, but that's a topic for much later. Oh no, we're already getting carried away!"
 				""
-				"Each quest surrounding this one gives a different machine that has some involvement in Ore Processing."
+				"围绕这个任务的每个任务都介绍了一个涉及矿石加工的不同机器。Each quest surrounding this one gives a different machine that has some involvement in Ore Processing."
 				""
-				"&cNote:&r Don't get too preoccupied with Ore Processing! It's very slow at this point, and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain their byproducts. That's a legitimate stat, by the way."
+				"&c注意 Note:&r 不要过分专注于矿石加工！目前来说，它非常慢，并且相当耗电。大约 90% 的矿石不足以重要到需要你特意去获取它们的副产品。顺便说一下，这是一个非常真实的统计数据。Don't get too preoccupied with Ore Processing! It's very slow at this point, and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain their byproducts. That's a legitimate stat, by the way."
 			]
 			icon: "gtceu:crushed_sulfur_ore"
 			id: "701BCADAE5CF6CA5"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "You can't escape Greg..."
+			subtitle: "你无法逃脱格雷的手掌心... You can't escape Greg..."
 			tasks: [{
 				id: "3A7506F2C9145157"
-				title: "I agree to lose my sanity"
+				title: "我已经做好失智的准备了 I agree to lose my sanity"
 				type: "checkmark"
 			}]
-			title: "What is this Mess?: Part Two"
+			title: "这都啥玩意啊？：第二部分 What is this Mess?: Part Two"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -770,25 +770,25 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"&7LV&r will require you to craft a lot of different machines! Here's a friendly tip if you're struggling to set goals: pick an item in a later quest and go backwards from there."
+				"&7LV&r 阶段将需要你制作许多不同的机器！如果你在设定目标时遇到困难，这里有一个建议：选择一个后续任务中的物品，然后从那里倒推回去。&7LV&r will require you to craft a lot of different machines! Here's a friendly tip if you're struggling to set goals: pick an item in a later quest and go backwards from there."
 				""
-				"With that in mind... why don't we start with a &5Fusion Controller&r? Never mind, slightly too ambitious - let's check a closer goal instead. Ah, yes, the &3Electric Blast Furnace&r - the main \"end goal\" of &7LV&r - should be a good target."
+				"考虑到这一点……为什么我们不从一个 &5聚变控制器&r 开始呢？算了，这有点太雄心勃勃了——让我们看看一个更显示的目标。啊，对了，&3电力高炉(EBF)&r —— &7LV&r 的主要“终极目标”——应该还不错。With that in mind... why don't we start with a &5Fusion Controller&r? Never mind, slightly too ambitious - let's check a closer goal instead. Ah, yes, the &3Electric Blast Furnace&r - the main \"end goal\" of &7LV&r - should be a good target."
 				""
-				"The EBF is &aexpensive&r, which is why you should initially focus on machines to make components and materials cheaper. Our quests will try to will guide you in the right direction."
+				"EBF 很&a贵&r，这就是为什么你最初应该专注于制造其组件和材料的机器，使它们更便宜。我们的任务将会尝试引导你朝正确的方向前进。The EBF is &aexpensive&r, which is why you should initially focus on machines to make components and materials cheaper. Our quests will try to will guide you in the right direction."
 				""
-				"Other important goals are crafting the &3LV Assembler&r and making your first &aMV Circuits&r."
+				"其他重要的目标包括制作 &3LV 基础组装机&r 和制造你的第一个 &aMV 电路&r。Other important goals are crafting the &3LV Assembler&r and making your first &aMV Circuits&r."
 			]
 			icon: "gtceu:basic_electronic_circuit"
 			id: "648BCF486E16CCB2"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "Too many options, too little time!"
+			subtitle: "太多选择，太少时间！Too many options, too little time!"
 			tasks: [{
 				id: "07CE2766ECA4B0D8"
-				title: "I... might have some sense of direction now"
+				title: "我...好像有了点头绪 I... might have some sense of direction now"
 				type: "checkmark"
 			}]
-			title: "LV Age Progression"
+			title: "低压时代的进度 LV Age Progression"
 			x: 2.25d
 			y: 4.5d
 		}
