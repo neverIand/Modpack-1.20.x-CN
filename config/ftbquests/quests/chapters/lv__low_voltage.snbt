@@ -508,40 +508,40 @@
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&lOutside of Ore Processing:&r"
+				"&l矿石加工之外 Outside of Ore Processing:&r"
 				""
-				"You can make &6Paper out of Wood&r so that you no longer rely on &aSugar Canes&9*&r. You're probably sick of them by now, especially if you've played Nomifactory."
+				"你可以将 &6木浆&r 制成纸张，这样你就不用再依赖 &a甘蔗&9*&r 了。如果你玩过Nomifactory，你可能已经厌倦它们了。You can make &6Paper out of Wood&r so that you no longer rely on &aSugar Canes&9*&r. You're probably sick of them by now, especially if you've played Nomifactory."
 				""
-				"There are some other less important recipes, such as applying colours to various items and blocks, or bleaching them."
+				"还有一些其他不那么重要的配方，例如给各种物品和方块上色或漂白。There are some other less important recipes, such as applying colours to various items and blocks, or bleaching them."
 				""
-				"&9*&r &aSugar&r is still useful as a requirement for &cTNT&r production in &6HV&r, so don't dismantle your setups."
+				"&9*&r &a糖&r 仍然是 &6HV&r 级别 &cTNT&r 生产的必需品，所以先别急着拆除你的产线。&9*&r &aSugar&r is still useful as a requirement for &cTNT&r production in &6HV&r, so don't dismantle your setups."
 				"{@pagebreak}"
-				"&lFor Ore Processing:&r"
+				"&l矿石加工 For Ore Processing:&r"
 				""
-				"Some &aCrushed Ores&r have alternate routes when washed into &aPurified Ore&r, involving bathing in either &aMercury&r or &aSodium Persulfate&r. This step isn't really important, unless you really want that special &6Byproduct&r. This can be a nice alternate source of Gold (hint, hint!)."
+				"一些 &a粉碎矿石&r 在被洗净成 &a纯净矿石&r 时有替代路线，这涉及在 &a汞&r 或 &a过硫酸钠&r 中浸泡。除非你真的想要那种特殊的 &6副产品&r，否则这一步骤并不重要。这可以成为另一个很好的黄金来源（暗示，暗示！）Some &aCrushed Ores&r have alternate routes when washed into &aPurified Ore&r, involving bathing in either &aMercury&r or &aSodium Persulfate&r. This step isn't really important, unless you really want that special &6Byproduct&r. This can be a nice alternate source of Gold (hint, hint!)."
 			]
 			id: "330BDB559A7BAB35"
 			size: 0.75d
-			subtitle: "The Chemical Bath bathes..."
+			subtitle: "化学浸洗机浸洗的是... The Chemical Bath bathes..."
 			tasks: [{
 				id: "526A5FF9B5DBB129"
 				item: "gtceu:lv_chemical_bath"
 				type: "item"
 			}]
-			title: "Basic Chemical Bath"
+			title: "基础化学浸洗机 Basic Chemical Bath"
 			x: 1.125d
 			y: 3.375d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"This machine combines washing for simple automation, but also advanced and precise washing for byproducts."
+				"这台机器结合了简单的自动化洗涤和可以用来获得副产品的高级精确洗涤。This machine combines washing for simple automation, but also advanced and precise washing for byproducts."
 				""
-				"Washing a &aCrushed Ore&r will grant a &aPurified Ore&r which can be refined further, some useless stone, and more importantly, the first &6Byproduct&r!"
+				"洗涤 &a粉碎矿石&r 将会得到可用于进一步精炼的 &a纯净矿石&r，一些无用的石头，以及更重要的 &6副产品&r！Washing a &aCrushed Ore&r will grant a &aPurified Ore&r which can be refined further, some useless stone, and more importantly, the first &6Byproduct&r!"
 				""
-				"Any Ore will give at &9minimum 2/3rd of a Dust&r of this Byproduct through washing. Prioritize this step the most."
+				"任何矿石通过洗涤至少会产生 2/3 的 &9粉状副产物&r。优先考虑这一步骤。Any Ore will give at &9minimum 2/3rd of a Dust&r of this Byproduct through washing. Prioritize this step the most."
 				""
-				"Using Distilled Water over Water cuts recipe duration in half, but it's also more difficult to produce."
+				"使用蒸馏水代替普通水可以将配方时间减半，但蒸馏水也更难生产。Using Distilled Water over Water cuts recipe duration in half, but it's also more difficult to produce."
 			]
 			id: "58BA62A3A8A32C24"
 			size: 0.75d
@@ -550,7 +550,7 @@
 				item: "gtceu:lv_ore_washer"
 				type: "item"
 			}]
-			title: "Basic Ore Washing Plant"
+			title: "基础洗矿厂 Basic Ore Washing Plant"
 			x: 1.5d
 			y: 5.25d
 		}
@@ -560,13 +560,13 @@
 				"10ECB471A77F5136"
 			]
 			description: [
-				"By clicking the &6Circuit Configuration Slot&r in machines, you can create a &bghost Programmed Circuit&r. "
+				"通过点击机器中的 &6电路配置槽&r，你可以创建一个 &b幽灵程序电路&r。By clicking the &6Circuit Configuration Slot&r in machines, you can create a &bghost Programmed Circuit&r. "
 				""
-				"This is a fake circuit that allows you to select a given configuration for recipes! There's no need to spend your circuits crafting &bProgrammed Circuits&r anymore."
+				"这是一个虚拟电路，允许你为配方选择给定的配置！你不再需要花费电路来制作 &b编程电路&r。This is a fake circuit that allows you to select a given configuration for recipes! There's no need to spend your circuits crafting &bProgrammed Circuits&r anymore."
 				""
-				"&dElectric Machines&r and &dItem Input Buses&r will have a Ghost Circuit Slot."
+				"&d电动机器&r 和 &d物品输入总线&r 将会有一个幽灵电路槽。&dElectric Machines&r and &dItem Input Buses&r will have a Ghost Circuit Slot."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This feature is originally from GTNH."
+				"&l&3你知道吗 Lore:&r&o 这个功能最初来自 GTNH。This feature is originally from GTNH."
 			]
 			icon: {
 				Count: 1b
@@ -578,12 +578,12 @@
 			id: "59F0060B55307311"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Don't want to spend your circuits to select recipes?"
+			subtitle: "不想把电路浪费在选择配方上？Don't want to spend your circuits to select recipes?"
 			tasks: [{
 				id: "7C04F3247B0C0BCB"
 				type: "checkmark"
 			}]
-			title: "Programmed Circuits"
+			title: "编程电路 Programmed Circuits"
 			x: 3.375d
 			y: 2.25d
 		}
