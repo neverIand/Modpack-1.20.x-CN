@@ -897,7 +897,7 @@
 			description: [
 				"集气室收集空气，然后可以通过离心分离出 &a氧气&r 和 &a氮气&r。The Gas Collector collects Air that can then be centrifuged into &aOxygen&r and &aNitrogen&r."
 				""
-				"&l&3你知道吗 Lore:&r&o 格雷科技5 的玩家还记得他们曾经需要使用 IC2 电池和压缩机来获取压缩空气……在这里，电池化学已经不复存在了。GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... here, cell chemistry is no more."
+				"&l&3你知道吗 Lore:&r&o 格雷科技5 的玩家还记得他们曾经需要使用 IC2 电池和压缩机来获取压缩空气……在这里，单元化学已经不复存在了。GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... here, cell chemistry is no more."
 			]
 			id: "15928F50AE80A5CF"
 			shape: "rsquare"
@@ -914,19 +914,19 @@
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The &3Packager&r compresses &aTiny Dusts&r and &aSmall Dusts&r into &afull Dusts&r, which can be compressed further into Ingots."
+				"&3打包机&r 可以将 &a小撮的粉&r 和 &a小堆的粉&r 压缩成 &a完整的粉&r，这些粉可以进一步压缩成锭。The &3Packager&r compresses &aTiny Dusts&r and &aSmall Dusts&r into &afull Dusts&r, which can be compressed further into Ingots."
 				""
-				"It can also work in reverse, change between sizes of Wires, and much more..."
+				"它还可以反向工作，改变电线的尺寸，以及更多…… It can also work in reverse, change between sizes of Wires, and much more..."
 				""
-				"Unpacking Cables back into Wires and Rubber will be &every useful&r once you rewire your Energy Network."
+				"一旦你给你的能源网络重新布线，将电缆解包回电线和橡胶将会非常有用。Unpacking Cables back into Wires and Rubber will be &every useful&r once you rewire your Energy Network."
 				"{@pagebreak}"
-				"&oYeah, we know...&r the 3x3 compacting recipes don't seem useful, because you can just use a Crafting Table. We urge you to consider the utility of this machine when used for &9automation&r purposes."
+				"&o是的，我们知道……&r 3x3压缩配方似乎没什么用，因为你可以直接使用工作台。但我们敦促你考虑这台机器用于 &9自动化&r 时的实用性。&oYeah, we know...&r the 3x3 compacting recipes don't seem useful, because you can just use a Crafting Table. We urge you to consider the utility of this machine when used for &9automation&r purposes."
 				""
-				"For an &9automated&r Dust setup, route &aTiny Dusts&r into a buffer inventory (a chest will do) placed next to your &3Packager&r."
+				"对于 &9自动化&r ，将 &a小撮的粉&&r 引入到一个缓存（一个箱子就可以）中，放在你的 &3打包机&r 旁边。For an &9automated&r Dust setup, route &aTiny Dusts&r into a buffer inventory (a chest will do) placed next to your &3Packager&r."
 				""
-				"Next place a &3Robot Arm&r and configure it to \"&dImport&r\", and \"&dSupply Exact 9&r\". Finally, let the Machine auto-output on another side."
+				"接着放置一个 &3机械臂&r 并配置它为“&d导入&r”和“&d精确供应9个&r”。最后，让机器在另一侧自动输出。Next place a &3Robot Arm&r and configure it to \"&dImport&r\", and \"&dSupply Exact 9&r\". Finally, let the Machine auto-output on another side."
 				""
-				"&l&3Lore:&r&o In GTCE, the reverse operation required a separate machine - the Unpackager."
+				"&l&3你知道吗 Lore:&r&o 在 GTCE 中，反向操作需要一个单独的机器 - 解包机。In GTCE, the reverse operation required a separate machine - the Unpackager."
 			]
 			id: "3F123950216DF93B"
 			size: 0.75d
@@ -935,29 +935,29 @@
 				item: "gtceu:lv_packer"
 				type: "item"
 			}]
-			title: "Basic Packer"
+			title: "基础打包机 Basic Packer"
 			x: -1.125d
 			y: 4.875d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"The &3Chemical Reactor&r will be required for &la lot&r of recipes."
+				"&3化学反应釜&r 将会用于许多配方。The &3Chemical Reactor&r will be required for &la lot&r of recipes."
 				""
-				"Let's give it a spin - why don't we use your freshly made Chemical Reactor to unlock a new, &6better recipe for Rubber&r? Rubber is &dunusable&r as a Fluid, so you will need to make another machine to process it further."
+				"让我们试一试 - 为什么不用你刚制作的化学反应釜来解锁一个新的、更好的 &6橡胶配方&r？橡胶作为一种流体是无法使用的，所以你需要制作另一台机器来进一步加工它。Let's give it a spin - why don't we use your freshly made Chemical Reactor to unlock a new, &6better recipe for Rubber&r? Rubber is &dunusable&r as a Fluid, so you will need to make another machine to process it further."
 				"{@pagebreak}"
-				"You can't make Rubber using the Chemical Reactor alone, so here are some &aother machines&r you might want to aim for: "
+				"单独使用化学反应釜无法制造橡胶，所以这里有一些你可能想要考虑的 &a其他机器&r：You can't make Rubber using the Chemical Reactor alone, so here are some &aother machines&r you might want to aim for: "
 				""
-				"A &3Solidifier&r is useful to solidify your Rubber directly into &aRubber Sheets&r. You'll want these moving forward."
+				"&3流体固化器&r 对于直接将橡胶固化成 &a橡胶片&r 很有用。向前攀进度时你会需要这些。A &3Solidifier&r is useful to solidify your Rubber directly into &aRubber Sheets&r. You'll want these moving forward."
 				""
-				"You could then make use of an &3Assembler&r to use your molten Rubber for &aCables&r. This isn't important for Tin Cables, but better cables will &eneed&r to be made in the Assembler."
+				"然后你可以利用 &3组装机&r 使用你的熔融橡胶制作 &a线缆&r。对于锡线缆来说这不重要，但更好的线缆将 &e需要&r 在组装机中制造。You could then make use of an &3Assembler&r to use your molten Rubber for &aCables&r. This isn't important for Tin Cables, but better cables will &eneed&r to be made in the Assembler."
 				""
-				"&eNote:&r Submit a fluid by having it stored in &lany&r tank in your inventory. A Drum is the perfect candidate."
+				"&e注意 Note:&r 提交流体时，确保它存储在你物品栏里的 &l任何&r 容器中。桶是完美的选择。Submit a fluid by having it stored in &lany&r tank in your inventory. A Drum is the perfect candidate."
 			]
 			icon: "gtceu:lv_chemical_reactor"
 			id: "3D98819A799D2E64"
 			size: 0.75d
-			subtitle: "Chemistry for dummies"
+			subtitle: "化学：从入门到入院 Chemistry for dummies"
 			tasks: [
 				{
 					id: "108424445D0F748A"
@@ -970,28 +970,28 @@
 					type: "item"
 				}
 			]
-			title: "Basic Chemical Reactor"
+			title: "基础化学反应釜 Basic Chemical Reactor"
 			x: 3.375d
 			y: 5.625d
 		}
 		{
 			dependencies: ["3D98819A799D2E64"]
 			description: [
-				"Cells are an alternative form of Fluid storage. All Cell types with the same type and amount of Fluid inside them &6stack&r. They can be automatically filled with a &3Canning Machine&r."
+				"单元（Cells）是一种流体存储的替代形式。所有含有相同类型和数量流体的单元类型都可以 &6堆叠&r。它们可以通过 &3装罐机&r 自动填充。Cells are an alternative form of Fluid storage. All Cell types with the same type and amount of Fluid inside them &6stack&r. They can be automatically filled with a &3Canning Machine&r."
 				""
-				"Cells hold &done bucket&r of Fluid."
+				"每个单元可以存储 &d一桶&r 的流体。Cells hold &done bucket&r of Fluid."
 				"{@pagebreak}"
-				"Universal Cells hold up to &done bucket&r, but also can store &9fractions&r of Buckets. They're particularly ideal if you want to store leftover Fluid without crafting a whole Drum. "
+				"通用单元也可以存储最多 &d一桶&r 的流体，但也能存储 &9不满&r 一桶的流体。如果你想存储剩余的流体而不想制作一个完整的桶，它们特别好用。Universal Cells hold up to &done bucket&r, but also can store &9fractions&r of Buckets. They're particularly ideal if you want to store leftover Fluid without crafting a whole Drum. "
 				""
-				"Cells made from higher tier materials can hold even more fluid, but &9Drums&r and &9Super Tanks&r will hold more by then."
+				"由更高级材料制成的单元可以存储更多的流体，但到那时，&9桶&r 和 &9超级缸&r 将能存储更多。Cells made from higher tier materials can hold even more fluid, but &9Drums&r and &9Super Tanks&r will hold more by then."
 				""
-				"Like Drums, Cells can be placed into a crafting grid to clear their contents."
+				"像桶一样，单元也可以放入合成界面清空。Like Drums, Cells can be placed into a crafting grid to clear their contents."
 			]
 			icon: "gtceu:fluid_cell"
 			id: "292938760AB9A12B"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "GTCE killed cell chemistry... GTCE killed Cells!"
+			subtitle: "GTCE杀死了单元化学... GTCE killed cell chemistry... GTCE killed Cells!"
 			tasks: [
 				{
 					id: "48507FA04651418B"
@@ -1004,7 +1004,7 @@
 					type: "item"
 				}
 			]
-			title: "Dead Cells"
+			title: "死亡细胞（Cell也有单元的意思） Dead Cells"
 			x: 4.5d
 			y: 5.625d
 		}
