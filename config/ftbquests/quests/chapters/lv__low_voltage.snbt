@@ -184,7 +184,7 @@
 				""
 				"使用&9氮气&r可以将熔炼铝的过程缩短大约三分之一，氮气是通过从&3集气室&r中离心&9空气&r获得的。The process of smelting Aluminium can be cut down by about a third with &9Nitrogen&r, which is obtained by centrifuging &9Air&r from a &3Gas Collector&r."
 				""
-				"&6你仍然需要MV电路来制造MV机器！&r"&6You will still need MV Circuits in order to make MV machines!&r"
+				"&6你仍然需要MV电路来制造MV机器！&r &6You will still need MV Circuits in order to make MV machines!&r"
 			]
 			id: "7567E885B7166603"
 			shape: "gear"
