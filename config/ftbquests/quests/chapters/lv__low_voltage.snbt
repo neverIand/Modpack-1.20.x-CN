@@ -566,7 +566,7 @@
 				""
 				"&d电动机器&r 和 &d物品输入总线&r 将会有一个幽灵电路槽。&dElectric Machines&r and &dItem Input Buses&r will have a Ghost Circuit Slot."
 				"{@pagebreak}"
-				"&l&3你知道吗 Lore:&r&o 这个功能最初来自 GTNH。This feature is originally from GTNH."
+				"&l&3你知道吗 Lore:&r&o 这个功能最初来自GTNH。This feature is originally from GTNH."
 			]
 			icon: {
 				Count: 1b
@@ -590,19 +590,19 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"Make this machine when you feel like it's time you invested into Batteries."
+				"当你觉得是时候开整电池了就做这台机器吧。Make this machine when you feel like it's time you invested into Batteries."
 				""
-				"It'll also be required if you want to make Storage Disks from &bApplied Energistics 2&r."
+				"如果你想做&b应用能源2的存储元件&r，这台机器也是必须的，It'll also be required if you want to make Storage Disks from &bApplied Energistics 2&r."
 			]
 			id: "37307A46E70011D3"
 			size: 0.75d
-			subtitle: "This machine does nothing exciting"
+			subtitle: "这台机器干的事情平平无奇 This machine does nothing exciting"
 			tasks: [{
 				id: "5521E4E26119E152"
 				item: "gtceu:lv_canner"
 				type: "item"
 			}]
-			title: "Basic Canner"
+			title: "基础装罐机 Basic Canner"
 			x: 3.375d
 			y: 3.375d
 		}
@@ -612,19 +612,19 @@
 				"6D9D54FAB21EC086"
 			]
 			description: [
-				"&aBatteries&r can be put into the energy slot at the bottom middle of machine GUIs, or in a &3Battery Buffer&r."
+				"&a电池&r 可以放入机器 GUI 底部中间的能量槽，或放入 &3电池箱&r 中。&aBatteries&r can be put into the energy slot at the bottom middle of machine GUIs, or in a &3Battery Buffer&r."
 				""
-				"When inside your inventory, they can be sneak-right-clicked to allow the batteries to &dcharge&r your EU items."
+				"当电池在你的物品栏中时，可以潜行右击以允许电池为你身上使用 EU 的物品 &d充电&r。When inside your inventory, they can be sneak-right-clicked to allow the batteries to &dcharge&r your EU items."
 				""
-				"&7LV&r, &bMV&r, and &6HV&r Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have. &dLithium&r has the best capacity, followed by &dCadmium&r, then &dSodium&r."
+				"&7LV&r、&bMV&r 和 &6HV&r 电池有三种形式，你可以根据拥有的材料选择最适合你的一种。&d锂&r 有最高的容量，其次是 &d镉&r，然后是 &d钠&r。&7LV&r, &bMV&r, and &6HV&r Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have. &dLithium&r has the best capacity, followed by &dCadmium&r, then &dSodium&r."
 				""
-				"Our recommendation? Find a Salt vein, and either &aelectrolyze Salt&r for &dSodium&r, or &awash crushed Lepidolite&r for &dLithium&r."
+				"我们的建议？找到一个盐矿脉，要么通过 &a电解盐&r 提取 &d钠&r，要么通过 &a洗涤粉碎锂云母&r 提取 &d锂&r。Our recommendation? Find a Salt vein, and either &aelectrolyze Salt&r for &dSodium&r, or &awash crushed Lepidolite&r for &dLithium&r."
 				""
-				"Get &eany&r &aBattery&r to complete this quest."
+				"获取 &e任意&r &a电池&r 来完成这个任务。Get &eany&r &aBattery&r to complete this quest."
 			]
 			id: "3E6DC423FE4A99F7"
 			size: 0.75d
-			subtitle: "Batteries for storing energy!"
+			subtitle: "用于储能的电池！Batteries for storing energy!"
 			tasks: [{
 				icon: "gtceu:lv_sodium_battery"
 				id: "47D0D12A26963702"
@@ -633,32 +633,32 @@
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						display: {
-							Name: "{\"text\":\"Any lv batteries\"}"
+							Name: "{\"text\":\"任意低压电池 Any lv batteries\"}"
 						}
 						"ftbfiltersystem:filter": "or(item_tag(gtceu:batteries/lv))"
 					}
 				}
-				title: "Any LV Battery"
+				title: "任意LV电池 Any LV Battery"
 				type: "item"
 			}]
-			title: "Batteries!"
+			title: "电池！Batteries!"
 			x: 4.875d
 			y: 3.375d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
 			description: [
-				"By itself, the Battery Buffer does nothing. However, if you place batteries inside its internal storage, it will act as a power buffer."
+				"单独来说，电池箱并没有任何用处。然而，如果你将电池放入其内部存储，它就可以作为一个能量缓存。By itself, the Battery Buffer does nothing. However, if you place batteries inside its internal storage, it will act as a power buffer."
 				""
-				"The &3Battery Buffer&r handles &9two Amps in&r, and &9one Amp out&r, &dper Battery&r. The output side has the dot, and all other sides are used as inputs."
+				"&3电池箱&r 可以处理 &9两安培的输入&r 和 &9一安培的输出&r，&d每个电池&r。输出侧有一个点作为标志，所有其他侧面用作输入。The &3Battery Buffer&r handles &9two Amps in&r, and &9one Amp out&r, &dper Battery&r. The output side has the dot, and all other sides are used as inputs."
 				""
-				"&6It'll also charge &lboth&r EU and RF Tools inside it&r."
+				"&6它还能给内部的 EU 和 RF 工具充电&r。&6It'll also charge &lboth&r EU and RF Tools inside it&r."
 				""
-				"This is a must have if you don't have unlimited power at hand. Get &eany&r &7LV&r Battery Buffer to finish the quest. However, the 16 slots variant is likely overkill at this stage."
+				"如果你手头没有用之不竭的电力，电池箱几乎是必备。获取 &e任意&r &7LV&r 电池箱来完成任务。不过，16槽的版本在这个阶段可能没什么必要。This is a must have if you don't have unlimited power at hand. Get &eany&r &7LV&r Battery Buffer to finish the quest. However, the 16 slots variant is likely overkill at this stage."
 				"{@pagebreak}"
-				"&9Note:&r Don't loop your lossy Cables back to your Battery Buffer! If you think about it, you'll just end up voiding energy."
+				"&9注意 Note:&r 不要将有损耗的电缆连回你的电池缓冲器！如果你仔细想想，你最终只会消耗能量。Don't loop your lossy Cables back to your Battery Buffer! If you think about it, you'll just end up voiding energy."
 				""
-				"&l&3Lore:&r&o To be frank with you, the GTCE Battery Buffer was... mediocre. It's been reworked in GTCEu to provide a mix between GT5 and GTCE's functionality. Energy now splits evenly across all batteries!"
+				"&l&3你知道吗 Lore:&r&o 坦白说，GTCE的电池箱...表现平平。在GTCEu中它已经被重做以提供它在GT5和GTCE中的功能。现在能量会在所有电池间均匀分配！To be frank with you, the GTCE Battery Buffer was... mediocre. It's been reworked in GTCEu to provide a mix between GT5 and GTCE's functionality. Energy now splits evenly across all batteries!"
 			]
 			icon: "gtceu:lv_battery_buffer_4x"
 			id: "6431381FBE07D6EF"
@@ -670,14 +670,14 @@
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						display: {
-							Name: "{\"text\":\"Any Battery Buffer\"}"
+							Name: "{\"text\":\"任意电池箱 Any Battery Buffer\"}"
 						}
 						"ftbfiltersystem:filter": "or(item(gtceu:lv_battery_buffer_4x)item(gtceu:lv_battery_buffer_8x)item(gtceu:lv_battery_buffer_16x))"
 					}
 				}
 				type: "item"
 			}]
-			title: "Battery Buffer"
+			title: "电池箱 Battery Buffer"
 			x: 6.75d
 			y: 3.375d
 		}
@@ -687,18 +687,18 @@
 				"6431381FBE07D6EF"
 			]
 			description: [
-				"This Quest explains the core mechanic of the &3Electric Blast Furnace&r, whilst the quest below will explore the mechanics of the Multiblock Parts that you'll also need. Be sure to refer to them."
+				"这个任务解释了 &3电力高炉&r 的核心机制，而下面的任务将探索你所需的多方块部件的机制。记得仔细阅读。This Quest explains the core mechanic of the &3Electric Blast Furnace&r, whilst the quest below will explore the mechanics of the Multiblock Parts that you'll also need. Be sure to refer to them."
 				""
-				"Anyway, the &3EBF&r is your &efirst electric multiblock&r! Congrats. It's used to process materials at high temperatures."
+				"&3电力高炉(EBF)&r 是你的 &e第一个电动多方块&r！恭喜。它用于在高温下处理材料。Anyway, the &3EBF&r is your &efirst electric multiblock&r! Congrats. It's used to process materials at high temperatures."
 				""
-				"You'll become familiar with the EBF to make &aAluminium&r and progress to &d&bMV Age&r. It can also make &7Steel&r faster than a PBF."
+				"你得熟悉 EBF 来制造 &a铝&r 并进入到 &d&bMV 时代&r。它还可以比 PBF 更快地制造 &7钢&r。You'll become familiar with the EBF to make &aAluminium&r and progress to &d&bMV Age&r. It can also make &7Steel&r faster than a PBF."
 				"{@pagebreak}"
-				"It's important to keep in mind that the EBF is a beefy boy. The minimum power cost to run a recipe is &9120 EU/t&r! That's slightly under 4 &7LV&r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this."
+				"要记住，EBF 是一个各种意义上都很大的设备。运行一个配方的最低功率是 &9120 EU/t&r！这略低于4个 &7LV&r 发电机。这就是它被锁在电池任务后面的原因。你可能要考虑建立一个带有发电机和电池箱的单独供电线路来运行这个。It's important to keep in mind that the EBF is a beefy boy. The minimum power cost to run a recipe is &9120 EU/t&r! That's slightly under 4 &7LV&r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this."
 			]
 			id: "1E9BE8D3F8A602DC"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "A big milestone!"
+			subtitle: "一个巨大的里程碑 A big milestone!"
 			tasks: [{
 				id: "10F6305A7E5D186D"
 				item: "gtceu:electric_blast_furnace"
