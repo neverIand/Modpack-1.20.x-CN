@@ -795,32 +795,32 @@
 		{
 			dependencies: ["3D98819A799D2E64"]
 			description: [
-				"Build this machine next to your &3Chemical Reactor&r to automatically solidify Rubber into &aRubber Sheets&r."
+				"将这台机器建在你的 &3化学反应釜&r 旁边，以自动将液态橡胶固化成 &a橡胶片&r。Build this machine next to your &3Chemical Reactor&r to automatically solidify Rubber into &aRubber Sheets&r."
 				""
-				"You can make your Chemical Reactor auto-output if you &dwrench&r the side of your &3Chemical Reactor&r and enable Fluid &9auto-output&r."
+				"你可以通过用 &d扳手&r 调整你的 &3化学反应釜&r 的一侧并启用液体 &9自动输出&r 功能，使你的化学反应器自动输出。You can make your Chemical Reactor auto-output if you &dwrench&r the side of your &3Chemical Reactor&r and enable Fluid &9auto-output&r."
 				""
-				"There will be more Fluids to solidify, so you may re-purpose your &3Fluid Solidifier&r when not crafting Rubber - or make a second one!"
+				"之后还会有更多的液体需要固化，所以当你不制作橡胶时，你可以重新利用你的 &3液体固化器&r —— 或者制作第二个！There will be more Fluids to solidify, so you may re-purpose your &3Fluid Solidifier&r when not crafting Rubber - or make a second one!"
 			]
 			id: "581CDF545E1EA1FD"
 			size: 0.75d
-			subtitle: "The Fluid Solidifier solidifies..."
+			subtitle: "流体固化器固化的是... The Fluid Solidifier solidifies..."
 			tasks: [{
 				id: "20B1CA4DB2750E84"
 				item: "gtceu:lv_fluid_solidifier"
 				type: "item"
 			}]
-			title: "Basic Fluid Solidifier"
+			title: "基础流体固化器 Basic Fluid Solidifier"
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
 			description: [
-				"The Prospector is an amazing tool that'll help you find veins in no time."
+				"探矿仪是一个了不起的工具，它能帮你在很短的时间内找到矿脉。The Prospector is an amazing tool that'll help you find veins in no time."
 				""
-				"Its GUI is interactive. Right-clicking will scan for ores, displaying them on a dynamic map."
+				"它的UI可以交互。右键点击会扫描矿石，并在动态地图上显示它们。Its GUI is interactive. Right-clicking will scan for ores, displaying them on a dynamic map."
 				""
-				"&l&3Lore:&r&o Back in OUR day, the portable Prospector was locked to &dLuV&f. Kids these days have it easy."
+				"&l&3你知道吗 Lore:&r&o 在我们那个时代，便携式勘探器被锁定在 &dLuV&f 级别。现在的孩子们真是太轻松了。Back in OUR day, the portable Prospector was locked to &dLuV&f. Kids these days have it easy."
 			]
 			id: "2E36E5755B2F551C"
 			shape: "rsquare"
@@ -830,20 +830,20 @@
 				item: "gtceu:prospector.lv"
 				type: "item"
 			}]
-			title: "This is Hacking"
+			title: "这是黑科技 This is Hacking"
 			x: 5.625d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5B2696206205CB2E"]
 			description: [
-				"Prepare &a128 Cupronickel&r, &a32 Bronze&r and &a16 Tin Alloy&r to craft the Heating Coils required for your first Electric Blast Furnace."
+				"准备 &a128 白铜&r、&a32 青铜&r 和 &a16 锡铁合金&r 来制造你第一个电力高炉所需的加热线圈。Prepare &a128 Cupronickel&r, &a32 Bronze&r and &a16 Tin Alloy&r to craft the Heating Coils required for your first Electric Blast Furnace."
 				""
-				"This is still less than half (!) of the cost of the whole EBF in raw materials. You will also need about a stack each of Invar and Steel, so get mining."
+				"这还不到整个 EBF 原材料成本的一半（！）。你还将需要大约一组的殷钢和钢，所以继续挖矿吧。This is still less than half (!) of the cost of the whole EBF in raw materials. You will also need about a stack each of Invar and Steel, so get mining."
 				""
-				"The Cupronickel Coils will allow the EBF to perform recipes up to &d1,800K&r (ignoring Voltage bonuses). That's pretty hot if you ask us."
+				"白铜线圈将允许 EBF 执行高达 &d1,800K&r 的配方（不考虑电压奖励）。要我说的话，这相当热。The Cupronickel Coils will allow the EBF to perform recipes up to &d1,800K&r (ignoring Voltage bonuses). That's pretty hot if you ask us."
 				""
-				"&6This quest unlocks a new tutorial on Coils in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6这个任务在 &l技巧与窍门&r&6 标签页解锁了一个关于线圈的新教程——看看它以了解更多信息！&r &6This quest unlocks a new tutorial on Coils in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: {
 				Count: 1b
@@ -854,31 +854,31 @@
 			}
 			id: "1646BF9194100E57"
 			size: 0.75d
-			subtitle: "Baby's first heating coil"
+			subtitle: "年轻人的第一个加热线圈 Baby's first heating coil"
 			tasks: [{
 				count: 16L
 				id: "4F19FBED1E1766AC"
 				item: "gtceu:cupronickel_coil_block"
 				type: "item"
 			}]
-			title: "Cupronickel Coils"
+			title: "白铜线圈方块 Cupronickel Coils"
 			x: 6.75d
 			y: 4.5d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&5You:&r &oThat's it, I'm uninstalling! This pack is stupid! We're barely in &7LV&r&o, but you're asking me to make you a &6HV&r&o machine!?&r"
+				"&5你:&r &o得，我要卸载了！这个包太蠢了！我们才刚到 &7LV&r&o，但你要我做一个 &6HV&r&o 的机器！？&r&5You:&r &oThat's it, I'm uninstalling! This pack is stupid! We're barely in &7LV&r&o, but you're asking me to make you a &6HV&r&o machine!?&r"
 				""
-				"Yes! This is indeed not completable yet, which is also why this quest appears in the &6HV&r Chapter."
+				"是的！这任务确实还没法完成，所有这个任务也出现在 &6HV&r 章节中。Yes! This is indeed not completable yet, which is also why this quest appears in the &6HV&r Chapter."
 				"{@pagebreak}"
-				"Remember how disappointing it was that you couldn't get byproducts with your Macerator? Well... that disappointment won't be going away until you reach &6HV&r."
+				"还记得你得知你的研磨机不能获得副产品时有多失望吗？嗯……那种失望在你达到 &6HV&r 之前不会消失。Remember how disappointing it was that you couldn't get byproducts with your Macerator? Well... that disappointment won't be going away until you reach &6HV&r."
 				""
-				"&6The Macerator will unlock its second and third slot at HV&r. Trust us - this will be great for Ore Processing. In fact, one byproduct is absolutely locked behind this (after the Thermal Centrifuge step)."
+				"&6研磨机将在 HV 级别解锁它的第二和第三槽位。相信我们——这对矿石加工来说将是非常棒的。实际上，有一个副产品完全被锁在这之后（热力离心机步骤之后）。&6The Macerator will unlock its second and third slot at HV&r. Trust us - this will be great for Ore Processing. In fact, one byproduct is absolutely locked behind this (after the Thermal Centrifuge step)."
 				""
-				"&cNote:&r Unlike GTCE, the &bMV&r Macerator in GTCEu &cdoesn't&r have a second slot."
+				"&c注意 Note:&r 与 GTCE 不同，在 GTCEu 中的 &bMV&r 级研磨机 &c没有&r 第二个槽位。Unlike GTCE, the &bMV&r Macerator in GTCEu &cdoesn't&r have a second slot."
 				""
-				"&5Writer:&r &oCome back to me when you are stronger, young Cricket.&r"
+				"&5作者 Writer:&r &o当你变得更强时再回来找我，小东西。Come back to me when you are stronger, young Cricket.&r"
 			]
 			id: "1DA54DA70E12F499"
 			size: 0.75d
@@ -888,16 +888,16 @@
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			title: "Universal Macerator"
+			title: "通用研磨机 Universal Macerator"
 			x: -1.125d
 			y: 3.375d
 		}
 		{
 			dependencies: ["3A8D7FC6F316C38C"]
 			description: [
-				"The Gas Collector collects Air that can then be centrifuged into &aOxygen&r and &aNitrogen&r."
+				"集气室收集空气，然后可以通过离心分离出 &a氧气&r 和 &a氮气&r。The Gas Collector collects Air that can then be centrifuged into &aOxygen&r and &aNitrogen&r."
 				""
-				"&l&3Lore:&r&o GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... here, cell chemistry is no more."
+				"&l&3你知道吗 Lore:&r&o 格雷科技5 的玩家还记得他们曾经需要使用 IC2 电池和压缩机来获取压缩空气……在这里，电池化学已经不复存在了。GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... here, cell chemistry is no more."
 			]
 			id: "15928F50AE80A5CF"
 			shape: "rsquare"
@@ -907,7 +907,7 @@
 				item: "gtceu:lv_gas_collector"
 				type: "item"
 			}]
-			title: "Basic Gas Collector"
+			title: "基础集气室 Basic Gas Collector"
 			x: 1.125d
 			y: 6.75d
 		}
