@@ -1219,23 +1219,23 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"While this is an extremely &9important&r machine for progression, this will &9&lnot help you immediately&r as it is &cexpensive.&r Most of the recipes you will want to pursue require &cfluids&r. Set up a little bit more infrastructure before rushing this."
+				"虽然这是一个对游戏进度极为重要的机器，但它当前&9&l不会对你有帮助&r，因为它 &c很贵&r。你想要的大多数配方需要 &c流体&r。在匆忙采用此设备之前，先建立一些更多的基础设施。While this is an extremely &9important&r machine for progression, this will &9&lnot help you immediately&r as it is &cexpensive.&r Most of the recipes you will want to pursue require &cfluids&r. Set up a little bit more infrastructure before rushing this."
 				""
-				"With that out of the way, the &3Assembler&r is crucial to gameplay. Consider it as important as a Crafting Table, except... well, it's a machine, duh."
+				"知道这些后，&3组装机&r 对游戏至关重要。可以认为它和工作台一样重要，只不过它是一台机器，谔谔。With that out of the way, the &3Assembler&r is crucial to gameplay. Consider it as important as a Crafting Table, except... well, it's a machine, duh."
 				""
-				"We as \"modpack developers\" also love to use this to include all sorts of custom recipes - and speaking of custom recipes, the Assembler now unlocks &dApplied Energistics 2&r!"
+				"作为“整合包开发者”，我们也喜欢利用它加入各种自定义配方——说到自定义配方，组装机现在解锁了&d应用能源2&r！We as \"modpack developers\" also love to use this to include all sorts of custom recipes - and speaking of custom recipes, the Assembler now unlocks &dApplied Energistics 2&r!"
 				"{@pagebreak}"
-				"Once you have enough infrastructure you will be able to make use of better recipes for:"
+				"一旦你拥有足够的基础设施，你将能够使用更好的配方来制造：Once you have enough infrastructure you will be able to make use of better recipes for:"
 				""
-				"&9-&r &6Vacuum Tubes&r, giving over double the previous yield"
+				"&9-&r &6真空管 Vacuum Tubes&r, 产量是之前的两倍多 giving over double the previous yield"
 				""
-				"&9-&r &6Resistors&r, granting 4 resistors per craft!"
+				"&9-&r &6电阻 Resistors&r, 每次制作可得到4个电阻！granting 4 resistors per craft!"
 				""
-				"&9-&r &6Circuit Boards&r, greatly reducing copper used"
+				"&9-&r &6电路板 Circuit Boards&r, 大大减少了使用的铜 greatly reducing copper used"
 				""
-				"Wahoo!"
+				"好耶！Wahoo!"
 				""
-				"&l&3Lore:&r&o Back in the days of GregTech 2, the Assembling Machine only had two slots, and was only really used for alternate Circuit and Hull recipes."
+				"&l&3你知道吗 Lore:&r&o 在格雷科技2的时代，组装机只有两个插槽，基本上只用于电路和外壳的替代配方。Back in the days of GregTech 2, the Assembling Machine only had two slots, and was only really used for alternate Circuit and Hull recipes."
 			]
 			id: "63CD0236B337EAAD"
 			shape: "gear"
@@ -1254,23 +1254,23 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"&3Voiding Covers&r can be attached to GregTech Machines, Crates or Drums. They will void stuff you don't want. How fancy!"
+				"&3销毁覆盖板&r 可以附加到格雷的机器、箱子或桶上。它们可以清除你不想要的东西。多么高级！&3Voiding Covers&r can be attached to GregTech Machines, Crates or Drums. They will void stuff you don't want. How fancy!"
 				""
-				"For machines, it will only void items in the Output slots. The Input slots are ignored."
+				"对于机器，它只会清除输出槽中的物品。输入槽会被忽略。For machines, it will only void items in the Output slots. The Input slots are ignored."
 				""
-				"You can attach a &aFilter&r for more precise voiding."
+				"你可以附加一个 &a过滤卡&r 来进行更精确的销毁。You can attach a &aFilter&r for more precise voiding."
 				"{@pagebreak}"
-				"An advanced version also exists, which requires a &dMV Circuit&r. It enables voiding above a set threshold - great for for overflow control."
+				"还有一个高级版本，需要一个 &dMV 电路&r。它可以在设置的阈值以上进行清除——非常适合溢出控制。An advanced version also exists, which requires a &dMV Circuit&r. It enables voiding above a set threshold - great for for overflow control."
 				""
-				"&9Note:&r They default to being switched off, to prevent accidental voiding. Right-click them with a &5Soft Mallet&r to activate them."
+				"&9注意 Note:&r 它们默认是关闭的，以防止意外销毁。用 &5软锤&r 右击它们以激活。They default to being switched off, to prevent accidental voiding. Right-click them with a &5Soft Mallet&r to activate them."
 				""
-				"Obtaining &eany&r Voiding Cover will complete this Quest."
+				"获取 &e任意&r 销毁覆盖板将完成这个任务。Obtaining &eany&r Voiding Cover will complete this Quest."
 			]
 			icon: "gtceu:item_voiding_cover"
 			id: "249B9E104CAF5FE6"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The best mechanic - making an item or fluid disappear!"
+			subtitle: "最好的机制 - 让物品或流体消失！The best mechanic - making an item or fluid disappear!"
 			tasks: [
 				{
 					id: "69BC88293080C522"
@@ -1283,7 +1283,7 @@
 					type: "item"
 				}
 			]
-			title: "Voiding Covers"
+			title: "销毁覆盖板 Voiding Covers"
 			x: 5.625d
 			y: 6.75d
 		}
@@ -1293,17 +1293,17 @@
 				"581CDF545E1EA1FD"
 			]
 			description: [
-				"Hm... didn't we make this joke already?"
+				"呃... 我们是不是已经讲过这个笑话了？Hm... didn't we make this joke already?"
 				""
-				"The reason we didn't present &7LV&r versions of &6Steam&r machines is because they are &4NOT&r required. You might not want to invest into an upgrade that does next to nothing. Except for &othis one&r specifically, because it's a big improvement over the &6Steam Age&r."
+				"我们之所以没有介绍 &7LV&r 级的 &6蒸汽&r 机器是因为它们 &4不是&r 必需的。你可能不想投资于几乎没有什么用的升级。除了 &o这一个&r，因为它比 &6蒸汽时代&r 的对应机器有很大的改进。The reason we didn't present &7LV&r versions of &6Steam&r machines is because they are &4NOT&r required. You might not want to invest into an upgrade that does next to nothing. Except for &othis one&r specifically, because it's a big improvement over the &6Steam Age&r."
 				""
-				"The &3Basic Extractor&r gains Fluid capabilities, which enables &aFluid Extraction&r. Use it to melt Rubber that you previously solidified, to &dmelt Soldering Alloy&r for your circuits, and to &dmelt Red Alloy&r for the &6best Vacuum Tube recipe&r in the &3Assembler&r!"
+				"&3基础提取机&r 获得了液体处理能力，使其能进行 &a液体提取&r。用它来熔化你之前固化的橡胶，为你的电路 &d熔化焊锡&r，以及为 &3组装机&r 中 &6最佳真空管配方&r &d融化红色合金&r！The &3Basic Extractor&r gains Fluid capabilities, which enables &aFluid Extraction&r. Use it to melt Rubber that you previously solidified, to &dmelt Soldering Alloy&r for your circuits, and to &dmelt Red Alloy&r for the &6best Vacuum Tube recipe&r in the &3Assembler&r!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Did you notice this machine doubles as both an Extractor and a Fluid Extractor? The two of them were separate machines in previous versions of GregTech."
+				"&l&3你知道吗 Lore:&r&o 你注意到这台机器既可以作为提取机也可以作为液体提取机了吗？在旧版本格雷科技中，这两者是分开的机器。Did you notice this machine doubles as both an Extractor and a Fluid Extractor? The two of them were separate machines in previous versions of GregTech."
 			]
 			id: "5B2696206205CB2E"
 			size: 0.75d
-			subtitle: "The Steam Extractor extracts..."
+			subtitle: "蒸汽提取机提取... The Steam Extractor extracts..."
 			tasks: [{
 				id: "5CD363C839475426"
 				item: "gtceu:lv_extractor"
@@ -1318,15 +1318,15 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"From now on, all Circuits should be made in a &3Circuit Assembler&r. Use it now to enjoy &6far cheaper LV and MV circuits&r."
+				"从现在开始，所有电路都应该在 &3电路组装机&r 中制作。现在就使用它，你将享受到 &6更便宜的 LV 和 MV 电路&r。From now on, all Circuits should be made in a &3Circuit Assembler&r. Use it now to enjoy &6far cheaper LV and MV circuits&r."
 				""
-				"Each time you upgrade to a new tier of &3Circuit Assembler&r, you will be able to craft more &dadvanced themes&r of circuit. These will use &ccomplex&r and &msometimes&r unfamiliar ingredients, but will be more efficient to craft overall."
+				"每当你升级到一个新等级的 &3电路组装机&r 时，你将能够制作更多 &d高级&r 的电路。这些将使用 &c复杂&r 和 &m有时&r 你不熟悉的成分，但总体上效率更高。Each time you upgrade to a new tier of &3Circuit Assembler&r, you will be able to craft more &dadvanced themes&r of circuit. These will use &ccomplex&r and &msometimes&r unfamiliar ingredients, but will be more efficient to craft overall."
 				""
-				"&l&3Lore:&r&o The Circuit Assembler has made appearances in and out of GregTech versions. GT5 did not have it, and it was reimplemented in GT5 Unofficial. GTCE decided not to port it, and the tug-of-war continues with its inclusion in GTCEu."
+				"&l&3你知道吗Lore:&r&o 电路组装机在各个版本的格雷科技中都出现过。GT5 中没有它，后来在 GT5 Unofficial 中重新实现。GTCE 决定不引入它，而这场拉锯战在 GTCEu 中继续。The Circuit Assembler has made appearances in and out of GregTech versions. GT5 did not have it, and it was reimplemented in GT5 Unofficial. GTCE decided not to port it, and the tug-of-war continues with its inclusion in GTCEu."
 			]
 			id: "199361B5FEC959EA"
 			size: 0.75d
-			subtitle: "Hopefully, your first MV Circuit expense"
+			subtitle: "你第一块MV电路的本钱（希望如此）Hopefully, your first MV Circuit expense"
 			tasks: [{
 				id: "6287E8A7C254ECA7"
 				item: "gtceu:lv_circuit_assembler"
