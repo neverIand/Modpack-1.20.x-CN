@@ -1450,15 +1450,15 @@
 				"0EAC071414AEC07E"
 			]
 			description: [
-				"This Circuit Board is used to create &dMV Circuits&r!"
+				"这种电路板用于制造 &dMV 电路&r！This Circuit Board is used to create &dMV Circuits&r!"
 				""
-				"&9Note:&r You have &ltwo&r options when making the Phenolic Printed Circuit Board. If you use &aSodium Persulfate&r or &aIron III Chloride&r, making boards takes &6only a quarter of the Silver&r as opposed to the crafting recipe."
+				"&9注意 Note:&r 制作酚醛树脂印刷电路基板时，你有&l两&r个选择。如果你使用 &a过硫酸钠&r 或 &a三氯化铁&r，制作电路板只需要 &6四分之一的银&r，相比于传统的制作配方来说。You have &ltwo&r options when making the Phenolic Printed Circuit Board. If you use &aSodium Persulfate&r or &aIron III Chloride&r, making boards takes &6only a quarter of the Silver&r as opposed to the crafting recipe."
 				""
-				"&lHowever&r, given how painful it may be for you to obtain these chemicals &oright now&r, you can simply use more Silver by mining most of a Galena Vein..."
+				"&l然而&r，鉴于你 &o此刻&r 获得这些化学物质可能很困难，你可以通过开采整个方铅矿脉来使用更多的银……&lHowever&r, given how painful it may be for you to obtain these chemicals &oright now&r, you can simply use more Silver by mining most of a Galena Vein..."
 				""
-				"The quest for &aSodium Persulfate&r is in the &bMV&r chapter, if you're down for some light reading."
+				"如果你愿意稍微做点功课，关于 &a过硫酸钠&r 的任务在 &bMV&r 章节中。The quest for &aSodium Persulfate&r is in the &bMV&r chapter, if you're down for some light reading."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Back in GTCEu 1.12.2, these circuit boards were called \"&2Good Circuit Boards&f\". Not exactly a fitting name, as they're &4rather evil&f to craft."
+				"&l&3你知道吗 Lore:&r&o 在 GTCEu 1.12.2 中，这些电路板被称为“&2良好电路板&f”。这个名字并不真正合适，因为制作它们 &4相当糟糕&f。Back in GTCEu 1.12.2, these circuit boards were called \"&2Good Circuit Boards&f\". Not exactly a fitting name, as they're &4rather evil&f to craft."
 			]
 			id: "3647B1B964A15E4E"
 			size: 0.75d
@@ -1476,15 +1476,15 @@
 				"4073577B7EF9B593"
 			]
 			description: [
-				"Don't let JEI fool you... there's only one possible recipe right now for this Primitive Diode."
+				"不要让 JEI 欺骗你……目前这个原始二极管只有一种可能的配方。Don't let JEI fool you... there's only one possible recipe right now for this Primitive Diode."
 				""
-				"Diodes have a infamously &4nasty recipe&r, but they will become cheaper and more convenient once you can obtain &ePolyethylene&r."
+				"二极管有一个臭名昭著的 &4复杂配方&r，但一旦你能够获得 &e聚乙烯&r，它们将更便宜，制作起来更方便。Diodes have a infamously &4nasty recipe&r, but they will become cheaper and more convenient once you can obtain &ePolyethylene&r."
 				""
-				"This is required for &dMV Circuits&r."
+				"这是制造 &dMV 电路&r 所必需的。This is required for &dMV Circuits&r."
 			]
 			id: "7BE7DE4C0109D788"
 			size: 0.75d
-			subtitle: "Don't be swayed by JEI!"
+			subtitle: "别被JEI忽悠了！Don't be swayed by JEI!"
 			tasks: [{
 				id: "0FE8CA1C2D212378"
 				item: "gtceu:diode"
@@ -1500,13 +1500,13 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"Well... gotten any Aluminium Ingots yet?"
+				"那么……你已经拿到铝锭了吗？Well... gotten any Aluminium Ingots yet?"
 				""
-				"Each Electric Age has Circuits corresponding to its tier. The Good Electronic Circuit is the &dfirst MV Circuit&r you can make out of the three tiers of &bMV&r Circuitry."
+				"每个电气时代都有与其等级相对应的电路。优质电子电路是你能够制作的三个 &bMV&r 电路等级中的 &d第一个 MV 电路&r。Each Electric Age has Circuits corresponding to its tier. The Good Electronic Circuit is the &dfirst MV Circuit&r you can make out of the three tiers of &bMV&r Circuitry."
 				""
-				"Always be on the lookout for a cheaper way to make your circuits - new sets of recipes become available each time you make a new tier of &2Circuit Assembler&r. Conveniently, this tier of Circuit unlocks one now! Its recipes are far, far cheaper than hand-crafting Circuits."
+				"要总是记得去寻找制作电路的更便宜方法——每次你制作新等级的 &2电路组装机&r 时，都会有新的配方可用。这一级别的电路现在就解锁了一个！其配方比手工制作电路便宜得多。Always be on the lookout for a cheaper way to make your circuits - new sets of recipes become available each time you make a new tier of &2Circuit Assembler&r. Conveniently, this tier of Circuit unlocks one now! Its recipes are far, far cheaper than hand-crafting Circuits."
 				""
-				"&6Having this and Aluminium will grant access to MV Machines.&r"
+				"&6拥有这个和铝将使你能够使用 MV 机器。&r &6Having this and Aluminium will grant access to MV Machines.&r"
 			]
 			id: "0DBC148D92A9F69F"
 			shape: "gear"
@@ -1524,9 +1524,9 @@
 		{
 			dependencies: ["2F1CCFEBAB71B1F3"]
 			description: [
-				"As mentioned in the previous quest, electrolyse the &1Sapphire Dust&r to get your &bAluminium Dust&r."
+				"正如前一个任务中提到的，电解 &1蓝宝石粉&r 来获取 &b铝粉&r。As mentioned in the previous quest, electrolyse the &1Sapphire Dust&r to get your &bAluminium Dust&r."
 				""
-				"Now all you need is an EBF! If you haven't started to work towards one, move to the right on this quest page and you'll end up there."
+				"现在你所需要的是一个电力高炉（EBF）！如果你还没有开始朝这个方向努力，那么在这个任务页面的右上方你会找到相关的任务。Now all you need is an EBF! If you haven't started to work towards one, move to the right on this quest page and you'll end up there."
 			]
 			hide_dependent_lines: true
 			id: "45B71324028F6E68"
@@ -1536,7 +1536,7 @@
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
-			title: "Aluminium Dust"
+			title: "铝粉 Aluminium Dust"
 			x: -3.375d
 			y: 6.75d
 		}
