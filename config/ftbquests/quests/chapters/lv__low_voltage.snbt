@@ -1543,9 +1543,9 @@
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]
 			description: [
-				"Multiblocks bear a large variety of interesting mechanics that might seem daunting, but don't worry - we've written a guide to help you learn."
+				"多方块结构具有许多有趣的机制，这些机制可能看起来令人生畏，但不用担心——我们编写了一份指南来帮助你学习。Multiblocks bear a large variety of interesting mechanics that might seem daunting, but don't worry - we've written a guide to help you learn."
 				""
-				"&6This quest unlocks a bunch of tutorials on Multiblocks in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
+				"&6这个任务在 &l技巧与窍门&r&6 标签页解锁了一系列关于多方块的教程——查看它们以了解更多信息！&r &6This quest unlocks a bunch of tutorials on Multiblocks in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
 			]
 			hide_text_until_complete: false
 			icon: "gtceu:heatproof_machine_casing"
@@ -1562,15 +1562,15 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&oThis quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o这个任务完全是可选的，不过你可能会对它感兴趣。我们出于完整性的考虑将其放在这里。This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
 				""
-				"The &3Rock Breaker&r generates different types of igneous Rocks. In order to operate, &9Water&r and &cLava&r (doesn't need to be source blocks) must both be adjacent to it. Those rocks might be pulverized and electrolyzed into certain materials."
+				"&3碎岩机&r 可以生成不同类型的火成岩。为了使其运行，&9水&r 和 &c岩浆&r（不需要是液体源）都必须与其相邻。这些岩石可能被粉碎并电解成特定的材料。The &3Rock Breaker&r generates different types of igneous Rocks. In order to operate, &9Water&r and &cLava&r (doesn't need to be source blocks) must both be adjacent to it. Those rocks might be pulverized and electrolyzed into certain materials."
 				""
-				"Certain rocks, such as &b&cRed Granite&r, need up to &5EV&r power to generate."
+				"某些岩石，如 &b&c红花岗岩&r，需要高达 &5EV&r 的电力才能生成。Certain rocks, such as &b&cRed Granite&r, need up to &5EV&r power to generate."
 				""
-				"&eAny&r Rock Breaker will complete this Quest."
+				"&e任意&r碎岩都将完成这个任务。&eAny&r Rock Breaker will complete this Quest."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Obsidian requiring Redstone to generate is in reference to an ancient Minecraft bug, &7MC-4239&f. Placing Redstone where the Cobblestone would go in a cobble generator would make it generate Obsidian instead. This bug was resolved in snapshot 14w25b for Minecraft 1.8, over 9 years ago at the time of writing!"
+				"&l&3你知道吗 Lore:&r&o 黑曜石需要红石来生成，这是对一个古老的原版游戏Bug的致敬，&7MC-4239&f。在刷石机中，将红石放置在圆石应该生成的位置，会使其生成黑曜石。这个 Bug 在 9 年前（作者写下这段文字时）的 Minecraft 1.8 快照 14w25b 中得到解决！Obsidian requiring Redstone to generate is in reference to an ancient Minecraft bug, &7MC-4239&f. Placing Redstone where the Cobblestone would go in a cobble generator would make it generate Obsidian instead. This bug was resolved in snapshot 14w25b for Minecraft 1.8, over 9 years ago at the time of writing!"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_rock_crusher"
@@ -1584,26 +1584,26 @@
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						display: {
-							Name: "{\"text\":\"Any Rock Crusher\"}"
+							Name: "{\"text\":\"任意碎岩机 Any Rock Crusher\"}"
 						}
 						"ftbfiltersystem:filter": "or(item(gtceu:lv_rock_crusher)item(gtceu:mv_rock_crusher)item(gtceu:hv_rock_crusher)item(gtceu:ev_rock_crusher)item(gtceu:iv_rock_crusher)item(gtceu:luv_rock_crusher)item(gtceu:zpm_rock_crusher)item(gtceu:uv_rock_crusher))"
 					}
 				}
 				type: "item"
 			}]
-			title: "Cobble is Life"
+			title: "圆石一生推 Cobble is Life"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&oThis quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o这个任务完全是可选的，不过你可能会对它感兴趣。我们出于完整性的考虑将其放在这里。This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
 				""
-				"The &3Turbo Charger&r charges &6RF and EU&r items such as &9Drills&r extremely quickly."
-				"It accepts up to 4 Amps for every item it charges, making it &6twice as fast&r as the &3Battery Buffer&r. It cannot discharge, though."
+				"&3闪聚充电箱&r 可以非常快速地为 &6RF 和 EU&r 设备充电，如 &9钻头&r 等。The &3Turbo Charger&r charges &6RF and EU&r items such as &9Drills&r extremely quickly."
+				"对于每个充电目标，它接受高达4安培的电流，使其充电速度为 &3电池箱&r 的 &6两倍&r。然而，它不能放电。It accepts up to 4 Amps for every item it charges, making it &6twice as fast&r as the &3Battery Buffer&r. It cannot discharge, though."
 				""
-				"&eAny&r Charger will complete this Quest."
+				"&e任意&r 闪聚充电箱都将完成这个任务。&eAny&r Charger will complete this Quest."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_charger_4x"
@@ -1617,14 +1617,14 @@
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						display: {
-							Name: "{\"text\":\"Any Turbo Charger 4x\"}"
+							Name: "{\"text\":\"任意闪聚充电箱 Any Turbo Charger 4x\"}"
 						}
 						"ftbfiltersystem:filter": "or(item(gtceu:ulv_charger_4x)item(gtceu:lv_charger_4x)item(gtceu:mv_charger_4x)item(gtceu:hv_charger_4x)item(gtceu:ev_charger_4x)item(gtceu:iv_charger_4x)item(gtceu:luv_charger_4x)item(gtceu:zpm_charger_4x)item(gtceu:uv_charger_4x)item(gtceu:uhv_charger_4x))"
 					}
 				}
 				type: "item"
 			}]
-			title: "Turbo Charger"
+			title: "闪聚充电箱 Turbo Charger"
 			x: 5.625d
 			y: 0.0d
 		}
@@ -1658,7 +1658,7 @@
 				}
 				type: "item"
 			}]
-			title: "Fishing 50"
+			title: "钓钓又鱼鱼 Fishing 50"
 			x: 6.75d
 			y: 0.0d
 		}
