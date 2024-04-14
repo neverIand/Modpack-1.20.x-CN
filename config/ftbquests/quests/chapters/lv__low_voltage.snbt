@@ -1114,39 +1114,39 @@
 				"2F1CCFEBAB71B1F3"
 			]
 			description: [
-				"For now, you should use &9Water&r for its recipes instead of trying to acquire Lubricant."
+				"目前，你应该使用 &9水&r 来代替润滑油进行配方制作。For now, you should use &9Water&r for its recipes instead of trying to acquire Lubricant."
 				""
-				"The &3Cutting Machine&r additionally unlocks converting &6Rods into four Bolts&r."
+				"&3切割机&r 还可以将 &6杆转换成四个螺栓&r。The &3Cutting Machine&r additionally unlocks converting &6Rods into four Bolts&r."
 				""
-				"This machine is the only way to obtain &dGem Plates&r, which are needed to craft Filters, and by extension, the &3Gas Collector&r."
+				"这台机器是获取 &d宝石板&r 的唯一方式，这些宝石板是制作过滤卡所必需的，进而也是 &3集气室&r 的必需品。This machine is the only way to obtain &dGem Plates&r, which are needed to craft Filters, and by extension, the &3Gas Collector&r."
 			]
 			id: "3A8D7FC6F316C38C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The Cutter... cuts..."
+			subtitle: "切割机...切割... The Cutter... cuts..."
 			tasks: [{
 				id: "662DB818821C4EAE"
 				item: "gtceu:lv_cutter"
 				type: "item"
 			}]
-			title: "Basic Cutter"
+			title: "基础切割机 Basic Cutter"
 			x: -1.125d
 			y: 6.75d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&lOutside of Ore Processing:&r"
+				"&l矿石加工之外 Outside of Ore Processing:&r"
 				""
-				"Oh boy, what can't this machine do? Decomposition recipes to separate dust types, separating air, do your taxes, and many others..."
+				"这台机器有简直无所不能！分离不同的粉尘、分离空气、处理你的税务等等…… Oh boy, what can't this machine do? Decomposition recipes to separate dust types, separating air, do your taxes, and many others..."
 				""
-				"The list is too long! Let's just say &cyou need the Centrifuge&r."
+				"清单太长了！我们就说 &c你需要离心机&r。The list is too long! Let's just say &cyou need the Centrifuge&r."
 				"{@pagebreak}"
-				"&lFor Ore Processing:&r"
+				"&l矿石加工 For Ore Processing:&r"
 				""
-				"This takes &aImpure Dust&r or &aPurified Dust&r and turns them into clean Dust, plus an added tiny Dust &6Byproduct&r. This is outside of the optimal chain for Byproducts, but this is also the cheapest Ore Processing machine of the presented array to run and to setup on a small scale."
+				"它可以将 &a含杂粉尘&r 或 &a纯净粉尘&r 转换成干净的粉尘，外加一小撮粉尘作为 &6副产品&r。这不是获得副产品的最佳途径，但这的确是当前列出的矿物处理机器中制作起来和设置起来最便宜的。This takes &aImpure Dust&r or &aPurified Dust&r and turns them into clean Dust, plus an added tiny Dust &6Byproduct&r. This is outside of the optimal chain for Byproducts, but this is also the cheapest Ore Processing machine of the presented array to run and to setup on a small scale."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In base GTCE, this was objectively the strongest Ore Processing machine as it was fairly easy to use, and gave three tiny dusts, just like the Ore Washer or the Thermal Centrifuge. We tuned it down in favor of diversity."
+				"&l&3你知道吗 Lore:&r&o 在基础的 GTCE 中，这是客观上最强的矿石加工机器，因为它使用起来相当容易，并且像洗矿厂或热力离心机一样，可以给出三个小粉尘。我们削弱了它来丰富（整合包的）多样性。In base GTCE, this was objectively the strongest Ore Processing machine as it was fairly easy to use, and gave three tiny dusts, just like the Ore Washer or the Thermal Centrifuge. We tuned it down in favor of diversity."
 			]
 			id: "5263F866638D875C"
 			size: 0.75d
@@ -1155,20 +1155,20 @@
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			title: "Basic Centrifuge"
+			title: "基础离心机 Basic Centrifuge"
 			x: 0.0d
 			y: 6.75d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"It's recommended that you &6put this machine off&r until you actually require it for for progression - explore elsewhere if you're fresh into &7LV&r."
+				"建议你在真正需要用到这台机器进行进到下一阶段时再考虑使用它——如果你刚进入 &7LV&r，可以先探索其他方向。It's recommended that you &6put this machine off&r until you actually require it for for progression - explore elsewhere if you're fresh into &7LV&r."
 				""
-				"Some alloys previously made by hand can also be made in the mixer, except at &ahigher yield&r."
+				"一些之前手工制作的合金也可以在搅拌机中制作，而且 &a产量更高&r。Some alloys previously made by hand can also be made in the mixer, except at &ahigher yield&r."
 			]
 			id: "257DB4B39B2A928E"
 			size: 0.75d
-			subtitle: "The Mixer mixes..."
+			subtitle: "搅拌机搅拌... The Mixer mixes..."
 			tasks: [{
 				id: "4A0B4A206ED30212"
 				item: {
@@ -1176,14 +1176,14 @@
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						display: {
-							Name: "{\"text\":\"Any Mixer\"}"
+							Name: "{\"text\":\"任意搅拌机 Any Mixer\"}"
 						}
 						"ftbfiltersystem:filter": "or(item(gtceu:lv_kinetic_mixer)item(gtceu:lv_mixer))"
 					}
 				}
 				type: "item"
 			}]
-			title: "Basic Mixer"
+			title: "基础搅拌机 Basic Mixer"
 			x: 2.25d
 			y: 7.875d
 		}
@@ -1194,25 +1194,25 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"Unfortunately, this is only an &lEmpty&r Spray Can, which you have to fill with Chemical Dye before using."
+				"不幸的是，这只是一个 &l空&r 喷漆罐，你需要先用化学染料填充它才能使用。Unfortunately, this is only an &lEmpty&r Spray Can, which you have to fill with Chemical Dye before using."
 				""
-				"&aSpray Cans&r do not provide any functionality involving machines, but can be quite &bvisually appealing and useful&r!"
+				"&a喷漆罐&r 并不提供任何涉及机器的功能，但在视觉上非常 &b吸引人并且有用&r！&aSpray Cans&r do not provide any functionality involving machines, but can be quite &bvisually appealing and useful&r!"
 				""
-				"Any (or almost any) GregTech tile entity (machine, pipe, cable...) can be &6painted&r to one of the 16 colors of your choosing. This is great for screenshots, or to separate different setups for convenience in a Multiplayer base. They also help with distinguishing between pipelines and cables."
+				"几乎任何格雷科技的实体（机器、管道、线缆等）都可以被 &6喷漆&r 成你选择的16种颜色之一。这对于截图非常有用，或者在多人基地中区分不同的建筑以便于管理。它们还有助于区分管线和线缆。Any (or almost any) GregTech tile entity (machine, pipe, cable...) can be &6painted&r to one of the 16 colors of your choosing. This is great for screenshots, or to separate different setups for convenience in a Multiplayer base. They also help with distinguishing between pipelines and cables."
 				""
-				"Holding the &aSpray Can&r in the offhand will automatically paint any block you place."
+				"将 &a喷漆罐&r 放在副手中，放置任何方块时将自动进行喷漆。Holding the &aSpray Can&r in the offhand will automatically paint any block you place."
 			]
 			id: "5AD9884E7BFB2510"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time for server tag wars"
+			subtitle: "服务器tag大战，启动！Time for server tag wars"
 			tasks: [{
 				id: "28CFFA0F7A33E02F"
 				item: "gtceu:empty_spray_can"
 				match_nbt: false
 				type: "item"
 			}]
-			title: "Spray Can"
+			title: "喷漆罐 Spray Can"
 			x: 3.375d
 			y: 6.75d
 		}
