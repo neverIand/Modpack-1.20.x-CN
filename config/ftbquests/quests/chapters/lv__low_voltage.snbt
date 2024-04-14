@@ -1014,17 +1014,17 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"Use both of your new machines to turn a material into a Fluid, and solidify it back to a Rotor! This combination makes Rotors far easier to craft - &6four Ingots per Rotor&r, as well."
+				"使用你的两台新机器将一种材料转化为流体，然后再将其固化回转子！这种组合使得制作转子变得更加容易——每个转子也只需要 &6四个锭&r。Use both of your new machines to turn a material into a Fluid, and solidify it back to a Rotor! This combination makes Rotors far easier to craft - &6four Ingots per Rotor&r, as well."
 				""
-				"You can also do the same for &6Gears&r and &6Small Gears&r, which will then be superseded when you make a &3MV Extruder&r."
+				"你也可以对 &6齿轮&r 和 &6小型齿轮&r 做同样的操作，等你制作了 &3MV 压模器&r 后，这些将被取代。You can also do the same for &6Gears&r and &6Small Gears&r, which will then be superseded when you make a &3MV Extruder&r."
 				""
-				"&9Note:&r Some metals require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in JEI."
+				"&9注意 Note:&r 一些金属的流体提取需要比 &7LV&r 更高的电压，因此确保在 JEI 中检查配方等级。Some metals require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in JEI."
 			]
 			icon: "gtceu:rotor_casting_mold"
 			id: "115C4226F6473F0C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time to end the misery of hand crafting rotors!"
+			subtitle: "是时候结束手搓转子的痛苦了！Time to end the misery of hand crafting rotors!"
 			tasks: [
 				{
 					id: "4A68C6BC78CB07E2"
@@ -1037,16 +1037,16 @@
 					type: "item"
 				}
 			]
-			title: "Combo!"
+			title: "合体！Combo!"
 			x: 5.625d
 			y: 5.625d
 		}
 		{
 			dependencies: ["199361B5FEC959EA"]
 			description: [
-				"&aSoldering Alloy&r is used solely as a &9Fluid&r, and in most cases is &dinterchangeable&r in circuit recipes as a cheaper alternative to Tin&r."
+				"&a焊锡&r 仅作为 &9流体&r 使用，在大多数情况下，它可以作为一个更便宜的替代品，在电路配方中与 &d锡&r 互换。&aSoldering Alloy&r is used solely as a &9Fluid&r, and in most cases is &dinterchangeable&r in circuit recipes as a cheaper alternative to Tin&r."
 				""
-				"The choice is yours. Save more materials? Make Soldering Alloy. Spend less time crafting materials? Tin is the way to go."
+				"选择权在你。想节省更多材料？制作焊锡。想减少制作材料的时间？使用锡是个不错的选择。The choice is yours. Save more materials? Make Soldering Alloy. Spend less time crafting materials? Tin is the way to go."
 			]
 			icon: "gtceu:soldering_alloy_ingot"
 			id: "713C8D6A20BF3A0E"
@@ -1058,7 +1058,7 @@
 				item: "gtceu:soldering_alloy_dust"
 				type: "item"
 			}]
-			title: "Soldering Alloy"
+			title: "焊锡 Soldering Alloy"
 			x: 7.875d
 			y: 5.625d
 		}
@@ -1068,9 +1068,9 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"With &7LV&r power, the only way of getting &aAluminium Dust&r is by electrolyzing &9Sapphire&r or &2Green Sapphire&r. Aluminium is the main &bMV&r material, similar to how Steel is crucial in &7LV&r, and Bronze is important in the &6Steam Age&r."
+				"在 &7LV&r 电力下，获取 &a铝粉&r 的唯一方式是通过电解 &9蓝宝石&r 或 &2绿色蓝宝石&r。铝是 &bMV&r 材料的主要组成部分，就像钢在 &7LV&r 中以及青铜在 &6蒸汽时代&r 中至关重要一样。With &7LV&r power, the only way of getting &aAluminium Dust&r is by electrolyzing &9Sapphire&r or &2Green Sapphire&r. Aluminium is the main &bMV&r material, similar to how Steel is crucial in &7LV&r, and Bronze is important in the &6Steam Age&r."
 				""
-				"It would be wise to obtain enough Sapphire to electrolyze into a full stack of &aAluminium Dust&r - it &lwill&r be useful very soon. Plus, bonus Oxygen is always nice."
+				"明智的做法是获取足够的蓝宝石，通过电解得到一整组的 &a铝粉&r——它很快就会派上用场。此外，额外获得氧气总归不坏。It would be wise to obtain enough Sapphire to electrolyze into a full stack of &aAluminium Dust&r - it &lwill&r be useful very soon. Plus, bonus Oxygen is always nice."
 			]
 			id: "2F1CCFEBAB71B1F3"
 			size: 0.75d
@@ -1080,22 +1080,22 @@
 				item: "gtceu:sapphire_dust"
 				type: "item"
 			}]
-			title: "Sapphire"
+			title: "蓝宝石 Sapphire"
 			x: -2.25d
 			y: 5.625d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&lOutside of Ore Processing:&r"
+				"&l矿石加工之外 Outside of Ore Processing:&r"
 				""
-				"Similar to the Centrifuge, this machine does a lot of things - we can't hope to list them all! Fortunately, it's one of the cheapest &7LV&r machines, so grab it as soon as it becomes necessary."
+				"类似于离心机，这台机器有很多功能——我们无法一一列举！幸运的是，它是 &7LV&r 最便宜的机器之一，所以一旦你需要就应该立刻获取它。Similar to the Centrifuge, this machine does a lot of things - we can't hope to list them all! Fortunately, it's one of the cheapest &7LV&r machines, so grab it as soon as it becomes necessary."
 				"{@pagebreak}"
 				"&lFor Ore Processing:&r"
 				""
-				"Okay, we lied. It's not &oexactly&r used for Ore Processing, it's actually used in the &adecomposition of Dusts&r. However, most of the useful electrolysis recipes are locked at &bMV&r. You can peep at the &emolecular formula&r in a dust's tooltip to see what you can get from electrolysis."
+				"好吧，我们撒了个谎。它并不 &o完全&r 用于矿石加工，实际上它用于 &a粉的分解&r。然而，大多数有用的电解配方都锁定在 &bMV&r 级别。你可以在粉尘的工具提示中查看 &e分子式&r，看看你可以通过电解得到什么。Okay, we lied. It's not &oexactly&r used for Ore Processing, it's actually used in the &adecomposition of Dusts&r. However, most of the useful electrolysis recipes are locked at &bMV&r. You can peep at the &emolecular formula&r in a dust's tooltip to see what you can get from electrolysis."
 				"{@pagebreak}"
-				"&cTake caution!&r Due to how ores work, directly smelting dusts into Ingots can give higher metal yields than electrolysis. However, it means you lose the other products in the dust. You will have to decide whether you want to prioritise direct value, or byproduct count."
+				"&c小心！Take caution!&r 由于矿石本身的机制，直接将粉熔炼成锭可能比电解得到更高的金属产量。然而，这意味着你会失去粉尘中的副产物。你将不得不决定是优先考虑直接价值，还是副产物数量。Due to how ores work, directly smelting dusts into Ingots can give higher metal yields than electrolysis. However, it means you lose the other products in the dust. You will have to decide whether you want to prioritise direct value, or byproduct count."
 			]
 			id: "32B08E6F414A00C0"
 			size: 0.75d
@@ -1104,7 +1104,7 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			title: "Basic Electrolyzer"
+			title: "基础电解机 Basic Electrolyzer"
 			x: -1.125d
 			y: 5.625d
 		}
