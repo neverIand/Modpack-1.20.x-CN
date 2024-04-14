@@ -1338,15 +1338,15 @@
 		{
 			dependencies: ["1A77CA35F054F988"]
 			description: [
-				"The &3Arc Furnace&r uses a lil' bit of &9Oxygen&r to smelt items in a different fashion than Furnaces."
+				"&3电弧炉&r 使用少量的 &9氧气&r 以与普通炉子不同的方式熔炼物品。The &3Arc Furnace&r uses a lil' bit of &9Oxygen&r to smelt items in a different fashion than Furnaces."
 				""
-				"You can use it to make easier &aWrought Iron&r, double your &aGlass&r, and gain access to &aAnnealed Copper&r."
+				"你可以使用它来更容易地制作 &a锻铁&r，双倍产出 &a玻璃&r，并用它合成 &a退火铜&r 。You can use it to make easier &aWrought Iron&r, double your &aGlass&r, and gain access to &aAnnealed Copper&r."
 				""
-				"It can also recycle various components and machines back to their original material."
+				"它还可以将各种组件和机器回收成它们的原料。It can also recycle various components and machines back to their original material."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Previous versions had both the Arc Furnace and the &bPlasma Arc Furnace&f. In that case, why not use one machine for both? Well, that's exactly what we thought - but we ultimately decided to remove one of the two &bplasma&f recipes. And then the other &bplasma&f recipe. "
+				"&l&3你知道吗 Lore:&r&o 之前的版本中既有电弧炉也有 &b等离子电弧炉&f。为什么不用一台机器完成两者的工作呢？这正是我们的想法——但最终我们决定取消两种 &b等离子&f 配方中的一种。然后又取消了另一种 &b等离子&f 配方。Previous versions had both the Arc Furnace and the &bPlasma Arc Furnace&f. In that case, why not use one machine for both? Well, that's exactly what we thought - but we ultimately decided to remove one of the two &bplasma&f recipes. And then the other &bplasma&f recipe. "
 				""
-				"&oIn short, the &bPlasma Arc Furnace&f is &4gone&f. RIP."
+				"&o简而言之，&b等离子电弧炉&f 已经 &4不复存在&f 了。RIP。In short, the &bPlasma Arc Furnace&f is &4gone&f. RIP."
 			]
 			id: "63256ED95F17B242"
 			size: 0.75d
@@ -1364,53 +1364,53 @@
 				"32B08E6F414A00C0"
 			]
 			description: [
-				"You could waste &o&eprecious years of your life&r in JEI looking for the most optimal Oxygen recipe, given the many ways to obtain it. Various minerals will produce it when electrolyzed."
+				"你可能会在 JEI 中浪费 &o&e宝贵的生命&r 寻找最优的氧气配方，因为获得氧气的方法有很多。各种矿物在电解时都会产生氧气。You could waste &o&eprecious years of your life&r in JEI looking for the most optimal Oxygen recipe, given the many ways to obtain it. Various minerals will produce it when electrolyzed."
 				""
-				"If only the quest book had more information!"
+				"要是任务书中有更多信息就好了！If only the quest book had more information!"
 				"{@pagebreak}"
-				"Surprise! The best source according to us (!) is &acentrifuging Air&r after making a &dGas Collector&r, which you might not be able to make just yet. This recipe also gives &aNitrogen&r, which is handy as it can speed up certain &3Electric Blast Furnace&r recipes&r."
+				"惊喜！根据我们的看法（！），最佳来源是在制作了 &d集气室&r 后 &a离心空气&r。你现在可能还做不到。这个配方还会产生 &a氮气&r，这很方便，因为它可以让你更快获得某些 &3电力高炉&r 所需的配方。Surprise! The best source according to us (!) is &acentrifuging Air&r after making a &dGas Collector&r, which you might not be able to make just yet. This recipe also gives &aNitrogen&r, which is handy as it can speed up certain &3Electric Blast Furnace&r recipes&r."
 				""
-				"The second best source according to us (!) is &aelectrolyzing Silicon Dioxide&r. Silicon Dioxide is obtained from various sources, such as Glass Dust, Granite Dust and Black Granite Dust."
+				"根据我们的看法（！），第二好的来源是 &a电解二氧化硅&r。二氧化硅可以从各种来源获得，如玻璃粉尘、花岗岩粉尘和黑花岗岩粉尘（？）。The second best source according to us (!) is &aelectrolyzing Silicon Dioxide&r. Silicon Dioxide is obtained from various sources, such as Glass Dust, Granite Dust and Black Granite Dust."
 				"{@pagebreak}"
-				"The third best source according to us (!) is &aelectrolyzing Water&r. In reality, electrolysis of water is more suitable for &aHydrogen production&r due to the higher energy cost."
+				"根据我们的看法（！），第三好的来源是 &a电解水&r。实际上，由于能源成本较高，水的电解更适合 &a生产氢气&r。The third best source according to us (!) is &aelectrolyzing Water&r. In reality, electrolysis of water is more suitable for &aHydrogen production&r due to the higher energy cost."
 				""
-				"The fourth best source according to us (!) is &ato not void&r it, EVER! Any Oxygen obtained from any source is worth something and should be stored in Tanks."
+				"根据我们的看法（！），第四好的来源是 &a不要将任何作为副产物的氧气销毁&r！从任何来源获得的氧气都有一定的价值，应该储存在罐中。The fourth best source according to us (!) is &ato not void&r it, EVER! Any Oxygen obtained from any source is worth something and should be stored in Tanks."
 				""
-				"&eNote:&r Submit a fluid by having it stored in &lany&r tank in your inventory. A bucket will also work."
+				"&e注意 Note:&r 通过将流体存储在物品栏中的 &l任何&r 容器来提交流体。一个桶也可以。Submit a fluid by having it stored in &lany&r tank in your inventory. A bucket will also work."
 			]
 			icon: "gtceu:oxygen_bucket"
 			id: "1A77CA35F054F988"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Achtually, it's Dioxygen..."
+			subtitle: "其实是分子氧... Achtually, it's Dioxygen..."
 			tasks: [{
 				id: "4299C881ED57472D"
 				item: "gtceu:oxygen_bucket"
 				type: "item"
 			}]
-			title: "Breath of Fresh Oxygen"
+			title: "旷野之吸（氧） Breath of Fresh Oxygen"
 			x: -1.125d
 			y: 7.875d
 		}
 		{
 			dependencies: ["5263F866638D875C"]
 			description: [
-				"You can now &3centrifuge&r &aResin&r, which will still give Raw Rubber - but this time alongside &aGlue&r (and the less useful Plantball)."
+				"你现在可以 &3离心&r &a黏性树脂&r，除了产出生橡胶外，还会得到 &a胶水&r（以及较不实用的植物球）。You can now &3centrifuge&r &aResin&r, which will still give Raw Rubber - but this time alongside &aGlue&r (and the less useful Plantball)."
 				""
-				"Give yourself a headstart and get on producing Glue. You can use it to make &6cheaper Resistors&r, as well as &6cheaper Circuit Boards&r in the &3Assembling Machine&r (and it is especially useful &oin the near future&r)."
+				"给自己一个先手优势 - 开始生产胶水。你可以使用它在 &3组装机&r 中制作 &6更便宜的电阻&r 和 &6更便宜的电路板&r（特别是在 &o不久的将来&r 会非常有用）。Give yourself a headstart and get on producing Glue. You can use it to make &6cheaper Resistors&r, as well as &6cheaper Circuit Boards&r in the &3Assembling Machine&r (and it is especially useful &oin the near future&r)."
 				""
-				"&eNote:&r Submit a fluid by having it stored in &lany&r tank in your inventory. A bucket will also work."
+				"&e注意 Note:&r 通过将流体存储在物品栏中的 &l任何&r 容器内来提交流体。一个桶也可以。Submit a fluid by having it stored in &lany&r tank in your inventory. A bucket will also work."
 			]
 			icon: "gtceu:glue_bucket"
 			id: "0EAC071414AEC07E"
 			size: 0.75d
-			subtitle: "Extractor? I hardly knew 'er!"
+			subtitle: "提取机是啥？从来没听说过！Extractor? I hardly knew 'er!"
 			tasks: [{
 				id: "204FF37CA2846468"
 				item: "gtceu:glue_bucket"
 				type: "item"
 			}]
-			title: "Glued"
+			title: "粘住了 Glued"
 			x: 0.0d
 			y: 7.875d
 		}
@@ -1420,27 +1420,27 @@
 				"257DB4B39B2A928E"
 			]
 			description: [
-				"Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are &4among&r these materials."
+				"接下来的许多材料无法直接从任何矿石中熔炼出来！相反，它们是通过处理其他矿石获得的副产品。镓和砷就是 &4其中&r 的材料。Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are &4among&r these materials."
 				""
-				"For &dGallium&r, you may, ranged from worst to best (compromising difficulty and yields):"
+				"对于 &d镓&r，你可以按从最差到最好（权衡难度和产量）的顺序选择：For &dGallium&r, you may, ranged from worst to best (compromising difficulty and yields):"
 				""
-				"&9- &3Electrolyze &aSphalerite&r for a low chance of small dust. Note that you lose out on direct smelting value."
+				"&9- &3电解 &a闪锌矿&r 获得少量的小堆粉尘的机会。注意这样会损失直接熔炼的价值。&9- &3Electrolyze &aSphalerite&r for a low chance of small dust. Note that you lose out on direct smelting value."
 				""
-				"&9-&r Put &aCrushed Bauxite&r in the &3Chemical Bath&r. Note that this requires &9Sodium Persulfate&r."
+				"&9-&r 将 &a粉碎的铝土矿&r 放入 &3化学浸洗机&r 中。注意这需要 &9过硫酸钠&r。&9-&r Put &aCrushed Bauxite&r in the &3Chemical Bath&r. Note that this requires &9Sodium Persulfate&r."
 				""
-				"&9-&r Obtain it as a Byproduct of &aSphalerite&r Ore Processing in the &3Thermal Centrifuge&r or &3Centrifuge&r."
+				"&9-&r 在 &3热力离心机&r 或 &3离心机&r 中处理 &a闪锌矿&r 矿石时，作为副产物获得。&9-&r Obtain it as a Byproduct of &aSphalerite&r Ore Processing in the &3Thermal Centrifuge&r or &3Centrifuge&r."
 				""
-				"For &dArsenic&r, you will have to mine and &3centrifuge&r &aRealgar&r."
+				"对于 &d砷&r，你将需要开采并 &3离心&r &a雄黄&r。For &dArsenic&r, you will have to mine and &3centrifuge&r &aRealgar&r."
 			]
 			id: "4073577B7EF9B593"
 			size: 0.75d
-			subtitle: "I hate byproducts, they're awesome"
+			subtitle: "我爱副产物，它们泰裤啦 I hate byproducts, they're awesome"
 			tasks: [{
 				id: "0FDC60275B1959C3"
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			title: "Gallium Arsenide"
+			title: "砷化镓 Gallium Arsenide"
 			x: 1.125d
 			y: 7.875d
 		}
@@ -1511,13 +1511,13 @@
 			id: "0DBC148D92A9F69F"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Does that mean we're at MV yet?"
+			subtitle: "这意味着我们进MV了吗？Does that mean we're at MV yet?"
 			tasks: [{
 				id: "70313E1917121E14"
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			title: "First MV Circuit!"
+			title: "第一块MV电路！First MV Circuit!"
 			x: 7.875d
 			y: 7.875d
 		}
@@ -1555,7 +1555,7 @@
 				id: "2AA5580CDD655FBC"
 				type: "checkmark"
 			}]
-			title: "Multiblock Techniques"
+			title: "多方块技巧 Multiblock Techniques"
 			x: 7.875d
 			y: 4.5d
 		}
