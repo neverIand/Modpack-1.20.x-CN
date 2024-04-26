@@ -269,7 +269,6 @@
 		{
 			dependencies: ["373FD04AD6CA9F92"]
 			description: [
-				"Для создания угольной ямы вам понадобится много, много дерева."
 				"{quests.5DB0CA9F9724D301.d1}"
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_1.png width:170 height:100 align:1}"
@@ -2060,6 +2059,7 @@
 				"2DEEDED2F21E60B9"
 				"515141734CA1A002"
 			]
+			dependency_requirement: "one_completed"
 			id: "1FFE279F43B0BA45"
 			shape: "gear"
 			tasks: [{
