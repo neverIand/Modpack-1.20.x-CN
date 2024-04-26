@@ -2372,54 +2372,8 @@
 				item: "gtceu:treated_wood_planks"
 				type: "item"
 			}]
-			x: 30.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["41DBE0B47E760DC4"]
-			description: [
-				"&b原始水泵&r是一种简单的自动为你的锅炉生成水的方式。它不是从世界中物理抽水，而是&e内部&r生成水。因此，你不需要接近&3水体&r就可以使用它。然而，生物群系的湿度确实对其水产量提供了微不足道的奖励。The &bPrimitive Water Pump&r is an easy way to automatically generate water for your boilers. It doesn't physically pump water from the world, instead generating it &einternally&r. Therefore, you don't need access to a &3body of water&r to make use of it. However, the humidity of the biome does apply a negligible bonus to its water production."
-				""
-				"它是一个多方块结构，所以&5查阅JEI&r以了解其结构。如果你用空手潜行右键点击“&a&o控制器&r”方块（在这个例子中，控制器方块就是&b原始水泵&r本身），多方块结构可以在世界中预览。It's a multiblock, so &5consult JEI&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself)."
-				""
-				"&6小提示Small tip for you:&r 现在不需要担心你基地的生物群系，因为你的锅炉运行所需要的水量非常少。no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
-				"{@pagebreak}"
-				"&c输出舱&r是水将被生成的地方。你可以使其朝上或朝下来向你的管道中自动输水。当你达到&7LV（低压）&r或&bMV（中压）&r等级时，你可以使用任一等级的输出舱来进一步提高泵的输出。The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes. When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
-				""
-				"&2提醒Reminder:&r 使用扳手来旋转格雷科技的方块（潜行右键）。Use a Wrench to rotate GregTech blocks (sneak right-click)."
-				""
-				"&l&3你知道吗Lore:&r&o 这个多方块结构是从一个叫GT IMPACT的经典1.7.10格雷科技整合包移植过来的。This Multiblock was ported from GT IMPACT, a classic 1.7.10 GregTech modpack."
-			]
-			id: "1D623D93EEDD3C67"
-			size: 2.0d
-			subtitle: "免费的水？想得美。There's no such thing as \"free\" water"
-			tasks: [
-				{
-					id: "24CCB2BF08C5400A"
-					item: "gtceu:primitive_pump"
-					type: "item"
-				}
-				{
-					id: "1EC1919EF0D22F00"
-					item: "gtceu:pump_hatch"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "4AA6B1931455F656"
-					item: "gtceu:pump_deck"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "31D4CB90405080DF"
-					item: "gtceu:treated_wood_frame"
-					type: "item"
-				}
-			]
-			title: "原始的水泵 Primitive Water Pump"
-			x: 32.5d
-			y: 11.0d
+			x: 28.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4504EBE720145441"]
@@ -3020,8 +2974,8 @@
 			dependencies: ["370D5A954DCBFD34"]
 			id: "70814114EF197414"
 			tasks: [{
-				id: "72932B85E4BC9F13"
-				item: "minecraft:compass"
+				id: "152BB23D954315F0"
+				item: "firmaciv:firmaciv_compass"
 				type: "item"
 			}]
 			x: -6.5d
@@ -5133,7 +5087,10 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["2E3F6613C490E9AD"]
+			dependencies: [
+				"2E3F6613C490E9AD"
+				"09BA130BE1805E05"
+			]
 			icon: "create:large_cogwheel"
 			id: "222A4146EF7750E9"
 			shape: "gear"
