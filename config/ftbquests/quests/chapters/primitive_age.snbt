@@ -270,12 +270,11 @@
 			dependencies: ["373FD04AD6CA9F92"]
 			description: [
 				"Для создания угольной ямы вам понадобится много, много дерева."
-				"Для начала выкопайте яму, глубиной в 1 блок (можно и глубже, если позволяет кол-во древесины)."
+				"{quests.5DB0CA9F9724D301.d1}"
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_1.png width:170 height:100 align:1}"
 				""
-				"После, при помощи Shift + ПКМ нажмите в любой блок в яме, у вас появится охапка бревен, ее можно наполнять, нажимая ПКМ с бревном в руке по охапке, либо просто открыть интерфейс и наполнить вручную. От кол-ва дерева в охапке зависит количество получаемого впоследствии угля."
-				""
+				"{quests.5DB0CA9F9724D301.d2}"
 				""
 				"{image:tfg:textures/quests/primitive_charcoal_2.png width:200 height:100 align:1}"
 				""
@@ -293,7 +292,7 @@
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			title: "Угольные ямы"
+			title: "{quests.5DB0CA9F9724D301.t}"
 			x: 8.0d
 			y: 1.5d
 		}
@@ -313,15 +312,15 @@
 				}
 				type: "item"
 			}]
-			title: "Примитивная зажигалка"
+			title: "{quests.3B3BA51C8CAEFC7F.t}"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3B3BA51C8CAEFC7F"]
-			description: ["Бросьте на блок 3 палки и 1 бревно, после наведите на этот блок курсор мыши и используйте примитивную зажигалку, с первого раза может не получиться. После успеха, на месте выброшенных 3 палок и 1 бревна появится костер, в который нужно закидывтаь бревна, чтобы костер продолжал гореть. Для увеличения шанса создания костра, вы можете в выброшенные предметы добавить бумагу, солому и другие легковоспламеняемые предметы, за каждый предмет, по +10%."]
+			description: ["{quests.682B58EC2D39F1A1.d1}"]
 			id: "682B58EC2D39F1A1"
-			subtitle: "Костер, но не обычный"
+			subtitle: "{quests.682B58EC2D39F1A1.st}"
 			tasks: [{
 				icon: "tfc:firepit"
 				id: "4639272D5258BCFC"
@@ -374,21 +373,13 @@
 		{
 			dependencies: ["76EF4D00586A8B74"]
 			description: [
-				"В TerraFirmaGreg руду генерируются интересней чем где либо."
+				"{quests.387DEEADF4922AB3.d1}"
 				""
-				"1. Каждая руда появляется в своей породе. TFC добавляет в мир много разных пород, то есть обычный камень из ваниллы вы нигде не встретите, поэтому руды как и в реальной жизни генерируются только в определенных породах."
-				""
-				"2. Существуют несколько типов рудных жил, такие как: кластер, сфера, труба и несколько редких других, о которых говорить не будем."
-				""
-				"3. Для облегчения жизни игрокам, на поверхности появляются рудные индикаторы, под которыми в большинстве случаев располагается сама жила с рудой."
-				""
-				"TFG содержит небольшое Wiki для этого в таблице Excel. Для того, чтобы перейти по ссылке, выполните задание, после заберите награду и в чате отобразится кнопка по нажатию на которую вас перебросит на таблицу Excel с генерацией руды."
-				""
-				"{ \"text\": \"Ссылка на Excel таблицу (Нажми сюда)\", \"color\":\"#02FF00\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://docs.google.com/spreadsheets/d/1P3Baz4y5vgJ3XrCoNs4l3BXGPiFEPlW7i4taPEWpTB4\" } }"
+				"{ \"text\": \"Excel Link (Tap here)\", \"color\":\"#02FF00\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://docs.google.com/spreadsheets/d/1P3Baz4y5vgJ3XrCoNs4l3BXGPiFEPlW7i4taPEWpTB4\" } }"
 			]
 			icon: "gtceu:shale_aluminium_ore"
 			id: "387DEEADF4922AB3"
-			subtitle: "Куда веселей чем в ванилле"
+			subtitle: "{quests.387DEEADF4922AB3.st}"
 			tasks: [{
 				id: "7E131C48FAB52A11"
 				type: "checkmark"
@@ -2030,7 +2021,7 @@
 							ticks: 0L
 						}
 					}
-					id: "tfc:metal/ingot/copper"
+					id: "minecraft:copper_ingot"
 				}
 				type: "item"
 			}]
@@ -3244,23 +3235,18 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
-			icon: "gtceu:nickel_bucket"
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:nickel_dust"
+			}
 			id: "27AC71D2454EF0FC"
 			tasks: [
-				{
-					id: "3B84D2AA2805CC72"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-						id: "gtceu:raw_nickel"
-					}
-					type: "item"
-				}
 				{
 					id: "4433C1C9D816AD13"
 					item: {
@@ -4611,6 +4597,7 @@
 			tasks: [{
 				id: "79E2F0E9233F4A86"
 				item: "sophisticatedbackpacks:backpack"
+				match_nbt: false
 				type: "item"
 			}]
 			x: 27.0d
@@ -5131,6 +5118,35 @@
 			}]
 			x: 20.5d
 			y: 11.0d
+		}
+		{
+			dependencies: ["41DBE0B47E760DC4"]
+			id: "09BA130BE1805E05"
+			tasks: [{
+				id: "384F4B56E4992764"
+				item: "gtceu:treated_wood_plate"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["365F6F48E0BB2EFC"]
+			id: "23510E30D813C549"
+			tasks: [{
+				id: "09C1DBDEB5A47AB8"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(tfchotornot:tongs))"
+					}
+				}
+				title: "Any Tongs"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
 		}
 	]
 	title: "原始时代 Primitive Age"
