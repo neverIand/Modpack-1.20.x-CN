@@ -1,6 +1,11 @@
 # Changelog
+## [0.7.4] - 30.04.2024
+### Removed mods
+- Clientcrafting
+### Updated mods
+- TerraFirmaGreg-Core -> 0.5.1
 
-## [0.7.3] - Expected 30.04.2024
+## [0.7.3] - 30.04.2024
 ### Features
 - Using Spout from Create, you can now pour metal into TFC molds.
 - Now, when placing ingots, double ingots and plates, they will take the color from GTCEu, that is, they will be painted automatically.
@@ -46,7 +51,13 @@
 - Recipes for energy converters from GTCEu are enabled.
 - The recipe for the AE2 energy converter has been returned, it is needed to power pylons or cells from AE2.
 - The mod for the music player was removed, it loaded the RAM too much, it was decided to change it to another one in the next update.
+- Added salt recipe through TFC pot.
+- Added recipes/quests for MERequester.
+- Added recipes/quests for Etched.
+- Added few new recipes for minecart.
 ### Fixes
+- Fixed bug with firmaciv blocks, which drops firmaciv copper bolts instead of gtceu.
+- Fixed bug, when breaking the ship casing, it can drop copper screws from FirmaCiv (WIP).
 - Fixed the recipe for fish oil, now you can use any fish from TFC there.
 - Fixed the recipe for golden vanilla rails.
 - Fixed the quest for RTM coils, or rather its name and description.
@@ -120,7 +131,7 @@
 ### New Mods
 - AE2NetworkAnalyzer
 - AEInfinityBooster
-- ae2insertexportcard
+- AE2insertexportcard
 - ExtendedAE
 - TFCDesirePaths
 - TFCHotOrNot
@@ -142,7 +153,6 @@
 - YeetusExperimentus
 - BetterFoliage
 - Carryon
-- Clientcrafting
 - Corals-tfc
 - Create_connected
 ### Removed mods
@@ -157,7 +167,7 @@
 ### Updated mods
 - TFG-Core -> 0.4.10
 - cc-tweaked -> 1.110.0
-- o_a_barrel_roll -> 3.5.3
+- Do_a_barrel_roll -> 3.5.3
 - moonlight -> 2.11.9
 - sophisticatedbackpacks -> 3.20.3.1034
 - modelfix -> 1.15
