@@ -1,4 +1,31 @@
 # Changelog
+## [0.7.7] - 01.05.2024
+### Fixes
+- Rolled back the Embeddium version, freezes when loading the world
+### Updated mods
+- Embeddium -> 0.3.15
+### New Mods
+- Textrues_embeddium_options
+
+## [0.7.6] - 01.05.2024
+### Fixes
+- Fixed shit with axe / saw behaviors.
+### Updated mods
+- TerraFirmaGreg-Core -> 0.5.3
+- Embeddium -> 0.3.16
+### Removed mods
+- Textrues_embeddium_options
+
+## [0.7.5] - 01.05.2024
+### Fixes
+- Fixed a crash on servers when opening interfaces GT.
+### Updated mods
+- TerraFirmaGreg-Core -> 0.5.2
+- EMI -> 1.1.5
+- EnhancedVisuals -> 1.7.1
+- Moonlight -> 2.11.13
+- TerraFirmaGreg-Core -> 0.5.2
+
 ## [0.7.4] - 30.04.2024
 ### Removed mods
 - Clientcrafting
