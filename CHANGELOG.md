@@ -1,21 +1,15 @@
 # Changelog
 
-## [0.7.8] - ?
-### Features
-- Новая система генерации руд, для обычного юзера в основном ничего не изменится, но для разработчиков сильно упростится система создания рудных жил (TFC -> GTCEu).
-- Переработана страница в EMI, которая теперь будет отображать породу в которой спавнится та или иная жила + красивое отображение измерения.
-- Исправлена работа Bedrock Miner (следует из верхнего).
-- Добавлены рецепты/квесты для AE2Extended.
-- Добавлены рецепты/квесты для MegaCells.
-- Теперь, чтобы сделать сталь ее нужно затолкать в масло (только в примитиве).
-- Добавлены рецепты пластинок в Laser Engraver.
-- Возвращена механика из TFC, так как она не работает с Create, все ее блоки были переименованы с префиксом Primitive.
-- Теперь вы можете автоматизировать TFC Quern и другие механизмы при помощи TFC механики (следует из верхнего).
-- Теперь автополив фермы из firmalife работает как нужно (следует из верхнего).
+## [0.7.8] - 03.05.2024
 ### Fixes
-- Исправлен баг, когда использование инструментов GTCEu в плуге AstikoCarts вызывал краш игры.
-- Исправлен баг, когда нельзя было сделать кормушки из TFC: Grooming Station.
-- Исправлен баг, когда при ходьбе по лежащим блокам они могли выпасть.
+- Fixed a bug where using GTCEu tools in the AstikoCarts plow caused the game to crash.
+- Fixed a bug where it was impossible to make feeders from TFC: Grooming Station.
+- Fixed a bug where they could drop when walking on placed blocks.
+- Fixed a bug where the boiler could not accept river water.
+- Fixed a bug where recipes were incorrectly displayed in EMI. (The EMI version has been downgraded)
+### Updated mods
+- EMI 1.1.5 -> 1.1.4
+- TerraFirmaGreg-Core 0.5.3 -> 0.5.5
 
 ## [0.7.7] - 01.05.2024
 ### Fixes

@@ -100,7 +100,7 @@ LootJS.modifiers((event) => {
  * Не представляю когда срабатывает, но явно после тегов и датапаков.
  */
 GTCEuServerEvents.oreVeins(event => {
-    event.removeAll()
+    // event.removeAll()
 })
 
 /**
@@ -135,6 +135,7 @@ ServerEvents.recipes(event => {
     registerRailWaysRecipes(event)
     registerSophisticatedBackpacksRecipes(event)
     registerTFCRecipes(event)
+    registerTFCGroomingStationRecipes(event)
     registerToolBeltRecipes(event)
     registerTreeTapRecipes(event)
     registerWaterFlasksRecipes(event)
