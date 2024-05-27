@@ -13,7 +13,7 @@ This repo is just for my personal use. Supposedly only i18N related files have b
   </a>
   <br/>
 
-  <a href="https://discord.gg/terrafirmagreg">
+  <a href="https://discord.com/invite/AEaCzCTUwQ">
   <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges/assets/compact-minimal/social/discord-singular_vector.svg" alt="Chat on Discord"></a>
 
   <a href="https://www.curseforge.com/minecraft/modpacks/terrafirmagreg/files?page=1&pageSize=20&version=1.20.1">
