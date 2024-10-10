@@ -1974,7 +1974,7 @@
 					}
 				}
 				match_nbt: false
-				title: "铜或青铜斧（注：物品tag写的是锻造锤）A copper or bronze axe"
+				title: "铜或青铜锤 A copper or bronze hammer"
 				type: "item"
 			}]
 			x: 12.0d
