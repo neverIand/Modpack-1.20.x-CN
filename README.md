@@ -35,7 +35,7 @@ This repo is just for my personal use. Supposedly only i18N related files have b
 
 ***
 
-# Survival Modpack As It Should've Been
+## Survival Modpack As It Should've Been
 
 **TerraFirmaGreg** is a Forge modpack that makes the gameplay of Minecraft realistic and challenging, because it contains two of the hard and coolest mods for Minecraft, these are [TerraFirmaCraft](https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft) and [GregTech Modern](https://www.curseforge.com/minecraft/mc-mods/gregtechceu-modern).
 
