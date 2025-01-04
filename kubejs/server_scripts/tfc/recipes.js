@@ -1667,10 +1667,9 @@ const registerTFCRecipes = (e) => {
 
     //#region Новые сплавы
 
-    //#region Сплав красного камня
-    e.recipes.tfc.alloy('tfg:red_alloy', [
-        TFC.alloyPart('tfg:redstone', 0.23, 0.27),
-        TFC.alloyPart('tfc:copper', 0.73, 0.77)
+    event.recipes.tfc.alloy('tfg:red_alloy', [
+        TFC.alloyPart('tfg:redstone', 0.75, 0.85),
+        TFC.alloyPart('tfc:copper', 0.15, 0.25)
     ]).id('tfg:alloy/red_alloy')
     //#endregion
 
@@ -1920,6 +1919,26 @@ const registerTFCRecipes = (e) => {
 
     //#endregion
 
+    //#region metal bars
+	
+	const METAL_BARS = [
+		"copper",
+		"bronze",
+		"black_bronze",
+		"bismuth_bronze",
+		"wrought_iron",
+		"steel",
+		"black_steel",
+		"red_steel",
+		"blue_steel"
+	];
+	
+	METAL_BARS.forEach(metal => {
+		 generateCutterRecipe(event, `gtceu:${metal}_plate`, 9, `8x tfc:metal/bars/${metal}`, 100, 16, `${metal}_plate_to_bars`)
+	 });
+
+    //#endregion
+
     //#region Земля и ее виды
     e.recipes.gtceu.macerator('tfg:dirt_from_bio_chaff')             
         .itemInputs('gtceu:bio_chaff')
@@ -2102,8 +2121,9 @@ const registerTFCRecipes = (e) => {
         e.recipes.gtceu.assembler(`tfg:tfc/${stone}_loose_to_brick`)             
             .itemInputs(`tfc:rock/loose/${stone}`)
             .itemOutputs(`tfc:brick/${stone}`)
-            .EUt(8).duration(40)
-            
+            .circuit(1)
+            .duration(40)
+            .EUt(8)
 
         //#region Сырой камень
 
@@ -2189,7 +2209,7 @@ const registerTFCRecipes = (e) => {
 
         e.recipes.gtceu.assembler(`${stone}_loose_rocks_to_cobble`)             
             .itemInputs(`4x tfc:rock/loose/${stone}`)
-            .circuit(0)
+            .circuit(2)
             .inputFluids(Fluid.of('gtceu:concrete', 72))
             .itemOutputs(`tfc:rock/cobble/${stone}`)
             .duration(50)
